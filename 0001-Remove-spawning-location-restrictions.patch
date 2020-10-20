@@ -1,0 +1,28 @@
+From c3a6317239455b8599b20980ca217892921ae1b4 Mon Sep 17 00:00:00 2001
+From: vsTerminus <vsTerminus@vsTerminus.ca>
+Date: Tue, 29 Sep 2020 16:10:24 -0500
+Subject: [PATCH] Remove spawning location restrictions
+
+---
+ 00_mist.lua | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/00_mist.lua b/00_mist.lua
+index b138911..6702709 100755
+--- a/00_mist.lua
++++ b/00_mist.lua
+@@ -3279,9 +3279,9 @@ do -- group functions scope
+         
+         local validTerrain = {'LAND', 'ROAD', 'SHALLOW_WATER', 'WATER', 'RUNWAY'}
+         if string.lower(newGroupData.category) == 'ship' then
+-            validTerrain = {'SHALLOW_WATER' , 'WATER'}
++            validTerrain = {'LAND', 'ROAD', 'SHALLOW_WATER', 'WATER', 'RUNWAY'}
+         elseif string.lower(newGroupData.category) == 'vehicle' then
+-            validTerrain = {'LAND', 'ROAD'}
++            validTerrain = {'LAND', 'ROAD', 'SHALLOW_WATER', 'WATER', 'RUNWAY'}
+         end
+         local offsets = {}
+ 		if point and radius >= 0 then
+-- 
+2.17.0
+
