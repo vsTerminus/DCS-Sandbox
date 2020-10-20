@@ -26,13 +26,32 @@ OUT_FILE=sandbox.lua
 # Since this is all a little unorthodox I figured this might help
 help:
 	@echo "Options are:"
-	@echo "	'build'   - Compile sandbox.lua and put it in /build"
-	@echo "	'unpack'  - Unpack and normalize all modified .miz files into subfolders in /miz (Uses md5sum)"
-	@echo "	'pack'    - Package the loose folders back into .miz files and generate new md5sums"
-	@echo "	'repack'  - Unpack and repack the files - Do this whenever you have Mission Editor changes ready to commit."
-	@echo "	'install' - Build, Unpack, update 'sandbox.lua' for missions listed in miz.txt, pack"
-	@echo "	'full'    - Unpack, Install"
-	@echo "	'clean'   - Remove compiled lua file from /build" 
+	@echo "	'clean'"
+	@echo "		- Remove compiled lua file from /build" 
+	@echo " "
+	@echo "	'pack'"
+	@echo "		- Package the loose folders back into .miz files"
+	@echo "		- Do this when you haven't made any changes and just want to (re-)generate the .miz files"
+	@echo " "
+	@echo "	'unpack'"
+	@echo "		- Unpack and normalize all .miz files into the mission files folder"
+	@echo " "
+	@echo "	'repack'  - Unpack and repack the files."
+	@echo "		- Unpack and repack the files."
+	@echo "		- Do this if you have modified the missions in the Mission Editor but haven't made any script changes."
+	@echo " "
+	@echo "	'build'"
+	@echo "		- Compile lua scripts into sandbox.lua and put it in the build folder"
+	@echo " "
+	@echo "	'install'"
+	@echo "		- Build sandbox.lua"
+	@echo "		- Install sandbox.lua into all sandbox missions listed in sandboxes.txt"
+	@echo "		- Repack the missions"
+	@echo "		- Do this when you have made script changes but not mission editor changes."
+	@echo " "
+	@echo "	'full'"
+	@echo "		- Unpack + Install"
+	@echo "		- Do this if you have made both script and mission editor changes."
 
 
 
@@ -40,19 +59,17 @@ help:
 
 clean: clean_build
 
-pack: zip sum
+pack: zip
 
 unpack: unzip normalize
+
+repack: unpack pack
 
 build: clean_build merge_luas append_version
 
 install: build update_sandboxes pack
 
 full: unpack install
-
-repack: unpack pack
-
-
 
 
 #### Don't call anything below this line directly unless you know what you're doing.
@@ -111,17 +128,8 @@ zip:
 	for mission in */ ; do \
 		echo "	$${mission%/}" ; \
 		cd $$mission ; \
-		zip -qr $${mission%/}.miz * ; \
+		zip -Xqr $${mission%/}.miz * ; \
 		mv *.miz ../../ ; \
 		cd .. ; \
 	done
-
-sum:
-	@echo "Generating Checksums"
-	@for file in *.miz ; do \
-		md5sum "$$file" > "$${file//.miz}".md5 ; \
-	done
-	@md5sum -c *.md5 | sed 's/^/	/'
-
-
 
