@@ -1,0 +1,4 @@
+mapResource = {
+    ["ResKey_Action_150"] = "00_mist.lua",
+    ["ResKey_Action_230"] = "group_exporter.lua",
+} -- end of mapResource
