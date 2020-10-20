@@ -1,7 +1,6 @@
 # Version Info
 BUILD_DATE:=$(shell date --iso-8601)
 BUILD_NUMBER_FILE=VERSION
-BUILD_NUMBER:=$(shell cat $(BUILD_NUMBER_FILE))
 
 # List of lua files to merge
 LUAS_FILE=lua.txt
@@ -45,7 +44,7 @@ pack: zip sum
 
 unpack: unzip normalize
 
-build: clean_build merge_luas version_bump append_version
+build: clean_build merge_luas append_version
 
 install: build update_sandboxes pack
 
@@ -58,11 +57,15 @@ repack: unpack pack
 
 #### Don't call anything below this line directly unless you know what you're doing.
 
-append_version:
+tag:
+	@echo Tagging last commit with current version
+	@git tag -sa $$(cat $(BUILD_NUMBER_FILE)) -m "Build Number $$(cat $(BUILD_NUMBER_FILE))"
+
+append_version: version_bump
 	@echo Appending Version Info
 	@printf	'%s\n%s\n%s\n%s\n%s\n' \
 		"local loadedMsg = {}" \
-		"loadedMsg.text = 'Loaded Sandbox Version $(BUILD_NUMBER) ($(BUILD_DATE))'" \
+		"loadedMsg.text = 'Loaded Sandbox Version $$(cat $(BUILD_NUMBER_FILE)) ($(BUILD_DATE))'" \
 		"loadedMsg.displayTime = 5" \
 		"loadedMsg.msgFor = {coa = {'all'}}" \
 		"mist.message.add(loadedMsg)" \
@@ -87,7 +90,7 @@ clean_build:
 
 
 update_sandboxes:
-	@echo "Installing 'sandbox.lua' to Sandbox Missions"
+	@echo "Installing 'sandbox.lua' Version $$(cat $(BUILD_NUMBER_FILE)) to Sandbox Missions"
 	@for miz in $(MIZ) ; do \
 		echo "	$$miz" ; \
 		cp "$(OUT_DIR)/$(OUT_FILE)" "$(MIZ_DIR)/$$miz/$(ZIP_DIR)/$(OUT_FILE)" ; \
