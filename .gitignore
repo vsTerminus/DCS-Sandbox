@@ -1,0 +1,7 @@
+*.swp
+
+# Store mission files unpacked, otherwise the repo balloons with each change.
+*.miz
+
+# Ignore the downloaded veaf lua scripts
+veaf*.lua
