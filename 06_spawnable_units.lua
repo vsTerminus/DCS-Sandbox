@@ -38,7 +38,7 @@ spawnable.armor = {
 		action = 'clone',
 	},
 	['4x Unarmed Fuel Trucks'] = {
-		name = 'FTRUCKS-1',
+		name = 'FUEL-1',
 		description = '4x ATZ-10 Fuel Trucks',
 		smoke = 'red',
 		relative = 'false',
