@@ -52,6 +52,15 @@ help:
 	@echo "	'full'"
 	@echo "		- Unpack + Install"
 	@echo "		- Do this if you have made both script and mission editor changes."
+	@echo " "
+	@echo "	'tag'"
+	@echo "		- Tag the latest commit with the current version"
+	@echo " "
+	@echo "	'commit'"
+	@echo "		- full install + commit + tag"
+	@echo " "
+	@echo "	'release'"
+	@echo "		- commit + zip the compiled sandbox.lua file for uploading as a new release."
 
 
 
@@ -71,10 +80,24 @@ install: build update_sandboxes pack
 
 full: unpack install
 
+tag: tag_commit
+
+commit: new_commit tag_commit
+
+release: commit zip_release
+
 
 #### Don't call anything below this line directly unless you know what you're doing.
 
-tag:
+zip_release:
+	@echo "Zipping built sandbox.lua file"
+	### Do that...
+
+new_commit:
+	@echo "Comitting all current changes"
+	git commit -a
+
+tag_commit:
 	@echo Tagging last commit with current version
 	@git tag -sa $$(cat $(BUILD_NUMBER_FILE)) -m "Build Number $$(cat $(BUILD_NUMBER_FILE))"
 
