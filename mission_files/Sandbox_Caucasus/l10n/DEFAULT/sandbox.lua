@@ -14476,40 +14476,38 @@ local defaultSound = "tsctra00.wav"
 local function relativeRoute(groupName)
 	env.info(("Adjusting waypoints relative to markpoint for group"))
 	env.info(groupName)
-	--local oldRoute = mist.getGroupRoute(group.name, true) -- Doesn't work for dynamically added groups, but luckily we have that info in our table already.
-	local oldRoute = exported.groupData[groupName].route
-	local newRoute = oldRoute
+	local route = exported.groupData[groupName].route
 	
-	env.info((string.format("Markpoint is at %0.02f, %0.02f, WP1 is at %0.02f, %0.02f", markPoint.x, markPoint.z, oldRoute[1].x, oldRoute[1].y)));
-	local Xdiff = markPoint.x - oldRoute[1].x
-	local Ydiff = markPoint.z - oldRoute[1].y -- markPoint is vec3, route wps are vec2
+	env.info((string.format("Markpoint is at %0.02f, %0.02f, WP1 is at %0.02f, %0.02f", markPoint.x, markPoint.z, route[1].x, route[1].y)));
+	local Xdiff = markPoint.x - route[1].x
+	local Ydiff = markPoint.z - route[1].y -- markPoint is vec3, route wps are vec2
 	env.info((string.format("Offset: %0.2f X, %0.2f Y", Xdiff, Ydiff)))
 	
-	for i,wp in pairs(newRoute) do
+	for i,wp in pairs(route) do
 		--env.info((string.format("WP altitude: %d", wp.alt)))
-		newRoute[i].x = wp.x + Xdiff
-		newRoute[i].y = wp.y + Ydiff			
+		route[i].x = wp.x + Xdiff
+		route[i].y = wp.y + Ydiff			
 	end
-	return newRoute
+
+	return route
 end
 
 local function relativeUnits(groupName)
 	env.info("Adjusting unit start point(s) for group")
 	env.info(groupName)
 	
-	local oldUnits = exported.groupData[groupName].units
-	local newUnits = oldUnits
+	local units = exported.groupData[groupName].units
 	
-	env.info((string.format("Markpoint is at %0.02f, %0.02f, Unit 1 is at %0.02f, %0.02f", markPoint.x, markPoint.z, oldUnits[1].x, oldUnits[1].y)));
-	local Xdiff = markPoint.x - oldUnits[1].x
-	local Ydiff = markPoint.z - oldUnits[1].y -- markPoint is vec3, route wps are vec2
+	env.info((string.format("Markpoint is at %0.02f, %0.02f, Unit 1 is at %0.02f, %0.02f", markPoint.x, markPoint.z, units[1].x, units[1].y)));
+	local Xdiff = markPoint.x - units[1].x
+	local Ydiff = markPoint.z - units[1].y -- markPoint is vec3, route wps are vec2
 	env.info((string.format("Offset: %0.2f X, %0.2f Y", Xdiff, Ydiff)))
 	
-	for i,u in pairs(newUnits) do
-		newUnits[i].x = u.x + Xdiff
-		newUnits[i].y = u.y + Ydiff
+	for i,u in pairs(units) do
+		units[i].x = u.x + Xdiff
+		units[i].y = u.y + Ydiff
 	end
-	return newUnits
+	return units
 end
 
 function printSpawned(args)
@@ -14524,24 +14522,53 @@ function printSpawned(args)
 	mist.message.add(msg)
 end
 
+function stripIdentifiers(groupData)
+    -- Remove top level group identifiers
+    groupData.groupName = nil
+    groupData.groupId = nil
+    env.info("Top Level group info scrubbed")
+
+    -- Now remove it from all units
+    for k,unit in pairs(groupData.units) do
+        unit.groupName = nil
+        env.info("Unit group name")
+        unit.groupId = nil
+        env.info("Unit group id")
+        unit.unitId = nil
+        env.info("Unit ID")
+        unit.unitName = nil
+        env.info("Unit Name")
+    end
+    env.info("Unit level info scrubbed")
+end
+
 function spawnGroup(args)
 	env.info("Adding Dynamic Group")
-	dumper(args)
+	--dumper(args)
 	
 	local groupName = args.group.name
 	env.info("Group Name")
 	env.info((groupName))
-	local groupData = exported.groupData[groupName]
+	local groupData = mist.utils.deepCopy(exported.groupData[groupName])
 	groupData.clone = false
-	groupData.action = 'respawn'
-	
+    groupData.action = args.group.action
+
+    if ( args.group.action == 'clone' ) then
+        stripIdentifiers(groupData) 
+        groupData.clone = true
+    end
+
+    env.info("About to update route waypoints")
 	-- Update route based on markpoint coords
+    --relativeRoute(groupName)
 	local newRoute = relativeRoute(groupName)
 	groupData.route = newRoute
 	
+    env.info("About to update unit spawn positions")
 	-- Also update starting unit positions based on markpoint.
 	local newUnits = relativeUnits(groupName)
 	groupData.units = newUnits
+    --relativeUnits(groupName)
 	
 	dumper(groupData)
 	
@@ -14653,7 +14680,7 @@ timer.scheduleFunction(respawnBoats, nil, timer.getTime() + 1)
 ---------- END 09_respawn_listener.lua ----------
 
 local loadedMsg = {}
-loadedMsg.text = 'Loaded Sandbox Version 44 (2020-10-20)'
+loadedMsg.text = 'Loaded Sandbox Version 61 (2020-10-21)'
 loadedMsg.displayTime = 5
 loadedMsg.msgFor = {coa = {'all'}}
 mist.message.add(loadedMsg)
