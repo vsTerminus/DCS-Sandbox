@@ -51,3 +51,21 @@ function groupId(unit)
 
     return nil
 end
+
+function sendError(errorText)
+    local errorMsg = {}
+    errorMsg.text = errorText
+    errorMsg.displayTime = 10
+	errorMsg.msgFor = {coa = {'all'}} 
+	mist.message.add(errorMsg)
+end
+
+function getHeading(A, B)
+    if (A.x and A.z and B.x and B.z) then
+        return math.atan2( (B.z - A.z), (B.x - A.x) )
+    else
+        return nil
+    end
+end
+
+			
