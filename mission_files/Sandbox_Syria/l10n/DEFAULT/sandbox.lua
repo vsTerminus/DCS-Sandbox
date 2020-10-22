@@ -14503,39 +14503,35 @@ spawnable.ftankers = {
 
 local defaultSound = "tsctra00.wav"
 
-local function relativeRoute(groupName, newPos)
-	env.info(("Adjusting waypoints relative to markpoint for group"))
-	env.info(groupName)
-	local route = exported.groupData[groupName].route
-	
-	env.info((string.format("Markpoint is at %0.02f, %0.02f, WP1 is at %0.02f, %0.02f", newPos.x, newPos.z, route[1].x, route[1].y)));
-	local Xdiff = newPos.x - route[1].x
-	local Ydiff = newPos.z - route[1].y -- markPoint is vec3, route wps are vec2
-	env.info((string.format("Offset: %0.2f X, %0.2f Y", Xdiff, Ydiff)))
-	
-	for i,wp in pairs(route) do
-		--env.info((string.format("WP altitude: %d", wp.alt)))
-		route[i].x = wp.x + Xdiff
-		route[i].y = wp.y + Ydiff			
-	end
+local function offsetRoute(groupData, newPos)
+    env.info(string.format("Adjusting waypoints relative to markpoint for group %s", groupData.groupName))
+    local route = groupData.route
 
-	return route
+    env.info((string.format("Markpoint is at %0.02f, %0.02f, WP1 is at %0.02f, %0.02f", newPos.x, newPos.z, route[1].x, route[1].y)));
+    local Xdiff = newPos.x - route[1].x
+    local Ydiff = newPos.z - route[1].y -- markPoint is vec3, route wps are vec2
+    env.info((string.format("Offset: %0.2f X, %0.2f Y", Xdiff, Ydiff)))
+
+    for i,wp in pairs(route) do
+        --env.info((string.format("WP altitude: %d", wp.alt)))
+        route[i].x = wp.x + Xdiff
+        route[i].y = wp.y + Ydiff			
+    end
 end
 
-local function relativeUnits(groupName, newPos, lookAt)
-	env.info("Adjusting unit start point(s) for group")
-	env.info(groupName)
-	
-	local units = exported.groupData[groupName].units
-	
-	env.info((string.format("Markpoint is at %0.02f, %0.02f, Unit 1 is at %0.02f, %0.02f", newPos.x, newPos.z, units[1].x, units[1].y)));
-	local Xdiff = newPos.x - units[1].x
-	local Ydiff = newPos.z - units[1].y -- markPoint is vec3, route wps are vec2
-	env.info((string.format("Offset: %0.2f X, %0.2f Y", Xdiff, Ydiff)))
-	
-	for i,u in pairs(units) do
-		units[i].x = u.x + Xdiff
-		units[i].y = u.y + Ydiff
+local function offsetUnits(groupData, newPos, lookAt)
+    env.info(string.format("Adjusting unit start point(s) for group %s", groupData.groupName))
+
+    local units = groupData.units
+
+    env.info((string.format("Markpoint is at %0.02f, %0.02f, Unit 1 is at %0.02f, %0.02f", newPos.x, newPos.z, units[1].x, units[1].y)));
+    local Xdiff = newPos.x - units[1].x
+    local Ydiff = newPos.z - units[1].y -- markPoint is vec3, route wps are vec2
+    env.info((string.format("Offset: %0.2f X, %0.2f Y", Xdiff, Ydiff)))
+
+    for i,u in pairs(units) do
+        units[i].x = u.x + Xdiff
+        units[i].y = u.y + Ydiff
 
         if ( lookAt ) then
             env.info("Trying math.atan2")
@@ -14548,20 +14544,19 @@ local function relativeUnits(groupName, newPos, lookAt)
             units[i].heading = newHeading
             units[i].psi = newHeading * -1
         end
-	end
-	return units
+    end
 end
 
 local function printSpawned(args)
-	local group = args.group
-	local msg = {}
-	msg.text = string.format('Respawned: %s', group.description)
-	msg.displayTime = 20
-	msg.msgFor = {coa = {'all'}}
-	if ( args.sound ) then
-		if ( group.sound ) then msg.sound = group.sound else msg.sound = defaultSound end
-	end
-	mist.message.add(msg)
+    local group = args.group
+    local msg = {}
+    msg.text = string.format('Respawned: %s', group.description)
+    msg.displayTime = 20
+    msg.msgFor = {coa = {'all'}}
+    if ( args.sound ) then
+        if ( group.sound ) then msg.sound = group.sound else msg.sound = defaultSound end
+    end
+    mist.message.add(msg)
 end
 
 local function stripIdentifiers(groupData)
@@ -14600,15 +14595,77 @@ local function hasRaceTrack(groupData)
     return false
 end
 
+function setRaceTrack(groupData, A, B)
+
+    env.info(string.format("Updating unit start points for group %s", groupData.groupName))
+
+    offsetUnits(groupData, A, B)
+
+    env.info("Updating route wp1 and wp2")
+    groupData.route[1].x = A.x
+    groupData.route[1].y = A.z
+    groupData.route[2].x = B.x
+    groupData.route[2].y = B.z
+end
+
+-- Given a start point, a radian heading, and a distance in meters, calculate the endpoint
+function getEndPoint(startPoint, rads, dist)
+    local endPoint = {}
+
+    -- rads in DCS range from 0 to 2pi
+    -- We need to condense it down to <= pi/2 for right triangle calculations
+    -- and then correlate the resulting a and b sides to the proper X and Y positional axes.
+    local alpha = rads
+    env.info(string.format("getEndPoints was passed an angle of %0.2f rad", rads))
+    while alpha > (math.pi/2) do alpha = alpha - (math.pi/2) end    -- Reduce the angle by 90 degrees until it is less than or equal to 90 degrees
+    env.info(string.format("Right Triangle angle: %0.2f rad", alpha))
+
+    local sideA = dist * math.sin(alpha)
+    env.info(string.format("Side A is %0.2f", sideA))
+
+    local sideB = math.sqrt( (dist*dist) - (sideA*sideA) )
+    env.info(string.format("Side B is %0.2f", sideB))
+
+    -- X+ is up
+    -- X- is down
+    -- Z+ is right
+    -- Z- is left
+
+    if rads <= (math.pi/2) then
+        env.info("Quadrant 1")
+        endPoint.x = startPoint.x + sideB
+        endPoint.z = startPoint.z + sideA
+    elseif rads <= math.pi then
+        env.info("Quadrant 2")
+        endPoint.x = startPoint.x - sideA
+        endPoint.z = startPoint.z + sideB
+    elseif rads <= 1.5*math.pi then
+        env.info("Quadrant 3")
+        endPoint.x = startPoint.x - sideB
+        endPoint.z = startPoint.z - sideA
+    elseif rads <= 2*math.pi then
+        env.info("Quadrant 4")
+        endPoint.x = startPoint.x + sideA
+        endPoint.z = startPoint.z - sideB
+    else
+        env.info("wtf")
+    end
+
+    env.info(string.format("New Endpoint: %0.2f, %0.2f", endPoint.x, endPoint.z))
+
+    return endPoint
+end
+
+
 function spawnGroup(args)
-	env.info("Adding Dynamic Group")
-	--dumper(args)
-	
-	local groupName = args.group.name
-	env.info("Group Name")
-	env.info((groupName))
-	local groupData = mist.utils.deepCopy(exported.groupData[groupName])
-	groupData.clone = false
+    env.info("Adding Dynamic Group")
+    --dumper(args)
+
+    local groupName = args.group.name
+    env.info("Group Name")
+    env.info((groupName))
+    local groupData = mist.utils.deepCopy(exported.groupData[groupName])
+    groupData.clone = false
     groupData.action = args.group.action
 
     if ( args.group.action == 'clone' ) then
@@ -14620,35 +14677,44 @@ function spawnGroup(args)
     if ( hasRaceTrack(groupData) ) then
         env.info("This group has an Orbit Task")
 
-        if ( aPoint.x and bPoint.x ) then
-            env.info("Updating unit start points")
-            groupData.units = relativeUnits(groupName, aPoint, bPoint)
+        if ( args.magic ) then -- This is a "magic" tanker :P Spawn it right in front of the client, going the same direction
+            local clientPos = mist.getLeadPos(args.clientGroup)
+            env.info("Client Position")
+            dumper(clientPos)
 
-            env.info("Updating route wp1 and wp2")
-            groupData.route[1].x = aPoint.x
-            groupData.route[1].y = aPoint.z
-            groupData.route[2].x = bPoint.x
-            groupData.route[2].y = bPoint.z
+            local clientHeading = mist.getHeading(Group.getByName(args.clientGroup):getUnit(1))
+            env.info("Client Heading")
+            env.info(clientHeading)
+
+            local A = getEndPoint(clientPos, clientHeading, 500)
+            dumper(A)
+            local B = getEndPoint(A, clientHeading, 100000)
+            dumper(B)
+            setRaceTrack(groupData, A, B)
+
+        elseif ( aPoint.x and bPoint.x ) then
+            setRaceTrack(groupData, aPoint, bPoint)
 
         else
             sendError("You must define two markpoints named 'A' and 'B' first")
             return nil
+
         end
 
     elseif ( markPoint.x and markPoint.z ) then
-        
-        groupData.route = relativeRoute(groupName, markPoint)
-        groupData.units = relativeUnits(groupName, markPoint)
+
+        offsetRoute(groupData, markPoint)
+        offsetUnits(groupData, markPoint)
 
     else
         sendError("You must create and delete a markpoint before you can spawn anything.")
         return nil
     end
 
-	dumper(groupData)
-	
-	mist.dynAdd(groupData)
-	printSpawned(args)
+    dumper(groupData)
+
+    mist.dynAdd(groupData)
+    printSpawned(args)
 end
 
 --[[
@@ -14667,65 +14733,82 @@ To-do:
 
 local function addRadioMenus()
 
-	--timer.scheduleFunction(addHostileMenu, nil, timer.getTime() + 10)
-	
-	--dumper(mist.DBs.unitsById)
-	env.info((type(mist.DBs.unitsById)))
-	
-	for unitId,unit in pairs(mist.DBs.unitsById) do
-	
-		--local unit = mist.DBs.unitsById[i]
-		
-		if unit and unit.coalition == 'blue' then
-			--env.info((string.format("Unit %d %s -- Group %d %s", unit.unitId, unit.unitName, unit.groupId, unit.groupName)))			
-			groupId = unit.groupId
-			
-			-- Radio Top Level Menu
-			local FriendlyMenu		= missionCommands.addSubMenuForGroup(groupId,"Spawn Friendly",nil)
-			local HostileMenu		= missionCommands.addSubMenuForGroup(groupId,"Spawn Hostile",nil)
+    --timer.scheduleFunction(addHostileMenu, nil, timer.getTime() + 10)
 
-			-- Second Level: Categories
-			local FTankerMenu 		= missionCommands.addSubMenuForGroup(groupId,"Tankers",FriendlyMenu)
-			local FAWACSMenu 		= missionCommands.addSubMenuForGroup(groupId,"AWACS",FriendlyMenu)
-			local FBoatMenu			= missionCommands.addSubMenuForGroup(groupId,"Boats",FriendlyMenu)
-			
-			local ArmorMenu 		= missionCommands.addSubMenuForGroup(groupId,"Armor",HostileMenu)
-			local InfantryMenu		= missionCommands.addSubMenuForGroup(groupId,"Infantry",HostileMenu)
-			local AirDefenceMenu	= missionCommands.addSubMenuForGroup(groupId,"Air Defenses",HostileMenu)
-			local ModernFighterMenu = missionCommands.addSubMenuForGroup(groupId,"Modern Fighters",HostileMenu)
-			local WarBirdMenu		= missionCommands.addSubMenuForGroup(groupId,"Warbirds",HostileMenu)
-			local HelicopterMenu	= missionCommands.addSubMenuForGroup(groupId,"Helicopters",HostileMenu)
-			local AWACSMenu 		= missionCommands.addSubMenuForGroup(groupId,"AWACS",HostileMenu)
-			local BoatMenu			= missionCommands.addSubMenuForGroup(groupId,"Boats",HostileMenu)
+    --dumper(mist.DBs.unitsById)
+    env.info((type(mist.DBs.unitsById)))
 
-			-- Third Level: Groups
-			for key in pairs(spawnable.ftankers) 	do missionCommands.addCommandForGroup(groupId, key, FTankerMenu,  			
-				function() spawnGroup({unit=unitId, group=spawnable.ftankers[key], category='air', sound=true}) end) end	
-			for key in pairs(spawnable.fawacs) 		do missionCommands.addCommandForGroup(groupId, key, FAWACSMenu,  			
-				function() spawnGroup({unit=unitId, group=spawnable.fawacs[key], category='air', sound=true}) end) end	
-			for key in pairs(spawnable.fboats) 		do missionCommands.addCommandForGroup(groupId, key, FBoatMenu,  			
-				function() spawnGroup({unit=unitId, group=spawnable.fboats[key], category='air', sound=true}) end) end	
-				
-			for key in pairs(spawnable.armor) 		do missionCommands.addCommandForGroup(groupId, key, ArmorMenu,  			
-				function() spawnGroup({unit=unitId, group=spawnable.armor[key], category='land', sound=true}) end) end
-			for key in pairs(spawnable.infantry)	do missionCommands.addCommandForGroup(groupId, key, InfantryMenu,  		
-				function() spawnGroup({unit=unitId, group=spawnable.infantry[key], category='land', sound=true}) end) end
-			for key in pairs(spawnable.airdefences) do missionCommands.addCommandForGroup(groupId, key, AirDefenceMenu,  	
-				function() spawnGroup({unit=unitId, group=spawnable.airdefences[key], category='land', sound=true}) end) end
-			for key in pairs(spawnable.fighters) 	do missionCommands.addCommandForGroup(groupId, key, ModernFighterMenu,  	
-				function() spawnGroup({unit=unitId, group=spawnable.fighters[key], category='air', sound=true}) end) end
-			for key in pairs(spawnable.warbirds) 	do missionCommands.addCommandForGroup(groupId, key, WarBirdMenu,  		
-				function() spawnGroup({unit=unitId, group=spawnable.warbirds[key], category='air', sound=true}) end) end
-			for key in pairs(spawnable.helicopters)	do missionCommands.addCommandForGroup(groupId, key, HelicopterMenu,  	
-				function() spawnGroup({unit=unitId, group=spawnable.helicopters[key], category='air', sound=true}) end) end
-			for key in pairs(spawnable.awacs)	do missionCommands.addCommandForGroup(groupId, key, AWACSMenu,  	
-				function() spawnGroup({unit=unitId, group=spawnable.awacs[key], category='air', sound=true}) end) end
-			for key in pairs(spawnable.boats)		do missionCommands.addCommandForGroup(groupId, key, BoatMenu,  			
-				function() spawnGroup({unit=unitId, group=spawnable.boats[key], category='water', sound=true}) end) end
-				
+    for unitId,unit in pairs(mist.DBs.unitsById) do
 
-		end
-	end
+        --local unit = mist.DBs.unitsById[i]
+
+        if unit and unit.coalition == 'blue' then
+            --env.info((string.format("Unit %d %s -- Group %d %s", unit.unitId, unit.unitName, unit.groupId, unit.groupName)))			
+            local groupId = unit.groupId
+            local groupName = unit.groupName
+
+            -- Friendly or Hostile, or "Spawn Near Me"
+            local FriendlyMenu		= missionCommands.addSubMenuForGroup(groupId,"Spawn Friendly",nil)
+            local HostileMenu		= missionCommands.addSubMenuForGroup(groupId,"Spawn Hostile",nil)           
+
+            -- Magic Menu
+            local MagicMenu         = missionCommands.addSubMenuForGroup(groupId,"Spawn Magic Tanker",nil)
+            for key in pairs(spawnable.ftankers)    do missionCommands.addCommandForGroup(groupId, key, MagicMenu,
+                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true, magic=true}) end) 
+            end
+ 
+            -- Second Level: Categories
+            local FTankerMenu 		= missionCommands.addSubMenuForGroup(groupId,"Tankers",FriendlyMenu)
+            local FAWACSMenu 		= missionCommands.addSubMenuForGroup(groupId,"AWACS",FriendlyMenu)
+            local FBoatMenu			= missionCommands.addSubMenuForGroup(groupId,"Boats",FriendlyMenu)
+
+            local ArmorMenu 		= missionCommands.addSubMenuForGroup(groupId,"Armor",HostileMenu)
+            local InfantryMenu		= missionCommands.addSubMenuForGroup(groupId,"Infantry",HostileMenu)
+            local AirDefenceMenu	= missionCommands.addSubMenuForGroup(groupId,"Air Defenses",HostileMenu)
+            local ModernFighterMenu = missionCommands.addSubMenuForGroup(groupId,"Modern Fighters",HostileMenu)
+            local WarBirdMenu		= missionCommands.addSubMenuForGroup(groupId,"Warbirds",HostileMenu)
+            local HelicopterMenu	= missionCommands.addSubMenuForGroup(groupId,"Helicopters",HostileMenu)
+            local AWACSMenu 		= missionCommands.addSubMenuForGroup(groupId,"AWACS",HostileMenu)
+            local BoatMenu			= missionCommands.addSubMenuForGroup(groupId,"Boats",HostileMenu)
+
+            -- Third Level: Groups
+            for key in pairs(spawnable.ftankers) 	do missionCommands.addCommandForGroup(groupId, key, FTankerMenu,  			
+                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true}) end) 
+            end	
+            for key in pairs(spawnable.fawacs) 		do missionCommands.addCommandForGroup(groupId, key, FAWACSMenu,  			
+                function() spawnGroup({clientGroup=groupName, group=spawnable.fawacs[key], category='air', sound=true}) end) 
+            end	
+            for key in pairs(spawnable.fboats) 		do missionCommands.addCommandForGroup(groupId, key, FBoatMenu,  			
+                function() spawnGroup({clientGroup=groupName, group=spawnable.fboats[key], category='air', sound=true}) end) 
+            end		
+            for key in pairs(spawnable.armor) 		do missionCommands.addCommandForGroup(groupId, key, ArmorMenu,  			
+                function() spawnGroup({clientGroup=groupName, group=spawnable.armor[key], category='land', sound=true}) end) 
+            end
+            for key in pairs(spawnable.infantry)	do missionCommands.addCommandForGroup(groupId, key, InfantryMenu,  		
+                function() spawnGroup({clientGroup=groupName, group=spawnable.infantry[key], category='land', sound=true}) end) 
+            end
+            for key in pairs(spawnable.airdefences) do missionCommands.addCommandForGroup(groupId, key, AirDefenceMenu,  	
+                function() spawnGroup({clientGroup=groupName, group=spawnable.airdefences[key], category='land', sound=true}) end) 
+            end
+            for key in pairs(spawnable.fighters) 	do missionCommands.addCommandForGroup(groupId, key, ModernFighterMenu,  	
+                function() spawnGroup({clientGroup=groupName, group=spawnable.fighters[key], category='air', sound=true}) end) 
+            end
+            for key in pairs(spawnable.warbirds) 	do missionCommands.addCommandForGroup(groupId, key, WarBirdMenu,  		
+                function() spawnGroup({clientGroup=groupName, group=spawnable.warbirds[key], category='air', sound=true}) end) 
+            end
+            for key in pairs(spawnable.helicopters)	do missionCommands.addCommandForGroup(groupId, key, HelicopterMenu,  	
+                function() spawnGroup({clientGroup=groupName, group=spawnable.helicopters[key], category='air', sound=true}) end) 
+            end
+            for key in pairs(spawnable.awacs)	do missionCommands.addCommandForGroup(groupId, key, AWACSMenu,  	
+                function() spawnGroup({clientGroup=groupName, group=spawnable.awacs[key], category='air', sound=true}) end) 
+            end
+            for key in pairs(spawnable.boats)		do missionCommands.addCommandForGroup(groupId, key, BoatMenu,  			
+                function() spawnGroup({clientGroup=groupName, group=spawnable.boats[key], category='water', sound=true}) end) 
+            end
+
+
+        end
+    end
 end
 
 addRadioMenus()
@@ -14755,7 +14838,7 @@ timer.scheduleFunction(respawnBoats, nil, timer.getTime() + 1)
 ---------- END 09_respawn_listener.lua ----------
 
 local loadedMsg = {}
-loadedMsg.text = 'Loaded Sandbox Version 76 (2020-10-22)'
+loadedMsg.text = 'Loaded Sandbox Version 100 (2020-10-22)'
 loadedMsg.displayTime = 5
 loadedMsg.msgFor = {coa = {'all'}}
 mist.message.add(loadedMsg)
