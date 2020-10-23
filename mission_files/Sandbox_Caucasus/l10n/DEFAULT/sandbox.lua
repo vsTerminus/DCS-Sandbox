@@ -8704,7 +8704,7 @@ exported.groupData =
 		["task"] = "Ground Nothing",
 		["hidden"] = false,
 	}, -- end of ["BTR-1"]
-	["Shell 1-1"] = 
+	["Shell 22"] = 
 	{
 		["route"] = 
 		{
@@ -8903,7 +8903,7 @@ exported.groupData =
 		["country"] = "usa",
 		["uncontrolled"] = false,
 		["groupId"] = 30,
-		["groupName"] = "Shell 1-1",
+		["groupName"] = "Shell 2",
 		["units"] = 
 		{
 			[1] = 
@@ -8924,7 +8924,7 @@ exported.groupData =
 				["country"] = "usa",
 				["psi"] = -1.5805680027355,
 				["unitName"] = "Shell 2-1",
-				["groupName"] = "Shell 1-1",
+				["groupName"] = "Shell 2",
 				["coalition"] = "blue",
 				["countryId"] = 2,
 				["x"] = -1182.0800921755,
@@ -8959,7 +8959,7 @@ exported.groupData =
 		["startTime"] = 0,
 		["task"] = "Refueling",
 		["frequency"] = 142,
-	}, -- end of ["Shell 1-1"]
+	}, -- end of ["Shell 2"]
 	["D9-1"] = 
 	{
 		["route"] = 
@@ -9182,7 +9182,7 @@ exported.groupData =
 		["task"] = "CAP",
 		["frequency"] = 38.4,
 	}, -- end of ["D9-1"]
-	["Texaco 3-1"] = 
+	["Texaco 3"] = 
 	{
 		["route"] = 
 		{
@@ -9381,7 +9381,7 @@ exported.groupData =
 		["country"] = "usa",
 		["uncontrolled"] = false,
 		["groupId"] = 27,
-		["groupName"] = "Texaco 3-1",
+		["groupName"] = "Texaco 3",
 		["units"] = 
 		{
 			[1] = 
@@ -9402,7 +9402,7 @@ exported.groupData =
 				["country"] = "usa",
 				["psi"] = -1.5805680027354,
 				["unitName"] = "Texaco 3-1",
-				["groupName"] = "Texaco 3-1",
+				["groupName"] = "Texaco 3",
 				["coalition"] = "blue",
 				["countryId"] = 2,
 				["x"] = 1605.4845264719,
@@ -9437,7 +9437,7 @@ exported.groupData =
 		["startTime"] = 0,
 		["task"] = "Refueling",
 		["frequency"] = 133,
-	}, -- end of ["Texaco 3-1"]
+	}, -- end of ["Texaco 3"]
 	["A-50 1"] = 
 	{
 		["route"] = 
@@ -14838,7 +14838,7 @@ timer.scheduleFunction(respawnBoats, nil, timer.getTime() + 1)
 ---------- END 09_respawn_listener.lua ----------
 
 local loadedMsg = {}
-loadedMsg.text = 'Loaded Sandbox Version 104 (2020-10-22)'
+loadedMsg.text = 'Loaded Sandbox Version 105 (2020-10-23)'
 loadedMsg.displayTime = 5
 loadedMsg.msgFor = {coa = {'all'}}
 mist.message.add(loadedMsg)
