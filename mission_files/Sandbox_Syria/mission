@@ -42748,7 +42748,7 @@ mission = {
             [13] = 68,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 224376,
+    ["currentKey"] = 226916,
     ["date"] = {
         ["Day"] = 25,
         ["Month"] = 12,
@@ -43738,9 +43738,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -129386.84817352,
-        ["centerY"] = 5471.151289383,
-        ["zoom"] = 836.31035939438,
+        ["centerX"] = -140507.35127288,
+        ["centerY"] = 7675.8393347816,
+        ["zoom"] = 653846.94915336,
     }, -- end of ["map"]
     ["maxDictId"] = 1454,
     ["pictureFileNameB"] = {
@@ -44305,22 +44305,6 @@ mission = {
                 ["y"] = -34678.169865538,
                 ["zoneId"] = 381,
             }, -- end of [31]
-            [32] = {
-                ["color"] = {
-                    [1] = 1,
-                    [2] = 1,
-                    [3] = 1,
-                    [4] = 0.15,
-                }, -- end of ["color"]
-                ["hidden"] = false,
-                ["name"] = "Carrier Respawn Zone",
-                ["properties"] = {
-                }, -- end of ["properties"]
-                ["radius"] = 3048,
-                ["x"] = -130603.9036168,
-                ["y"] = -41603.276348048,
-                ["zoneId"] = 441,
-            }, -- end of [32]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] = {
@@ -44608,15 +44592,15 @@ mission = {
         ["wind"] = {
             ["at2000"] = {
                 ["dir"] = 90,
-                ["speed"] = 12.885,
+                ["speed"] = 6.7002,
             }, -- end of ["at2000"]
             ["at8000"] = {
                 ["dir"] = 92,
-                ["speed"] = 10.308,
+                ["speed"] = 3.6078,
             }, -- end of ["at8000"]
             ["atGround"] = {
-                ["dir"] = 100,
-                ["speed"] = 7.2156,
+                ["dir"] = 225,
+                ["speed"] = 4.1232,
             }, -- end of ["atGround"]
         }, -- end of ["wind"]
     }, -- end of ["weather"]
