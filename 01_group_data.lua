@@ -1350,7 +1350,7 @@ exported.groupData =
 		["task"] = "Ground Nothing",
 		["hidden"] = false,
 	}, -- end of ["BTR-1"]
-	["Shell 1-1"] = 
+	["Shell 22"] = 
 	{
 		["route"] = 
 		{
@@ -1549,7 +1549,7 @@ exported.groupData =
 		["country"] = "usa",
 		["uncontrolled"] = false,
 		["groupId"] = 30,
-		["groupName"] = "Shell 1-1",
+		["groupName"] = "Shell 2",
 		["units"] = 
 		{
 			[1] = 
@@ -1570,7 +1570,7 @@ exported.groupData =
 				["country"] = "usa",
 				["psi"] = -1.5805680027355,
 				["unitName"] = "Shell 2-1",
-				["groupName"] = "Shell 1-1",
+				["groupName"] = "Shell 2",
 				["coalition"] = "blue",
 				["countryId"] = 2,
 				["x"] = -1182.0800921755,
@@ -1605,7 +1605,7 @@ exported.groupData =
 		["startTime"] = 0,
 		["task"] = "Refueling",
 		["frequency"] = 142,
-	}, -- end of ["Shell 1-1"]
+	}, -- end of ["Shell 2"]
 	["D9-1"] = 
 	{
 		["route"] = 
