@@ -1,7 +1,11 @@
 local defaultSound = "tsctra00.wav"
 
 local function offsetRoute(groupData, newPos)
-    env.info(string.format("Adjusting waypoints relative to markpoint for group %s", groupData.groupName))
+    if ( groupData.groupName ) then
+        env.info(string.format("Adjusting waypoints relative to markpoint for group %s", groupData.groupName))
+    else
+        env.info("Adjusting waypoints relative to markpoint for cloned group")
+    end
     local route = groupData.route
 
     env.info((string.format("Markpoint is at %0.02f, %0.02f, WP1 is at %0.02f, %0.02f", newPos.x, newPos.z, route[1].x, route[1].y)));
@@ -17,7 +21,12 @@ local function offsetRoute(groupData, newPos)
 end
 
 local function offsetUnits(groupData, newPos, lookAt)
-    env.info(string.format("Adjusting unit start point(s) for group %s", groupData.groupName))
+    env.info("offsetUnits called")
+    if ( groupData.groupName ) then
+        env.info(string.format("Adjusting unit start point(s) for group %s", groupData.groupName))
+    else
+        env.info("Adjusting unit start point(s) for cloned group")
+    end
 
     local units = groupData.units
 
@@ -199,7 +208,7 @@ function spawnGroup(args)
         end
 
     elseif ( markPoint.x and markPoint.z ) then
-
+        env.info("Spawning a non-race-track group")
         offsetRoute(groupData, markPoint)
         offsetUnits(groupData, markPoint)
 
@@ -208,18 +217,9 @@ function spawnGroup(args)
         return nil
     end
 
-    dumper(groupData)
+    --dumper(groupData)
 
     mist.dynAdd(groupData)
     printSpawned(args)
 end
-
---[[
-
-To-do:
-
-- Figure out how to re-spawn a group
-- Figure out how to spawn clones of a group
-
-]]--
 

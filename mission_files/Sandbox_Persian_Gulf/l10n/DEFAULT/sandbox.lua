@@ -14113,7 +14113,7 @@ local function onMark(event)
             end
         else
             markPoint = event.pos
-            markMsg.text = string.format('Spawn Coordinates Recorded: %s, %s', event.pos.x, event.pos.z) 
+            markMsg.text = string.format('Spawn Coordinates Recorded: %s, %s', markPoint.x, markPoint.z) 
         end
 
         -- Confirm coordinates received, if we captured any
@@ -14504,7 +14504,11 @@ spawnable.ftankers = {
 local defaultSound = "tsctra00.wav"
 
 local function offsetRoute(groupData, newPos)
-    env.info(string.format("Adjusting waypoints relative to markpoint for group %s", groupData.groupName))
+    if ( groupData.groupName ) then
+        env.info(string.format("Adjusting waypoints relative to markpoint for group %s", groupData.groupName))
+    else
+        env.info("Adjusting waypoints relative to markpoint for cloned group")
+    end
     local route = groupData.route
 
     env.info((string.format("Markpoint is at %0.02f, %0.02f, WP1 is at %0.02f, %0.02f", newPos.x, newPos.z, route[1].x, route[1].y)));
@@ -14520,7 +14524,12 @@ local function offsetRoute(groupData, newPos)
 end
 
 local function offsetUnits(groupData, newPos, lookAt)
-    env.info(string.format("Adjusting unit start point(s) for group %s", groupData.groupName))
+    env.info("offsetUnits called")
+    if ( groupData.groupName ) then
+        env.info(string.format("Adjusting unit start point(s) for group %s", groupData.groupName))
+    else
+        env.info("Adjusting unit start point(s) for cloned group")
+    end
 
     local units = groupData.units
 
@@ -14702,7 +14711,7 @@ function spawnGroup(args)
         end
 
     elseif ( markPoint.x and markPoint.z ) then
-
+        env.info("Spawning a non-race-track group")
         offsetRoute(groupData, markPoint)
         offsetUnits(groupData, markPoint)
 
@@ -14711,20 +14720,11 @@ function spawnGroup(args)
         return nil
     end
 
-    dumper(groupData)
+    --dumper(groupData)
 
     mist.dynAdd(groupData)
     printSpawned(args)
 end
-
---[[
-
-To-do:
-
-- Figure out how to re-spawn a group
-- Figure out how to spawn clones of a group
-
-]]--
 
 
 ---------- END 07_spawn_engine.lua ----------
@@ -14838,7 +14838,7 @@ timer.scheduleFunction(respawnBoats, nil, timer.getTime() + 1)
 ---------- END 09_respawn_listener.lua ----------
 
 local loadedMsg = {}
-loadedMsg.text = 'Loaded Sandbox Version 100 (2020-10-22)'
+loadedMsg.text = 'Loaded Sandbox Version 104 (2020-10-22)'
 loadedMsg.displayTime = 5
 loadedMsg.msgFor = {coa = {'all'}}
 mist.message.add(loadedMsg)

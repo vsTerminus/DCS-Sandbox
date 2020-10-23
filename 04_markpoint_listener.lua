@@ -19,7 +19,7 @@ local function onMark(event)
             end
         else
             markPoint = event.pos
-            markMsg.text = string.format('Spawn Coordinates Recorded: %s, %s', event.pos.x, event.pos.z) 
+            markMsg.text = string.format('Spawn Coordinates Recorded: %s, %s', markPoint.x, markPoint.z) 
         end
 
         -- Confirm coordinates received, if we captured any
