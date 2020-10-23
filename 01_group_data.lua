@@ -1828,7 +1828,7 @@ exported.groupData =
 		["task"] = "CAP",
 		["frequency"] = 38.4,
 	}, -- end of ["D9-1"]
-	["Texaco 3-1"] = 
+	["Texaco 3"] = 
 	{
 		["route"] = 
 		{
@@ -2027,7 +2027,7 @@ exported.groupData =
 		["country"] = "usa",
 		["uncontrolled"] = false,
 		["groupId"] = 27,
-		["groupName"] = "Texaco 3-1",
+		["groupName"] = "Texaco 3",
 		["units"] = 
 		{
 			[1] = 
@@ -2048,7 +2048,7 @@ exported.groupData =
 				["country"] = "usa",
 				["psi"] = -1.5805680027354,
 				["unitName"] = "Texaco 3-1",
-				["groupName"] = "Texaco 3-1",
+				["groupName"] = "Texaco 3",
 				["coalition"] = "blue",
 				["countryId"] = 2,
 				["x"] = 1605.4845264719,
@@ -2083,7 +2083,7 @@ exported.groupData =
 		["startTime"] = 0,
 		["task"] = "Refueling",
 		["frequency"] = 133,
-	}, -- end of ["Texaco 3-1"]
+	}, -- end of ["Texaco 3"]
 	["A-50 1"] = 
 	{
 		["route"] = 
