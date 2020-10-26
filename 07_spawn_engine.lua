@@ -194,7 +194,7 @@ function spawnGroup(args)
 
             local A = getEndPoint(clientPos, clientHeading, 500)
             dumper(A)
-            local B = getEndPoint(A, clientHeading, 100000)
+            local B = getEndPoint(A, clientHeading, 203720) -- 110nm
             dumper(B)
             setRaceTrack(groupData, A, B)
 

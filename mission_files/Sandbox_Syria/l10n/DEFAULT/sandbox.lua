@@ -14697,7 +14697,7 @@ function spawnGroup(args)
 
             local A = getEndPoint(clientPos, clientHeading, 500)
             dumper(A)
-            local B = getEndPoint(A, clientHeading, 100000)
+            local B = getEndPoint(A, clientHeading, 203720) -- 110nm
             dumper(B)
             setRaceTrack(groupData, A, B)
 
@@ -14838,7 +14838,7 @@ timer.scheduleFunction(respawnBoats, nil, timer.getTime() + 1)
 ---------- END 09_respawn_listener.lua ----------
 
 local loadedMsg = {}
-loadedMsg.text = 'Loaded Sandbox Version 106 (2020-10-26)'
+loadedMsg.text = 'Loaded Sandbox Version 107 (2020-10-26)'
 loadedMsg.displayTime = 5
 loadedMsg.msgFor = {coa = {'all'}}
 mist.message.add(loadedMsg)
