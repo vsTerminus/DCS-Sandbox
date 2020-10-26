@@ -1350,7 +1350,7 @@ exported.groupData =
 		["task"] = "Ground Nothing",
 		["hidden"] = false,
 	}, -- end of ["BTR-1"]
-	["Shell 22"] = 
+	["Shell 2"] = 
 	{
 		["route"] = 
 		{

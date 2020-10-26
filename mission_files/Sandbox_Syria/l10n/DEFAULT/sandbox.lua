@@ -8704,7 +8704,7 @@ exported.groupData =
 		["task"] = "Ground Nothing",
 		["hidden"] = false,
 	}, -- end of ["BTR-1"]
-	["Shell 22"] = 
+	["Shell 2"] = 
 	{
 		["route"] = 
 		{
@@ -14838,7 +14838,7 @@ timer.scheduleFunction(respawnBoats, nil, timer.getTime() + 1)
 ---------- END 09_respawn_listener.lua ----------
 
 local loadedMsg = {}
-loadedMsg.text = 'Loaded Sandbox Version 105 (2020-10-23)'
+loadedMsg.text = 'Loaded Sandbox Version 106 (2020-10-26)'
 loadedMsg.displayTime = 5
 loadedMsg.msgFor = {coa = {'all'}}
 mist.message.add(loadedMsg)
