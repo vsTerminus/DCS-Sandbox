@@ -412,7 +412,7 @@ options =
         ["switches"] = 100,
         ["play_audio_while_minimized"] = false,
         ["headphones"] = 100,
-        ["music"] = 50,
+        ["music"] = 0,
         ["voice_chat_input"] = "0:{0.0.1.00000000}.{b77aef40-72b4-41ea-90ad-b742db111164}",
         ["gui"] = 100,
     }, -- end of ["sound"]

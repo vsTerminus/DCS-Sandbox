@@ -5489,8 +5489,8 @@ mission = {
                                         }, -- end of ["transportable"]
                                         ["type"] = "Osa 9A33 ln",
                                         ["unitId"] = 97,
-                                        ["x"] = 44519.098970273,
-                                        ["y"] = -39189.705456877,
+                                        ["x"] = 44387.119390146,
+                                        ["y"] = -39229.745483336,
                                     }, -- end of [3]
                                     [4] = {
                                         ["heading"] = 3.1220102982056,
@@ -5609,7 +5609,7 @@ mission = {
             [10] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 6969,
+    ["currentKey"] = 7469,
     ["date"] = {
         ["Day"] = 21,
         ["Month"] = 6,
@@ -6591,9 +6591,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = 600.92216753161,
-        ["centerY"] = 46032.336260222,
-        ["zoom"] = 28602.382546839,
+        ["centerX"] = 29068.691694107,
+        ["centerY"] = 83860.081631755,
+        ["zoom"] = 650856.54726175,
     }, -- end of ["map"]
     ["maxDictId"] = 230,
     ["pictureFileNameB"] = {
