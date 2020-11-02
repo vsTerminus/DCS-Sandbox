@@ -14031,7 +14031,6 @@ function dumper(var, indent)
 	end
 	
 	if indent == 0 then env.info(("Dumper End")) end
-
 end
 	
 function groupId(unit)
@@ -14040,8 +14039,6 @@ function groupId(unit)
     if unitDB ~= nil and unitDB.groupId then
         return unitDB.groupId
     end
-
-    return nil
 end
 
 function sendError(errorText)
@@ -14055,8 +14052,32 @@ end
 function getHeading(A, B)
     if (A.x and A.z and B.x and B.z) then
         return math.atan2( (B.z - A.z), (B.x - A.x) )
-    else
-        return nil
+    end
+end
+
+function avgUnitsPos(units) 
+    local avgX, avgY, avgZ, totNum = 0, 0, 0, 0
+	for i = 1, #units do
+		local nPoint = mist.utils.makeVec3(units[i])
+		if nPoint.z then
+			avgX = avgX + nPoint.x
+			avgY = avgY + nPoint.y
+			avgZ = avgZ + nPoint.z
+			totNum = totNum + 1
+		end
+	end
+	if totNum ~= 0 then
+		return {x = avgX/totNum, y = avgY/totNum, z = avgZ/totNum}
+	end
+end 
+
+function smokeAtCoords(point)
+    env.info("Smoking at coords")
+    if ( point.x and point.y and point.z ) then
+        env.info("Looks like a valid vec3")
+        trigger.action.smoke({x=point.x, y=point.y, z=point.z}, trigger.smokeColor.Red)
+        env.info("Smoke dropped")
+        env.info(string.format("Smoke dropped at %0.2f, %0.2f, %0.2f", point.x, point.y, point.z))
     end
 end
 
@@ -14721,9 +14742,16 @@ function spawnGroup(args)
     end
 
     --dumper(groupData)
-
-    mist.dynAdd(groupData)
+    
+    spawnedData = mist.dynAdd(groupData)
     printSpawned(args)
+
+    if ( args.category ~= 'air' and args.group.smoke ) then
+        env.info("Dropping Smoke")
+        local avgPoint = avgUnitsPos(spawnedData.units)
+        env.info("Got average point")
+        smokeAtCoords(avgPoint)
+    end
 end
 
 
@@ -14838,7 +14866,7 @@ timer.scheduleFunction(respawnBoats, nil, timer.getTime() + 1)
 ---------- END 09_respawn_listener.lua ----------
 
 local loadedMsg = {}
-loadedMsg.text = 'Loaded Sandbox Version 107 (2020-10-26)'
+loadedMsg.text = 'Loaded Sandbox Version 114 (2020-11-01)'
 loadedMsg.displayTime = 5
 loadedMsg.msgFor = {coa = {'all'}}
 mist.message.add(loadedMsg)

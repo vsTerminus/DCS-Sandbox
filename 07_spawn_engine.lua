@@ -218,8 +218,15 @@ function spawnGroup(args)
     end
 
     --dumper(groupData)
-
-    mist.dynAdd(groupData)
+    
+    spawnedData = mist.dynAdd(groupData)
     printSpawned(args)
+
+    if ( args.category ~= 'air' and args.group.smoke ) then
+        env.info("Dropping Smoke")
+        local avgPoint = avgUnitsPos(spawnedData.units)
+        env.info("Got average point")
+        smokeAtCoords(avgPoint)
+    end
 end
 
