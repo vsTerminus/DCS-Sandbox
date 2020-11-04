@@ -198,6 +198,7 @@ mission = {
                                             ["ExhaustScreen"] = false,
                                             ["GunnersAISkill"] = 90,
                                             ["NetCrewControlPriority"] = 1,
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 611,
                                         ["alt_type"] = "BARO",
@@ -816,6 +817,7 @@ mission = {
                                             ["ExhaustScreen"] = false,
                                             ["GunnersAISkill"] = 90,
                                             ["NetCrewControlPriority"] = 1,
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 0,
                                         ["alt_type"] = "BARO",
@@ -1298,8 +1300,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = -160635.99191143,
-                                            ["y"] = -83055.774225967,
+                                            ["x"] = -160614.49959923,
+                                            ["y"] = -82996.975560741,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -1364,12 +1366,12 @@ mission = {
                                         ["speed"] = 41.666666666667,
                                         ["type"] = "SA342Minigun",
                                         ["unitId"] = 126,
-                                        ["x"] = -160635.99191143,
-                                        ["y"] = -83055.774225967,
+                                        ["x"] = -160614.49959923,
+                                        ["y"] = -82996.975560741,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -160635.99191143,
-                                ["y"] = -83055.774225967,
+                                ["x"] = -160614.49959923,
+                                ["y"] = -82996.975560741,
                             }, -- end of [11]
                             [12] = {
                                 ["communication"] = true,
@@ -2439,6 +2441,7 @@ mission = {
                                             ["ExhaustScreen"] = false,
                                             ["GunnersAISkill"] = 90,
                                             ["NetCrewControlPriority"] = 1,
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 611,
                                         ["alt_type"] = "BARO",
@@ -2556,6 +2559,7 @@ mission = {
                                             ["ExhaustScreen"] = false,
                                             ["GunnersAISkill"] = 90,
                                             ["NetCrewControlPriority"] = 1,
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 611,
                                         ["alt_type"] = "BARO",
@@ -2673,6 +2677,7 @@ mission = {
                                             ["ExhaustScreen"] = false,
                                             ["GunnersAISkill"] = 90,
                                             ["NetCrewControlPriority"] = 1,
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 612,
                                         ["alt_type"] = "BARO",
@@ -3189,6 +3194,7 @@ mission = {
                                             ["ExhaustScreen"] = false,
                                             ["GunnersAISkill"] = 90,
                                             ["NetCrewControlPriority"] = 1,
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 193,
                                         ["alt_type"] = "BARO",
@@ -3428,6 +3434,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["NetCrewControlPriority"] = 1,
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 527,
                                         ["alt_type"] = "BARO",
@@ -3797,6 +3804,7 @@ mission = {
                                             ["ExhaustScreen"] = false,
                                             ["GunnersAISkill"] = 90,
                                             ["NetCrewControlPriority"] = 1,
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 672,
                                         ["alt_type"] = "BARO",
@@ -4158,6 +4166,7 @@ mission = {
                                             ["ExhaustScreen"] = false,
                                             ["GunnersAISkill"] = 90,
                                             ["NetCrewControlPriority"] = 1,
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 672,
                                         ["alt_type"] = "BARO",
@@ -5307,6 +5316,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["NetCrewControlPriority"] = 1,
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 925,
                                         ["alt_type"] = "BARO",
@@ -5423,6 +5433,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["NetCrewControlPriority"] = 1,
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 927,
                                         ["alt_type"] = "BARO",
@@ -8199,6 +8210,9 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["WaterTankContents"] = 1,
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 612,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -14993,6 +15007,9 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["WaterTankContents"] = 1,
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 37,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -20429,6 +20446,9 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["WaterTankContents"] = 1,
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 366,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -25969,6 +25989,9 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["WaterTankContents"] = 1,
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 29,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -36918,6 +36941,568 @@ mission = {
                                 ["x"] = -197688.68892414,
                                 ["y"] = 32553.110684967,
                             }, -- end of [196]
+                            [197] = {
+                                ["communication"] = true,
+                                ["frequency"] = 243,
+                                ["groupId"] = 357,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_1471",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["helipadId"] = 501,
+                                            ["linkUnit"] = 501,
+                                            ["name"] = "DictKey_WptName_1473",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -164721.25613496,
+                                            ["y"] = -84860.740883358,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["AAR_Zone1"] = 0,
+                                            ["AAR_Zone2"] = 0,
+                                            ["AAR_Zone3"] = 0,
+                                            ["ClockTime"] = 1,
+                                            ["EWDispenserBL"] = 2,
+                                            ["EWDispenserBR"] = 2,
+                                            ["EWDispenserTBL"] = 2,
+                                            ["EWDispenserTBR"] = 2,
+                                            ["EWDispenserTFL"] = 1,
+                                            ["EWDispenserTFR"] = 1,
+                                            ["MountNVG"] = false,
+                                            ["RocketBurst"] = 1,
+                                            ["WpBullseye"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 0,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 2,
+                                            [2] = 8,
+                                            [3] = 1,
+                                            ["name"] = "Springfield81",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "AV-8B Woodland",
+                                        ["name"] = "DictKey_UnitName_1472",
+                                        ["onboard_num"] = "124",
+                                        ["parking"] = "1",
+                                        ["parking_id"] = "1",
+                                        ["payload"] = {
+                                            ["chaff"] = 60,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 3519,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 264,
+                                                    [3] = 265,
+                                                    [4] = 256,
+                                                    [5] = 254,
+                                                    [6] = 250,
+                                                    [7] = 270,
+                                                    [8] = 257,
+                                                    [9] = 255,
+                                                    [10] = 262,
+                                                    [11] = 259,
+                                                    [12] = 268,
+                                                    [13] = 269,
+                                                    [14] = 260,
+                                                    [15] = 263,
+                                                    [16] = 261,
+                                                    [17] = 267,
+                                                    [18] = 251,
+                                                    [19] = 253,
+                                                    [20] = 266,
+                                                    [21] = 133,
+                                                    [22] = 257.8,
+                                                    [23] = 122.1,
+                                                    [24] = 123.3,
+                                                    [25] = 344,
+                                                    [26] = 385,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 133,
+                                                    [2] = 257.8,
+                                                    [3] = 122.1,
+                                                    [4] = 123.3,
+                                                    [5] = 344,
+                                                    [6] = 385,
+                                                    [7] = 130,
+                                                    [8] = 385.4,
+                                                    [9] = 139,
+                                                    [10] = 140,
+                                                    [11] = 134,
+                                                    [12] = 132,
+                                                    [13] = 131,
+                                                    [14] = 129,
+                                                    [15] = 138,
+                                                    [16] = 121,
+                                                    [17] = 126,
+                                                    [18] = 125,
+                                                    [19] = 128,
+                                                    [20] = 122,
+                                                    [21] = 123,
+                                                    [22] = 124,
+                                                    [23] = 135,
+                                                    [24] = 136,
+                                                    [25] = 141,
+                                                    [26] = 127,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                            [3] = {
+                                                ["channels"] = {
+                                                    [1] = 177,
+                                                    [2] = 264,
+                                                    [3] = 265,
+                                                    [4] = 256,
+                                                    [5] = 254,
+                                                    [6] = 250,
+                                                    [7] = 270,
+                                                    [8] = 257,
+                                                    [9] = 255,
+                                                    [10] = 262,
+                                                    [11] = 259,
+                                                    [12] = 268,
+                                                    [13] = 269,
+                                                    [14] = 260,
+                                                    [15] = 263,
+                                                    [16] = 261,
+                                                    [17] = 267,
+                                                    [18] = 251,
+                                                    [19] = 253,
+                                                    [20] = 266,
+                                                    [21] = 133,
+                                                    [22] = 257.8,
+                                                    [23] = 122.1,
+                                                    [24] = 123.3,
+                                                    [25] = 344,
+                                                    [26] = 385,
+                                                    [27] = 133,
+                                                    [28] = 257.8,
+                                                    [29] = 122.1,
+                                                    [30] = 123.3,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [3]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "AV8BNA",
+                                        ["unitId"] = 502,
+                                        ["x"] = -164721.25613496,
+                                        ["y"] = -84860.740883358,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -164721.25613496,
+                                ["y"] = -84860.740883358,
+                            }, -- end of [197]
+                            [198] = {
+                                ["communication"] = true,
+                                ["frequency"] = 243,
+                                ["groupId"] = 358,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_1474",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["helipadId"] = 501,
+                                            ["linkUnit"] = 501,
+                                            ["name"] = "DictKey_WptName_1476",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -164721.25613496,
+                                            ["y"] = -84860.740883358,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["AAR_Zone1"] = 0,
+                                            ["AAR_Zone2"] = 0,
+                                            ["AAR_Zone3"] = 0,
+                                            ["ClockTime"] = 1,
+                                            ["EWDispenserBL"] = 2,
+                                            ["EWDispenserBR"] = 2,
+                                            ["EWDispenserTBL"] = 2,
+                                            ["EWDispenserTBR"] = 2,
+                                            ["EWDispenserTFL"] = 1,
+                                            ["EWDispenserTFR"] = 1,
+                                            ["MountNVG"] = false,
+                                            ["RocketBurst"] = 1,
+                                            ["WpBullseye"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 0,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 2,
+                                            [2] = 8,
+                                            [3] = 1,
+                                            ["name"] = "Springfield81",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "AV-8B Woodland",
+                                        ["name"] = "DictKey_UnitName_1475",
+                                        ["onboard_num"] = "124",
+                                        ["parking"] = "1",
+                                        ["parking_id"] = "1",
+                                        ["payload"] = {
+                                            ["chaff"] = 60,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 1408,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 243,
+                                                    [2] = 264,
+                                                    [3] = 265,
+                                                    [4] = 256,
+                                                    [5] = 254,
+                                                    [6] = 250,
+                                                    [7] = 270,
+                                                    [8] = 257,
+                                                    [9] = 255,
+                                                    [10] = 262,
+                                                    [11] = 259,
+                                                    [12] = 268,
+                                                    [13] = 269,
+                                                    [14] = 260,
+                                                    [15] = 263,
+                                                    [16] = 261,
+                                                    [17] = 267,
+                                                    [18] = 251,
+                                                    [19] = 253,
+                                                    [20] = 266,
+                                                    [21] = 133,
+                                                    [22] = 257.8,
+                                                    [23] = 122.1,
+                                                    [24] = 123.3,
+                                                    [25] = 344,
+                                                    [26] = 385,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 133,
+                                                    [2] = 257.8,
+                                                    [3] = 122.1,
+                                                    [4] = 123.3,
+                                                    [5] = 344,
+                                                    [6] = 385,
+                                                    [7] = 130,
+                                                    [8] = 385.4,
+                                                    [9] = 139,
+                                                    [10] = 140,
+                                                    [11] = 134,
+                                                    [12] = 132,
+                                                    [13] = 131,
+                                                    [14] = 129,
+                                                    [15] = 138,
+                                                    [16] = 121,
+                                                    [17] = 126,
+                                                    [18] = 125,
+                                                    [19] = 128,
+                                                    [20] = 122,
+                                                    [21] = 123,
+                                                    [22] = 124,
+                                                    [23] = 135,
+                                                    [24] = 136,
+                                                    [25] = 141,
+                                                    [26] = 127,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                            [3] = {
+                                                ["channels"] = {
+                                                    [1] = 177,
+                                                    [2] = 264,
+                                                    [3] = 265,
+                                                    [4] = 256,
+                                                    [5] = 254,
+                                                    [6] = 250,
+                                                    [7] = 270,
+                                                    [8] = 257,
+                                                    [9] = 255,
+                                                    [10] = 262,
+                                                    [11] = 259,
+                                                    [12] = 268,
+                                                    [13] = 269,
+                                                    [14] = 260,
+                                                    [15] = 263,
+                                                    [16] = 261,
+                                                    [17] = 267,
+                                                    [18] = 251,
+                                                    [19] = 253,
+                                                    [20] = 266,
+                                                    [21] = 133,
+                                                    [22] = 257.8,
+                                                    [23] = 122.1,
+                                                    [24] = 123.3,
+                                                    [25] = 344,
+                                                    [26] = 385,
+                                                    [27] = 133,
+                                                    [28] = 257.8,
+                                                    [29] = 122.1,
+                                                    [30] = 123.3,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [3]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "AV8BNA",
+                                        ["unitId"] = 503,
+                                        ["x"] = -164721.25613496,
+                                        ["y"] = -84860.740883358,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -164721.25613496,
+                                ["y"] = -84860.740883358,
+                            }, -- end of [198]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] = {
@@ -36973,7 +37558,7 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "ActivateICLS",
                                                                     ["params"] = {
-                                                                        ["channel"] = 1,
+                                                                        ["channel"] = 3,
                                                                         ["name"] = "ICLS",
                                                                         ["type"] = 131584,
                                                                         ["unitId"] = 88,
@@ -37080,6 +37665,163 @@ mission = {
                                 ["x"] = -160635.99191143,
                                 ["y"] = -83055.774225967,
                             }, -- end of [1]
+                            [2] = {
+                                ["groupId"] = 356,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_1467",
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1469",
+                                            ["speed"] = 0,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "ActivateBeacon",
+                                                                    ["params"] = {
+                                                                        ["AA"] = false,
+                                                                        ["bearing"] = true,
+                                                                        ["callsign"] = "LHA",
+                                                                        ["channel"] = 76,
+                                                                        ["frequency"] = 1163000000,
+                                                                        ["modeChannel"] = "X",
+                                                                        ["system"] = 3,
+                                                                        ["type"] = 4,
+                                                                        ["unitId"] = 501,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "ActivateICLS",
+                                                                    ["params"] = {
+                                                                        ["channel"] = 6,
+                                                                        ["type"] = 131584,
+                                                                        ["unitId"] = 501,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                        [3] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 3,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 0,
+                                                                        ["value"] = 4,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [3]
+                                                        [4] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 4,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 9,
+                                                                        ["value"] = 1,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [4]
+                                                        [5] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 5,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 20,
+                                                                        ["value"] = false,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -164710.37235836,
+                                            ["y"] = -84837.536015185,
+                                        }, -- end of [1]
+                                        [2] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 3900.6847399792,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1470",
+                                            ["speed"] = 13.88888,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -132273.34728027,
+                                            ["y"] = -43114.616327955,
+                                        }, -- end of [2]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["frequency"] = 126000000,
+                                        ["heading"] = 0.90996427543416,
+                                        ["modulation"] = 0,
+                                        ["name"] = "DictKey_UnitName_1468",
+                                        ["skill"] = "Average",
+                                        ["transportable"] = {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "LHA_Tarawa",
+                                        ["unitId"] = 501,
+                                        ["x"] = -164710.37235836,
+                                        ["y"] = -84837.536015185,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -164710.37235836,
+                                ["y"] = -84837.536015185,
+                            }, -- end of [2]
                         }, -- end of ["group"]
                     }, -- end of ["ship"]
                 }, -- end of [1]
@@ -43302,7 +44044,7 @@ mission = {
             [13] = 68,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 246185,
+    ["currentKey"] = 251403,
     ["date"] = {
         ["Day"] = 25,
         ["Month"] = 12,
@@ -44292,11 +45034,11 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -175086.39251905,
-        ["centerY"] = -36703.667744258,
-        ["zoom"] = 434266.43249306,
+        ["centerX"] = -164911.39061904,
+        ["centerY"] = -84459.569307409,
+        ["zoom"] = 3568.2315154446,
     }, -- end of ["map"]
-    ["maxDictId"] = 1466,
+    ["maxDictId"] = 1476,
     ["pictureFileNameB"] = {
     }, -- end of ["pictureFileNameB"]
     ["pictureFileNameN"] = {
