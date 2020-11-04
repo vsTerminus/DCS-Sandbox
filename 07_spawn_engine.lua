@@ -225,7 +225,11 @@ function spawnGroup(args)
     if ( args.category ~= 'air' and args.group.smoke ) then
         env.info("Dropping Smoke")
         local avgPoint = avgUnitsPos(spawnedData.units)
-        env.info("Got average point")
+        env.info("Got avg point vec2")
+        avgPoint.y = land.getHeight({x=avgPoint.x, y=avgPoint.z})
+        env.info("Got land height")
+        dumper(avgPoint)
+        env.info("Got average point vec3")
         smokeAtCoords(avgPoint)
     end
 end

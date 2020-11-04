@@ -14749,7 +14749,11 @@ function spawnGroup(args)
     if ( args.category ~= 'air' and args.group.smoke ) then
         env.info("Dropping Smoke")
         local avgPoint = avgUnitsPos(spawnedData.units)
-        env.info("Got average point")
+        env.info("Got avg point vec2")
+        avgPoint.y = land.getHeight({x=avgPoint.x, y=avgPoint.z})
+        env.info("Got land height")
+        dumper(avgPoint)
+        env.info("Got average point vec3")
         smokeAtCoords(avgPoint)
     end
 end
@@ -14866,7 +14870,7 @@ timer.scheduleFunction(respawnBoats, nil, timer.getTime() + 1)
 ---------- END 09_respawn_listener.lua ----------
 
 local loadedMsg = {}
-loadedMsg.text = 'Loaded Sandbox Version 114 (2020-11-01)'
+loadedMsg.text = 'Loaded Sandbox Version 115 (2020-11-03)'
 loadedMsg.displayTime = 5
 loadedMsg.msgFor = {coa = {'all'}}
 mist.message.add(loadedMsg)
