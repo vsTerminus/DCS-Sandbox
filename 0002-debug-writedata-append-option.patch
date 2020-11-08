@@ -1,0 +1,18 @@
+diff --git a/00_mist.lua b/00_mist.lua
+index 9b671f3..a510cb9 100644
+--- a/00_mist.lua
++++ b/00_mist.lua
+@@ -4535,10 +4535,11 @@ do -- mist.debug scope
+ 	-- @param fcn
+ 	-- @param fcnVars
+ 	-- @param fname
+-	function mist.debug.writeData(fcn, fcnVars, fname)
++	function mist.debug.writeData(fcn, fcnVars, fname, append)
+ 		if lfs and io then
+ 			local fdir = lfs.writedir() .. [[Logs\]] .. fname
+-			local f = io.open(fdir, 'w')
++		  local fmode = 'a' and append or 'w'
++			local f = io.open(fdir, fmode)
+ 			f:write(fcn(unpack(fcnVars, 1, table.maxn(fcnVars))))
+ 			f:close()
+ 			log:info('Wrote debug data to $1', fdir)
