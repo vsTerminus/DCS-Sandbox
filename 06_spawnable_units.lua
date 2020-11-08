@@ -79,6 +79,13 @@ spawnable.airdefences = {
 		relative = false,
 		action = 'clone',
 	},
+    ['SA-2 SAM Site'] = {
+        name = 'SA-2 1',
+        description = 'SA-2 with 1 Fansong Target Track Radar, 1 1L13 Early Warning Radar, and 6 Launchers',
+        smoke = 'red',
+        relative = false,
+        action = 'clone',
+    },
 }
 
 -- "Modern Fighters" category

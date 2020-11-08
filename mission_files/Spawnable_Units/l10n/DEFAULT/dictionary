@@ -1,28 +1,46 @@
 dictionary = {
     ["DictKey_ActionText_149"] = "",
     ["DictKey_ActionText_226"] = "Done",
-    ["DictKey_ActionText_229"] = "local data = {}\
+    ["DictKey_ActionText_238"] = "local data = {}\
+local names = {}\
+local fname = '01_group_data.lua'\
 \
 for k,v in pairs(mist.DBs.groupsByName) do\
+    table.insert(names, k)\
     data[k] = v\
     local route = mist.getGroupRoute(k, 'task')\
-    \
-    dumper(route)    \
-    \
     local payload = mist.getGroupPayload(k)\
-    \
-    dumper(payload)    \
-    \
     data[k].route = route\
-    \
-    dumper(data[k])\
-    \
     for i,unit in pairs(payload) do\
         data[k].units[i].payload = payload[i]\
     end\
 end\
 \
-mist.debug.writeData(mist.utils.serialize,{'groupData', data}, 'write-test.lua')",
+table.sort(names)\
+\
+local fHead = [=[\
+--[[\
+\
+These groups are built and placed using the Mission Editor in \"Spawnable_Units.miz\"\
+When the mission runs MIST will write a file called 01_group_data.lua to your Logs directory.\
+\
+Replace the \"spawnable.groupData\" table below with the one written to your Logs folder whenever you make updates\
+to the Spawnable_Units mission, and re-run 'make install' to push the update to all the sandboxes.\
+\
+]]--\
+\
+exported = {}\
+\
+exported.groupData =\
+{]=]\
+\
+mist.debug.writeData(string.format, {fHead}, fname, 'w')\
+for _,name in ipairs(names) do\
+    env.info(string.format(\"Writing Group: %s\", name))\
+    mist.debug.writeData(mist.utils.serialize,{string.format('[\"%s\"]', name), data[name], \"\\t\"}, fname, 'a')\
+end\
+mist.debug.writeData(string.format, {\"}\"}, fname, 'a')\
+",
     ["DictKey_descriptionBlueTask_3"] = "",
     ["DictKey_descriptionNeutralsTask_4"] = "",
     ["DictKey_descriptionRedTask_2"] = "",
@@ -51,6 +69,7 @@ mist.debug.writeData(mist.utils.serialize,{'groupData', data}, 'write-test.lua')
     ["DictKey_GroupName_209"] = "CV 1143.5 Admiral Kuznetsov(2017)",
     ["DictKey_GroupName_213"] = "CV 1143.5 Admiral Kuznetsov",
     ["DictKey_GroupName_217"] = "LHA-1 Tarawa",
+    ["DictKey_GroupName_243"] = "SA-2 1",
     ["DictKey_GroupName_25"] = "FUEL-1",
     ["DictKey_GroupName_45"] = "Grumble-1",
     ["DictKey_GroupName_59"] = "KUB-1",
@@ -104,6 +123,14 @@ mist.debug.writeData(mist.utils.serialize,{'groupData', data}, 'write-test.lua')
     ["DictKey_UnitName_210"] = "CV 1143.5 Admiral Kuznetsov(2017)",
     ["DictKey_UnitName_214"] = "CV 1143.5 Admiral Kuznetsov",
     ["DictKey_UnitName_218"] = "LHA-1 Tarawa",
+    ["DictKey_UnitName_244"] = "OSA-2-1",
+    ["DictKey_UnitName_246"] = "OSA-2-2",
+    ["DictKey_UnitName_247"] = "OSA-2-3",
+    ["DictKey_UnitName_253"] = "SA-2 1-1",
+    ["DictKey_UnitName_254"] = "SA-2 1-2",
+    ["DictKey_UnitName_255"] = "SA-2 1-3",
+    ["DictKey_UnitName_256"] = "SA-2 1-4",
+    ["DictKey_UnitName_257"] = "SA-2 1-5",
     ["DictKey_UnitName_26"] = "BTR-2-5",
     ["DictKey_UnitName_27"] = "BTR-2-6",
     ["DictKey_UnitName_28"] = "BTR-2-7",
@@ -176,6 +203,7 @@ mist.debug.writeData(mist.utils.serialize,{'groupData', data}, 'write-test.lua')
     ["DictKey_WptName_216"] = "",
     ["DictKey_WptName_219"] = "",
     ["DictKey_WptName_222"] = "",
+    ["DictKey_WptName_245"] = "",
     ["DictKey_WptName_30"] = "",
     ["DictKey_WptName_58"] = "",
     ["DictKey_WptName_66"] = "",
