@@ -31383,8 +31383,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -162162.01355278,
-                                            ["y"] = 139810.91746407,
+                                            ["x"] = -162406.22494911,
+                                            ["y"] = 140319.32513315,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -31422,175 +31422,14 @@ mission = {
                                         ["speed"] = 154.16666666667,
                                         ["type"] = "E-3A",
                                         ["unitId"] = 438,
-                                        ["x"] = -162162.01355278,
-                                        ["y"] = 139810.91746407,
+                                        ["x"] = -162406.22494911,
+                                        ["y"] = 140319.32513315,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -162162.01355278,
-                                ["y"] = 139810.91746407,
+                                ["x"] = -162406.22494911,
+                                ["y"] = 140319.32513315,
                             }, -- end of [167]
                             [168] = {
-                                ["communication"] = true,
-                                ["frequency"] = 141,
-                                ["groupId"] = 294,
-                                ["hidden"] = false,
-                                ["lateActivation"] = true,
-                                ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_1223",
-                                ["radioSet"] = true,
-                                ["route"] = {
-                                    ["points"] = {
-                                        [1] = {
-                                            ["action"] = "Turning Point",
-                                            ["alt"] = 9400,
-                                            ["alt_type"] = "BARO",
-                                            ["ETA"] = 0,
-                                            ["ETA_locked"] = true,
-                                            ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_1225",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
-                                            ["speed"] = 133.61111111111,
-                                            ["speed_locked"] = true,
-                                            ["task"] = {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = {
-                                                    ["tasks"] = {
-                                                        [1] = {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "AWACS",
-                                                            ["number"] = 1,
-                                                            ["params"] = {
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                        [2] = {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 2,
-                                                            ["params"] = {
-                                                                ["action"] = {
-                                                                    ["id"] = "EPLRS",
-                                                                    ["params"] = {
-                                                                        ["groupId"] = 65,
-                                                                        ["value"] = true,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [2]
-                                                        [3] = {
-                                                            ["auto"] = false,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "Orbit",
-                                                            ["number"] = 3,
-                                                            ["params"] = {
-                                                                ["altitude"] = 10668,
-                                                                ["altitudeEdited"] = true,
-                                                                ["pattern"] = "Circle",
-                                                                ["speed"] = 154.16666666667,
-                                                                ["speedEdited"] = true,
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [3]
-                                                        [4] = {
-                                                            ["auto"] = false,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 4,
-                                                            ["params"] = {
-                                                                ["action"] = {
-                                                                    ["id"] = "Option",
-                                                                    ["params"] = {
-                                                                        ["name"] = 0,
-                                                                        ["value"] = 4,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [4]
-                                                        [5] = {
-                                                            ["auto"] = false,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 5,
-                                                            ["params"] = {
-                                                                ["action"] = {
-                                                                    ["id"] = "Option",
-                                                                    ["params"] = {
-                                                                        ["name"] = 1,
-                                                                        ["value"] = 0,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [5]
-                                                        [6] = {
-                                                            ["auto"] = false,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 6,
-                                                            ["params"] = {
-                                                                ["action"] = {
-                                                                    ["id"] = "SetFrequency",
-                                                                    ["params"] = {
-                                                                        ["frequency"] = 141000000,
-                                                                        ["modulation"] = 0,
-                                                                        ["power"] = 10,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [6]
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = -164073.91379238,
-                                            ["y"] = 149795.28538199,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                    ["routeRelativeTOT"] = true,
-                                }, -- end of ["route"]
-                                ["start_time"] = 0,
-                                ["task"] = "AWACS",
-                                ["tasks"] = {
-                                }, -- end of ["tasks"]
-                                ["taskSelected"] = true,
-                                ["uncontrolled"] = false,
-                                ["units"] = {
-                                    [1] = {
-                                        ["alt"] = 9400,
-                                        ["alt_type"] = "BARO",
-                                        ["callsign"] = {
-                                            [1] = 2,
-                                            [2] = 1,
-                                            [3] = 1,
-                                            ["name"] = "Magic11",
-                                        }, -- end of ["callsign"]
-                                        ["heading"] = 0,
-                                        ["livery_id"] = "E-2D Demo",
-                                        ["name"] = "DictKey_UnitName_1224",
-                                        ["onboard_num"] = "102",
-                                        ["payload"] = {
-                                            ["chaff"] = 120,
-                                            ["flare"] = 60,
-                                            ["fuel"] = "5624",
-                                            ["gun"] = 100,
-                                            ["pylons"] = {
-                                            }, -- end of ["pylons"]
-                                        }, -- end of ["payload"]
-                                        ["psi"] = 0,
-                                        ["skill"] = "Excellent",
-                                        ["speed"] = 133.61111111111,
-                                        ["type"] = "E-2C",
-                                        ["unitId"] = 439,
-                                        ["x"] = -164073.91379238,
-                                        ["y"] = 149795.28538199,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["x"] = -164073.91379238,
-                                ["y"] = 149795.28538199,
-                            }, -- end of [168]
-                            [169] = {
                                 ["communication"] = true,
                                 ["frequency"] = 135,
                                 ["groupId"] = 296,
@@ -31826,8 +31665,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -275017.19803239,
                                 ["y"] = -75041.40413554,
-                            }, -- end of [169]
-                            [170] = {
+                            }, -- end of [168]
+                            [169] = {
                                 ["communication"] = true,
                                 ["frequency"] = 225,
                                 ["groupId"] = 298,
@@ -31942,8 +31781,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -81086.0234375,
                                 ["y"] = -22926.443359375,
-                            }, -- end of [170]
-                            [171] = {
+                            }, -- end of [169]
+                            [170] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 299,
@@ -32132,8 +31971,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -81073.328125,
                                 ["y"] = -22949.078125,
-                            }, -- end of [171]
-                            [172] = {
+                            }, -- end of [170]
+                            [171] = {
                                 ["communication"] = true,
                                 ["frequency"] = 243,
                                 ["groupId"] = 304,
@@ -32434,8 +32273,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -81109.66461449,
                                 ["y"] = -22860.800957441,
-                            }, -- end of [172]
-                            [173] = {
+                            }, -- end of [171]
+                            [172] = {
                                 ["communication"] = true,
                                 ["frequency"] = 243,
                                 ["groupId"] = 305,
@@ -32736,8 +32575,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -81102.239391218,
                                 ["y"] = -22878.912938075,
-                            }, -- end of [173]
-                            [174] = {
+                            }, -- end of [172]
+                            [173] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 300,
@@ -32866,8 +32705,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -81061.453125,
                                 ["y"] = -22970.05078125,
-                            }, -- end of [174]
-                            [175] = {
+                            }, -- end of [173]
+                            [174] = {
                                 ["communication"] = true,
                                 ["frequency"] = 243,
                                 ["groupId"] = 306,
@@ -33193,8 +33032,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -81097.660897848,
                                 ["y"] = -22904.063635324,
-                            }, -- end of [175]
-                            [176] = {
+                            }, -- end of [174]
+                            [175] = {
                                 ["communication"] = true,
                                 ["frequency"] = 305,
                                 ["groupId"] = 307,
@@ -33333,8 +33172,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -52093.78125,
                                 ["y"] = 61567.65625,
-                            }, -- end of [176]
-                            [177] = {
+                            }, -- end of [175]
+                            [176] = {
                                 ["communication"] = true,
                                 ["frequency"] = 305,
                                 ["groupId"] = 308,
@@ -33469,8 +33308,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -52087.23046875,
                                 ["y"] = 61538.1484375,
-                            }, -- end of [177]
-                            [178] = {
+                            }, -- end of [176]
+                            [177] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 313,
@@ -33659,8 +33498,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -295941.34375,
                                 ["y"] = 23674.439453125,
-                            }, -- end of [178]
-                            [179] = {
+                            }, -- end of [177]
+                            [178] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 314,
@@ -33789,8 +33628,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -295819.07191023,
                                 ["y"] = 23633.595176932,
-                            }, -- end of [179]
-                            [180] = {
+                            }, -- end of [178]
+                            [179] = {
                                 ["communication"] = true,
                                 ["frequency"] = 225,
                                 ["groupId"] = 315,
@@ -33905,8 +33744,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -296577.74881378,
                                 ["y"] = 24119.186733094,
-                            }, -- end of [180]
-                            [181] = {
+                            }, -- end of [179]
+                            [180] = {
                                 ["communication"] = true,
                                 ["frequency"] = 225,
                                 ["groupId"] = 316,
@@ -34023,8 +33862,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -296589.03006378,
                                 ["y"] = 24131.704311219,
-                            }, -- end of [181]
-                            [182] = {
+                            }, -- end of [180]
+                            [181] = {
                                 ["communication"] = true,
                                 ["frequency"] = 305,
                                 ["groupId"] = 317,
@@ -34159,8 +33998,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -297933.97112481,
                                 ["y"] = 26085.39973119,
-                            }, -- end of [182]
-                            [183] = {
+                            }, -- end of [181]
+                            [182] = {
                                 ["communication"] = true,
                                 ["frequency"] = 251,
                                 ["groupId"] = 318,
@@ -34278,8 +34117,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -295459.44976252,
                                 ["y"] = 24166.80340192,
-                            }, -- end of [183]
-                            [184] = {
+                            }, -- end of [182]
+                            [183] = {
                                 ["communication"] = true,
                                 ["frequency"] = 251,
                                 ["groupId"] = 319,
@@ -34397,8 +34236,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -295451.09918875,
                                 ["y"] = 24286.377999792,
-                            }, -- end of [184]
-                            [185] = {
+                            }, -- end of [183]
+                            [184] = {
                                 ["communication"] = true,
                                 ["frequency"] = 251,
                                 ["groupId"] = 320,
@@ -34516,8 +34355,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -295341.53125,
                                 ["y"] = 24280.47265625,
-                            }, -- end of [185]
-                            [186] = {
+                            }, -- end of [184]
+                            [185] = {
                                 ["communication"] = true,
                                 ["frequency"] = 251,
                                 ["groupId"] = 321,
@@ -34635,8 +34474,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -295347.96875,
                                 ["y"] = 24161.236328125,
-                            }, -- end of [186]
-                            [187] = {
+                            }, -- end of [185]
+                            [186] = {
                                 ["communication"] = true,
                                 ["frequency"] = 243,
                                 ["groupId"] = 332,
@@ -34915,8 +34754,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -296122.25,
                                 ["y"] = 23996.90234375,
-                            }, -- end of [187]
-                            [188] = {
+                            }, -- end of [186]
+                            [187] = {
                                 ["communication"] = true,
                                 ["frequency"] = 243,
                                 ["groupId"] = 334,
@@ -35195,8 +35034,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -296159.15486711,
                                 ["y"] = 23884.298015472,
-                            }, -- end of [188]
-                            [189] = {
+                            }, -- end of [187]
+                            [188] = {
                                 ["communication"] = true,
                                 ["frequency"] = 243,
                                 ["groupId"] = 335,
@@ -35475,8 +35314,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -296136.49667777,
                                 ["y"] = 23596.228672641,
-                            }, -- end of [189]
-                            [190] = {
+                            }, -- end of [188]
+                            [189] = {
                                 ["communication"] = true,
                                 ["frequency"] = 243,
                                 ["groupId"] = 336,
@@ -35755,8 +35594,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -296008.6324709,
                                 ["y"] = 23558.024963619,
-                            }, -- end of [190]
-                            [191] = {
+                            }, -- end of [189]
+                            [190] = {
                                 ["communication"] = true,
                                 ["frequency"] = 305,
                                 ["groupId"] = 337,
@@ -35985,8 +35824,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -295690.30251845,
                                 ["y"] = 23596.532376325,
-                            }, -- end of [191]
-                            [192] = {
+                            }, -- end of [190]
+                            [191] = {
                                 ["communication"] = true,
                                 ["frequency"] = 305,
                                 ["groupId"] = 338,
@@ -36215,8 +36054,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -295737.98838044,
                                 ["y"] = 23716.448777959,
-                            }, -- end of [192]
-                            [193] = {
+                            }, -- end of [191]
+                            [192] = {
                                 ["communication"] = true,
                                 ["frequency"] = 305,
                                 ["groupId"] = 339,
@@ -36413,8 +36252,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -298013.19758872,
                                 ["y"] = 26176.240044867,
-                            }, -- end of [193]
-                            [194] = {
+                            }, -- end of [192]
+                            [193] = {
                                 ["communication"] = true,
                                 ["frequency"] = 251,
                                 ["groupId"] = 346,
@@ -36532,8 +36371,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -129412.0078125,
                                 ["y"] = 5439.1123046875,
-                            }, -- end of [194]
-                            [195] = {
+                            }, -- end of [193]
+                            [194] = {
                                 ["communication"] = true,
                                 ["frequency"] = 305,
                                 ["groupId"] = 353,
@@ -36788,8 +36627,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -88965.235790865,
                                 ["y"] = 15182.504122136,
-                            }, -- end of [195]
-                            [196] = {
+                            }, -- end of [194]
+                            [195] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 355,
@@ -36940,8 +36779,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -197688.68892414,
                                 ["y"] = 32553.110684967,
-                            }, -- end of [196]
-                            [197] = {
+                            }, -- end of [195]
+                            [196] = {
                                 ["communication"] = true,
                                 ["frequency"] = 243,
                                 ["groupId"] = 357,
@@ -37221,8 +37060,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -164721.25613496,
                                 ["y"] = -84860.740883358,
-                            }, -- end of [197]
-                            [198] = {
+                            }, -- end of [196]
+                            [197] = {
                                 ["communication"] = true,
                                 ["frequency"] = 243,
                                 ["groupId"] = 358,
@@ -37502,7 +37341,1596 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -164721.25613496,
                                 ["y"] = -84860.740883358,
+                            }, -- end of [197]
+                            [198] = {
+                                ["communication"] = true,
+                                ["frequency"] = 251,
+                                ["groupId"] = 359,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_1477",
+                                ["radioSet"] = true,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3100,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1479",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                                ["angle"] = 0,
+                                                ["scale"] = 0,
+                                                ["steer"] = 2,
+                                                ["vangle"] = 0,
+                                                ["vnav"] = 1,
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 125,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] = {
+                                                                        ["groupId"] = 65,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 23156.532492171,
+                                            ["y"] = 173282.51262238,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 3100,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 10,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Boar11",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "Jolly Roger A-10C",
+                                        ["name"] = "DictKey_UnitName_1478",
+                                        ["onboard_num"] = "125",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 2515,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "ALQ_184",
+                                                }, -- end of [1]
+                                                [2] = {
+                                                    ["CLSID"] = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+                                                }, -- end of [2]
+                                                [10] = {
+                                                    ["CLSID"] = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
+                                                }, -- end of [10]
+                                                [11] = {
+                                                    ["CLSID"] = "{DB434044-F5D0-4F1F-9BA9-B73027E18DD3}",
+                                                }, -- end of [11]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 125,
+                                        ["type"] = "A-10C",
+                                        ["unitId"] = 504,
+                                        ["x"] = 23156.532492171,
+                                        ["y"] = 173282.51262238,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 23156.532492171,
+                                ["y"] = 173282.51262238,
                             }, -- end of [198]
+                            [199] = {
+                                ["communication"] = true,
+                                ["frequency"] = 251,
+                                ["groupId"] = 360,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_1480",
+                                ["radioSet"] = true,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3100,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1482",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                                ["angle"] = 0,
+                                                ["scale"] = 0,
+                                                ["steer"] = 2,
+                                                ["vangle"] = 0,
+                                                ["vnav"] = 1,
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 125,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] = {
+                                                                        ["groupId"] = 75,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 23158.445228661,
+                                            ["y"] = 173621.18313929,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 3100,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 10,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Boar11",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "74th fs moody afb, georgia (ft)",
+                                        ["name"] = "DictKey_UnitName_1481",
+                                        ["onboard_num"] = "125",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["flare"] = 240,
+                                            ["fuel"] = 2515,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "ALQ_184",
+                                                }, -- end of [1]
+                                                [2] = {
+                                                    ["CLSID"] = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}",
+                                                }, -- end of [2]
+                                                [10] = {
+                                                    ["CLSID"] = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
+                                                }, -- end of [10]
+                                                [11] = {
+                                                    ["CLSID"] = "{DB434044-F5D0-4F1F-9BA9-B73027E18DD3}",
+                                                }, -- end of [11]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 125,
+                                        ["type"] = "A-10C_2",
+                                        ["unitId"] = 505,
+                                        ["x"] = 23158.445228661,
+                                        ["y"] = 173621.18313929,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 23158.445228661,
+                                ["y"] = 173621.18313929,
+                            }, -- end of [199]
+                            [200] = {
+                                ["communication"] = true,
+                                ["frequency"] = 131,
+                                ["groupId"] = 361,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_1483",
+                                ["radioSet"] = true,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 8100,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1485",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 166.66666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 23156.613606145,
+                                            ["y"] = 173984.1594518,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["AAR_Zone1"] = 0,
+                                            ["AAR_Zone2"] = 0,
+                                            ["AAR_Zone3"] = 0,
+                                            ["ClockTime"] = 1,
+                                            ["EWDispenserBL"] = 2,
+                                            ["EWDispenserBR"] = 2,
+                                            ["EWDispenserTBL"] = 2,
+                                            ["EWDispenserTBR"] = 2,
+                                            ["EWDispenserTFL"] = 1,
+                                            ["EWDispenserTFR"] = 1,
+                                            ["MountNVG"] = false,
+                                            ["RocketBurst"] = 1,
+                                            ["WpBullseye"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 8100,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 3,
+                                            [2] = 8,
+                                            [3] = 1,
+                                            ["name"] = "Uzi81",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "AV-8B Woodland",
+                                        ["name"] = "DictKey_UnitName_1484",
+                                        ["onboard_num"] = "125",
+                                        ["payload"] = {
+                                            ["chaff"] = 60,
+                                            ["flare"] = 120,
+                                            ["fuel"] = 1760,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
+                                                }, -- end of [1]
+                                                [4] = {
+                                                    ["CLSID"] = "{GAU_12_Equalizer}",
+                                                }, -- end of [4]
+                                                [5] = {
+                                                    ["CLSID"] = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
+                                                }, -- end of [5]
+                                                [8] = {
+                                                    ["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
+                                                }, -- end of [8]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 131,
+                                                    [2] = 132,
+                                                    [3] = 133,
+                                                    [4] = 134,
+                                                    [5] = 135,
+                                                    [6] = 250,
+                                                    [7] = 270,
+                                                    [8] = 257,
+                                                    [9] = 255,
+                                                    [10] = 262,
+                                                    [11] = 259,
+                                                    [12] = 268,
+                                                    [13] = 269,
+                                                    [14] = 260,
+                                                    [15] = 263,
+                                                    [16] = 261,
+                                                    [17] = 267,
+                                                    [18] = 251,
+                                                    [19] = 253,
+                                                    [20] = 266,
+                                                    [21] = 133,
+                                                    [22] = 257.8,
+                                                    [23] = 122.1,
+                                                    [24] = 123.3,
+                                                    [25] = 344,
+                                                    [26] = 385,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 131,
+                                                    [2] = 132,
+                                                    [3] = 133,
+                                                    [4] = 134,
+                                                    [5] = 135,
+                                                    [6] = 385,
+                                                    [7] = 130,
+                                                    [8] = 385.4,
+                                                    [9] = 139,
+                                                    [10] = 140,
+                                                    [11] = 134,
+                                                    [12] = 132,
+                                                    [13] = 131,
+                                                    [14] = 129,
+                                                    [15] = 138,
+                                                    [16] = 121,
+                                                    [17] = 126,
+                                                    [18] = 125,
+                                                    [19] = 128,
+                                                    [20] = 122,
+                                                    [21] = 123,
+                                                    [22] = 124,
+                                                    [23] = 135,
+                                                    [24] = 136,
+                                                    [25] = 141,
+                                                    [26] = 127,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                            [3] = {
+                                                ["channels"] = {
+                                                    [1] = 177,
+                                                    [2] = 264,
+                                                    [3] = 265,
+                                                    [4] = 256,
+                                                    [5] = 254,
+                                                    [6] = 250,
+                                                    [7] = 270,
+                                                    [8] = 257,
+                                                    [9] = 255,
+                                                    [10] = 262,
+                                                    [11] = 259,
+                                                    [12] = 268,
+                                                    [13] = 269,
+                                                    [14] = 260,
+                                                    [15] = 263,
+                                                    [16] = 261,
+                                                    [17] = 267,
+                                                    [18] = 251,
+                                                    [19] = 253,
+                                                    [20] = 266,
+                                                    [21] = 133,
+                                                    [22] = 257.8,
+                                                    [23] = 122.1,
+                                                    [24] = 123.3,
+                                                    [25] = 344,
+                                                    [26] = 385,
+                                                    [27] = 133,
+                                                    [28] = 257.8,
+                                                    [29] = 122.1,
+                                                    [30] = 123.3,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [3]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 166.66666666667,
+                                        ["type"] = "AV8BNA",
+                                        ["unitId"] = 506,
+                                        ["x"] = 23156.613606145,
+                                        ["y"] = 173984.1594518,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 23156.613606145,
+                                ["y"] = 173984.1594518,
+                            }, -- end of [200]
+                            [201] = {
+                                ["communication"] = true,
+                                ["frequency"] = 131,
+                                ["groupId"] = 362,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_1486",
+                                ["radioSet"] = true,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 8100,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1488",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 166.66666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 23162.330444789,
+                                            ["y"] = 174298.58557722,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["ALE39Loadout"] = 0,
+                                            ["IlsChannel"] = 1,
+                                            ["INSAlignmentStored"] = false,
+                                            ["KY28Key"] = 1,
+                                            ["LGB1"] = 8,
+                                            ["LGB10"] = 8,
+                                            ["LGB100"] = 6,
+                                            ["LGB1000"] = 1,
+                                            ["M61BURST"] = 0,
+                                            ["TacanBand"] = 0,
+                                            ["TacanChannel"] = 0,
+                                            ["UseLAU138"] = true,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 8100,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 4,
+                                            [2] = 8,
+                                            [3] = 1,
+                                            ["name"] = "Colt81",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "Canada - 425",
+                                        ["name"] = "DictKey_UnitName_1487",
+                                        ["onboard_num"] = "125",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 140,
+                                            ["flare"] = 60,
+                                            ["fuel"] = 3674,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{LAU-138 wtip - AIM-9M}",
+                                                }, -- end of [1]
+                                                [3] = {
+                                                    ["CLSID"] = "{F14-300gal-empty}",
+                                                }, -- end of [3]
+                                                [8] = {
+                                                    ["CLSID"] = "{F14-300gal-empty}",
+                                                }, -- end of [8]
+                                                [10] = {
+                                                    ["CLSID"] = "{LAU-138 wtip - AIM-9M}",
+                                                }, -- end of [10]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 225,
+                                                    [2] = 258,
+                                                    [3] = 260,
+                                                    [4] = 270,
+                                                    [5] = 255,
+                                                    [6] = 259,
+                                                    [7] = 262,
+                                                    [8] = 257,
+                                                    [9] = 253,
+                                                    [10] = 263,
+                                                    [11] = 267,
+                                                    [12] = 254,
+                                                    [13] = 264,
+                                                    [14] = 266,
+                                                    [15] = 265,
+                                                    [16] = 252,
+                                                    [17] = 268,
+                                                    [18] = 269,
+                                                    [19] = 268,
+                                                    [20] = 269,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 131,
+                                                    [2] = 132,
+                                                    [3] = 133,
+                                                    [4] = 134,
+                                                    [5] = 135,
+                                                    [6] = 259,
+                                                    [7] = 262,
+                                                    [8] = 257,
+                                                    [9] = 253,
+                                                    [10] = 263,
+                                                    [11] = 267,
+                                                    [12] = 254,
+                                                    [13] = 264,
+                                                    [14] = 266,
+                                                    [15] = 265,
+                                                    [16] = 252,
+                                                    [17] = 268,
+                                                    [18] = 269,
+                                                    [19] = 268,
+                                                    [20] = 269,
+                                                    [21] = 225,
+                                                    [22] = 258,
+                                                    [23] = 260,
+                                                    [24] = 270,
+                                                    [25] = 255,
+                                                    [26] = 259,
+                                                    [27] = 262,
+                                                    [28] = 257,
+                                                    [29] = 253,
+                                                    [30] = 263,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                    [21] = 0,
+                                                    [22] = 0,
+                                                    [23] = 0,
+                                                    [24] = 0,
+                                                    [25] = 0,
+                                                    [26] = 0,
+                                                    [27] = 0,
+                                                    [28] = 0,
+                                                    [29] = 0,
+                                                    [30] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 166.66666666667,
+                                        ["type"] = "F-14B",
+                                        ["unitId"] = 507,
+                                        ["x"] = 23162.330444789,
+                                        ["y"] = 174298.58557722,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 23162.330444789,
+                                ["y"] = 174298.58557722,
+                            }, -- end of [201]
+                            [202] = {
+                                ["communication"] = true,
+                                ["frequency"] = 124,
+                                ["groupId"] = 363,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_1489",
+                                ["radioSet"] = true,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 8100,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1491",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 166.66666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] = {
+                                                                        ["groupId"] = 76,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 23143.105913249,
+                                            ["y"] = 174568.60716979,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["alt"] = 8100,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 4,
+                                            [2] = 8,
+                                            [3] = 1,
+                                            ["name"] = "Colt81",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "pn-TF-Skywarp",
+                                        ["name"] = "DictKey_UnitName_1490",
+                                        ["onboard_num"] = "125",
+                                        ["payload"] = {
+                                            ["chaff"] = 120,
+                                            ["flare"] = 60,
+                                            ["fuel"] = 3052,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
+                                                }, -- end of [1]
+                                                [11] = {
+                                                    ["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
+                                                }, -- end of [11]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 166.66666666667,
+                                        ["type"] = "F-15C",
+                                        ["unitId"] = 508,
+                                        ["x"] = 23143.105913249,
+                                        ["y"] = 174568.60716979,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 23143.105913249,
+                                ["y"] = 174568.60716979,
+                            }, -- end of [202]
+                            [203] = {
+                                ["communication"] = true,
+                                ["frequency"] = 141,
+                                ["groupId"] = 364,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_1492",
+                                ["radioSet"] = true,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 8100,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1494",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 166.66666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] = {
+                                                                        ["groupId"] = 77,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 23143.471768771,
+                                            ["y"] = 174862.5618277,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
+                                            ["LaserCode1"] = 8,
+                                            ["LaserCode10"] = 8,
+                                            ["LaserCode100"] = 6,
+                                            ["LAU3ROF"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 8100,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 4,
+                                            [2] = 8,
+                                            [3] = 1,
+                                            ["name"] = "Colt81",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "IDAF TS-1606 Blue Spot Scheme",
+                                        ["name"] = "DictKey_UnitName_1493",
+                                        ["onboard_num"] = "125",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 5,
+                                            ["chaff"] = 60,
+                                            ["flare"] = 60,
+                                            ["fuel"] = 1625,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{5CE2FF2A-645A-4197-B48D-8720AC69394F}",
+                                                }, -- end of [1]
+                                                [9] = {
+                                                    ["CLSID"] = "{5CE2FF2A-645A-4197-B48D-8720AC69394F}",
+                                                }, -- end of [9]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 305,
+                                                    [2] = 264,
+                                                    [3] = 265,
+                                                    [4] = 256,
+                                                    [5] = 254,
+                                                    [6] = 250,
+                                                    [7] = 270,
+                                                    [8] = 257,
+                                                    [9] = 255,
+                                                    [10] = 262,
+                                                    [11] = 259,
+                                                    [12] = 268,
+                                                    [13] = 269,
+                                                    [14] = 260,
+                                                    [15] = 263,
+                                                    [16] = 261,
+                                                    [17] = 267,
+                                                    [18] = 251,
+                                                    [19] = 253,
+                                                    [20] = 266,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 141,
+                                                    [2] = 142,
+                                                    [3] = 131,
+                                                    [4] = 132,
+                                                    [5] = 133,
+                                                    [6] = 134,
+                                                    [7] = 135,
+                                                    [8] = 128,
+                                                    [9] = 126,
+                                                    [10] = 133,
+                                                    [11] = 130,
+                                                    [12] = 139,
+                                                    [13] = 140,
+                                                    [14] = 131,
+                                                    [15] = 134,
+                                                    [16] = 132,
+                                                    [17] = 138,
+                                                    [18] = 122,
+                                                    [19] = 124,
+                                                    [20] = 137,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 166.66666666667,
+                                        ["type"] = "F-16C_50",
+                                        ["unitId"] = 509,
+                                        ["x"] = 23143.471768771,
+                                        ["y"] = 174862.5618277,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 23143.471768771,
+                                ["y"] = 174862.5618277,
+                            }, -- end of [203]
+                            [204] = {
+                                ["communication"] = true,
+                                ["frequency"] = 131,
+                                ["groupId"] = 365,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_1495",
+                                ["radioSet"] = true,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 8100,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1497",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 166.66666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] = {
+                                                                        ["groupId"] = 78,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 23129.460021815,
+                                            ["y"] = 175162.81354819,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["HelmetMountedDevice"] = 1,
+                                            ["InnerBoard"] = 0,
+                                            ["OuterBoard"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 8100,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 4,
+                                            [2] = 8,
+                                            [3] = 1,
+                                            ["name"] = "Colt81",
+                                        }, -- end of ["callsign"]
+                                        ["dataCartridge"] = {
+                                            ["GroupsPoints"] = {
+                                                ["A/A Waypoint"] = {
+                                                }, -- end of ["A/A Waypoint"]
+                                                ["Initial Point"] = {
+                                                }, -- end of ["Initial Point"]
+                                                ["PB"] = {
+                                                }, -- end of ["PB"]
+                                                ["PP"] = {
+                                                }, -- end of ["PP"]
+                                                ["Sequence 1 Blue"] = {
+                                                }, -- end of ["Sequence 1 Blue"]
+                                                ["Sequence 2 Red"] = {
+                                                }, -- end of ["Sequence 2 Red"]
+                                                ["Sequence 3 Yellow"] = {
+                                                }, -- end of ["Sequence 3 Yellow"]
+                                                ["Start Location"] = {
+                                                }, -- end of ["Start Location"]
+                                            }, -- end of ["GroupsPoints"]
+                                            ["Points"] = {
+                                            }, -- end of ["Points"]
+                                        }, -- end of ["dataCartridge"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "Ferrari",
+                                        ["name"] = "DictKey_UnitName_1496",
+                                        ["onboard_num"] = "125",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 60,
+                                            ["flare"] = 30,
+                                            ["fuel"] = 2450,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{5CE2FF2A-645A-4197-B48D-8720AC69394F}",
+                                                }, -- end of [1]
+                                                [5] = {
+                                                    ["CLSID"] = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
+                                                }, -- end of [5]
+                                                [9] = {
+                                                    ["CLSID"] = "{5CE2FF2A-645A-4197-B48D-8720AC69394F}",
+                                                }, -- end of [9]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 131,
+                                                    [2] = 132,
+                                                    [3] = 133,
+                                                    [4] = 134,
+                                                    [5] = 135,
+                                                    [6] = 250,
+                                                    [7] = 270,
+                                                    [8] = 257,
+                                                    [9] = 255,
+                                                    [10] = 262,
+                                                    [11] = 259,
+                                                    [12] = 268,
+                                                    [13] = 269,
+                                                    [14] = 260,
+                                                    [15] = 263,
+                                                    [16] = 261,
+                                                    [17] = 267,
+                                                    [18] = 251,
+                                                    [19] = 253,
+                                                    [20] = 266,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 131,
+                                                    [2] = 132,
+                                                    [3] = 133,
+                                                    [4] = 134,
+                                                    [5] = 135,
+                                                    [6] = 250,
+                                                    [7] = 270,
+                                                    [8] = 257,
+                                                    [9] = 255,
+                                                    [10] = 262,
+                                                    [11] = 259,
+                                                    [12] = 268,
+                                                    [13] = 269,
+                                                    [14] = 260,
+                                                    [15] = 263,
+                                                    [16] = 261,
+                                                    [17] = 267,
+                                                    [18] = 251,
+                                                    [19] = 253,
+                                                    [20] = 266,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 166.66666666667,
+                                        ["type"] = "FA-18C_hornet",
+                                        ["unitId"] = 510,
+                                        ["x"] = 23129.460021815,
+                                        ["y"] = 175162.81354819,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 23129.460021815,
+                                ["y"] = 175162.81354819,
+                            }, -- end of [204]
+                            [205] = {
+                                ["communication"] = true,
+                                ["frequency"] = 131,
+                                ["groupId"] = 366,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_1498",
+                                ["radioSet"] = true,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 8100,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1500",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 166.66666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] = {
+                                                                        ["groupId"] = 79,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 23106.155635256,
+                                            ["y"] = 175482.10139379,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["AARProbe"] = false,
+                                            ["LaserCode1"] = 8,
+                                            ["LaserCode10"] = 8,
+                                            ["LaserCode100"] = 6,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 8100,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 4,
+                                            [2] = 8,
+                                            [3] = 1,
+                                            ["name"] = "Colt81",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "gloriator hi viz beta",
+                                        ["name"] = "DictKey_UnitName_1499",
+                                        ["onboard_num"] = "125",
+                                        ["payload"] = {
+                                            ["chaff"] = 36,
+                                            ["flare"] = 32,
+                                            ["fuel"] = 1163,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "DIS_PL-5EII",
+                                                }, -- end of [1]
+                                                [7] = {
+                                                    ["CLSID"] = "DIS_PL-5EII",
+                                                }, -- end of [7]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 131,
+                                                    [2] = 132,
+                                                    [3] = 133,
+                                                    [4] = 134,
+                                                    [5] = 135,
+                                                    [6] = 110.5,
+                                                    [7] = 111,
+                                                    [8] = 111.5,
+                                                    [9] = 112,
+                                                    [10] = 112.5,
+                                                    [11] = 113,
+                                                    [12] = 113.5,
+                                                    [13] = 114,
+                                                    [14] = 114.5,
+                                                    [15] = 115,
+                                                    [16] = 115.5,
+                                                    [17] = 116,
+                                                    [18] = 116.5,
+                                                    [19] = 117,
+                                                    [20] = 117.5,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 166.66666666667,
+                                        ["type"] = "JF-17",
+                                        ["unitId"] = 511,
+                                        ["x"] = 23106.155635256,
+                                        ["y"] = 175482.10139379,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 23106.155635256,
+                                ["y"] = 175482.10139379,
+                            }, -- end of [205]
+                            [206] = {
+                                ["communication"] = true,
+                                ["frequency"] = 251,
+                                ["groupId"] = 367,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_1501",
+                                ["radioSet"] = true,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 8100,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1503",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 166.66666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 23091.132034362,
+                                            ["y"] = 175773.55925113,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["ForceINSRules"] = false,
+                                            ["GunBurst"] = 1,
+                                            ["LaserCode1"] = 8,
+                                            ["LaserCode10"] = 8,
+                                            ["LaserCode100"] = 6,
+                                            ["LoadNVGCase"] = false,
+                                            ["NoDDMSensor"] = false,
+                                            ["RocketBurst"] = 6,
+                                            ["WpBullseye"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 8100,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 4,
+                                            [2] = 8,
+                                            [3] = 1,
+                                            ["name"] = "Colt81",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "2003 tigermeet",
+                                        ["name"] = "DictKey_UnitName_1502",
+                                        ["onboard_num"] = "125",
+                                        ["payload"] = {
+                                            ["chaff"] = 112,
+                                            ["flare"] = 16,
+                                            ["fuel"] = 1583,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{MMagicII}",
+                                                }, -- end of [1]
+                                                [9] = {
+                                                    ["CLSID"] = "{MMagicII}",
+                                                }, -- end of [9]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 251,
+                                                    [2] = 264,
+                                                    [3] = 265,
+                                                    [4] = 256,
+                                                    [5] = 254,
+                                                    [6] = 250,
+                                                    [7] = 270,
+                                                    [8] = 257,
+                                                    [9] = 255,
+                                                    [10] = 262,
+                                                    [11] = 259,
+                                                    [12] = 268,
+                                                    [13] = 269,
+                                                    [14] = 260,
+                                                    [15] = 263,
+                                                    [16] = 261,
+                                                    [17] = 267,
+                                                    [18] = 251,
+                                                    [19] = 253,
+                                                    [20] = 266,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 131,
+                                                    [2] = 132,
+                                                    [3] = 133,
+                                                    [4] = 134,
+                                                    [5] = 135,
+                                                    [6] = 121,
+                                                    [7] = 141,
+                                                    [8] = 128,
+                                                    [9] = 126,
+                                                    [10] = 133,
+                                                    [11] = 130,
+                                                    [12] = 139,
+                                                    [13] = 140,
+                                                    [14] = 131,
+                                                    [15] = 134,
+                                                    [16] = 132,
+                                                    [17] = 138,
+                                                    [18] = 122,
+                                                    [19] = 124,
+                                                    [20] = 137,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                    [9] = 0,
+                                                    [10] = 0,
+                                                    [11] = 0,
+                                                    [12] = 0,
+                                                    [13] = 0,
+                                                    [14] = 0,
+                                                    [15] = 0,
+                                                    [16] = 0,
+                                                    [17] = 0,
+                                                    [18] = 0,
+                                                    [19] = 0,
+                                                    [20] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 166.66666666667,
+                                        ["type"] = "M-2000C",
+                                        ["unitId"] = 512,
+                                        ["x"] = 23091.132034362,
+                                        ["y"] = 175773.55925113,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 23091.132034362,
+                                ["y"] = 175773.55925113,
+                            }, -- end of [206]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] = {
@@ -43800,6 +45228,97 @@ mission = {
                                 ["x"] = -297232.85658389,
                                 ["y"] = 26258.429971188,
                             }, -- end of [71]
+                            [72] = {
+                                ["communication"] = true,
+                                ["frequency"] = 124,
+                                ["groupId"] = 368,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_1504",
+                                ["radioSet"] = true,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 8100,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_1506",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 166.66666666667,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 23073.103713289,
+                                            ["y"] = 176080.04070936,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["alt"] = 8100,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 4,
+                                            [2] = 8,
+                                            [3] = 1,
+                                            ["name"] = "Colt81",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "Su33 Grey Sharks 2020",
+                                        ["name"] = "DictKey_UnitName_1505",
+                                        ["onboard_num"] = "125",
+                                        ["payload"] = {
+                                            ["chaff"] = 48,
+                                            ["flare"] = 48,
+                                            ["fuel"] = 4750,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{44EE8698-89F9-48EE-AF36-5FD31896A82F}",
+                                                }, -- end of [1]
+                                                [2] = {
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                }, -- end of [2]
+                                                [11] = {
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                }, -- end of [11]
+                                                [12] = {
+                                                    ["CLSID"] = "{44EE8698-89F9-48EE-AF36-5FD31896A82A}",
+                                                }, -- end of [12]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["skill"] = "Client",
+                                        ["speed"] = 166.66666666667,
+                                        ["type"] = "Su-33",
+                                        ["unitId"] = 513,
+                                        ["x"] = 23073.103713289,
+                                        ["y"] = 176080.04070936,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 23073.103713289,
+                                ["y"] = 176080.04070936,
+                            }, -- end of [72]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] = {
@@ -44044,7 +45563,7 @@ mission = {
             [13] = 68,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 251403,
+    ["currentKey"] = 255511,
     ["date"] = {
         ["Day"] = 25,
         ["Month"] = 12,
@@ -45034,11 +46553,11 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -164911.39061904,
-        ["centerY"] = -84459.569307409,
-        ["zoom"] = 3568.2315154446,
+        ["centerX"] = -212940.6917091,
+        ["centerY"] = 43750.830832344,
+        ["zoom"] = 546619.37128835,
     }, -- end of ["map"]
-    ["maxDictId"] = 1476,
+    ["maxDictId"] = 1509,
     ["pictureFileNameB"] = {
     }, -- end of ["pictureFileNameB"]
     ["pictureFileNameN"] = {
@@ -45601,6 +47120,22 @@ mission = {
                 ["y"] = -34678.169865538,
                 ["zoneId"] = 381,
             }, -- end of [31]
+            [32] = {
+                ["color"] = {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "AAR Starts",
+                ["properties"] = {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["x"] = 23562.91888349,
+                ["y"] = 174690.01460816,
+                ["zoneId"] = 440,
+            }, -- end of [32]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] = {

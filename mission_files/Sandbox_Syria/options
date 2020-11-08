@@ -127,19 +127,15 @@ options =
             ["srsAutoLaunchEnabled"] = true,
             ["srsOverlayCompactModeEnabled"] = false,
         }, -- end of ["DCS-SRS"]
-        ["Yak52"] = 
+        ["F/A-18C"] = 
         {
-            ["aileronTrim"] = 0,
-            ["rudderTrim"] = 0,
-            ["CPLocalList"] = "Black English",
-            ["assistance"] = 0,
-            ["autoRudder"] = false,
-        }, -- end of ["Yak52"]
-        ["Hercules"] = 
-        {
-            ["Engine_Smokiness"] = false,
-            ["NWS_Coupled_Separate_Input_Device"] = false,
-        }, -- end of ["Hercules"]
+            ["abDetent"] = 0,
+            ["canopyReflections"] = 1,
+            ["hmdEye"] = 1,
+            ["CPLocalList"] = "watermanpc",
+            ["F18RealisticTDC"] = true,
+            ["mfdReflections"] = 1,
+        }, -- end of ["F/A-18C"]
         ["L-39C"] = 
         {
             ["sarpp"] = 1,
@@ -191,15 +187,14 @@ options =
             ["CPLocalList"] = "default",
             ["autoRudder"] = false,
         }, -- end of ["FW-190D9"]
-        ["F/A-18C"] = 
+        ["Yak52"] = 
         {
-            ["abDetent"] = 0,
-            ["canopyReflections"] = 1,
-            ["hmdEye"] = 1,
-            ["CPLocalList"] = "watermanpc",
-            ["F18RealisticTDC"] = true,
-            ["mfdReflections"] = 1,
-        }, -- end of ["F/A-18C"]
+            ["aileronTrim"] = 0,
+            ["rudderTrim"] = 0,
+            ["CPLocalList"] = "Black English",
+            ["assistance"] = 0,
+            ["autoRudder"] = false,
+        }, -- end of ["Yak52"]
         ["F-14B"] = 
         {
             ["JESTER_HeadMenu"] = false,
@@ -212,6 +207,12 @@ options =
             ["JESTER_Camera"] = false,
             ["RadioMenuPttOptions"] = 3,
         }, -- end of ["F-14B"]
+        ["A-10C_2"] = 
+        {
+            ["hmdEye"] = 1,
+            ["CPLocalList"] = "aged",
+            ["defaultGunMode"] = 0,
+        }, -- end of ["A-10C_2"]
         ["CA"] = 
         {
             ["kompass_options"] = 1,
@@ -220,12 +221,6 @@ options =
             ["ground_platform_shake"] = true,
             ["ground_automatic"] = true,
         }, -- end of ["CA"]
-        ["A-10C_2"] = 
-        {
-            ["hmdEye"] = 1,
-            ["CPLocalList"] = "aged",
-            ["defaultGunMode"] = 0,
-        }, -- end of ["A-10C_2"]
         ["C-101EB"] = 
         {
             ["CPLocalList"] = "english",
@@ -258,18 +253,13 @@ options =
             ["shoulderJointY_Right"] = -23,
             ["yawOffsetGlove_Right"] = 0,
         }, -- end of ["CaptoGlove"]
-        ["FC3"] = 
+        ["Ka-50"] = 
         {
-            ["CPLocalList_Su-25"] = "default",
-            ["CPLocalList_Su-27"] = "English Blue",
-            ["CPLocalList_A-10A"] = "default",
-            ["CPLocalList_Su-33"] = "EnglishDark",
-            ["CPLocalList_MiG-29S"] = "English",
-            ["CPLocalList_MiG-29A"] = "English",
-            ["CPLocalList_J-11A"] = "default",
-            ["CPLocalList_MiG-29G"] = "English",
-            ["CPLocalList_F-15C"] = "default",
-        }, -- end of ["FC3"]
+            ["Ka50TrimmingMethod"] = 1,
+            ["CPLocalList"] = "english",
+            ["Ka50RudderTrimmer"] = false,
+            ["helmetCircleDisplacement"] = 11,
+        }, -- end of ["Ka-50"]
         ["NS430"] = 
         {
             ["bf109k4_enabled"] = true,
@@ -349,13 +339,18 @@ options =
             ["resetTrim"] = 0,
             ["speedTrim"] = 0.2,
         }, -- end of ["MB-339PAN"]
-        ["Ka-50"] = 
+        ["FC3"] = 
         {
-            ["Ka50TrimmingMethod"] = 1,
-            ["CPLocalList"] = "english",
-            ["Ka50RudderTrimmer"] = false,
-            ["helmetCircleDisplacement"] = 11,
-        }, -- end of ["Ka-50"]
+            ["CPLocalList_Su-25"] = "default",
+            ["CPLocalList_Su-27"] = "English Blue",
+            ["CPLocalList_A-10A"] = "default",
+            ["CPLocalList_Su-33"] = "EnglishDark",
+            ["CPLocalList_MiG-29S"] = "English",
+            ["CPLocalList_MiG-29A"] = "English",
+            ["CPLocalList_J-11A"] = "default",
+            ["CPLocalList_MiG-29G"] = "English",
+            ["CPLocalList_F-15C"] = "default",
+        }, -- end of ["FC3"]
         ["AJS37"] = 
         {
             ["CPLocalList"] = "default",
