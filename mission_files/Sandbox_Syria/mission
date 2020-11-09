@@ -6011,7 +6011,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -11091,7 +11091,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -11195,7 +11195,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -11300,7 +11300,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -12808,7 +12808,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -16150,7 +16150,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -16254,7 +16254,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -18247,7 +18247,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -21589,7 +21589,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -21693,7 +21693,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -22970,7 +22970,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -23790,7 +23790,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -27132,7 +27132,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -27236,7 +27236,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -28513,7 +28513,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -30306,7 +30306,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -30411,7 +30411,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -30516,7 +30516,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -30621,7 +30621,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -30726,7 +30726,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -30831,7 +30831,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -30936,7 +30936,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -31041,7 +31041,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -31146,7 +31146,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -31251,7 +31251,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -34036,23 +34036,8 @@ mission = {
                                                         [1] = {
                                                             ["auto"] = true,
                                                             ["enabled"] = true,
-                                                            ["id"] = "EngageTargets",
-                                                            ["key"] = "CAS",
-                                                            ["number"] = 1,
-                                                            ["params"] = {
-                                                                ["priority"] = 0,
-                                                                ["targetTypes"] = {
-                                                                    [1] = "Helicopters",
-                                                                    [2] = "Ground Units",
-                                                                    [3] = "Light armed ships",
-                                                                }, -- end of ["targetTypes"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                        [2] = {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
                                                             ["id"] = "WrappedAction",
-                                                            ["number"] = 2,
+                                                            ["number"] = 1,
                                                             ["params"] = {
                                                                 ["action"] = {
                                                                     ["id"] = "EPLRS",
@@ -34062,7 +34047,7 @@ mission = {
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
-                                                        }, -- end of [2]
+                                                        }, -- end of [1]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -34073,9 +34058,10 @@ mission = {
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
-                                ["task"] = "CAS",
+                                ["task"] = "Nothing",
                                 ["tasks"] = {
                                 }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
                                 ["uncontrollable"] = false,
                                 ["uncontrolled"] = false,
                                 ["units"] = {
@@ -34101,7 +34087,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -34155,23 +34141,8 @@ mission = {
                                                         [1] = {
                                                             ["auto"] = true,
                                                             ["enabled"] = true,
-                                                            ["id"] = "EngageTargets",
-                                                            ["key"] = "CAS",
-                                                            ["number"] = 1,
-                                                            ["params"] = {
-                                                                ["priority"] = 0,
-                                                                ["targetTypes"] = {
-                                                                    [1] = "Helicopters",
-                                                                    [2] = "Ground Units",
-                                                                    [3] = "Light armed ships",
-                                                                }, -- end of ["targetTypes"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                        [2] = {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
                                                             ["id"] = "WrappedAction",
-                                                            ["number"] = 2,
+                                                            ["number"] = 1,
                                                             ["params"] = {
                                                                 ["action"] = {
                                                                     ["id"] = "EPLRS",
@@ -34181,7 +34152,7 @@ mission = {
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
-                                                        }, -- end of [2]
+                                                        }, -- end of [1]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -34192,9 +34163,10 @@ mission = {
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
-                                ["task"] = "CAS",
+                                ["task"] = "Nothing",
                                 ["tasks"] = {
                                 }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
                                 ["uncontrollable"] = false,
                                 ["uncontrolled"] = false,
                                 ["units"] = {
@@ -34220,7 +34192,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -34274,23 +34246,8 @@ mission = {
                                                         [1] = {
                                                             ["auto"] = true,
                                                             ["enabled"] = true,
-                                                            ["id"] = "EngageTargets",
-                                                            ["key"] = "CAS",
-                                                            ["number"] = 1,
-                                                            ["params"] = {
-                                                                ["priority"] = 0,
-                                                                ["targetTypes"] = {
-                                                                    [1] = "Helicopters",
-                                                                    [2] = "Ground Units",
-                                                                    [3] = "Light armed ships",
-                                                                }, -- end of ["targetTypes"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                        [2] = {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
                                                             ["id"] = "WrappedAction",
-                                                            ["number"] = 2,
+                                                            ["number"] = 1,
                                                             ["params"] = {
                                                                 ["action"] = {
                                                                     ["id"] = "EPLRS",
@@ -34300,7 +34257,7 @@ mission = {
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
-                                                        }, -- end of [2]
+                                                        }, -- end of [1]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -34311,9 +34268,10 @@ mission = {
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
-                                ["task"] = "CAS",
+                                ["task"] = "Nothing",
                                 ["tasks"] = {
                                 }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
                                 ["uncontrollable"] = false,
                                 ["uncontrolled"] = false,
                                 ["units"] = {
@@ -34339,7 +34297,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -34393,23 +34351,8 @@ mission = {
                                                         [1] = {
                                                             ["auto"] = true,
                                                             ["enabled"] = true,
-                                                            ["id"] = "EngageTargets",
-                                                            ["key"] = "CAS",
-                                                            ["number"] = 1,
-                                                            ["params"] = {
-                                                                ["priority"] = 0,
-                                                                ["targetTypes"] = {
-                                                                    [1] = "Helicopters",
-                                                                    [2] = "Ground Units",
-                                                                    [3] = "Light armed ships",
-                                                                }, -- end of ["targetTypes"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                        [2] = {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
                                                             ["id"] = "WrappedAction",
-                                                            ["number"] = 2,
+                                                            ["number"] = 1,
                                                             ["params"] = {
                                                                 ["action"] = {
                                                                     ["id"] = "EPLRS",
@@ -34419,7 +34362,7 @@ mission = {
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
-                                                        }, -- end of [2]
+                                                        }, -- end of [1]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -34430,9 +34373,10 @@ mission = {
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
-                                ["task"] = "CAS",
+                                ["task"] = "Nothing",
                                 ["tasks"] = {
                                 }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
                                 ["uncontrollable"] = false,
                                 ["uncontrolled"] = false,
                                 ["units"] = {
@@ -34458,7 +34402,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 5029,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -36290,23 +36234,8 @@ mission = {
                                                         [1] = {
                                                             ["auto"] = true,
                                                             ["enabled"] = true,
-                                                            ["id"] = "EngageTargets",
-                                                            ["key"] = "CAS",
-                                                            ["number"] = 1,
-                                                            ["params"] = {
-                                                                ["priority"] = 0,
-                                                                ["targetTypes"] = {
-                                                                    [1] = "Helicopters",
-                                                                    [2] = "Ground Units",
-                                                                    [3] = "Light armed ships",
-                                                                }, -- end of ["targetTypes"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                        [2] = {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
                                                             ["id"] = "WrappedAction",
-                                                            ["number"] = 2,
+                                                            ["number"] = 1,
                                                             ["params"] = {
                                                                 ["action"] = {
                                                                     ["id"] = "EPLRS",
@@ -36316,7 +36245,7 @@ mission = {
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
-                                                        }, -- end of [2]
+                                                        }, -- end of [1]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -36327,9 +36256,10 @@ mission = {
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
-                                ["task"] = "CAS",
+                                ["task"] = "Nothing",
                                 ["tasks"] = {
                                 }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
                                 ["uncontrollable"] = false,
                                 ["uncontrolled"] = false,
                                 ["units"] = {
@@ -36355,7 +36285,7 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 240,
                                             ["flare"] = 120,
-                                            ["fuel"] = 3269,
+                                            ["fuel"] = 3772,
                                             ["gun"] = 100,
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
@@ -45563,7 +45493,7 @@ mission = {
             [13] = 68,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 255511,
+    ["currentKey"] = 256975,
     ["date"] = {
         ["Day"] = 25,
         ["Month"] = 12,
@@ -46553,9 +46483,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -212940.6917091,
-        ["centerY"] = 43750.830832344,
-        ["zoom"] = 546619.37128835,
+        ["centerX"] = -142212.68653742,
+        ["centerY"] = 22024.709323684,
+        ["zoom"] = 297690.20290507,
     }, -- end of ["map"]
     ["maxDictId"] = 1509,
     ["pictureFileNameB"] = {
