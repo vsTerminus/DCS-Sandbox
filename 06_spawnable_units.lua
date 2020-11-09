@@ -48,7 +48,7 @@ spawnable.armor = {
 
 -- "Air Defences" category
 spawnable.airdefences = {
-	['SA-6 SAM Site'] = {
+	['SA-6 Kub SAM Site'] = {
 		name = 'KUB-1',
 		description = 'SA-6 Gainful (2k12 Куб) with 4 Launchers, 1 Straight Flush Radar, 1 P-19 EWR',
 		sound = 'tvkpss01.wav', -- I have ways of blowing things up
@@ -56,15 +56,15 @@ spawnable.airdefences = {
 		relative = false,
 		action = 'clone',
 	},
-	['4x ZU-23'] = {
-		name = 'ZU-1',
-		description = '4x ZU-23s in assorted configurations',
+	['ZU-23 Shilkas x4'] = {
+		name = 'Shilka 1',
+		description = '4x ZU-23 Shilkas with, 1 Battery Command Vehicle',
 		sound = 'tfbwht00.wav', -- Fired up
 		smoke = 'red',
 		relative = false,
 		action = 'clone',
 	},
-	['SA-10 SAM Site'] = {
+	['SA-10 Grumble SAM Site'] = {
 		name = 'Grumble-1',
 		description = 'SA-10 Grumble (S-300) with a Command Post, Big Bird EWR, Clamshell TAR, Flap Lid TER, and 8 Launchers',
 		sound = 'TAdUpd07.wav', -- Nuclear Missile Ready
@@ -72,16 +72,58 @@ spawnable.airdefences = {
 		relative = false,
 		action = 'clone',
 	},
-	['4x SA-8 SAM Site'] = {
+	['SA-8 Osa SAM Site'] = {
 		name = 'OSA-1',
 		description = '4x SA-8 "Osa" IR SAM Sites',
+		sound = 'tvkpss01.wav', -- I have ways of blowing things up
 		smoke = 'red',
 		relative = false,
 		action = 'clone',
 	},
-    ['SA-2 SAM Site'] = {
+    ['SA-2 Low Blow SAM Site'] = {
         name = 'SA-2 1',
-        description = 'SA-2 with 1 Fansong Target Track Radar, 1 1L13 Early Warning Radar, and 6 Launchers',
+        description = 'SA-2 with 1 Fansong TTR, 1 1L13 EWR, and 6 Launchers',
+		sound = 'tvkpss01.wav', -- I have ways of blowing things up
+        smoke = 'red',
+        relative = false,
+        action = 'clone',
+    },
+    ['SA-3 Fansong SAM Site'] = {
+        name = 'SA-3 1',
+        description = 'SA-3 with 1 Low Blow TTR, 1 P-19 EWR, and 4 Launchers',
+		sound = 'tvkpss01.wav', -- I have ways of blowing things up
+        smoke = 'red',
+        relative = false,
+        action = 'clone',
+    },
+    ['SA-11 Buk SAM Site'] = {
+        name = 'Buk 1',
+        description = 'SA-11 with 1 Battery Command, 1 Snow Drift TAR, and 6 TELAR Launchers',
+		sound = 'tvkpss01.wav', -- I have ways of blowing things up
+        smoke = 'red',
+        relative = false,
+        action = 'clone',
+    },
+    ['SA-13 Strela SAM Site'] = {
+        name = 'Strela 1',
+        description = 'SA-13 with 1 Battery Command and 4 TELAR Launchers',
+		sound = 'tvkpss01.wav', -- I have ways of blowing things up
+        smoke = 'red',
+        relative = false,
+        action = 'clone',
+    },
+    ['SA-15 Tor SAM Site'] = {
+        name = 'Tor 1',
+        description = 'SA-15 with 1 Battery Command and 4 TLAR Launchers',
+        sound = 'tvkpss01.wav', -- I have ways of blowing things up
+        smoke = 'red',
+        relative = false,
+        action = 'clone',
+    },
+    ['SA-19 Tunguska SAM Site'] = {
+        name = 'Tunguska 1',
+        description = 'SA-19 with 1 Battery Command and 4 TELAR Launchers',
+        sound = 'tvkpss01.wav', -- I have ways of blowing things up
         smoke = 'red',
         relative = false,
         action = 'clone',

@@ -36,10 +36,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "Orbit",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["altitude"] = 10668,
@@ -50,10 +50,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -69,20 +69,20 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "AWACS",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 								}, -- end of ["params"]
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -98,10 +98,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -200,10 +200,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -219,10 +219,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -237,10 +237,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -360,6 +360,222 @@ exported.groupData =
 		["task"] = "Ground Nothing",
 		["hidden"] = false,
 	}, -- end of ["BTR-1"]
+	["Buk 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 50,
+				["type"] = "Turning Point",
+				["action"] = "Off Road",
+				["alt_type"] = "BARO",
+				["form"] = "Off Road",
+				["y"] = -40680.366329081,
+				["x"] = 47912.644450702,
+				["name"] = "",
+				["speed"] = 0,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+		}, -- end of ["route"]
+		["country"] = "russia",
+		["groupName"] = "Buk 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["heading"] = 4.4553426335681,
+				["point"] = 
+				{
+					["y"] = -40680.366329081,
+					["x"] = 47912.644450702,
+				}, -- end of ["point"]
+				["groupId"] = 41,
+				["y"] = -40680.366329081,
+				["coalition"] = "red",
+				["groupName"] = "Buk 1",
+				["type"] = "SA-11 Buk SR 9S18M1",
+				["countryId"] = 0,
+				["x"] = 47912.644450702,
+				["unitId"] = 135,
+				["category"] = "vehicle",
+				["unitName"] = "Buk 1-1",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [1]
+			[2] = 
+			{
+				["heading"] = 4.4553426335681,
+				["point"] = 
+				{
+					["y"] = -41183.538778338,
+					["x"] = 48214.000962698,
+				}, -- end of ["point"]
+				["groupId"] = 41,
+				["y"] = -41183.538778338,
+				["coalition"] = "red",
+				["groupName"] = "Buk 1",
+				["type"] = "SA-11 Buk LN 9A310M1",
+				["countryId"] = 0,
+				["x"] = 48214.000962698,
+				["unitId"] = 136,
+				["category"] = "vehicle",
+				["unitName"] = "Buk 1-2",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [2]
+			[3] = 
+			{
+				["heading"] = 4.4553426335681,
+				["point"] = 
+				{
+					["y"] = -41134.224193097,
+					["x"] = 48315.530991136,
+				}, -- end of ["point"]
+				["groupId"] = 41,
+				["y"] = -41134.224193097,
+				["coalition"] = "red",
+				["groupName"] = "Buk 1",
+				["type"] = "SA-11 Buk LN 9A310M1",
+				["countryId"] = 0,
+				["x"] = 48315.530991136,
+				["unitId"] = 137,
+				["category"] = "vehicle",
+				["unitName"] = "Buk 1-3",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [3]
+			[4] = 
+			{
+				["heading"] = 4.4553426335681,
+				["point"] = 
+				{
+					["y"] = -41050.09931239,
+					["x"] = 48411.259303664,
+				}, -- end of ["point"]
+				["groupId"] = 41,
+				["y"] = -41050.09931239,
+				["coalition"] = "red",
+				["groupName"] = "Buk 1",
+				["type"] = "SA-11 Buk LN 9A310M1",
+				["countryId"] = 0,
+				["x"] = 48411.259303664,
+				["unitId"] = 138,
+				["category"] = "vehicle",
+				["unitName"] = "Buk 1-4",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [4]
+			[5] = 
+			{
+				["heading"] = 4.4553426335681,
+				["point"] = 
+				{
+					["y"] = -40857.192258357,
+					["x"] = 48396.755013887,
+				}, -- end of ["point"]
+				["groupId"] = 41,
+				["y"] = -40857.192258357,
+				["coalition"] = "red",
+				["groupName"] = "Buk 1",
+				["type"] = "SA-11 Buk LN 9A310M1",
+				["countryId"] = 0,
+				["x"] = 48396.755013887,
+				["unitId"] = 139,
+				["category"] = "vehicle",
+				["unitName"] = "Buk 1-5",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [5]
+			[6] = 
+			{
+				["heading"] = 4.4553426335681,
+				["point"] = 
+				{
+					["y"] = -40733.905795253,
+					["x"] = 48361.944718423,
+				}, -- end of ["point"]
+				["groupId"] = 41,
+				["y"] = -40733.905795253,
+				["coalition"] = "red",
+				["groupName"] = "Buk 1",
+				["type"] = "SA-11 Buk LN 9A310M1",
+				["countryId"] = 0,
+				["x"] = 48361.944718423,
+				["unitId"] = 140,
+				["category"] = "vehicle",
+				["unitName"] = "Buk 1-6",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [6]
+			[7] = 
+			{
+				["heading"] = 4.4553426335681,
+				["point"] = 
+				{
+					["y"] = -40612.069761126,
+					["x"] = 48321.332707047,
+				}, -- end of ["point"]
+				["groupId"] = 41,
+				["y"] = -40612.069761126,
+				["coalition"] = "red",
+				["groupName"] = "Buk 1",
+				["type"] = "SA-11 Buk LN 9A310M1",
+				["countryId"] = 0,
+				["x"] = 48321.332707047,
+				["unitId"] = 141,
+				["category"] = "vehicle",
+				["unitName"] = "Buk 1-7",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [7]
+			[8] = 
+			{
+				["heading"] = 4.4553426335681,
+				["point"] = 
+				{
+					["y"] = -40913.635389711,
+					["x"] = 48087.070865407,
+				}, -- end of ["point"]
+				["groupId"] = 41,
+				["y"] = -40913.635389711,
+				["coalition"] = "red",
+				["groupName"] = "Buk 1",
+				["type"] = "SA-11 Buk CC 9S470M1",
+				["countryId"] = 0,
+				["x"] = 48087.070865407,
+				["unitId"] = 142,
+				["category"] = "vehicle",
+				["unitName"] = "Buk 1-8",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [8]
+		}, -- end of ["units"]
+		["coalition"] = "red",
+		["groupId"] = 41,
+		["category"] = "vehicle",
+		["countryId"] = 0,
+		["startTime"] = 0,
+		["task"] = "Ground Nothing",
+		["hidden"] = false,
+	}, -- end of ["Buk 1"]
 	["CV 1143.5 Admiral Kuznetsov"] = 
 	{
 		["route"] = 
@@ -384,10 +600,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -403,10 +619,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -422,10 +638,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -523,10 +739,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -542,10 +758,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -561,10 +777,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -662,10 +878,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -681,10 +897,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -700,10 +916,10 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -713,11 +929,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = false,
-											["callsign"] = "C71",
+											["unitId"] = 109,
 											["modeChannel"] = "X",
 											["channel"] = 71,
 											["system"] = 3,
-											["unitId"] = 109,
+											["callsign"] = "C71",
 											["bearing"] = true,
 											["frequency"] = 1158000000,
 										}, -- end of ["params"]
@@ -726,10 +942,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -745,10 +961,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -847,10 +1063,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -866,10 +1082,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -885,10 +1101,10 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -898,11 +1114,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = false,
-											["callsign"] = "C72",
+											["unitId"] = 110,
 											["modeChannel"] = "X",
 											["channel"] = 72,
 											["system"] = 3,
-											["unitId"] = 110,
+											["callsign"] = "C72",
 											["bearing"] = true,
 											["frequency"] = 1159000000,
 										}, -- end of ["params"]
@@ -911,10 +1127,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -930,10 +1146,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1032,10 +1248,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1051,10 +1267,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1070,10 +1286,10 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1083,11 +1299,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = false,
-											["callsign"] = "C73",
+											["unitId"] = 111,
 											["modeChannel"] = "X",
 											["channel"] = 73,
 											["system"] = 3,
-											["unitId"] = 111,
+											["callsign"] = "C73",
 											["bearing"] = true,
 											["frequency"] = 1160000000,
 										}, -- end of ["params"]
@@ -1096,10 +1312,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1115,10 +1331,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1217,10 +1433,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1236,10 +1452,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1255,10 +1471,10 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1268,11 +1484,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = false,
-											["callsign"] = "C74",
+											["unitId"] = 108,
 											["modeChannel"] = "X",
 											["channel"] = 74,
 											["system"] = 3,
-											["unitId"] = 108,
+											["callsign"] = "C74",
 											["bearing"] = true,
 											["frequency"] = 1161000000,
 										}, -- end of ["params"]
@@ -1281,10 +1497,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1300,10 +1516,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1402,10 +1618,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1421,10 +1637,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1440,10 +1656,10 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1453,11 +1669,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = false,
-											["callsign"] = "C75",
+											["unitId"] = 112,
 											["modeChannel"] = "X",
 											["channel"] = 75,
 											["system"] = 3,
-											["unitId"] = 112,
+											["callsign"] = "C75",
 											["bearing"] = true,
 											["frequency"] = 1162000000,
 										}, -- end of ["params"]
@@ -1466,10 +1682,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1485,10 +1701,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1587,10 +1803,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1606,10 +1822,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1625,10 +1841,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1767,10 +1983,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1786,10 +2002,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1821,10 +2037,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1840,10 +2056,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -1989,10 +2205,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -2008,10 +2224,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -2027,10 +2243,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -2046,20 +2262,20 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "AWACS",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 								}, -- end of ["params"]
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -2075,10 +2291,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -2094,10 +2310,10 @@ exported.groupData =
 							}, -- end of [5]
 							[7] = 
 							{
-								["enabled"] = true,
+								["number"] = 7,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 7,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -2202,10 +2418,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -2221,10 +2437,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -2240,10 +2456,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -2259,20 +2475,20 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "AWACS",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 								}, -- end of ["params"]
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -2288,10 +2504,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -2307,10 +2523,10 @@ exported.groupData =
 							}, -- end of [5]
 							[7] = 
 							{
-								["enabled"] = true,
+								["number"] = 7,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 7,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -2415,10 +2631,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -2434,10 +2650,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -2452,10 +2668,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -2586,8 +2802,8 @@ exported.groupData =
 				["action"] = "Off Road",
 				["alt_type"] = "BARO",
 				["form"] = "Off Road",
-				["y"] = -41969.28953617,
-				["x"] = 47524.204794174,
+				["y"] = -42037.661321097,
+				["x"] = 47656.111384204,
 				["name"] = "",
 				["speed"] = 0,
 				["task"] = 
@@ -2599,10 +2815,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -2618,10 +2834,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -2636,10 +2852,10 @@ exported.groupData =
 							}, -- end of [2]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -2655,10 +2871,10 @@ exported.groupData =
 							}, -- end of [4]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -2686,16 +2902,16 @@ exported.groupData =
 				["heading"] = 3.0484053918209,
 				["point"] = 
 				{
-					["y"] = -41969.28953617,
-					["x"] = 47524.204794174,
+					["y"] = -42037.661321097,
+					["x"] = 47656.111384204,
 				}, -- end of ["point"]
 				["groupId"] = 6,
-				["y"] = -41969.28953617,
+				["y"] = -42037.661321097,
 				["coalition"] = "red",
 				["groupName"] = "Grumble-1",
 				["type"] = "S-300PS 54K6 cp",
 				["countryId"] = 0,
-				["x"] = 47524.204794174,
+				["x"] = 47656.111384204,
 				["unitId"] = 29,
 				["category"] = "vehicle",
 				["unitName"] = "S-300 Command Post 1",
@@ -2708,16 +2924,16 @@ exported.groupData =
 				["heading"] = 3.0484053918209,
 				["point"] = 
 				{
-					["y"] = -41871.677629791,
-					["x"] = 47525.614535901,
+					["y"] = -41790.97717158,
+					["x"] = 47738.411869444,
 				}, -- end of ["point"]
 				["groupId"] = 6,
-				["y"] = -41871.677629791,
+				["y"] = -41790.97717158,
 				["coalition"] = "red",
 				["groupName"] = "Grumble-1",
 				["type"] = "S-300PS 64H6E sr",
 				["countryId"] = 0,
-				["x"] = 47525.614535901,
+				["x"] = 47738.411869444,
 				["unitId"] = 30,
 				["category"] = "vehicle",
 				["unitName"] = "S-300 Big Bird EWR 1",
@@ -2730,16 +2946,16 @@ exported.groupData =
 				["heading"] = 3.0484053918209,
 				["point"] = 
 				{
-					["y"] = -41763.376087834,
-					["x"] = 47163.728895703,
+					["y"] = -41675.908058928,
+					["x"] = 47118.370048548,
 				}, -- end of ["point"]
 				["groupId"] = 6,
-				["y"] = -41763.376087834,
+				["y"] = -41675.908058928,
 				["coalition"] = "red",
 				["groupName"] = "Grumble-1",
 				["type"] = "S-300PS 40B6MD sr",
 				["countryId"] = 0,
-				["x"] = 47163.728895703,
+				["x"] = 47118.370048548,
 				["unitId"] = 31,
 				["category"] = "vehicle",
 				["unitName"] = "S-300 Clamshell TAR 1",
@@ -2752,16 +2968,16 @@ exported.groupData =
 				["heading"] = 3.0484053918209,
 				["point"] = 
 				{
-					["y"] = -41889.507761698,
-					["x"] = 47164.389270959,
+					["y"] = -41873.845840355,
+					["x"] = 47043.893502561,
 				}, -- end of ["point"]
 				["groupId"] = 6,
-				["y"] = -41889.507761698,
+				["y"] = -41873.845840355,
 				["coalition"] = "red",
 				["groupName"] = "Grumble-1",
 				["type"] = "S-300PS 40B6M tr",
 				["countryId"] = 0,
-				["x"] = 47164.389270959,
+				["x"] = 47043.893502561,
 				["unitId"] = 32,
 				["category"] = "vehicle",
 				["unitName"] = "S-300 Flap Lid TER 1",
@@ -2774,16 +2990,16 @@ exported.groupData =
 				["heading"] = 3.0484053918209,
 				["point"] = 
 				{
-					["y"] = -41959.507538817,
-					["x"] = 47412.690367153,
+					["y"] = -41982.909476012,
+					["x"] = 47495.766695027,
 				}, -- end of ["point"]
 				["groupId"] = 6,
-				["y"] = -41959.507538817,
+				["y"] = -41982.909476012,
 				["coalition"] = "red",
 				["groupName"] = "Grumble-1",
 				["type"] = "S-300PS 5P85C ln",
 				["countryId"] = 0,
-				["x"] = 47412.690367153,
+				["x"] = 47495.766695027,
 				["unitId"] = 33,
 				["category"] = "vehicle",
 				["unitName"] = "S-300 Launcher 1",
@@ -2796,16 +3012,16 @@ exported.groupData =
 				["heading"] = 3.0484053918209,
 				["point"] = 
 				{
-					["y"] = -41970.733918166,
-					["x"] = 47369.765975524,
+					["y"] = -41982.909476012,
+					["x"] = 47384.307581818,
 				}, -- end of ["point"]
 				["groupId"] = 6,
-				["y"] = -41970.733918166,
+				["y"] = -41982.909476012,
 				["coalition"] = "red",
 				["groupName"] = "Grumble-1",
 				["type"] = "S-300PS 5P85C ln",
 				["countryId"] = 0,
-				["x"] = 47369.765975524,
+				["x"] = 47384.307581818,
 				["unitId"] = 34,
 				["category"] = "vehicle",
 				["unitName"] = "S-300 Launcher 2",
@@ -2818,16 +3034,16 @@ exported.groupData =
 				["heading"] = 3.0484053918209,
 				["point"] = 
 				{
-					["y"] = -41958.186788305,
-					["x"] = 47320.898206592,
+					["y"] = -41965.310668663,
+					["x"] = 47294.358122036,
 				}, -- end of ["point"]
 				["groupId"] = 6,
-				["y"] = -41958.186788305,
+				["y"] = -41965.310668663,
 				["coalition"] = "red",
 				["groupName"] = "Grumble-1",
 				["type"] = "S-300PS 5P85C ln",
 				["countryId"] = 0,
-				["x"] = 47320.898206592,
+				["x"] = 47294.358122036,
 				["unitId"] = 35,
 				["category"] = "vehicle",
 				["unitName"] = "S-300 Launcher 3",
@@ -2840,16 +3056,16 @@ exported.groupData =
 				["heading"] = 3.0484053918209,
 				["point"] = 
 				{
-					["y"] = -41937.054780119,
-					["x"] = 47261.464433567,
+					["y"] = -41898.826285346,
+					["x"] = 47223.962892641,
 				}, -- end of ["point"]
 				["groupId"] = 6,
-				["y"] = -41937.054780119,
+				["y"] = -41898.826285346,
 				["coalition"] = "red",
 				["groupName"] = "Grumble-1",
 				["type"] = "S-300PS 5P85C ln",
 				["countryId"] = 0,
-				["x"] = 47261.464433567,
+				["x"] = 47223.962892641,
 				["unitId"] = 36,
 				["category"] = "vehicle",
 				["unitName"] = "S-300 Launcher 4",
@@ -2862,16 +3078,16 @@ exported.groupData =
 				["heading"] = 3.0484053918209,
 				["point"] = 
 				{
-					["y"] = -41803.65897844,
-					["x"] = 47415.992243432,
+					["y"] = -41752.16955744,
+					["x"] = 47495.766695027,
 				}, -- end of ["point"]
 				["groupId"] = 6,
-				["y"] = -41803.65897844,
+				["y"] = -41752.16955744,
 				["coalition"] = "red",
 				["groupName"] = "Grumble-1",
 				["type"] = "S-300PS 5P85D ln",
 				["countryId"] = 0,
-				["x"] = 47415.992243432,
+				["x"] = 47495.766695027,
 				["unitId"] = 37,
 				["category"] = "vehicle",
 				["unitName"] = "S-300 Launcher 5",
@@ -2884,16 +3100,16 @@ exported.groupData =
 				["heading"] = 3.0484053918209,
 				["point"] = 
 				{
-					["y"] = -41795.074100114,
-					["x"] = 47368.445225012,
+					["y"] = -41724.793634897,
+					["x"] = 47411.683504361,
 				}, -- end of ["point"]
 				["groupId"] = 6,
-				["y"] = -41795.074100114,
+				["y"] = -41724.793634897,
 				["coalition"] = "red",
 				["groupName"] = "Grumble-1",
 				["type"] = "S-300PS 5P85D ln",
 				["countryId"] = 0,
-				["x"] = 47368.445225012,
+				["x"] = 47411.683504361,
 				["unitId"] = 38,
 				["category"] = "vehicle",
 				["unitName"] = "S-300 Launcher 6",
@@ -2906,16 +3122,16 @@ exported.groupData =
 				["heading"] = 3.0484053918209,
 				["point"] = 
 				{
-					["y"] = -41799.696726905,
-					["x"] = 47319.57745608,
+					["y"] = -41716.971942742,
+					["x"] = 47325.644890656,
 				}, -- end of ["point"]
 				["groupId"] = 6,
-				["y"] = -41799.696726905,
+				["y"] = -41716.971942742,
 				["coalition"] = "red",
 				["groupName"] = "Grumble-1",
 				["type"] = "S-300PS 5P85D ln",
 				["countryId"] = 0,
-				["x"] = 47319.57745608,
+				["x"] = 47325.644890656,
 				["unitId"] = 39,
 				["category"] = "vehicle",
 				["unitName"] = "S-300 Launcher 7",
@@ -2928,16 +3144,16 @@ exported.groupData =
 				["heading"] = 3.0484053918209,
 				["point"] = 
 				{
-					["y"] = -41783.847720765,
-					["x"] = 47266.087060358,
+					["y"] = -41728.704480975,
+					["x"] = 47247.427969106,
 				}, -- end of ["point"]
 				["groupId"] = 6,
-				["y"] = -41783.847720765,
+				["y"] = -41728.704480975,
 				["coalition"] = "red",
 				["groupName"] = "Grumble-1",
 				["type"] = "S-300PS 5P85D ln",
 				["countryId"] = 0,
-				["x"] = 47266.087060358,
+				["x"] = 47247.427969106,
 				["unitId"] = 40,
 				["category"] = "vehicle",
 				["unitName"] = "S-300 Launcher 8",
@@ -2995,10 +3211,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -3014,10 +3230,10 @@ exported.groupData =
 							}, -- end of [2]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -3033,10 +3249,10 @@ exported.groupData =
 							}, -- end of [4]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -3393,10 +3609,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -3412,10 +3628,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -3430,10 +3646,10 @@ exported.groupData =
 							}, -- end of [2]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -3449,10 +3665,10 @@ exported.groupData =
 							}, -- end of [4]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -3639,10 +3855,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -3658,10 +3874,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -3677,10 +3893,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -3756,10 +3972,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -3775,10 +3991,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -3854,10 +4070,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -3873,10 +4089,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -3892,10 +4108,10 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -3905,11 +4121,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = false,
-											["callsign"] = "LHA",
+											["unitId"] = 115,
 											["modeChannel"] = "X",
 											["channel"] = 76,
 											["system"] = 3,
-											["unitId"] = 115,
+											["callsign"] = "LHA",
 											["bearing"] = true,
 											["frequency"] = 1163000000,
 										}, -- end of ["params"]
@@ -3918,10 +4134,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -3937,10 +4153,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -4039,10 +4255,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -4060,10 +4276,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -4078,10 +4294,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -4113,10 +4329,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -4132,10 +4348,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -4151,10 +4367,10 @@ exported.groupData =
 							}, -- end of [5]
 							[7] = 
 							{
-								["enabled"] = true,
+								["number"] = 7,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 7,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -4307,10 +4523,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -4328,10 +4544,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -4346,10 +4562,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -4381,10 +4597,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -4400,10 +4616,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -4419,10 +4635,10 @@ exported.groupData =
 							}, -- end of [5]
 							[7] = 
 							{
-								["enabled"] = true,
+								["number"] = 7,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 7,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -4549,7 +4765,7 @@ exported.groupData =
 				["y"] = -39599.461721074,
 				["x"] = 44510.914877979,
 				["name"] = "",
-				["speed"] = 5.5555555555556,
+				["speed"] = 0,
 				["task"] = 
 				{
 					["id"] = "ComboTask",
@@ -4559,10 +4775,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -4578,10 +4794,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -4596,10 +4812,10 @@ exported.groupData =
 							}, -- end of [2]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -4615,10 +4831,10 @@ exported.groupData =
 							}, -- end of [4]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -4668,16 +4884,16 @@ exported.groupData =
 				["heading"] = 3.1220102982056,
 				["point"] = 
 				{
-					["y"] = -39593.604953449,
-					["x"] = 44209.729143111,
+					["y"] = -39364.328539152,
+					["x"] = 44363.680167321,
 				}, -- end of ["point"]
 				["groupId"] = 21,
-				["y"] = -39593.604953449,
+				["y"] = -39364.328539152,
 				["coalition"] = "red",
 				["groupName"] = "OSA-1",
 				["type"] = "Osa 9A33 ln",
 				["countryId"] = 0,
-				["x"] = 44209.729143111,
+				["x"] = 44363.680167321,
 				["unitId"] = 96,
 				["category"] = "vehicle",
 				["unitName"] = "OSA-1-1",
@@ -4690,16 +4906,16 @@ exported.groupData =
 				["heading"] = 3.1220102982056,
 				["point"] = 
 				{
-					["y"] = -39229.745483336,
-					["x"] = 44387.119390146,
+					["y"] = -39209.369621692,
+					["x"] = 44213.944584158,
 				}, -- end of ["point"]
 				["groupId"] = 21,
-				["y"] = -39229.745483336,
+				["y"] = -39209.369621692,
 				["coalition"] = "red",
 				["groupName"] = "OSA-1",
 				["type"] = "Osa 9A33 ln",
 				["countryId"] = 0,
-				["x"] = 44387.119390146,
+				["x"] = 44213.944584158,
 				["unitId"] = 97,
 				["category"] = "vehicle",
 				["unitName"] = "OSA-1-2",
@@ -4712,16 +4928,16 @@ exported.groupData =
 				["heading"] = 3.1220102982056,
 				["point"] = 
 				{
-					["y"] = -39185.408653722,
-					["x"] = 44214.025946266,
+					["y"] = -39043.96403564,
+					["x"] = 44067.691223859,
 				}, -- end of ["point"]
 				["groupId"] = 21,
-				["y"] = -39185.408653722,
+				["y"] = -39043.96403564,
 				["coalition"] = "red",
 				["groupName"] = "OSA-1",
 				["type"] = "Osa 9A33 ln",
 				["countryId"] = 0,
-				["x"] = 44214.025946266,
+				["x"] = 44067.691223859,
 				["unitId"] = 98,
 				["category"] = "vehicle",
 				["unitName"] = "OSA-1-3",
@@ -4729,6 +4945,28 @@ exported.groupData =
 				["country"] = "russia",
 				["skill"] = "Average",
 			}, -- end of [4]
+			[5] = 
+			{
+				["heading"] = 3.1220102982056,
+				["point"] = 
+				{
+					["y"] = -39531.475236637,
+					["x"] = 44058.985666698,
+				}, -- end of ["point"]
+				["groupId"] = 21,
+				["y"] = -39531.475236637,
+				["coalition"] = "red",
+				["groupName"] = "OSA-1",
+				["type"] = "p-19 s-125 sr",
+				["countryId"] = 0,
+				["x"] = 44058.985666698,
+				["unitId"] = 134,
+				["category"] = "vehicle",
+				["unitName"] = "OSA-1-4",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [5]
 		}, -- end of ["units"]
 		["coalition"] = "red",
 		["groupId"] = 21,
@@ -4749,10 +4987,10 @@ exported.groupData =
 				["action"] = "Off Road",
 				["alt_type"] = "BARO",
 				["form"] = "Off Road",
-				["y"] = -42509.760206358,
-				["x"] = 45908.347812918,
+				["y"] = -42403.064213843,
+				["x"] = 45706.397282643,
 				["name"] = "",
-				["speed"] = 5.5555555555556,
+				["speed"] = 0,
 				["task"] = 
 				{
 					["id"] = "ComboTask",
@@ -4762,10 +5000,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["number"] = 1,
+								["enabled"] = true,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["enabled"] = true,
+								["number"] = 1,
 								["params"] = 
 								{
 									["action"] = 
@@ -4781,10 +5019,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["number"] = 2,
+								["enabled"] = true,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["enabled"] = true,
+								["number"] = 2,
 								["params"] = 
 								{
 									["action"] = 
@@ -4799,10 +5037,10 @@ exported.groupData =
 							}, -- end of [2]
 							[4] = 
 							{
-								["number"] = 4,
+								["enabled"] = true,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["enabled"] = true,
+								["number"] = 4,
 								["params"] = 
 								{
 									["action"] = 
@@ -4818,10 +5056,10 @@ exported.groupData =
 							}, -- end of [4]
 							[3] = 
 							{
-								["number"] = 3,
+								["enabled"] = true,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["enabled"] = true,
+								["number"] = 3,
 								["params"] = 
 								{
 									["action"] = 
@@ -4849,16 +5087,16 @@ exported.groupData =
 				["heading"] = 3.1364014998397,
 				["point"] = 
 				{
-					["y"] = -42509.760206358,
-					["x"] = 45908.347812918,
+					["y"] = -42403.064213843,
+					["x"] = 45706.397282643,
 				}, -- end of ["point"]
 				["groupId"] = 39,
-				["y"] = -42509.760206358,
+				["y"] = -42403.064213843,
 				["coalition"] = "red",
 				["groupName"] = "SA-2 1",
 				["type"] = "SNR_75V",
 				["countryId"] = 0,
-				["x"] = 45908.347812918,
+				["x"] = 45706.397282643,
 				["unitId"] = 116,
 				["category"] = "vehicle",
 				["unitName"] = "OSA-2-1",
@@ -4871,16 +5109,16 @@ exported.groupData =
 				["heading"] = 3.1364014998397,
 				["point"] = 
 				{
-					["y"] = -42410.071529741,
-					["x"] = 45779.944463145,
+					["y"] = -42333.699489069,
+					["x"] = 45555.065021996,
 				}, -- end of ["point"]
 				["groupId"] = 39,
-				["y"] = -42410.071529741,
+				["y"] = -42333.699489069,
 				["coalition"] = "red",
 				["groupName"] = "SA-2 1",
 				["type"] = "S_75M_Volhov",
 				["countryId"] = 0,
-				["x"] = 45779.944463145,
+				["x"] = 45555.065021996,
 				["unitId"] = 117,
 				["category"] = "vehicle",
 				["unitName"] = "OSA-2-2",
@@ -4893,16 +5131,16 @@ exported.groupData =
 				["heading"] = 3.1364014998397,
 				["point"] = 
 				{
-					["y"] = -42612.699600692,
-					["x"] = 45776.151959143,
+					["y"] = -42515.420861075,
+					["x"] = 45557.294732082,
 				}, -- end of ["point"]
 				["groupId"] = 39,
-				["y"] = -42612.699600692,
+				["y"] = -42515.420861075,
 				["coalition"] = "red",
 				["groupName"] = "SA-2 1",
 				["type"] = "S_75M_Volhov",
 				["countryId"] = 0,
-				["x"] = 45776.151959143,
+				["x"] = 45557.294732082,
 				["unitId"] = 118,
 				["category"] = "vehicle",
 				["unitName"] = "OSA-2-3",
@@ -4910,6 +5148,116 @@ exported.groupData =
 				["country"] = "russia",
 				["skill"] = "Average",
 			}, -- end of [3]
+			[4] = 
+			{
+				["heading"] = 3.1364014998397,
+				["point"] = 
+				{
+					["y"] = -42600.149844341,
+					["x"] = 45701.111032627,
+				}, -- end of ["point"]
+				["groupId"] = 39,
+				["y"] = -42600.149844341,
+				["coalition"] = "red",
+				["groupName"] = "SA-2 1",
+				["type"] = "S_75M_Volhov",
+				["countryId"] = 0,
+				["x"] = 45701.111032627,
+				["unitId"] = 123,
+				["category"] = "vehicle",
+				["unitName"] = "SA-2 1-1",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [4]
+			[5] = 
+			{
+				["heading"] = 3.1364014998397,
+				["point"] = 
+				{
+					["y"] = -42242.281375545,
+					["x"] = 45706.685307841,
+				}, -- end of ["point"]
+				["groupId"] = 39,
+				["y"] = -42242.281375545,
+				["coalition"] = "red",
+				["groupName"] = "SA-2 1",
+				["type"] = "S_75M_Volhov",
+				["countryId"] = 0,
+				["x"] = 45706.685307841,
+				["unitId"] = 124,
+				["category"] = "vehicle",
+				["unitName"] = "SA-2 1-2",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [5]
+			[6] = 
+			{
+				["heading"] = 3.1364014998397,
+				["point"] = 
+				{
+					["y"] = -42485.319774915,
+					["x"] = 45876.143274374,
+				}, -- end of ["point"]
+				["groupId"] = 39,
+				["y"] = -42485.319774915,
+				["coalition"] = "red",
+				["groupName"] = "SA-2 1",
+				["type"] = "S_75M_Volhov",
+				["countryId"] = 0,
+				["x"] = 45876.143274374,
+				["unitId"] = 125,
+				["category"] = "vehicle",
+				["unitName"] = "SA-2 1-3",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [6]
+			[7] = 
+			{
+				["heading"] = 3.1364014998397,
+				["point"] = 
+				{
+					["y"] = -42338.158909241,
+					["x"] = 45879.487839503,
+				}, -- end of ["point"]
+				["groupId"] = 39,
+				["y"] = -42338.158909241,
+				["coalition"] = "red",
+				["groupName"] = "SA-2 1",
+				["type"] = "S_75M_Volhov",
+				["countryId"] = 0,
+				["x"] = 45879.487839503,
+				["unitId"] = 126,
+				["category"] = "vehicle",
+				["unitName"] = "SA-2 1-4",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [7]
+			[8] = 
+			{
+				["heading"] = 3.1364014998397,
+				["point"] = 
+				{
+					["y"] = -42068.313870897,
+					["x"] = 45710.062432384,
+				}, -- end of ["point"]
+				["groupId"] = 39,
+				["y"] = -42068.313870897,
+				["coalition"] = "red",
+				["groupName"] = "SA-2 1",
+				["type"] = "1L13 EWR",
+				["countryId"] = 0,
+				["x"] = 45710.062432384,
+				["unitId"] = 127,
+				["category"] = "vehicle",
+				["unitName"] = "SA-2 1-5",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [8]
 		}, -- end of ["units"]
 		["coalition"] = "red",
 		["groupId"] = 39,
@@ -4919,6 +5267,178 @@ exported.groupData =
 		["task"] = "Ground Nothing",
 		["hidden"] = false,
 	}, -- end of ["SA-2 1"]
+	["SA-3 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 50,
+				["type"] = "Turning Point",
+				["action"] = "Off Road",
+				["alt_type"] = "BARO",
+				["form"] = "Off Road",
+				["y"] = -39140.707380129,
+				["x"] = 46092.117954536,
+				["name"] = "",
+				["speed"] = 0,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+		}, -- end of ["route"]
+		["country"] = "russia",
+		["groupName"] = "SA-3 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["heading"] = 3.0772876871483,
+				["point"] = 
+				{
+					["y"] = -39140.707380129,
+					["x"] = 46092.117954536,
+				}, -- end of ["point"]
+				["groupId"] = 40,
+				["y"] = -39140.707380129,
+				["coalition"] = "red",
+				["groupName"] = "SA-3 1",
+				["type"] = "snr s-125 tr",
+				["countryId"] = 0,
+				["x"] = 46092.117954536,
+				["unitId"] = 128,
+				["category"] = "vehicle",
+				["unitName"] = "Ground-1-2",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [1]
+			[2] = 
+			{
+				["heading"] = 3.0772876871483,
+				["point"] = 
+				{
+					["y"] = -39342.41200121,
+					["x"] = 46088.949163762,
+				}, -- end of ["point"]
+				["groupId"] = 40,
+				["y"] = -39342.41200121,
+				["coalition"] = "red",
+				["groupName"] = "SA-3 1",
+				["type"] = "5p73 s-125 ln",
+				["countryId"] = 0,
+				["x"] = 46088.949163762,
+				["unitId"] = 129,
+				["category"] = "vehicle",
+				["unitName"] = "SA-3 1-1",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [2]
+			[3] = 
+			{
+				["heading"] = 3.0772876871483,
+				["point"] = 
+				{
+					["y"] = -39227.512756429,
+					["x"] = 45969.794391397,
+				}, -- end of ["point"]
+				["groupId"] = 40,
+				["y"] = -39227.512756429,
+				["coalition"] = "red",
+				["groupName"] = "SA-3 1",
+				["type"] = "5p73 s-125 ln",
+				["countryId"] = 0,
+				["x"] = 45969.794391397,
+				["unitId"] = 130,
+				["category"] = "vehicle",
+				["unitName"] = "SA-3 1-2",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [3]
+			[4] = 
+			{
+				["heading"] = 3.0772876871483,
+				["point"] = 
+				{
+					["y"] = -39042.822859264,
+					["x"] = 45972.347707948,
+				}, -- end of ["point"]
+				["groupId"] = 40,
+				["y"] = -39042.822859264,
+				["coalition"] = "red",
+				["groupName"] = "SA-3 1",
+				["type"] = "5p73 s-125 ln",
+				["countryId"] = 0,
+				["x"] = 45972.347707948,
+				["unitId"] = 131,
+				["category"] = "vehicle",
+				["unitName"] = "SA-3 1-3",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [4]
+			[5] = 
+			{
+				["heading"] = 3.0772876871483,
+				["point"] = 
+				{
+					["y"] = -38947.499041373,
+					["x"] = 46091.502480312,
+				}, -- end of ["point"]
+				["groupId"] = 40,
+				["y"] = -38947.499041373,
+				["coalition"] = "red",
+				["groupName"] = "SA-3 1",
+				["type"] = "5p73 s-125 ln",
+				["countryId"] = 0,
+				["x"] = 46091.502480312,
+				["unitId"] = 132,
+				["category"] = "vehicle",
+				["unitName"] = "SA-3 1-4",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [5]
+			[6] = 
+			{
+				["heading"] = 3.0772876871483,
+				["point"] = 
+				{
+					["y"] = -39074.313763389,
+					["x"] = 46263.425794724,
+				}, -- end of ["point"]
+				["groupId"] = 40,
+				["y"] = -39074.313763389,
+				["coalition"] = "red",
+				["groupName"] = "SA-3 1",
+				["type"] = "p-19 s-125 sr",
+				["countryId"] = 0,
+				["x"] = 46263.425794724,
+				["unitId"] = 133,
+				["category"] = "vehicle",
+				["unitName"] = "SA-3 1-5",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [6]
+		}, -- end of ["units"]
+		["coalition"] = "red",
+		["groupId"] = 40,
+		["category"] = "vehicle",
+		["countryId"] = 0,
+		["startTime"] = 0,
+		["task"] = "Ground Nothing",
+		["hidden"] = false,
+	}, -- end of ["SA-3 1"]
 	["Shell 1"] = 
 	{
 		["route"] = 
@@ -4943,10 +5463,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -4962,10 +5482,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -4975,11 +5495,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = true,
-											["callsign"] = "SH1",
+											["unitId"] = 106,
 											["modeChannel"] = "X",
 											["channel"] = 41,
 											["system"] = 4,
-											["unitId"] = 106,
+											["callsign"] = "SH1",
 											["bearing"] = true,
 											["frequency"] = 1128000000,
 										}, -- end of ["params"]
@@ -4988,10 +5508,10 @@ exported.groupData =
 							}, -- end of [2]
 							[8] = 
 							{
-								["enabled"] = true,
+								["number"] = 8,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 8,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5007,10 +5527,10 @@ exported.groupData =
 							}, -- end of [8]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5027,20 +5547,20 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "Tanker",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 								}, -- end of ["params"]
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "Orbit",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["altitude"] = 7620,
@@ -5051,10 +5571,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5070,10 +5590,10 @@ exported.groupData =
 							}, -- end of [5]
 							[7] = 
 							{
-								["enabled"] = true,
+								["number"] = 7,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 7,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5199,10 +5719,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5218,10 +5738,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5231,11 +5751,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = true,
-											["callsign"] = "SH2",
+											["unitId"] = 107,
 											["modeChannel"] = "X",
 											["channel"] = 42,
 											["system"] = 4,
-											["unitId"] = 107,
+											["callsign"] = "SH2",
 											["bearing"] = true,
 											["frequency"] = 1129000000,
 										}, -- end of ["params"]
@@ -5244,10 +5764,10 @@ exported.groupData =
 							}, -- end of [2]
 							[8] = 
 							{
-								["enabled"] = true,
+								["number"] = 8,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 8,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5263,10 +5783,10 @@ exported.groupData =
 							}, -- end of [8]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5283,20 +5803,20 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "Tanker",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 								}, -- end of ["params"]
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "Orbit",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["altitude"] = 3048,
@@ -5307,10 +5827,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5326,10 +5846,10 @@ exported.groupData =
 							}, -- end of [5]
 							[7] = 
 							{
-								["enabled"] = true,
+								["number"] = 7,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 7,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5431,6 +5951,380 @@ exported.groupData =
 		["task"] = "Refueling",
 		["frequency"] = 142,
 	}, -- end of ["Shell 2"]
+	["Shilka 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 50,
+				["type"] = "Turning Point",
+				["action"] = "Off Road",
+				["alt_type"] = "BARO",
+				["form"] = "Off Road",
+				["y"] = -41807.801228137,
+				["x"] = 45013.573549471,
+				["name"] = "",
+				["speed"] = 0,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[1] = 
+							{
+								["number"] = 1,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["enabled"] = true,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[2] = 
+							{
+								["number"] = 2,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["enabled"] = true,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["name"] = 8,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[4] = 
+							{
+								["number"] = 4,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["enabled"] = true,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = true,
+											["name"] = 20,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[3] = 
+							{
+								["number"] = 3,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["enabled"] = true,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 2,
+											["name"] = 9,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+		}, -- end of ["route"]
+		["groupId"] = 45,
+		["groupName"] = "Shilka 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -41807.801228137,
+					["x"] = 45013.573549471,
+				}, -- end of ["point"]
+				["groupId"] = 45,
+				["y"] = -41807.801228137,
+				["coalition"] = "red",
+				["groupName"] = "Shilka 1",
+				["type"] = "ZSU-23-4 Shilka",
+				["countryId"] = 0,
+				["x"] = 45013.573549471,
+				["unitId"] = 159,
+				["category"] = "vehicle",
+				["unitName"] = "Shilka 1-1",
+				["playerCanDrive"] = true,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [1]
+			[2] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -41787.987779756,
+					["x"] = 44949.179842232,
+				}, -- end of ["point"]
+				["groupId"] = 45,
+				["y"] = -41787.987779756,
+				["coalition"] = "red",
+				["groupName"] = "Shilka 1",
+				["type"] = "ZSU-23-4 Shilka",
+				["countryId"] = 0,
+				["x"] = 44949.179842232,
+				["unitId"] = 160,
+				["category"] = "vehicle",
+				["unitName"] = "Shilka 1-2",
+				["playerCanDrive"] = true,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [2]
+			[3] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -41647.312296249,
+					["x"] = 44893.702186765,
+				}, -- end of ["point"]
+				["groupId"] = 45,
+				["y"] = -41647.312296249,
+				["coalition"] = "red",
+				["groupName"] = "Shilka 1",
+				["type"] = "ZSU-23-4 Shilka",
+				["countryId"] = 0,
+				["x"] = 44893.702186765,
+				["unitId"] = 161,
+				["category"] = "vehicle",
+				["unitName"] = "Shilka 1-3",
+				["playerCanDrive"] = true,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [3]
+			[4] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -41727.556762193,
+					["x"] = 44906.580928213,
+				}, -- end of ["point"]
+				["groupId"] = 45,
+				["y"] = -41727.556762193,
+				["coalition"] = "red",
+				["groupName"] = "Shilka 1",
+				["type"] = "ZSU-23-4 Shilka",
+				["countryId"] = 0,
+				["x"] = 44906.580928213,
+				["unitId"] = 162,
+				["category"] = "vehicle",
+				["unitName"] = "Shilka 1-4",
+				["playerCanDrive"] = true,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [4]
+			[5] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -41677.75600986,
+					["x"] = 45014.247873201,
+				}, -- end of ["point"]
+				["groupId"] = 45,
+				["y"] = -41677.75600986,
+				["coalition"] = "red",
+				["groupName"] = "Shilka 1",
+				["type"] = "Dog Ear radar",
+				["countryId"] = 0,
+				["x"] = 45014.247873201,
+				["unitId"] = 163,
+				["category"] = "vehicle",
+				["unitName"] = "Shilka 1-5",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [5]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["category"] = "vehicle",
+		["hidden"] = false,
+		["startTime"] = 0,
+		["coalition"] = "red",
+		["country"] = "russia",
+	}, -- end of ["Shilka 1"]
+	["Strela 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 50,
+				["type"] = "Turning Point",
+				["action"] = "Off Road",
+				["alt_type"] = "BARO",
+				["form"] = "Off Road",
+				["y"] = -40919.361291614,
+				["x"] = 46713.191553415,
+				["name"] = "",
+				["speed"] = 0,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+		}, -- end of ["route"]
+		["country"] = "russia",
+		["groupName"] = "Strela 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["heading"] = 0.47963283036327,
+				["point"] = 
+				{
+					["y"] = -40919.361291614,
+					["x"] = 46713.191553415,
+				}, -- end of ["point"]
+				["groupId"] = 42,
+				["y"] = -40919.361291614,
+				["coalition"] = "red",
+				["groupName"] = "Strela 1",
+				["type"] = "Dog Ear radar",
+				["countryId"] = 0,
+				["x"] = 46713.191553415,
+				["unitId"] = 143,
+				["category"] = "vehicle",
+				["unitName"] = "Strela 1-1",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [1]
+			[2] = 
+			{
+				["heading"] = 0.47963283036327,
+				["point"] = 
+				{
+					["y"] = -40952.729740116,
+					["x"] = 46825.590537846,
+				}, -- end of ["point"]
+				["groupId"] = 42,
+				["y"] = -40952.729740116,
+				["coalition"] = "red",
+				["groupName"] = "Strela 1",
+				["type"] = "Strela-10M3",
+				["countryId"] = 0,
+				["x"] = 46825.590537846,
+				["unitId"] = 144,
+				["category"] = "vehicle",
+				["unitName"] = "Strela 1-2",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [2]
+			[3] = 
+			{
+				["heading"] = 0.47963283036327,
+				["point"] = 
+				{
+					["y"] = -40802.132663321,
+					["x"] = 46694.312036499,
+				}, -- end of ["point"]
+				["groupId"] = 42,
+				["y"] = -40802.132663321,
+				["coalition"] = "red",
+				["groupName"] = "Strela 1",
+				["type"] = "Strela-10M3",
+				["countryId"] = 0,
+				["x"] = 46694.312036499,
+				["unitId"] = 145,
+				["category"] = "vehicle",
+				["unitName"] = "Strela 1-3",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [3]
+			[4] = 
+			{
+				["heading"] = 0.47963283036327,
+				["point"] = 
+				{
+					["y"] = -41035.71180284,
+					["x"] = 46729.875777667,
+				}, -- end of ["point"]
+				["groupId"] = 42,
+				["y"] = -41035.71180284,
+				["coalition"] = "red",
+				["groupName"] = "Strela 1",
+				["type"] = "Strela-10M3",
+				["countryId"] = 0,
+				["x"] = 46729.875777667,
+				["unitId"] = 146,
+				["category"] = "vehicle",
+				["unitName"] = "Strela 1-4",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [4]
+			[5] = 
+			{
+				["heading"] = 0.47963283036327,
+				["point"] = 
+				{
+					["y"] = -40883.797550446,
+					["x"] = 46611.769032308,
+				}, -- end of ["point"]
+				["groupId"] = 42,
+				["y"] = -40883.797550446,
+				["coalition"] = "red",
+				["groupName"] = "Strela 1",
+				["type"] = "Strela-10M3",
+				["countryId"] = 0,
+				["x"] = 46611.769032308,
+				["unitId"] = 147,
+				["category"] = "vehicle",
+				["unitName"] = "Strela 1-5",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [5]
+		}, -- end of ["units"]
+		["coalition"] = "red",
+		["groupId"] = 42,
+		["category"] = "vehicle",
+		["countryId"] = 0,
+		["startTime"] = 0,
+		["task"] = "Ground Nothing",
+		["hidden"] = false,
+	}, -- end of ["Strela 1"]
 	["T72-1"] = 
 	{
 		["route"] = 
@@ -5455,10 +6349,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5474,10 +6368,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5492,10 +6386,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5639,10 +6533,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5658,10 +6552,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5671,11 +6565,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = true,
-											["callsign"] = "TX1",
+											["unitId"] = 101,
 											["modeChannel"] = "X",
 											["channel"] = 31,
 											["system"] = 4,
-											["unitId"] = 101,
+											["callsign"] = "TX1",
 											["bearing"] = true,
 											["frequency"] = 1118000000,
 										}, -- end of ["params"]
@@ -5684,10 +6578,10 @@ exported.groupData =
 							}, -- end of [2]
 							[8] = 
 							{
-								["enabled"] = true,
+								["number"] = 8,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 8,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5703,10 +6597,10 @@ exported.groupData =
 							}, -- end of [8]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5723,20 +6617,20 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "Tanker",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 								}, -- end of ["params"]
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "Orbit",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["altitude"] = 4572,
@@ -5747,10 +6641,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5766,10 +6660,10 @@ exported.groupData =
 							}, -- end of [5]
 							[7] = 
 							{
-								["enabled"] = true,
+								["number"] = 7,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 7,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5895,10 +6789,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5914,10 +6808,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5927,11 +6821,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = true,
-											["callsign"] = "TX2",
+											["unitId"] = 103,
 											["modeChannel"] = "X",
 											["channel"] = 32,
 											["system"] = 4,
-											["unitId"] = 103,
+											["callsign"] = "TX2",
 											["bearing"] = true,
 											["frequency"] = 1119000000,
 										}, -- end of ["params"]
@@ -5940,10 +6834,10 @@ exported.groupData =
 							}, -- end of [2]
 							[8] = 
 							{
-								["enabled"] = true,
+								["number"] = 8,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 8,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5959,10 +6853,10 @@ exported.groupData =
 							}, -- end of [8]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -5979,20 +6873,20 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "Tanker",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 								}, -- end of ["params"]
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "Orbit",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["altitude"] = 7620,
@@ -6003,10 +6897,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -6022,10 +6916,10 @@ exported.groupData =
 							}, -- end of [5]
 							[7] = 
 							{
-								["enabled"] = true,
+								["number"] = 7,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 7,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -6151,10 +7045,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -6170,10 +7064,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -6183,11 +7077,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = true,
-											["callsign"] = "TX3",
+											["unitId"] = 104,
 											["modeChannel"] = "X",
 											["channel"] = 33,
 											["system"] = 4,
-											["unitId"] = 104,
+											["callsign"] = "TX3",
 											["bearing"] = true,
 											["frequency"] = 1120000000,
 										}, -- end of ["params"]
@@ -6196,10 +7090,10 @@ exported.groupData =
 							}, -- end of [2]
 							[8] = 
 							{
-								["enabled"] = true,
+								["number"] = 8,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 8,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -6215,10 +7109,10 @@ exported.groupData =
 							}, -- end of [8]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -6235,20 +7129,20 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "Tanker",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 								}, -- end of ["params"]
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "Orbit",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["altitude"] = 7620,
@@ -6259,10 +7153,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -6278,10 +7172,10 @@ exported.groupData =
 							}, -- end of [5]
 							[7] = 
 							{
-								["enabled"] = true,
+								["number"] = 7,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 7,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -6407,10 +7301,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -6426,10 +7320,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -6446,10 +7340,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "Orbit",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["altitude"] = 7620,
@@ -6460,20 +7354,20 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "Tanker",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 								}, -- end of ["params"]
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -6489,10 +7383,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -6508,10 +7402,10 @@ exported.groupData =
 							}, -- end of [5]
 							[7] = 
 							{
-								["enabled"] = true,
+								["number"] = 7,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 7,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -6607,6 +7501,306 @@ exported.groupData =
 		["task"] = "Refueling",
 		["frequency"] = 134,
 	}, -- end of ["Texaco 4"]
+	["Tor 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 50,
+				["type"] = "Turning Point",
+				["action"] = "Off Road",
+				["alt_type"] = "BARO",
+				["form"] = "Off Road",
+				["y"] = -40768.732593969,
+				["x"] = 45314.110996243,
+				["name"] = "",
+				["speed"] = 0,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+		}, -- end of ["route"]
+		["country"] = "russia",
+		["groupName"] = "Tor 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["heading"] = 6.1553515157872,
+				["point"] = 
+				{
+					["y"] = -40768.732593969,
+					["x"] = 45314.110996243,
+				}, -- end of ["point"]
+				["groupId"] = 43,
+				["y"] = -40768.732593969,
+				["coalition"] = "red",
+				["groupName"] = "Tor 1",
+				["type"] = "Dog Ear radar",
+				["countryId"] = 0,
+				["x"] = 45314.110996243,
+				["unitId"] = 148,
+				["category"] = "vehicle",
+				["unitName"] = "Tor 1-1",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [1]
+			[2] = 
+			{
+				["heading"] = 6.1553515157872,
+				["point"] = 
+				{
+					["y"] = -40962.42944824,
+					["x"] = 45300.275506652,
+				}, -- end of ["point"]
+				["groupId"] = 43,
+				["y"] = -40962.42944824,
+				["coalition"] = "red",
+				["groupName"] = "Tor 1",
+				["type"] = "Tor 9A331",
+				["countryId"] = 0,
+				["x"] = 45300.275506652,
+				["unitId"] = 149,
+				["category"] = "vehicle",
+				["unitName"] = "Tor 1-2",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [2]
+			[3] = 
+			{
+				["heading"] = 6.1553515157872,
+				["point"] = 
+				{
+					["y"] = -40836.652270142,
+					["x"] = 45147.456235264,
+				}, -- end of ["point"]
+				["groupId"] = 43,
+				["y"] = -40836.652270142,
+				["coalition"] = "red",
+				["groupName"] = "Tor 1",
+				["type"] = "Tor 9A331",
+				["countryId"] = 0,
+				["x"] = 45147.456235264,
+				["unitId"] = 150,
+				["category"] = "vehicle",
+				["unitName"] = "Tor 1-3",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [3]
+			[4] = 
+			{
+				["heading"] = 6.1553515157872,
+				["point"] = 
+				{
+					["y"] = -40556.798048874,
+					["x"] = 45307.193251448,
+				}, -- end of ["point"]
+				["groupId"] = 43,
+				["y"] = -40556.798048874,
+				["coalition"] = "red",
+				["groupName"] = "Tor 1",
+				["type"] = "Tor 9A331",
+				["countryId"] = 0,
+				["x"] = 45307.193251448,
+				["unitId"] = 151,
+				["category"] = "vehicle",
+				["unitName"] = "Tor 1-4",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [4]
+			[5] = 
+			{
+				["heading"] = 6.1553515157872,
+				["point"] = 
+				{
+					["y"] = -40637.295442857,
+					["x"] = 45139.909604578,
+				}, -- end of ["point"]
+				["groupId"] = 43,
+				["y"] = -40637.295442857,
+				["coalition"] = "red",
+				["groupName"] = "Tor 1",
+				["type"] = "Tor 9A331",
+				["countryId"] = 0,
+				["x"] = 45139.909604578,
+				["unitId"] = 152,
+				["category"] = "vehicle",
+				["unitName"] = "Tor 1-5",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [5]
+		}, -- end of ["units"]
+		["coalition"] = "red",
+		["groupId"] = 43,
+		["category"] = "vehicle",
+		["countryId"] = 0,
+		["startTime"] = 0,
+		["task"] = "Ground Nothing",
+		["hidden"] = false,
+	}, -- end of ["Tor 1"]
+	["Tunguska 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 50,
+				["type"] = "Turning Point",
+				["action"] = "Off Road",
+				["alt_type"] = "BARO",
+				["form"] = "Off Road",
+				["y"] = -40858.337029694,
+				["x"] = 43885.130293613,
+				["name"] = "",
+				["speed"] = 0,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+		}, -- end of ["route"]
+		["country"] = "russia",
+		["groupName"] = "Tunguska 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["heading"] = 3.210652124164,
+				["point"] = 
+				{
+					["y"] = -40858.337029694,
+					["x"] = 43885.130293613,
+				}, -- end of ["point"]
+				["groupId"] = 44,
+				["y"] = -40858.337029694,
+				["coalition"] = "red",
+				["groupName"] = "Tunguska 1",
+				["type"] = "Dog Ear radar",
+				["countryId"] = 0,
+				["x"] = 43885.130293613,
+				["unitId"] = 153,
+				["category"] = "vehicle",
+				["unitName"] = "Tunguska 1-1",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [1]
+			[2] = 
+			{
+				["heading"] = 3.210652124164,
+				["point"] = 
+				{
+					["y"] = -41094.488885552,
+					["x"] = 43871.208612076,
+				}, -- end of ["point"]
+				["groupId"] = 44,
+				["y"] = -41094.488885552,
+				["coalition"] = "red",
+				["groupName"] = "Tunguska 1",
+				["type"] = "2S6 Tunguska",
+				["countryId"] = 0,
+				["x"] = 43871.208612076,
+				["unitId"] = 155,
+				["category"] = "vehicle",
+				["unitName"] = "Tunguska 1-2",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [2]
+			[3] = 
+			{
+				["heading"] = 3.210652124164,
+				["point"] = 
+				{
+					["y"] = -40963.524097173,
+					["x"] = 44001.328466336,
+				}, -- end of ["point"]
+				["groupId"] = 44,
+				["y"] = -40963.524097173,
+				["coalition"] = "red",
+				["groupName"] = "Tunguska 1",
+				["type"] = "2S6 Tunguska",
+				["countryId"] = 0,
+				["x"] = 44001.328466336,
+				["unitId"] = 156,
+				["category"] = "vehicle",
+				["unitName"] = "Tunguska 1-3",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [3]
+			[4] = 
+			{
+				["heading"] = 3.210652124164,
+				["point"] = 
+				{
+					["y"] = -40704.129322773,
+					["x"] = 44000.483532217,
+				}, -- end of ["point"]
+				["groupId"] = 44,
+				["y"] = -40704.129322773,
+				["coalition"] = "red",
+				["groupName"] = "Tunguska 1",
+				["type"] = "2S6 Tunguska",
+				["countryId"] = 0,
+				["x"] = 44000.483532217,
+				["unitId"] = 157,
+				["category"] = "vehicle",
+				["unitName"] = "Tunguska 1-4",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [4]
+			[5] = 
+			{
+				["heading"] = 3.210652124164,
+				["point"] = 
+				{
+					["y"] = -40601.892294426,
+					["x"] = 43850.085259112,
+				}, -- end of ["point"]
+				["groupId"] = 44,
+				["y"] = -40601.892294426,
+				["coalition"] = "red",
+				["groupName"] = "Tunguska 1",
+				["type"] = "2S6 Tunguska",
+				["countryId"] = 0,
+				["x"] = 43850.085259112,
+				["unitId"] = 158,
+				["category"] = "vehicle",
+				["unitName"] = "Tunguska 1-5",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [5]
+		}, -- end of ["units"]
+		["coalition"] = "red",
+		["groupId"] = 44,
+		["category"] = "vehicle",
+		["countryId"] = 0,
+		["startTime"] = 0,
+		["task"] = "Ground Nothing",
+		["hidden"] = false,
+	}, -- end of ["Tunguska 1"]
 	["ZU-1"] = 
 	{
 		["route"] = 
@@ -6631,10 +7825,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -6650,10 +7844,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -6668,10 +7862,10 @@ exported.groupData =
 							}, -- end of [2]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -6687,10 +7881,10 @@ exported.groupData =
 							}, -- end of [4]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -6784,16 +7978,16 @@ exported.groupData =
 				["heading"] = 0,
 				["point"] = 
 				{
-					["y"] = -41896.786448684,
-					["x"] = 44470.274534719,
+					["y"] = -41896.642265633,
+					["x"] = 44470.044633642,
 				}, -- end of ["point"]
 				["groupId"] = 9,
-				["y"] = -41896.786448684,
+				["y"] = -41896.642265633,
 				["coalition"] = "red",
 				["groupName"] = "ZU-1",
 				["type"] = "ZSU-23-4 Shilka",
 				["countryId"] = 0,
-				["x"] = 44470.274534719,
+				["x"] = 44470.044633642,
 				["unitId"] = 56,
 				["category"] = "vehicle",
 				["unitName"] = "ZU 1-4",
