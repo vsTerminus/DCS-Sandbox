@@ -3,6 +3,10 @@ aPoint = {}
 bPoint = {}
 
 local function onMark(event)    
+	if ( event.id == world.event.S_EVENT_MARK_ADDED ) then
+		trigger.action.outSound("l10n/DEFAULT/TGoYes01.wav")
+    end
+
     -- Record coordinates when a markpoint is deleted
     if ( event.id == world.event.S_EVENT_MARK_REMOVED and event.pos ) then
         local markMsg = {}
