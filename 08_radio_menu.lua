@@ -14,21 +14,33 @@ local function addRadioMenus()
             local groupId = unit.groupId
             local groupName = unit.groupName
 
-            -- Friendly or Hostile, or "Spawn Near Me"
+            -- Top Level: Spawn Friendly, Spawn Hostile, Spawn Magic Tanker"
             local FriendlyMenu		= missionCommands.addSubMenuForGroup(groupId,"Spawn Friendly",nil)
             local HostileMenu		= missionCommands.addSubMenuForGroup(groupId,"Spawn Hostile",nil)           
 
-            -- Magic Menu
+            -- Magic Tanker Menu
             local MagicMenu         = missionCommands.addSubMenuForGroup(groupId,"Spawn Magic Tanker",nil)
-            for key in pairs(spawnable.ftankers)    do missionCommands.addCommandForGroup(groupId, key, MagicMenu,
-                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true, magic=true}) end) 
+                local MTankerCircle     = missionCommands.addSubMenuForGroup(groupId,"Circle",MagicMenu)
+                local MTankerRacetrack  = missionCommands.addSubMenuForGroup(groupId,"Racetrack",MagicMenu)
+
+            for key in pairs(spawnable.ftankers)    do 
+                missionCommands.addCommandForGroup(groupId, key, MTankerCircle,
+                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true, magic=true, circle=true}) end) 
+                missionCommands.addCommandForGroup(groupId, key, MTankerRacetrack,
+                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true, magic=true, racetrack=true}) end) 
             end
  
+
             -- Second Level: Categories
+
+            -- Friendly
             local FTankerMenu 		= missionCommands.addSubMenuForGroup(groupId,"Tankers",FriendlyMenu)
+                local FTankerCircle     = missionCommands.addSubMenuForGroup(groupId,"Circle",FTankerMenu)
+                local FTankerRacetrack  = missionCommands.addSubMenuForGroup(groupId,"Racetrack",FTankerMenu)
             local FAWACSMenu 		= missionCommands.addSubMenuForGroup(groupId,"AWACS",FriendlyMenu)
             local FBoatMenu			= missionCommands.addSubMenuForGroup(groupId,"Boats",FriendlyMenu)
 
+            -- Hostile
             local ArmorMenu 		= missionCommands.addSubMenuForGroup(groupId,"Armor",HostileMenu)
             local InfantryMenu		= missionCommands.addSubMenuForGroup(groupId,"Infantry",HostileMenu)
             local AirDefenceMenu	= missionCommands.addSubMenuForGroup(groupId,"Air Defenses",HostileMenu)
@@ -39,8 +51,11 @@ local function addRadioMenus()
             local BoatMenu			= missionCommands.addSubMenuForGroup(groupId,"Boats",HostileMenu)
 
             -- Third Level: Groups
-            for key in pairs(spawnable.ftankers) 	do missionCommands.addCommandForGroup(groupId, key, FTankerMenu,  			
-                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true}) end) 
+            for key in pairs(spawnable.ftankers) 	do 
+                missionCommands.addCommandForGroup(groupId, key, FTankerCircle,  			
+                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true, circle=true}) end) 
+                missionCommands.addCommandForGroup(groupId, key, FTankerRacetrack,
+                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true, racetrack=true}) end) 
             end	
             for key in pairs(spawnable.fawacs) 		do missionCommands.addCommandForGroup(groupId, key, FAWACSMenu,  			
                 function() spawnGroup({clientGroup=groupName, group=spawnable.fawacs[key], category='air', sound=true}) end) 

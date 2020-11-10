@@ -15976,6 +15976,7 @@ local function offsetUnits(groupData, newPos, lookAt)
     end
 
     local units = groupData.units
+    env.info("Got units")
 
     env.info((string.format("Markpoint is at %0.02f, %0.02f, Unit 1 is at %0.02f, %0.02f", newPos.x, newPos.z, units[1].x, units[1].y)));
     local Xdiff = newPos.x - units[1].x
@@ -16061,6 +16062,26 @@ function setRaceTrack(groupData, A, B)
     groupData.route[2].y = B.z
 end
 
+function setCircle(groupData)
+    
+    env.info(string.format("Setting 'Circle' Orbit Pattern for group %s", groupData.groupName))
+
+    -- Get tasks for this group
+    local tasks = groupData.route[1].task.params.tasks
+
+    -- Look for the Orbit task, change the pattern type to Circle
+    for num,task in ipairs(tasks) do
+        --env.info(string.format("Checking Task %s", num))
+        if ( task.id == "Orbit" ) then
+            env.info("Found Orbit Task -- Updating Pattern Type to 'Circle'")
+            task.params.pattern = 'Circle'
+        end
+    end
+
+    -- Remove the second waypoint
+    table.remove(groupData.route, 2)
+end
+
 -- Given a start point, a radian heading, and a distance in meters, calculate the endpoint
 function getEndPoint(startPoint, rads, dist)
     local endPoint = {}
@@ -16126,30 +16147,41 @@ function spawnGroup(args)
         groupData.clone = true
     end
 
-    env.info("Checking for race-track orbit")
+    -- Limitation right now requires the groupData to have a racetrack orbit set
     if ( hasRaceTrack(groupData) ) then
-        env.info("This group has an Orbit Task")
+        env.info("This group has a Racetrack task and needs points updated")
 
-        if ( args.magic ) then -- This is a "magic" tanker :P Spawn it right in front of the client, going the same direction
-            local clientPos = mist.getLeadPos(args.clientGroup)
-            env.info("Client Position")
-            dumper(clientPos)
+        local clientPos = mist.getLeadPos(args.clientGroup)
+        local clientHeading = mist.getHeading(Group.getByName(args.clientGroup):getUnit(1))
 
-            local clientHeading = mist.getHeading(Group.getByName(args.clientGroup):getUnit(1))
-            env.info("Client Heading")
-            env.info(clientHeading)
-
+        -- Magic Tanker spawns in front of the client matching their heading
+        if ( args.magic and args.racetrack ) then
+            env.info("This is a magic racetrack tanker")
             local A = getEndPoint(clientPos, clientHeading, 500)
-            dumper(A)
             local B = getEndPoint(A, clientHeading, 203720) -- 110nm
-            dumper(B)
             setRaceTrack(groupData, A, B)
+        
+        elseif ( args.magic and args.circle ) then
+            env.info("This is a magic circle tanker")
+            local A = getEndPoint(clientPos, clientHeading, 500)
+            local B = getEndPoint(clientPos, clientHeading, 10000)
+            setRaceTrack(groupData, A, B)
+            setCircle(groupData)
 
-        elseif ( aPoint.x and bPoint.x ) then
+        -- Normal tanker requires A and B markpoints
+        elseif ( args.racetrack and aPoint.x and bPoint.x ) then
+            env.info("This is a normal racetrack tanker")
             setRaceTrack(groupData, aPoint, bPoint)
 
+        -- Circle tanker only requires an unnamed markpoint
+        elseif ( args.circle and markPoint.x ) then
+            env.info("This is a normal circle tanker")
+            local B = getEndPoint(markPoint, clientHeading, 100)
+            setRaceTrack(groupData, markPoint, B)
+            setCircle(groupData)
+
         else
-            sendError("You must define two markpoints named 'A' and 'B' first")
+            sendError("You must create and delete a markpoint for a circle tanker, or two markpoints named 'A' and 'B' for a racetrack tanker first")
             return nil
 
         end
@@ -16202,21 +16234,33 @@ local function addRadioMenus()
             local groupId = unit.groupId
             local groupName = unit.groupName
 
-            -- Friendly or Hostile, or "Spawn Near Me"
+            -- Top Level: Spawn Friendly, Spawn Hostile, Spawn Magic Tanker"
             local FriendlyMenu		= missionCommands.addSubMenuForGroup(groupId,"Spawn Friendly",nil)
             local HostileMenu		= missionCommands.addSubMenuForGroup(groupId,"Spawn Hostile",nil)           
 
-            -- Magic Menu
+            -- Magic Tanker Menu
             local MagicMenu         = missionCommands.addSubMenuForGroup(groupId,"Spawn Magic Tanker",nil)
-            for key in pairs(spawnable.ftankers)    do missionCommands.addCommandForGroup(groupId, key, MagicMenu,
-                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true, magic=true}) end) 
+                local MTankerCircle     = missionCommands.addSubMenuForGroup(groupId,"Circle",MagicMenu)
+                local MTankerRacetrack  = missionCommands.addSubMenuForGroup(groupId,"Racetrack",MagicMenu)
+
+            for key in pairs(spawnable.ftankers)    do 
+                missionCommands.addCommandForGroup(groupId, key, MTankerCircle,
+                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true, magic=true, circle=true}) end) 
+                missionCommands.addCommandForGroup(groupId, key, MTankerRacetrack,
+                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true, magic=true, racetrack=true}) end) 
             end
  
+
             -- Second Level: Categories
+
+            -- Friendly
             local FTankerMenu 		= missionCommands.addSubMenuForGroup(groupId,"Tankers",FriendlyMenu)
+                local FTankerCircle     = missionCommands.addSubMenuForGroup(groupId,"Circle",FTankerMenu)
+                local FTankerRacetrack  = missionCommands.addSubMenuForGroup(groupId,"Racetrack",FTankerMenu)
             local FAWACSMenu 		= missionCommands.addSubMenuForGroup(groupId,"AWACS",FriendlyMenu)
             local FBoatMenu			= missionCommands.addSubMenuForGroup(groupId,"Boats",FriendlyMenu)
 
+            -- Hostile
             local ArmorMenu 		= missionCommands.addSubMenuForGroup(groupId,"Armor",HostileMenu)
             local InfantryMenu		= missionCommands.addSubMenuForGroup(groupId,"Infantry",HostileMenu)
             local AirDefenceMenu	= missionCommands.addSubMenuForGroup(groupId,"Air Defenses",HostileMenu)
@@ -16227,8 +16271,11 @@ local function addRadioMenus()
             local BoatMenu			= missionCommands.addSubMenuForGroup(groupId,"Boats",HostileMenu)
 
             -- Third Level: Groups
-            for key in pairs(spawnable.ftankers) 	do missionCommands.addCommandForGroup(groupId, key, FTankerMenu,  			
-                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true}) end) 
+            for key in pairs(spawnable.ftankers) 	do 
+                missionCommands.addCommandForGroup(groupId, key, FTankerCircle,  			
+                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true, circle=true}) end) 
+                missionCommands.addCommandForGroup(groupId, key, FTankerRacetrack,
+                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true, racetrack=true}) end) 
             end	
             for key in pairs(spawnable.fawacs) 		do missionCommands.addCommandForGroup(groupId, key, FAWACSMenu,  			
                 function() spawnGroup({clientGroup=groupName, group=spawnable.fawacs[key], category='air', sound=true}) end) 
@@ -16293,7 +16340,7 @@ timer.scheduleFunction(respawnBoats, nil, timer.getTime() + 1)
 ---------- END 09_respawn_listener.lua ----------
 
 local loadedMsg = {}
-loadedMsg.text = 'Loaded Sandbox Version 116 (2020-11-08)'
+loadedMsg.text = 'Loaded Sandbox Version 136 (2020-11-10)'
 loadedMsg.displayTime = 5
 loadedMsg.msgFor = {coa = {'all'}}
 mist.message.add(loadedMsg)

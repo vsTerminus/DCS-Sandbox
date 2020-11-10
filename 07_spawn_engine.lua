@@ -29,6 +29,7 @@ local function offsetUnits(groupData, newPos, lookAt)
     end
 
     local units = groupData.units
+    env.info("Got units")
 
     env.info((string.format("Markpoint is at %0.02f, %0.02f, Unit 1 is at %0.02f, %0.02f", newPos.x, newPos.z, units[1].x, units[1].y)));
     local Xdiff = newPos.x - units[1].x
@@ -114,6 +115,26 @@ function setRaceTrack(groupData, A, B)
     groupData.route[2].y = B.z
 end
 
+function setCircle(groupData)
+    
+    env.info(string.format("Setting 'Circle' Orbit Pattern for group %s", groupData.groupName))
+
+    -- Get tasks for this group
+    local tasks = groupData.route[1].task.params.tasks
+
+    -- Look for the Orbit task, change the pattern type to Circle
+    for num,task in ipairs(tasks) do
+        --env.info(string.format("Checking Task %s", num))
+        if ( task.id == "Orbit" ) then
+            env.info("Found Orbit Task -- Updating Pattern Type to 'Circle'")
+            task.params.pattern = 'Circle'
+        end
+    end
+
+    -- Remove the second waypoint
+    table.remove(groupData.route, 2)
+end
+
 -- Given a start point, a radian heading, and a distance in meters, calculate the endpoint
 function getEndPoint(startPoint, rads, dist)
     local endPoint = {}
@@ -179,30 +200,41 @@ function spawnGroup(args)
         groupData.clone = true
     end
 
-    env.info("Checking for race-track orbit")
+    -- Limitation right now requires the groupData to have a racetrack orbit set
     if ( hasRaceTrack(groupData) ) then
-        env.info("This group has an Orbit Task")
+        env.info("This group has a Racetrack task and needs points updated")
 
-        if ( args.magic ) then -- This is a "magic" tanker :P Spawn it right in front of the client, going the same direction
-            local clientPos = mist.getLeadPos(args.clientGroup)
-            env.info("Client Position")
-            dumper(clientPos)
+        local clientPos = mist.getLeadPos(args.clientGroup)
+        local clientHeading = mist.getHeading(Group.getByName(args.clientGroup):getUnit(1))
 
-            local clientHeading = mist.getHeading(Group.getByName(args.clientGroup):getUnit(1))
-            env.info("Client Heading")
-            env.info(clientHeading)
-
+        -- Magic Tanker spawns in front of the client matching their heading
+        if ( args.magic and args.racetrack ) then
+            env.info("This is a magic racetrack tanker")
             local A = getEndPoint(clientPos, clientHeading, 500)
-            dumper(A)
             local B = getEndPoint(A, clientHeading, 203720) -- 110nm
-            dumper(B)
             setRaceTrack(groupData, A, B)
+        
+        elseif ( args.magic and args.circle ) then
+            env.info("This is a magic circle tanker")
+            local A = getEndPoint(clientPos, clientHeading, 500)
+            local B = getEndPoint(clientPos, clientHeading, 10000)
+            setRaceTrack(groupData, A, B)
+            setCircle(groupData)
 
-        elseif ( aPoint.x and bPoint.x ) then
+        -- Normal tanker requires A and B markpoints
+        elseif ( args.racetrack and aPoint.x and bPoint.x ) then
+            env.info("This is a normal racetrack tanker")
             setRaceTrack(groupData, aPoint, bPoint)
 
+        -- Circle tanker only requires an unnamed markpoint
+        elseif ( args.circle and markPoint.x ) then
+            env.info("This is a normal circle tanker")
+            local B = getEndPoint(markPoint, clientHeading, 100)
+            setRaceTrack(groupData, markPoint, B)
+            setCircle(groupData)
+
         else
-            sendError("You must define two markpoints named 'A' and 'B' first")
+            sendError("You must create and delete a markpoint for a circle tanker, or two markpoints named 'A' and 'B' for a racetrack tanker first")
             return nil
 
         end
