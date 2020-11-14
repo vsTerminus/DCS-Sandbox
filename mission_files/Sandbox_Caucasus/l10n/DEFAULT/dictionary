@@ -2,106 +2,29 @@ dictionary = {
     ["DictKey_descriptionBlueTask_3"] = "",
     ["DictKey_descriptionNeutralsTask_4"] = "",
     ["DictKey_descriptionRedTask_2"] = "",
-    ["DictKey_descriptionText_1"] = "Weather (Kobuleti, 8 AM, Feb 14, 2020)\
+    ["DictKey_descriptionText_1"] = "Tankers (Basket)\
+- Texaco 1-1 > KC-130 > 131 AM > 31X\
+- Texaco 2-1 > KC-135MPRS > 132 AM > 32X\
+- Texaco 3-1 > S-3B > 133 AM > 33X\
+- Texaco 4-1 > Il-78M > 134 AM > No TCN\
 \
-- 4C (39F)\
-- QNH 30.49 inHg (1032 hpa)\
-- Wind 7.6kts from the East (250)\
+Tankers (Boom)\
+- Shell 1-1 > KC-135 (Fast) > 141 AM > 41X\
+- Shell 1-2 > KC-135 (Slow) > 142 AM > 42X\
 \
---------------------------------------------------\
+AWACS\
+- Overlord > E-3C > 151 AM\
+- Magic > E-2D > 152 AM\
 \
-AWACS E3-D\
-- Freq 257.5 AM, \
-- Callsign Darkstar\
-\
-Tankers:\
-\
-Texaco 1-1\
-- KC-130 (Basket)\
-- TACAN 2X\
-- Comms 252\
-- 16000 ft\
-- 275kts CAS\
-\
-Texaco 2-1\
-- KC-130 (Basket)\
-- TACAN 3X\
-- Comms 253\
-\
-Shell 1-1\
-- KC-135 (Boom)\
-- TACAN 4X\
-- Comms 254\
-- 16000 ft\
-- 275 kts CAS\
-\
-Shell 2-1\
-- KC-135 (Boom)\
-- TACAN 5X\
-- Comms 255\
-\
-Arco 1-1\
-- KC-135 (Boom)\
-- TACAN 6X\
-- Comms 256\
-- 9000 ft\
-- 200 kts CAS\
-\
-Arco 2-1\
-- KC-135 (Boom)\
-- TACAN 7X\
-- Comms 257\
-\
-Arco 3-1\
-- S-3B (Basket)\
-- TACAN 8X\
-- Comms 258\
-\
-Arco 4-1\
-- S-3B (Basket)\
-- TACAN 9X\
-- Comms 259\
-\
-\
-------------------------------------\
-\
-Aircraft carriers.\
-\
-Stennis South:\
-\
-- Spawns facing into the wind\
-- TACAN 10X\
-- ICLS Ch. 10\
-- Comms 261\
-- Runway heading 070\
-\
-Stennis North:\
-\
-- Spawns facing away from the wind.\
-- TACAN 11X\
-- ICLS Ch. 11\
-- Comms 262\
-- Runway heading 070\
-\
-Kuznetsov South:\
-\
-- Spawns facing into the wind\
-- Comms 263\
-- Runway heading 070\
-\
-Kuznetsov North:\
-\
-- Comms 264\
-- Runway heading 070\
-\
-\
-------------------------------------\
-\
-Bullseye / WP1:\
-- Kutaisi\
-- N 42°10'39\"\
-- E 42°28'53\"\
-\
+Boats\
+- CVN-71 > ATC 171 > TCN 71X > ICLS Ch. 1\
+- CVN-72 > ATC 172 > TCN 72X > ICLS Ch. 2\
+- CVN-73 > ATC 173 > TCN 73X > ICLS Ch. 3\
+- CVN-74 > ATC 174 > TCN 74X > ICLS Ch. 4\
+- CVN-75 > ATC 175 > TCN 75X > ICLS Ch. 5\
+- LHA-1  > ATC 176 > TCN 76X > ICLS Ch. 6\
+- Kuznetsov (New) > ATC 177\
+- Kuznetsov (Old) > ATC 178\
 ",
     ["DictKey_GroupName_102"] = "F-15C Cold Start 3",
     ["DictKey_GroupName_1060"] = "New Vehicle Group #050",

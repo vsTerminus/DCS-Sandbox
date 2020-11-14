@@ -48052,7 +48052,7 @@ mission = {
             [13] = 68,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 261267,
+    ["currentKey"] = 262679,
     ["date"] = {
         ["Day"] = 25,
         ["Month"] = 12,

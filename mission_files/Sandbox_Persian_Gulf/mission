@@ -110,6 +110,7 @@ mission = {
                                             ["ExhaustScreen"] = false,
                                             ["GunnersAISkill"] = 90,
                                             ["NetCrewControlPriority"] = 1,
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 500,
                                         ["alt_type"] = "BARO",
@@ -286,6 +287,7 @@ mission = {
                                             ["ExhaustScreen"] = false,
                                             ["GunnersAISkill"] = 90,
                                             ["NetCrewControlPriority"] = 1,
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 500,
                                         ["alt_type"] = "BARO",
@@ -1334,6 +1336,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["NetCrewControlPriority"] = 1,
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 500,
                                         ["alt_type"] = "BARO",
@@ -1473,6 +1476,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["NetCrewControlPriority"] = 1,
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 500,
                                         ["alt_type"] = "BARO",
@@ -1612,6 +1616,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["NetCrewControlPriority"] = 1,
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 500,
                                         ["alt_type"] = "BARO",
@@ -2303,6 +2308,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["NetCrewControlPriority"] = 1,
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 3,
                                         ["alt_type"] = "BARO",
@@ -3685,6 +3691,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["NetCrewControlPriority"] = 1,
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 3,
                                         ["alt_type"] = "BARO",
@@ -3802,6 +3809,7 @@ mission = {
                                             ["ExhaustScreen"] = true,
                                             ["GunnersAISkill"] = 90,
                                             ["NetCrewControlPriority"] = 1,
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 3,
                                         ["alt_type"] = "BARO",
@@ -25469,7 +25477,7 @@ mission = {
                                             ["name"] = "Uzi21",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = 0,
+                                        ["heading"] = 6.2831853071796,
                                         ["livery_id"] = "279th kiap 1st squad navy",
                                         ["name"] = "DictKey_UnitName_1866",
                                         ["onboard_num"] = "081",
@@ -34032,7 +34040,7 @@ mission = {
                                         ["alt"] = 500,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 167,
-                                        ["heading"] = -1.3597405707011,
+                                        ["heading"] = -1.359740570701,
                                         ["livery_id"] = "3rd Royal Guards",
                                         ["name"] = "DictKey_UnitName_915",
                                         ["onboard_num"] = "052",
@@ -34044,7 +34052,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 1.3597405707011,
+                                        ["psi"] = 1.359740570701,
                                         ["ropeLength"] = 15,
                                         ["skill"] = "High",
                                         ["speed"] = 46.25,
@@ -34057,7 +34065,7 @@ mission = {
                                         ["alt"] = 500,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 168,
-                                        ["heading"] = -1.3597405707011,
+                                        ["heading"] = -1.359740570701,
                                         ["livery_id"] = "3rd Royal Guards",
                                         ["name"] = "DictKey_UnitName_918",
                                         ["onboard_num"] = "053",
@@ -34069,7 +34077,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = 1.3597405707011,
+                                        ["psi"] = 1.359740570701,
                                         ["ropeLength"] = 15,
                                         ["skill"] = "High",
                                         ["speed"] = 46.25,
@@ -39726,21 +39734,6 @@ mission = {
                                                 ["id"] = "ComboTask",
                                                 ["params"] = {
                                                     ["tasks"] = {
-                                                        [1] = {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 1,
-                                                            ["params"] = {
-                                                                ["action"] = {
-                                                                    ["id"] = "EPLRS",
-                                                                    ["params"] = {
-                                                                        ["groupId"] = 2,
-                                                                        ["value"] = true,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -39836,21 +39829,6 @@ mission = {
                                                 ["id"] = "ComboTask",
                                                 ["params"] = {
                                                     ["tasks"] = {
-                                                        [1] = {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 1,
-                                                            ["params"] = {
-                                                                ["action"] = {
-                                                                    ["id"] = "EPLRS",
-                                                                    ["params"] = {
-                                                                        ["groupId"] = 1,
-                                                                        ["value"] = true,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -39946,21 +39924,6 @@ mission = {
                                                 ["id"] = "ComboTask",
                                                 ["params"] = {
                                                     ["tasks"] = {
-                                                        [1] = {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 1,
-                                                            ["params"] = {
-                                                                ["action"] = {
-                                                                    ["id"] = "EPLRS",
-                                                                    ["params"] = {
-                                                                        ["groupId"] = 4,
-                                                                        ["value"] = true,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -40056,21 +40019,6 @@ mission = {
                                                 ["id"] = "ComboTask",
                                                 ["params"] = {
                                                     ["tasks"] = {
-                                                        [1] = {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 1,
-                                                            ["params"] = {
-                                                                ["action"] = {
-                                                                    ["id"] = "EPLRS",
-                                                                    ["params"] = {
-                                                                        ["groupId"] = 3,
-                                                                        ["value"] = true,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -40946,7 +40894,7 @@ mission = {
             [5] = 68,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 671915,
+    ["currentKey"] = 674031,
     ["date"] = {
         ["Day"] = 25,
         ["Month"] = 3,
