@@ -16344,7 +16344,7 @@ timer.scheduleFunction(respawnBoats, nil, timer.getTime() + 1)
 ---------- END 09_respawn_listener.lua ----------
 
 local loadedMsg = {}
-loadedMsg.text = 'Loaded Sandbox Version 137 (2020-11-10)'
+loadedMsg.text = 'Loaded Sandbox Version 138 (2020-11-18)'
 loadedMsg.displayTime = 5
 loadedMsg.msgFor = {coa = {'all'}}
 mist.message.add(loadedMsg)

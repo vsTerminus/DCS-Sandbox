@@ -82,7 +82,7 @@ options =
         ["aspect"] = 1.7777777777778,
         ["textures"] = 2,
         ["shadows"] = 4,
-        ["MSAA"] = 0,
+        ["MSAA"] = 1,
         ["SSAA"] = 0,
         ["height"] = 1440,
         ["forestDistanceFactor"] = 1,
@@ -102,11 +102,11 @@ options =
         ["SSAO"] = 0,
         ["lights"] = 2,
         ["sync"] = false,
-        ["LensEffects"] = 0,
+        ["LensEffects"] = 3,
         ["visibRange"] = "High",
         ["clutterMaxDistance"] = 1500,
         ["scaleGui"] = 1,
-        ["civTraffic"] = "high",
+        ["civTraffic"] = "",
     }, -- end of ["graphics"]
     ["plugins"] = 
     {
@@ -132,7 +132,7 @@ options =
             ["abDetent"] = 0,
             ["canopyReflections"] = 1,
             ["hmdEye"] = 1,
-            ["CPLocalList"] = "watermanpc",
+            ["CPLocalList"] = "01_BLACK_UFC_pit",
             ["F18RealisticTDC"] = true,
             ["mfdReflections"] = 1,
         }, -- end of ["F/A-18C"]
@@ -187,6 +187,19 @@ options =
             ["CPLocalList"] = "default",
             ["autoRudder"] = false,
         }, -- end of ["FW-190D9"]
+        ["Mi-8MTV2"] = 
+        {
+            ["Mi8TrimmingMethod"] = 1,
+            ["Mi8CockpitShake"] = 50,
+            ["gunCamera"] = 2,
+            ["controlHelperMi8"] = false,
+            ["Mi8RudderTrimmer"] = false,
+            ["collectiveDisengage"] = 1,
+            ["Mi8FOV"] = 120,
+            ["Mi8AutopilotAdjustment"] = false,
+            ["CPLocalList"] = "English Black Cockpit by Devrim",
+            ["collectiveBrake"] = 0,
+        }, -- end of ["Mi-8MTV2"]
         ["Yak52"] = 
         {
             ["aileronTrim"] = 0,
@@ -195,18 +208,6 @@ options =
             ["assistance"] = 0,
             ["autoRudder"] = false,
         }, -- end of ["Yak52"]
-        ["F-14B"] = 
-        {
-            ["JESTER_HeadMenu"] = false,
-            ["FFB_TRIM"] = false,
-            ["JESTER_LandingCallouts"] = true,
-            ["JESTER_SwitchToPSTT"] = false,
-            ["CPLocalList"] = "default",
-            ["TID_A2G"] = true,
-            ["WEAP_OFF_GUN"] = false,
-            ["JESTER_Camera"] = false,
-            ["RadioMenuPttOptions"] = 3,
-        }, -- end of ["F-14B"]
         ["A-10C_2"] = 
         {
             ["hmdEye"] = 1,
@@ -355,19 +356,18 @@ options =
         {
             ["CPLocalList"] = "default",
         }, -- end of ["AJS37"]
-        ["Mi-8MTV2"] = 
+        ["F-14"] = 
         {
-            ["Mi8TrimmingMethod"] = 1,
-            ["Mi8CockpitShake"] = 50,
-            ["gunCamera"] = 2,
-            ["controlHelperMi8"] = false,
-            ["Mi8RudderTrimmer"] = false,
-            ["collectiveDisengage"] = 1,
-            ["Mi8FOV"] = 120,
-            ["Mi8AutopilotAdjustment"] = false,
-            ["CPLocalList"] = "English Black Cockpit by Devrim",
-            ["collectiveBrake"] = 0,
-        }, -- end of ["Mi-8MTV2"]
+            ["JESTER_HeadMenu"] = true,
+            ["FFB_TRIM"] = false,
+            ["JESTER_LandingCallouts"] = true,
+            ["AB_GATE"] = false,
+            ["JESTER_Camera"] = true,
+            ["TID_A2G"] = false,
+            ["WEAP_OFF_GUN"] = false,
+            ["JESTER_SwitchToPSTT"] = true,
+            ["RadioMenuPttOptions"] = 0,
+        }, -- end of ["F-14"]
         ["SA342"] = 
         {
             ["StickRollCurve"] = 0,
@@ -419,7 +419,7 @@ options =
         {
             ["mirrors"] = true,
             ["reflections"] = false,
-            ["avionics"] = 3,
+            ["avionics"] = 4,
         }, -- end of ["cockpit"]
     }, -- end of ["views"]
 } -- end of options

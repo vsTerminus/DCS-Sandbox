@@ -42,13 +42,13 @@ options =
         ["radio"] = false,
         ["userMarks"] = true,
         ["unrestrictedSATNAV"] = true,
-        ["units"] = "imperial",
+        ["units"] = "metric",
         ["spectatorExternalViews"] = true,
         ["tips"] = true,
         ["userSnapView"] = true,
         ["RBDAI"] = true,
         ["externalViews"] = true,
-        ["iconsTheme"] = "nato",
+        ["iconsTheme"] = "russian",
         ["avionicsLanguage"] = "native",
         ["weapons"] = true,
         ["setGlobal"] = false,
@@ -82,8 +82,8 @@ options =
         ["aspect"] = 1.7777777777778,
         ["textures"] = 2,
         ["shadows"] = 4,
-        ["MSAA"] = 0,
-        ["SSAA"] = 0,
+        ["MSAA"] = 1,
+        ["SSAA"] = 1,
         ["height"] = 1440,
         ["forestDistanceFactor"] = 1,
         ["cockpitGI"] = 1,
@@ -97,16 +97,16 @@ options =
         ["flatTerrainShadows"] = 0,
         ["useDeferredShading"] = 1,
         ["width"] = 2560,
-        ["SSLR"] = 0,
+        ["SSLR"] = 1,
         ["effects"] = 3,
         ["SSAO"] = 0,
         ["lights"] = 2,
         ["sync"] = false,
-        ["LensEffects"] = 0,
-        ["visibRange"] = "High",
+        ["LensEffects"] = 3,
+        ["visibRange"] = "Extreme",
         ["clutterMaxDistance"] = 1500,
         ["scaleGui"] = 1,
-        ["civTraffic"] = "high",
+        ["civTraffic"] = "",
     }, -- end of ["graphics"]
     ["plugins"] = 
     {
@@ -132,7 +132,7 @@ options =
             ["abDetent"] = 0,
             ["canopyReflections"] = 1,
             ["hmdEye"] = 1,
-            ["CPLocalList"] = "watermanpc",
+            ["CPLocalList"] = "01_BLACK_UFC_pit",
             ["F18RealisticTDC"] = true,
             ["mfdReflections"] = 1,
         }, -- end of ["F/A-18C"]
@@ -209,7 +209,9 @@ options =
         }, -- end of ["F-14B"]
         ["A-10C_2"] = 
         {
+            ["hmdEye"] = 1,
             ["CPLocalList"] = "aged",
+            ["defaultGunMode"] = 0,
         }, -- end of ["A-10C_2"]
         ["CA"] = 
         {
@@ -261,11 +263,10 @@ options =
         ["NS430"] = 
         {
             ["bf109k4_enabled"] = true,
-            ["ka50_enabled"] = false,
+            ["mi8_3D_enabled"] = true,
             ["mig29g_enabled"] = true,
             ["fw190d9_enabled"] = true,
-            ["f15c_enabled"] = true,
-            ["a10c_enabled"] = false,
+            ["miraj_enabled"] = true,
             ["su27_enabled"] = true,
             ["SpitfireLFMkIX_enabled"] = true,
             ["mi8_common_enabled"] = true,
@@ -274,36 +275,32 @@ options =
             ["sa342mistral_enabled"] = true,
             ["f86f_enabled"] = true,
             ["j11a_enabled"] = true,
-            ["su25_enabled"] = true,
             ["c101cc_3D_enabled"] = true,
             ["mig29a_enabled"] = true,
             ["uh1h_enabled"] = true,
-            ["miraj_enabled"] = true,
             ["ajs37_enabled"] = true,
-            ["f16cmbl50_enabled"] = true,
             ["i16_enabled"] = true,
             ["av8b_enabled"] = true,
-            ["yak52_enabled"] = true,
             ["f5e3_enabled"] = true,
-            ["a10a_enabled"] = true,
+            ["yak52_enabled"] = true,
             ["mig21bis_enabled"] = true,
             ["mig29s_enabled"] = true,
             ["su33_enabled"] = true,
-            ["p51d_enabled"] = true,
-            ["su25t_enabled"] = true,
-            ["sa342m_enabled"] = true,
+            ["su25_enabled"] = true,
+            ["f15c_enabled"] = true,
+            ["a10a_enabled"] = true,
             ["sa342l_enabled"] = true,
             ["l39za_enabled"] = true,
-            ["mi8_3D_enabled"] = true,
-            ["hawk_enabled"] = true,
+            ["p51d_enabled"] = true,
+            ["su25t_enabled"] = true,
             ["sa342minigun_enabled"] = true,
             ["mig15bis_enabled"] = true,
             ["l39c_common_enabled"] = true,
             ["l39c_3D_enabled"] = true,
             ["c101eb_3D_enabled"] = true,
             ["c101eb_common_enabled"] = true,
-            ["fa18c_enabled"] = false,
             ["tf51d_enabled"] = true,
+            ["sa342m_enabled"] = true,
         }, -- end of ["NS430"]
         ["P-51D"] = 
         {
@@ -324,7 +321,7 @@ options =
             ["Engine"] = false,
             ["Experimental"] = false,
             ["Shake"] = 100,
-            ["CPLocalList"] = "English - Metric",
+            ["CPLocalList"] = "Black Cockpit - English",
             ["Reticle"] = true,
             ["Freeze"] = false,
         }, -- end of ["MiG-21Bis"]
@@ -362,7 +359,7 @@ options =
         {
             ["Mi8TrimmingMethod"] = 1,
             ["Mi8CockpitShake"] = 50,
-            ["gunCamera"] = 0,
+            ["gunCamera"] = 2,
             ["controlHelperMi8"] = false,
             ["Mi8RudderTrimmer"] = false,
             ["collectiveDisengage"] = 1,
@@ -412,7 +409,7 @@ options =
         ["switches"] = 100,
         ["play_audio_while_minimized"] = false,
         ["headphones"] = 100,
-        ["music"] = 50,
+        ["music"] = 0,
         ["voice_chat_input"] = "0:{0.0.1.00000000}.{b77aef40-72b4-41ea-90ad-b742db111164}",
         ["gui"] = 100,
     }, -- end of ["sound"]
@@ -422,7 +419,7 @@ options =
         {
             ["mirrors"] = true,
             ["reflections"] = false,
-            ["avionics"] = 3,
+            ["avionics"] = 4,
         }, -- end of ["cockpit"]
     }, -- end of ["views"]
 } -- end of options
