@@ -35,14 +35,14 @@ AWACS\
 - Magic > E-2D > 152 AM\
 \
 Boats\
-- CVN-71 > ATC 171 > TCN 71X > ICLS Ch. 1\
-- CVN-72 > ATC 172 > TCN 72X > ICLS Ch. 2\
-- CVN-73 > ATC 173 > TCN 73X > ICLS Ch. 3\
-- CVN-74 > ATC 174 > TCN 74X > ICLS Ch. 4\
-- CVN-75 > ATC 175 > TCN 75X > ICLS Ch. 5\
-- LHA-1  > ATC 176 > TCN 76X > ICLS Ch. 6\
-- Kuznetsov (New) > ATC 177\
-- Kuznetsov (Old) > ATC 178\
+- CVN-71 > ATC 251 > TCN 71X > ICLS Ch. 1\
+- CVN-72 > ATC 252 > TCN 72X > ICLS Ch. 2\
+- CVN-73 > ATC 253 > TCN 73X > ICLS Ch. 3\
+- CVN-74 > ATC 254 > TCN 74X > ICLS Ch. 4\
+- CVN-75 > ATC 255 > TCN 75X > ICLS Ch. 5\
+- LHA-1    > ATC 256 > TCN 76X > ICLS Ch. 6\
+- Kuznetsov (New) > ATC 257\
+- Kuznetsov (Old) > ATC 258\
 ",
     ["DictKey_GroupName_1002"] = "I-16 Bassel Al-Assad 1",
     ["DictKey_GroupName_1005"] = "F-15C Bassel Al-Assad 1",
@@ -207,6 +207,8 @@ Boats\
     ["DictKey_GroupName_1564"] = "MiG-28 BFM",
     ["DictKey_GroupName_1567"] = "F-14A Incirlik 1",
     ["DictKey_GroupName_1570"] = "F-14A Incirlik 2",
+    ["DictKey_GroupName_1573"] = "F-14A Carrier Cold 1",
+    ["DictKey_GroupName_1576"] = "F-14A Carrier Cold 2",
     ["DictKey_GroupName_158"] = "MiG-29S Damascus 1",
     ["DictKey_GroupName_162"] = "C-101EB Damascus 1",
     ["DictKey_GroupName_165"] = "Mi-8 Sultan North 1",
@@ -558,6 +560,8 @@ Boats\
     ["DictKey_UnitName_1565"] = "MiG-28 BFM",
     ["DictKey_UnitName_1568"] = "F-14A Incirlik 1-1",
     ["DictKey_UnitName_1571"] = "F-14A Incirlik 2-1",
+    ["DictKey_UnitName_1574"] = "F-14A Carrier Cold 1-1",
+    ["DictKey_UnitName_1577"] = "F-14A Carrier Cold 2-1",
     ["DictKey_UnitName_159"] = "MiG-29S Damascus 1-1",
     ["DictKey_UnitName_163"] = "C 101EB Damascus 1-1",
     ["DictKey_UnitName_166"] = "Mi-8 Cold 1-1",
@@ -916,6 +920,8 @@ Boats\
     ["DictKey_WptName_1566"] = "",
     ["DictKey_WptName_1569"] = "",
     ["DictKey_WptName_1572"] = "",
+    ["DictKey_WptName_1575"] = "",
+    ["DictKey_WptName_1578"] = "",
     ["DictKey_WptName_16"] = "",
     ["DictKey_WptName_160"] = "",
     ["DictKey_WptName_164"] = "",
