@@ -17,14 +17,14 @@ AWACS\
 - Magic > E-2D > 152 AM\
 \
 Boats\
-- CVN-71 > ATC 171 > TCN 71X > ICLS Ch. 1\
-- CVN-72 > ATC 172 > TCN 72X > ICLS Ch. 2\
-- CVN-73 > ATC 173 > TCN 73X > ICLS Ch. 3\
-- CVN-74 > ATC 174 > TCN 74X > ICLS Ch. 4\
-- CVN-75 > ATC 175 > TCN 75X > ICLS Ch. 5\
-- LHA-1  > ATC 176 > TCN 76X > ICLS Ch. 6\
-- Kuznetsov (New) > ATC 177\
-- Kuznetsov (Old) > ATC 178\
+- CVN-71 > ATC 251 > TCN 71X > ICLS Ch. 1\
+- CVN-72 > ATC 252 > TCN 72X > ICLS Ch. 2\
+- CVN-73 > ATC 253 > TCN 73X > ICLS Ch. 3\
+- CVN-74 > ATC 254 > TCN 74X > ICLS Ch. 4\
+- CVN-75 > ATC 255 > TCN 75X > ICLS Ch. 5\
+- LHA-1    > ATC 256 > TCN 76X > ICLS Ch. 6\
+- Kuznetsov (New) > ATC 257\
+- Kuznetsov (Old) > ATC 258\
 ",
     ["DictKey_GroupName_1001"] = "F-16C Kish 1",
     ["DictKey_GroupName_104"] = "Huey Hot Kish 1",
@@ -115,7 +115,6 @@ Boats\
     ["DictKey_GroupName_1856"] = "New Static Object #023",
     ["DictKey_GroupName_1859"] = "New Static Object #024",
     ["DictKey_GroupName_1862"] = "New Static Object #025",
-    ["DictKey_GroupName_1865"] = "Sea Flankers No Gas",
     ["DictKey_GroupName_1870"] = "MiG-28s",
     ["DictKey_GroupName_1875"] = "Flying MiG-28s",
     ["DictKey_GroupName_188"] = "MiG-21bis Kish 1",
@@ -469,9 +468,6 @@ Boats\
     ["DictKey_UnitName_1655"] = "Red Kuznetsov",
     ["DictKey_UnitName_181"] = "Pilot #056",
     ["DictKey_UnitName_185"] = "Pilot #057",
-    ["DictKey_UnitName_1866"] = "Pilot #058",
-    ["DictKey_UnitName_1868"] = "Pilot #092",
-    ["DictKey_UnitName_1869"] = "Pilot #093",
     ["DictKey_UnitName_1871"] = "Pilot #155",
     ["DictKey_UnitName_1873"] = "Pilot #156",
     ["DictKey_UnitName_1874"] = "Pilot #161",
@@ -890,7 +886,6 @@ Boats\
     ["DictKey_WptName_182"] = "",
     ["DictKey_WptName_183"] = "",
     ["DictKey_WptName_186"] = "",
-    ["DictKey_WptName_1867"] = "",
     ["DictKey_WptName_187"] = "",
     ["DictKey_WptName_1872"] = "",
     ["DictKey_WptName_1877"] = "",

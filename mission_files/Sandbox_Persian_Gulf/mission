@@ -23067,8 +23067,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 24367.787448501,
-                                            ["y"] = -143823.88375275,
+                                            ["x"] = 24365.641838078,
+                                            ["y"] = -143800.16539734,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -23144,8 +23144,8 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
-                                        ["frequency"] = 128000000,
-                                        ["heading"] = 4.9784774156996,
+                                        ["frequency"] = 253000000,
+                                        ["heading"] = 4.9784232208836,
                                         ["modulation"] = 0,
                                         ["name"] = "DictKey_UnitName_3395",
                                         ["skill"] = "Average",
@@ -23154,13 +23154,13 @@ mission = {
                                         }, -- end of ["transportable"]
                                         ["type"] = "CVN_73",
                                         ["unitId"] = 1257,
-                                        ["x"] = 24367.787448501,
-                                        ["y"] = -143823.88375275,
+                                        ["x"] = 24365.641838078,
+                                        ["y"] = -143800.16539734,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
-                                ["x"] = 24367.787448501,
-                                ["y"] = -143823.88375275,
+                                ["x"] = 24365.641838078,
+                                ["y"] = -143800.16539734,
                             }, -- end of [1]
                             [2] = {
                                 ["groupId"] = 796,
@@ -23347,7 +23347,7 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
-                                        ["frequency"] = 127000000,
+                                        ["frequency"] = 254000000,
                                         ["heading"] = 4.9783657749675,
                                         ["modulation"] = 0,
                                         ["name"] = "DictKey_UnitName_3399",
@@ -23550,7 +23550,7 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
-                                        ["frequency"] = 125000000,
+                                        ["frequency"] = 256000000,
                                         ["heading"] = 4.9776238202222,
                                         ["modulation"] = 0,
                                         ["name"] = "DictKey_UnitName_3403",
@@ -25411,270 +25411,6 @@ mission = {
                         ["group"] = {
                             [1] = {
                                 ["communication"] = true,
-                                ["frequency"] = 124,
-                                ["groupId"] = 448,
-                                ["hidden"] = false,
-                                ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_1865",
-                                ["radioSet"] = false,
-                                ["route"] = {
-                                    ["points"] = {
-                                        [1] = {
-                                            ["action"] = "From Parking Area",
-                                            ["alt"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["ETA"] = 0,
-                                            ["ETA_locked"] = true,
-                                            ["formation_template"] = "",
-                                            ["helipadId"] = 1259,
-                                            ["linkUnit"] = 1259,
-                                            ["name"] = "DictKey_WptName_1867",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
-                                            ["speed"] = 138.88888888889,
-                                            ["speed_locked"] = true,
-                                            ["task"] = {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = {
-                                                    ["tasks"] = {
-                                                        [1] = {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "EngageTargets",
-                                                            ["key"] = "CAP",
-                                                            ["number"] = 1,
-                                                            ["params"] = {
-                                                                ["priority"] = 0,
-                                                                ["targetTypes"] = {
-                                                                    [1] = "Air",
-                                                                }, -- end of ["targetTypes"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "TakeOffParking",
-                                            ["x"] = 27681.510597537,
-                                            ["y"] = -143899.09199026,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["start_time"] = 0,
-                                ["task"] = "CAP",
-                                ["tasks"] = {
-                                }, -- end of ["tasks"]
-                                ["uncontrolled"] = false,
-                                ["units"] = {
-                                    [1] = {
-                                        ["alt"] = 0,
-                                        ["alt_type"] = "BARO",
-                                        ["callsign"] = {
-                                            [1] = 3,
-                                            [2] = 2,
-                                            [3] = 1,
-                                            ["name"] = "Uzi21",
-                                        }, -- end of ["callsign"]
-                                        ["hardpoint_racks"] = true,
-                                        ["heading"] = 6.2831853071796,
-                                        ["livery_id"] = "279th kiap 1st squad navy",
-                                        ["name"] = "DictKey_UnitName_1866",
-                                        ["onboard_num"] = "081",
-                                        ["parking"] = "1",
-                                        ["parking_id"] = "1",
-                                        ["payload"] = {
-                                            ["chaff"] = 48,
-                                            ["flare"] = 48,
-                                            ["fuel"] = 0,
-                                            ["gun"] = 100,
-                                            ["pylons"] = {
-                                                [1] = {
-                                                    ["CLSID"] = "{44EE8698-89F9-48EE-AF36-5FD31896A82F}",
-                                                }, -- end of [1]
-                                                [2] = {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-                                                }, -- end of [2]
-                                                [3] = {
-                                                    ["CLSID"] = "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}",
-                                                }, -- end of [3]
-                                                [4] = {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [4]
-                                                [5] = {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [5]
-                                                [6] = {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [6]
-                                                [7] = {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [7]
-                                                [8] = {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [8]
-                                                [9] = {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [9]
-                                                [10] = {
-                                                    ["CLSID"] = "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}",
-                                                }, -- end of [10]
-                                                [11] = {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-                                                }, -- end of [11]
-                                                [12] = {
-                                                    ["CLSID"] = "{44EE8698-89F9-48EE-AF36-5FD31896A82A}",
-                                                }, -- end of [12]
-                                            }, -- end of ["pylons"]
-                                        }, -- end of ["payload"]
-                                        ["psi"] = 0,
-                                        ["skill"] = "High",
-                                        ["speed"] = 138.88888888889,
-                                        ["type"] = "Su-33",
-                                        ["unitId"] = 617,
-                                        ["x"] = 27681.510597537,
-                                        ["y"] = -143899.09199026,
-                                    }, -- end of [1]
-                                    [2] = {
-                                        ["alt"] = 0,
-                                        ["alt_type"] = "BARO",
-                                        ["callsign"] = {
-                                            [1] = 3,
-                                            [2] = 2,
-                                            [3] = 2,
-                                            ["name"] = "Uzi22",
-                                        }, -- end of ["callsign"]
-                                        ["heading"] = 0,
-                                        ["livery_id"] = "279th kiap 1st squad navy",
-                                        ["name"] = "DictKey_UnitName_1868",
-                                        ["onboard_num"] = "082",
-                                        ["parking"] = "3",
-                                        ["parking_id"] = "3",
-                                        ["payload"] = {
-                                            ["chaff"] = 48,
-                                            ["flare"] = 48,
-                                            ["fuel"] = 0,
-                                            ["gun"] = 100,
-                                            ["pylons"] = {
-                                                [1] = {
-                                                    ["CLSID"] = "{44EE8698-89F9-48EE-AF36-5FD31896A82F}",
-                                                }, -- end of [1]
-                                                [2] = {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-                                                }, -- end of [2]
-                                                [3] = {
-                                                    ["CLSID"] = "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}",
-                                                }, -- end of [3]
-                                                [4] = {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [4]
-                                                [5] = {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [5]
-                                                [6] = {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [6]
-                                                [7] = {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [7]
-                                                [8] = {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [8]
-                                                [9] = {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [9]
-                                                [10] = {
-                                                    ["CLSID"] = "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}",
-                                                }, -- end of [10]
-                                                [11] = {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-                                                }, -- end of [11]
-                                                [12] = {
-                                                    ["CLSID"] = "{44EE8698-89F9-48EE-AF36-5FD31896A82A}",
-                                                }, -- end of [12]
-                                            }, -- end of ["pylons"]
-                                        }, -- end of ["payload"]
-                                        ["psi"] = 0,
-                                        ["skill"] = "High",
-                                        ["speed"] = 138.88888888889,
-                                        ["type"] = "Su-33",
-                                        ["unitId"] = 618,
-                                        ["x"] = 27667.313317389,
-                                        ["y"] = -143851.13665546,
-                                    }, -- end of [2]
-                                    [3] = {
-                                        ["alt"] = 0,
-                                        ["alt_type"] = "BARO",
-                                        ["callsign"] = {
-                                            [1] = 3,
-                                            [2] = 2,
-                                            [3] = 3,
-                                            ["name"] = "Uzi23",
-                                        }, -- end of ["callsign"]
-                                        ["heading"] = 0,
-                                        ["livery_id"] = "279th kiap 1st squad navy",
-                                        ["name"] = "DictKey_UnitName_1869",
-                                        ["onboard_num"] = "083",
-                                        ["parking"] = "2",
-                                        ["parking_id"] = "2",
-                                        ["payload"] = {
-                                            ["chaff"] = 48,
-                                            ["flare"] = 48,
-                                            ["fuel"] = 0,
-                                            ["gun"] = 100,
-                                            ["pylons"] = {
-                                                [1] = {
-                                                    ["CLSID"] = "{44EE8698-89F9-48EE-AF36-5FD31896A82F}",
-                                                }, -- end of [1]
-                                                [2] = {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-                                                }, -- end of [2]
-                                                [3] = {
-                                                    ["CLSID"] = "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}",
-                                                }, -- end of [3]
-                                                [4] = {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [4]
-                                                [5] = {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [5]
-                                                [6] = {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [6]
-                                                [7] = {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [7]
-                                                [8] = {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [8]
-                                                [9] = {
-                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
-                                                }, -- end of [9]
-                                                [10] = {
-                                                    ["CLSID"] = "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}",
-                                                }, -- end of [10]
-                                                [11] = {
-                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
-                                                }, -- end of [11]
-                                                [12] = {
-                                                    ["CLSID"] = "{44EE8698-89F9-48EE-AF36-5FD31896A82A}",
-                                                }, -- end of [12]
-                                            }, -- end of ["pylons"]
-                                        }, -- end of ["payload"]
-                                        ["psi"] = 0,
-                                        ["skill"] = "High",
-                                        ["speed"] = 138.88888888889,
-                                        ["type"] = "Su-33",
-                                        ["unitId"] = 619,
-                                        ["x"] = 27674.339580141,
-                                        ["y"] = -143875.13398305,
-                                    }, -- end of [3]
-                                }, -- end of ["units"]
-                                ["x"] = 27681.510597537,
-                                ["y"] = -143899.09199026,
-                            }, -- end of [1]
-                            [2] = {
-                                ["communication"] = true,
                                 ["frequency"] = 305,
                                 ["groupId"] = 450,
                                 ["hidden"] = false,
@@ -26041,8 +25777,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = 43026.232763298,
                                 ["y"] = -228628.55062814,
-                            }, -- end of [2]
-                            [3] = {
+                            }, -- end of [1]
+                            [2] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 13,
@@ -26147,8 +25883,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = 43105.91796875,
                                 ["y"] = -225790.203125,
-                            }, -- end of [3]
-                            [4] = {
+                            }, -- end of [2]
+                            [3] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 40,
@@ -26302,8 +26038,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = 43218.15234375,
                                 ["y"] = -225449.34375,
-                            }, -- end of [4]
-                            [5] = {
+                            }, -- end of [3]
+                            [4] = {
                                 ["communication"] = true,
                                 ["frequency"] = 3.75,
                                 ["groupId"] = 39,
@@ -26408,8 +26144,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = 43222.8671875,
                                 ["y"] = -225493.75,
-                            }, -- end of [5]
-                            [6] = {
+                            }, -- end of [4]
+                            [5] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 38,
@@ -26514,8 +26250,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = 43194.1953125,
                                 ["y"] = -225228.1875,
-                            }, -- end of [6]
-                            [7] = {
+                            }, -- end of [5]
+                            [6] = {
                                 ["communication"] = true,
                                 ["frequency"] = 127.5,
                                 ["groupId"] = 27,
@@ -26651,8 +26387,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = 43063.1484375,
                                 ["y"] = -225242.40625,
-                            }, -- end of [7]
-                            [8] = {
+                            }, -- end of [6]
+                            [7] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 28,
@@ -26794,8 +26530,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = 43058.30859375,
                                 ["y"] = -225198.203125,
-                            }, -- end of [8]
-                            [9] = {
+                            }, -- end of [7]
+                            [8] = {
                                 ["communication"] = true,
                                 ["frequency"] = 127.5,
                                 ["groupId"] = 417,
@@ -26899,8 +26635,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = 40412.86851061,
                                 ["y"] = -200837.3671604,
-                            }, -- end of [9]
-                            [10] = {
+                            }, -- end of [8]
+                            [9] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 418,
@@ -27004,8 +26740,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = 40390.55088693,
                                 ["y"] = -200837.87825102,
-                            }, -- end of [10]
-                            [11] = {
+                            }, -- end of [9]
+                            [10] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 419,
@@ -27109,8 +26845,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = 40372.570876745,
                                 ["y"] = -200839.46835755,
-                            }, -- end of [11]
-                            [12] = {
+                            }, -- end of [10]
+                            [11] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 421,
@@ -27214,8 +26950,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = 40356.878156139,
                                 ["y"] = -200838.5099146,
-                            }, -- end of [12]
-                            [13] = {
+                            }, -- end of [11]
+                            [12] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 729,
@@ -27319,8 +27055,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -199595.12815707,
                                 ["y"] = -170921.79801746,
-                            }, -- end of [13]
-                            [14] = {
+                            }, -- end of [12]
+                            [13] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 730,
@@ -27424,8 +27160,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -199592.62866914,
                                 ["y"] = -170959.48491422,
-                            }, -- end of [14]
-                            [15] = {
+                            }, -- end of [13]
+                            [14] = {
                                 ["communication"] = true,
                                 ["frequency"] = 305,
                                 ["groupId"] = 722,
@@ -27557,8 +27293,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -199562.10424366,
                                 ["y"] = -170959.48491422,
-                            }, -- end of [15]
-                            [16] = {
+                            }, -- end of [14]
+                            [15] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 732,
@@ -27662,8 +27398,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -199546.84203092,
                                 ["y"] = -170959.48491422,
-                            }, -- end of [16]
-                            [17] = {
+                            }, -- end of [15]
+                            [16] = {
                                 ["communication"] = true,
                                 ["frequency"] = 127.5,
                                 ["groupId"] = 728,
@@ -27767,8 +27503,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -199544.74385867,
                                 ["y"] = -170939.5143549,
-                            }, -- end of [17]
-                            [18] = {
+                            }, -- end of [16]
+                            [17] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 738,
@@ -27921,8 +27657,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -199606.55980698,
                                 ["y"] = -171014.68633029,
-                            }, -- end of [18]
-                            [19] = {
+                            }, -- end of [17]
+                            [18] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 676,
@@ -28002,8 +27738,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -191207.171875,
                                 ["y"] = -182014.765625,
-                            }, -- end of [19]
-                            [20] = {
+                            }, -- end of [18]
+                            [19] = {
                                 ["communication"] = true,
                                 ["frequency"] = 127.5,
                                 ["groupId"] = 694,
@@ -28083,8 +27819,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -190670.984375,
                                 ["y"] = -182854.59375,
-                            }, -- end of [20]
-                            [21] = {
+                            }, -- end of [19]
+                            [20] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 693,
@@ -28164,8 +27900,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -190640.8125,
                                 ["y"] = -182828.671875,
-                            }, -- end of [21]
-                            [22] = {
+                            }, -- end of [20]
+                            [21] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 669,
@@ -28245,8 +27981,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -188837.0625,
                                 ["y"] = -176304.9375,
-                            }, -- end of [22]
-                            [23] = {
+                            }, -- end of [21]
+                            [22] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 667,
@@ -28375,8 +28111,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -188910,
                                 ["y"] = -176281.6875,
-                            }, -- end of [23]
-                            [24] = {
+                            }, -- end of [22]
+                            [23] = {
                                 ["communication"] = true,
                                 ["frequency"] = 132,
                                 ["groupId"] = 663,
@@ -28477,8 +28213,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -189091.29208999,
                                 ["y"] = -176227.8293457,
-                            }, -- end of [24]
-                            [25] = {
+                            }, -- end of [23]
+                            [24] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 662,
@@ -28558,8 +28294,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -189110.78125,
                                 ["y"] = -176288.9375,
-                            }, -- end of [25]
-                            [26] = {
+                            }, -- end of [24]
+                            [25] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 670,
@@ -28639,7 +28375,7 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -188822.96875,
                                 ["y"] = -176381.4375,
-                            }, -- end of [26]
+                            }, -- end of [25]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] = {
@@ -28790,7 +28526,7 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
-                                        ["frequency"] = 126000000,
+                                        ["frequency"] = 258000000,
                                         ["heading"] = 4.9780071272939,
                                         ["modulation"] = 0,
                                         ["name"] = "DictKey_UnitName_3391",
@@ -28954,7 +28690,7 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
-                                        ["frequency"] = 129000000,
+                                        ["frequency"] = 257000000,
                                         ["heading"] = 4.9778539411957,
                                         ["modulation"] = 0,
                                         ["name"] = "DictKey_UnitName_3386",
@@ -40894,7 +40630,7 @@ mission = {
             [5] = 68,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 674031,
+    ["currentKey"] = 676161,
     ["date"] = {
         ["Day"] = 25,
         ["Month"] = 3,
@@ -41913,9 +41649,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -4290.8208085659,
-        ["centerY"] = -23187.632442231,
-        ["zoom"] = 1524346.4061753,
+        ["centerX"] = 20799.394226865,
+        ["centerY"] = -146936.42483865,
+        ["zoom"] = 206684.62153891,
     }, -- end of ["map"]
     ["maxDictId"] = 3474,
     ["pictureFileNameB"] = {

@@ -12314,7 +12314,7 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
-                                        ["frequency"] = 261000000,
+                                        ["frequency"] = 254000000,
                                         ["heading"] = 1.3703293965464,
                                         ["modulation"] = 0,
                                         ["name"] = "DictKey_UnitName_200",
@@ -18016,7 +18016,7 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
-                                        ["frequency"] = 263000000,
+                                        ["frequency"] = 258000000,
                                         ["heading"] = 1.3750713260484,
                                         ["modulation"] = 0,
                                         ["name"] = "DictKey_UnitName_355",
@@ -29160,7 +29160,7 @@ mission = {
             [3] = 68,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 128158,
+    ["currentKey"] = 129689,
     ["date"] = {
         ["Day"] = 14,
         ["Month"] = 2,
@@ -30147,9 +30147,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -281321.13206885,
-        ["centerY"] = 646279.62748155,
-        ["zoom"] = 924.44304966327,
+        ["centerX"] = -338095.12927706,
+        ["centerY"] = 582246.50641951,
+        ["zoom"] = 11033.672816781,
     }, -- end of ["map"]
     ["maxDictId"] = 1631,
     ["pictureFileNameB"] = {
