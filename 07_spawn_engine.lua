@@ -183,6 +183,29 @@ function getEndPoint(startPoint, rads, dist)
     return endPoint
 end
 
+function smokeIfAlive(group)
+    -- Check inputs
+    if group and group.units then
+        
+		if (Group.getByName(group.name) and Group.getByName(group.name):isExist() == false) or (Group.getByName(group.name) and #Group.getByName(group.name):getUnits() < 1) or not Group.getByName(group.name) then
+            env.info("Group is dead, stop spawning smoke")
+        else -- Group is alive
+            local avgPoint = avgUnitsPos(group.units)
+            if ( avgPoint ) then
+                env.info("Got avg point vec2")
+                avgPoint.y = land.getHeight({x=avgPoint.x, y=avgPoint.z})
+                env.info("Got avg point vec3")
+                smokeAtCoords(avgPoint)
+                env.info("Smoke dropped at coords")
+                return timer.getTime() + 300
+            end
+        end
+    else
+        env.info("smokeIfAlive was not passed valid group data")
+        dumper(group)
+    end
+end
+
 
 function spawnGroup(args)
     env.info("Adding Dynamic Group")
@@ -256,13 +279,7 @@ function spawnGroup(args)
 
     if ( args.category ~= 'air' and args.group.smoke ) then
         env.info("Dropping Smoke")
-        local avgPoint = avgUnitsPos(spawnedData.units)
-        env.info("Got avg point vec2")
-        avgPoint.y = land.getHeight({x=avgPoint.x, y=avgPoint.z})
-        env.info("Got land height")
-        dumper(avgPoint)
-        env.info("Got average point vec3")
-        smokeAtCoords(avgPoint)
+        timer.scheduleFunction(smokeIfAlive, spawnedData, timer.getTime() + 1)
     end
 end
 
