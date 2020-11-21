@@ -576,6 +576,205 @@ exported.groupData =
 		["task"] = "Ground Nothing",
 		["hidden"] = false,
 	}, -- end of ["Buk 1"]
+	["C-101CC BFM 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -41102.377214779,
+				["x"] = 16137.883818976,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "EngageGroup",
+								["number"] = 2,
+								["params"] = 
+								{
+									["visible"] = false,
+									["priority"] = 1,
+									["weaponType"] = 805306368,
+									["groupId"] = 29,
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 3,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["number"] = 1,
+								["key"] = "CAP",
+								["id"] = "EngageTargets",
+								["enabled"] = true,
+								["auto"] = true,
+								["params"] = 
+								{
+									["targetTypes"] = 
+									{
+										[1] = "Air",
+									}, -- end of ["targetTypes"]
+									["priority"] = 0,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 2,
+											["name"] = 3,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = false,
+											["name"] = 6,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -39159.170687585,
+				["x"] = 16121.369315912,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 47,
+		["groupName"] = "C-101CC BFM 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["hardpoint_racks"] = true,
+				["alt_type"] = "BARO",
+				["livery_id"] = "The Big 2 CC v2",
+				["onboard_num"] = "053",
+				["category"] = "plane",
+				["speed"] = 125,
+				["AddPropAircraft"] = 
+				{
+				}, -- end of ["AddPropAircraft"]
+				["heading"] = 1.5792947057672,
+				["type"] = "C-101CC",
+				["unitName"] = "C-101CC BFM 1",
+				["groupId"] = 47,
+				["psi"] = -1.5792947057672,
+				["coalition"] = "red",
+				["groupName"] = "C-101CC BFM 1",
+				["y"] = -41102.377214779,
+				["countryId"] = 0,
+				["x"] = 16137.883818976,
+				["unitId"] = 165,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+						[4] = 
+						{
+							["CLSID"] = "{C-101-DEFA553}",
+						}, -- end of [4]
+					}, -- end of ["pylons"]
+					["fuel"] = 1129,
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["callsign"] = 111,
+				["point"] = 
+				{
+					["y"] = -41102.377214779,
+					["x"] = 16137.883818976,
+				}, -- end of ["point"]
+				["skill"] = "Excellent",
+				["country"] = "russia",
+			}, -- end of [1]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "CAP",
+		["frequency"] = 225,
+	}, -- end of ["C-101CC BFM 1"]
 	["CV 1143.5 Admiral Kuznetsov"] = 
 	{
 		["route"] = 
@@ -2607,6 +2806,625 @@ exported.groupData =
 		["task"] = "AWACS",
 		["frequency"] = 151,
 	}, -- end of ["E-3A 1"]
+	["F-14A BFM 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -41151.920723971,
+				["x"] = 12862.507377955,
+				["name"] = "",
+				["speed"] = 222.22222222222,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "EngageGroup",
+								["number"] = 2,
+								["params"] = 
+								{
+									["visible"] = false,
+									["priority"] = 1,
+									["weaponType"] = 805306368,
+									["groupId"] = 29,
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 3,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["number"] = 1,
+								["key"] = "CAP",
+								["id"] = "EngageTargets",
+								["enabled"] = true,
+								["auto"] = true,
+								["params"] = 
+								{
+									["targetTypes"] = 
+									{
+										[1] = "Air",
+									}, -- end of ["targetTypes"]
+									["priority"] = 0,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 2,
+											["name"] = 3,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = false,
+											["name"] = 6,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -39115.132012748,
+				["x"] = 12823.973537473,
+				["name"] = "",
+				["speed"] = 222.22222222222,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "iran",
+		["uncontrolled"] = false,
+		["groupId"] = 52,
+		["groupName"] = "F-14A BFM 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["hardpoint_racks"] = true,
+				["alt_type"] = "BARO",
+				["livery_id"] = "vf-111 sundowners 200",
+				["onboard_num"] = "053",
+				["category"] = "plane",
+				["speed"] = 222.22222222222,
+				["AddPropAircraft"] = 
+				{
+				}, -- end of ["AddPropAircraft"]
+				["heading"] = 1.5897129890103,
+				["type"] = "F-14A-135-GR",
+				["unitName"] = "F-14A BFM 1-1",
+				["groupId"] = 52,
+				["psi"] = -1.5897129890103,
+				["coalition"] = "red",
+				["groupName"] = "F-14A BFM 1",
+				["y"] = -41151.920723971,
+				["countryId"] = 34,
+				["x"] = 12862.507377955,
+				["unitId"] = 170,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 7348,
+					["flare"] = 60,
+					["ammo_type"] = 1,
+					["chaff"] = 140,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["callsign"] = 
+				{
+					[1] = 1,
+					[2] = 1,
+					[3] = 1,
+					["name"] = "Enfield11",
+				}, -- end of ["callsign"]
+				["point"] = 
+				{
+					["y"] = -41151.920723971,
+					["x"] = 12862.507377955,
+				}, -- end of ["point"]
+				["skill"] = "Excellent",
+				["country"] = "iran",
+			}, -- end of [1]
+		}, -- end of ["units"]
+		["countryId"] = 34,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "CAP",
+		["frequency"] = 124,
+	}, -- end of ["F-14A BFM 1"]
+	["F-14B BFM 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -41206.969067518,
+				["x"] = 12317.528776844,
+				["name"] = "",
+				["speed"] = 222.22222222222,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "EngageGroup",
+								["number"] = 2,
+								["params"] = 
+								{
+									["visible"] = false,
+									["priority"] = 1,
+									["weaponType"] = 805306368,
+									["groupId"] = 29,
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 3,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["number"] = 1,
+								["key"] = "CAP",
+								["id"] = "EngageTargets",
+								["enabled"] = true,
+								["auto"] = true,
+								["params"] = 
+								{
+									["targetTypes"] = 
+									{
+										[1] = "Air",
+									}, -- end of ["targetTypes"]
+									["priority"] = 0,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 2,
+											["name"] = 3,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = false,
+											["name"] = 6,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -39170.180356294,
+				["x"] = 12278.994936362,
+				["name"] = "",
+				["speed"] = 222.22222222222,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "iran",
+		["uncontrolled"] = false,
+		["groupId"] = 53,
+		["groupName"] = "F-14B BFM 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["hardpoint_racks"] = true,
+				["alt_type"] = "BARO",
+				["livery_id"] = "MACROSS VF-1J MILIA RED",
+				["onboard_num"] = "053",
+				["category"] = "plane",
+				["speed"] = 222.22222222222,
+				["AddPropAircraft"] = 
+				{
+				}, -- end of ["AddPropAircraft"]
+				["heading"] = 1.5897129890103,
+				["type"] = "F-14B",
+				["unitName"] = "F-14B BFM 1-1",
+				["groupId"] = 53,
+				["psi"] = -1.5897129890103,
+				["coalition"] = "red",
+				["groupName"] = "F-14B BFM 1",
+				["y"] = -41206.969067518,
+				["countryId"] = 34,
+				["x"] = 12317.528776844,
+				["unitId"] = 171,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 7348,
+					["flare"] = 60,
+					["ammo_type"] = 1,
+					["chaff"] = 140,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["callsign"] = 
+				{
+					[1] = 1,
+					[2] = 1,
+					[3] = 1,
+					["name"] = "Enfield11",
+				}, -- end of ["callsign"]
+				["point"] = 
+				{
+					["y"] = -41206.969067518,
+					["x"] = 12317.528776844,
+				}, -- end of ["point"]
+				["skill"] = "Excellent",
+				["country"] = "iran",
+			}, -- end of [1]
+		}, -- end of ["units"]
+		["countryId"] = 34,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "CAP",
+		["frequency"] = 124,
+	}, -- end of ["F-14B BFM 1"]
+	["F/A-18C BFM 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -41118.891717843,
+				["x"] = 15526.847205609,
+				["name"] = "",
+				["speed"] = 180.55555555556,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[6] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 6,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = false,
+											["name"] = 6,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [6]
+							[2] = 
+							{
+								["number"] = 2,
+								["auto"] = true,
+								["id"] = "WrappedAction",
+								["enabled"] = true,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "EPLRS",
+										["params"] = 
+										{
+											["value"] = true,
+											["groupId"] = 3,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "EngageGroup",
+								["number"] = 3,
+								["params"] = 
+								{
+									["visible"] = false,
+									["priority"] = 1,
+									["weaponType"] = 805306368,
+									["groupId"] = 29,
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["number"] = 1,
+								["key"] = "CAP",
+								["id"] = "EngageTargets",
+								["enabled"] = true,
+								["auto"] = true,
+								["params"] = 
+								{
+									["targetTypes"] = 
+									{
+										[1] = "Air",
+									}, -- end of ["targetTypes"]
+									["priority"] = 0,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 2,
+											["name"] = 3,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -39082.10300662,
+				["x"] = 15488.313365127,
+				["name"] = "",
+				["speed"] = 180.55555555556,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 48,
+		["groupName"] = "F/A-18C BFM 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["hardpoint_racks"] = true,
+				["alt_type"] = "BARO",
+				["livery_id"] = "canada 150 demo jet",
+				["onboard_num"] = "053",
+				["category"] = "plane",
+				["speed"] = 180.55555555556,
+				["AddPropAircraft"] = 
+				{
+				}, -- end of ["AddPropAircraft"]
+				["heading"] = 1.5897129890103,
+				["type"] = "FA-18C_hornet",
+				["unitName"] = "F/A-18C BFM 1-1",
+				["groupId"] = 48,
+				["psi"] = -1.5897129890103,
+				["coalition"] = "red",
+				["groupName"] = "F/A-18C BFM 1",
+				["y"] = -41118.891717843,
+				["countryId"] = 0,
+				["x"] = 15526.847205609,
+				["unitId"] = 166,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 4900,
+					["flare"] = 30,
+					["ammo_type"] = 1,
+					["chaff"] = 60,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["callsign"] = 108,
+				["point"] = 
+				{
+					["y"] = -41118.891717843,
+					["x"] = 15526.847205609,
+				}, -- end of ["point"]
+				["skill"] = "Excellent",
+				["country"] = "russia",
+			}, -- end of [1]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "CAP",
+		["frequency"] = 305,
+	}, -- end of ["F/A-18C BFM 1"]
 	["FUEL-1"] = 
 	{
 		["route"] = 
@@ -4751,6 +5569,585 @@ exported.groupData =
 		["task"] = "CAP",
 		["frequency"] = 124,
 	}, -- end of ["MIG-2"]
+	["MiG-15bis BFM 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -41091.36754607,
+				["x"] = 14304.773978875,
+				["name"] = "",
+				["speed"] = 236.11111111111,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "EngageGroup",
+								["number"] = 2,
+								["params"] = 
+								{
+									["visible"] = false,
+									["priority"] = 1,
+									["weaponType"] = 805306368,
+									["groupId"] = 29,
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 3,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["number"] = 1,
+								["key"] = "CAP",
+								["id"] = "EngageTargets",
+								["enabled"] = true,
+								["auto"] = true,
+								["params"] = 
+								{
+									["targetTypes"] = 
+									{
+										[1] = "Air",
+									}, -- end of ["targetTypes"]
+									["priority"] = 0,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 2,
+											["name"] = 3,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = false,
+											["name"] = 6,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -39054.578834847,
+				["x"] = 14266.240138393,
+				["name"] = "",
+				["speed"] = 236.11111111111,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 50,
+		["groupName"] = "MiG-15bis BFM 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["hardpoint_racks"] = true,
+				["alt_type"] = "BARO",
+				["livery_id"] = "ussr_red",
+				["onboard_num"] = "053",
+				["category"] = "plane",
+				["speed"] = 236.11111111111,
+				["heading"] = 1.5897129890103,
+				["type"] = "MiG-15bis",
+				["unitName"] = "MiG-15bis BFM 1-1",
+				["groupId"] = 50,
+				["psi"] = -1.5897129890103,
+				["coalition"] = "red",
+				["groupName"] = "MiG-15bis BFM 1",
+				["y"] = -41091.36754607,
+				["countryId"] = 0,
+				["x"] = 14304.773978875,
+				["unitId"] = 168,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 1172,
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["callsign"] = 113,
+				["point"] = 
+				{
+					["y"] = -41091.36754607,
+					["x"] = 14304.773978875,
+				}, -- end of ["point"]
+				["skill"] = "Excellent",
+				["country"] = "russia",
+			}, -- end of [1]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "CAP",
+		["frequency"] = 3.75,
+	}, -- end of ["MiG-15bis BFM 1"]
+	["MiG-28 BFM 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -41173.94006139,
+				["x"] = 13561.621340997,
+				["name"] = "",
+				["speed"] = 175,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "EngageGroup",
+								["number"] = 2,
+								["params"] = 
+								{
+									["visible"] = false,
+									["priority"] = 1,
+									["weaponType"] = 805306368,
+									["groupId"] = 29,
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 3,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["number"] = 1,
+								["key"] = "CAP",
+								["id"] = "EngageTargets",
+								["enabled"] = true,
+								["auto"] = true,
+								["params"] = 
+								{
+									["targetTypes"] = 
+									{
+										[1] = "Air",
+									}, -- end of ["targetTypes"]
+									["priority"] = 0,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 2,
+											["name"] = 3,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = false,
+											["name"] = 6,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -39137.151350166,
+				["x"] = 13523.087500514,
+				["name"] = "",
+				["speed"] = 175,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 51,
+		["groupName"] = "MiG-28 BFM 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["hardpoint_racks"] = true,
+				["alt_type"] = "BARO",
+				["livery_id"] = "black 'mig-28'",
+				["onboard_num"] = "053",
+				["category"] = "plane",
+				["speed"] = 175,
+				["AddPropAircraft"] = 
+				{
+				}, -- end of ["AddPropAircraft"]
+				["heading"] = 1.5897129890108,
+				["type"] = "F-5E-3",
+				["unitName"] = "MiG-28 BFM 1-1",
+				["groupId"] = 51,
+				["psi"] = -1.5897129890108,
+				["coalition"] = "red",
+				["groupName"] = "MiG-28 BFM 1",
+				["y"] = -41173.94006139,
+				["countryId"] = 0,
+				["x"] = 13561.621340997,
+				["unitId"] = 169,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 2046,
+					["flare"] = 15,
+					["ammo_type"] = 2,
+					["chaff"] = 30,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["callsign"] = 114,
+				["point"] = 
+				{
+					["y"] = -41173.94006139,
+					["x"] = 13561.621340997,
+				}, -- end of ["point"]
+				["skill"] = "Excellent",
+				["country"] = "russia",
+			}, -- end of [1]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "CAP",
+		["frequency"] = 305,
+	}, -- end of ["MiG-28 BFM 1"]
+	["MiG-29A BFM 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -41080.35787736,
+				["x"] = 16660.843082669,
+				["name"] = "",
+				["speed"] = 222.22222222222,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "EngageGroup",
+								["number"] = 2,
+								["params"] = 
+								{
+									["visible"] = false,
+									["priority"] = 1,
+									["weaponType"] = 805306368,
+									["groupId"] = 29,
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 3,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["number"] = 1,
+								["key"] = "CAP",
+								["id"] = "EngageTargets",
+								["enabled"] = true,
+								["auto"] = true,
+								["params"] = 
+								{
+									["targetTypes"] = 
+									{
+										[1] = "Air",
+									}, -- end of ["targetTypes"]
+									["priority"] = 0,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 2,
+											["name"] = 3,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = false,
+											["name"] = 6,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -39151.392974492,
+				["x"] = 16661.101830663,
+				["name"] = "",
+				["speed"] = 222.22222222222,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 46,
+		["groupName"] = "MiG-29A BFM 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["point"] = 
+				{
+					["y"] = -41080.35787736,
+					["x"] = 16660.843082669,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "MIG-29A AC7 03 Erusean Special Yellow Skin",
+				["onboard_num"] = "053",
+				["category"] = "plane",
+				["speed"] = 222.22222222222,
+				["type"] = "MiG-29A",
+				["unitId"] = 164,
+				["country"] = "russia",
+				["psi"] = -1.5706621885366,
+				["unitName"] = "MiG-29A BFM 1-1",
+				["groupName"] = "MiG-29A BFM 1",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 16660.843082669,
+				["y"] = -41080.35787736,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = "3376",
+					["flare"] = 30,
+					["chaff"] = 30,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5706621885366,
+				["skill"] = "Excellent",
+				["callsign"] = 110,
+				["groupId"] = 46,
+			}, -- end of [1]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "CAP",
+		["frequency"] = 124,
+	}, -- end of ["MiG-29A BFM 1"]
 	["OSA-1"] = 
 	{
 		["route"] = 
@@ -6325,6 +7722,198 @@ exported.groupData =
 		["task"] = "Ground Nothing",
 		["hidden"] = false,
 	}, -- end of ["Strela 1"]
+	["Su-27 BFM 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -41118.891717843,
+				["x"] = 15025.907279335,
+				["name"] = "",
+				["speed"] = 169.44444444444,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "EngageGroup",
+								["number"] = 2,
+								["params"] = 
+								{
+									["visible"] = false,
+									["priority"] = 1,
+									["weaponType"] = 805306368,
+									["groupId"] = 29,
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 3,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["number"] = 1,
+								["key"] = "CAP",
+								["id"] = "EngageTargets",
+								["enabled"] = true,
+								["auto"] = true,
+								["params"] = 
+								{
+									["targetTypes"] = 
+									{
+										[1] = "Air",
+									}, -- end of ["targetTypes"]
+									["priority"] = 0,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 2,
+											["name"] = 3,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = false,
+											["name"] = 6,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -39082.10300662,
+				["x"] = 14987.373438853,
+				["name"] = "",
+				["speed"] = 169.44444444444,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 49,
+		["groupName"] = "Su-27 BFM 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["hardpoint_racks"] = true,
+				["alt_type"] = "BARO",
+				["livery_id"] = "Fictional Splinter",
+				["onboard_num"] = "053",
+				["category"] = "plane",
+				["speed"] = 169.44444444444,
+				["heading"] = 1.5897129890103,
+				["type"] = "Su-27",
+				["unitName"] = "Su-27 BFM 1-1",
+				["groupId"] = 49,
+				["psi"] = -1.5897129890103,
+				["coalition"] = "red",
+				["groupName"] = "Su-27 BFM 1",
+				["y"] = -41118.891717843,
+				["countryId"] = 0,
+				["x"] = 15025.907279335,
+				["unitId"] = 167,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 9400,
+					["flare"] = 96,
+					["chaff"] = 96,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["callsign"] = 112,
+				["point"] = 
+				{
+					["y"] = -41118.891717843,
+					["x"] = 15025.907279335,
+				}, -- end of ["point"]
+				["skill"] = "Excellent",
+				["country"] = "russia",
+			}, -- end of [1]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "CAP",
+		["frequency"] = 127.5,
+	}, -- end of ["Su-27 BFM 1"]
 	["T72-1"] = 
 	{
 		["route"] = 

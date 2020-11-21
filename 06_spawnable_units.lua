@@ -135,17 +135,67 @@ spawnable.fighters = {
 	['2x MiG-29A IR'] = {
 		name = 'MIG-1',
 		description = 'Two MiG-29As armed with IR Missiles',
-		smoke = 'red',
 		relative = false,
 		action = 'clone',
 	},
 	['2x MiG-29A Guns'] = {
 		name = 'MIG-2',
 		description = 'Two MiG-29As armed with guns',
-		smoke = 'red',
 		relative = false,
 		action = 'clone',
 	},
+}
+
+-- Ace single-ship fighters for BFM practice
+spawnable.bfm = {
+    ['MiG-29A'] = {
+        name = 'MiG-29A BFM 1',
+        description = 'One MiG-29A "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['C-101CC'] = {
+        name = 'C-101CC BFM 1',
+        description = 'One C-101CC "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['F/A-18C'] = {
+        name = 'F/A-18C BFM 1',
+        description = 'One F/A-18C "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['Su-27'] = {
+        name = 'Su-27 BFM 1',
+        description = 'One Su-27 "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['MiG-15bis'] = {
+        name = 'MiG-15bis BFM 1',
+        description = 'One MiG-15bis "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['MiG-28'] = {
+        name = 'MiG-28 BFM 1',
+        description = 'One "MiG-28" "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['F-14A'] = {
+        name = 'F-14A BFM 1',
+        description = 'One F-14A "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['F-14B'] = {
+        name = 'F-14B BFM 1',
+        description = 'One F-14B "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
 }
 
 -- "Warbird" category

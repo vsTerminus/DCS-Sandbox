@@ -1,5 +1,19 @@
 local defaultSound = "tsctra00.wav"
 
+local function setGroupAltitude(groupData, newAlt)
+    if ( groupData.route and groupData.units and newAlt ) then
+        
+        for i,u in pairs(groupData.units) do
+            groupData.units[i].alt = newAlt
+        end
+
+        for i,wp in pairs(groupData.route) do
+            groupData.route[i].alt = newAlt
+        end
+
+    end
+end
+
 local function offsetRoute(groupData, newPos)
     if ( groupData.groupName ) then
         env.info(string.format("Adjusting waypoints relative to markpoint for group %s", groupData.groupName))
@@ -135,6 +149,34 @@ function setCircle(groupData)
     table.remove(groupData.route, 2)
 end
 
+function setBfm(spawnData, clientData, A, B)
+
+    env.info(string.format("Setting BFM route for group %s to attack %s", spawnData.groupName, clientData.groupName))
+
+    -- Make the spawned group engage the client group
+    local tasks = spawnData.route[1].task.params.tasks
+    env.info("Got tasks")
+    for num,task in ipairs(tasks) do
+        if ( task.id == "EngageGroup" ) then
+            env.info("Found Engage Group Task -- Updating Group ID to Client's ID")
+            task.params.groupId = clientData.groupId
+        end
+    end
+
+    -- Update the group's altitude
+    setGroupAltitude(spawnData, clientData.units[1].alt)
+
+    -- Update Spawn and WP1 coords
+    offsetUnits(spawnData, A, B)
+    spawnData.route[1].x = A.x
+    spawnData.route[1].y = A.z
+    env.info("Updated Spawn Coords")
+    spawnData.route[2].x = B.x
+    spawnData.route[2].y = B.z
+    env.info("Updated WP1 Coords")
+
+end
+
 -- Given a start point, a radian heading, and a distance in meters, calculate the endpoint
 function getEndPoint(startPoint, rads, dist)
     local endPoint = {}
@@ -218,11 +260,6 @@ function spawnGroup(args)
     groupData.clone = false
     groupData.action = args.group.action
 
-    if ( args.group.action == 'clone' ) then
-        stripIdentifiers(groupData) 
-        groupData.clone = true
-    end
-
     -- Limitation right now requires the groupData to have a racetrack orbit set
     if ( hasRaceTrack(groupData) ) then
         env.info("This group has a Racetrack task and needs points updated")
@@ -262,6 +299,23 @@ function spawnGroup(args)
 
         end
 
+    elseif ( args.magic and args.bfm ) then
+        env.info("Spawning Magic BFM Group")
+
+        local clientPos = mist.getLeadPos(args.clientGroup)
+        env.info("Got client position")
+        local clientHeading = mist.getHeading(Group.getByName(args.clientGroup):getUnit(1))
+        env.info("Got client heading")
+        local spawnPoint = getEndPoint(clientPos, clientHeading, 1900)
+        env.info("Got spawn point")
+
+        local clientData = mist.getCurrentGroupData(args.clientGroup)
+
+        dumper(clientData)
+
+        setBfm(groupData, clientData, spawnPoint, clientPos)
+        env.info("Set BFM route")
+    
     elseif ( markPoint.x and markPoint.z ) then
         env.info("Spawning a non-race-track group")
         offsetRoute(groupData, markPoint)
@@ -274,6 +328,12 @@ function spawnGroup(args)
 
     --dumper(groupData)
     
+    -- Strip ID and Group Name if cloning
+    if ( args.group.action == 'clone' ) then
+        stripIdentifiers(groupData) 
+        groupData.clone = true
+    end
+
     spawnedData = mist.dynAdd(groupData)
     printSpawned(args)
 

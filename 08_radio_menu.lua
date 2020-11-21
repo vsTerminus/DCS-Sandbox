@@ -15,19 +15,27 @@ local function addRadioMenus()
             local groupName = unit.groupName
 
             -- Top Level: Spawn Friendly, Spawn Hostile, Spawn Magic Tanker"
-            local FriendlyMenu		= missionCommands.addSubMenuForGroup(groupId,"Spawn Friendly",nil)
-            local HostileMenu		= missionCommands.addSubMenuForGroup(groupId,"Spawn Hostile",nil)           
+            local FriendlyMenu		    = missionCommands.addSubMenuForGroup(groupId,"Spawn Friendly",nil)
+            local HostileMenu		    = missionCommands.addSubMenuForGroup(groupId,"Spawn Hostile",nil)           
 
             -- Magic Tanker Menu
-            local MagicMenu         = missionCommands.addSubMenuForGroup(groupId,"Spawn Magic Tanker",nil)
-                local MTankerCircle     = missionCommands.addSubMenuForGroup(groupId,"Circle",MagicMenu)
-                local MTankerRacetrack  = missionCommands.addSubMenuForGroup(groupId,"Racetrack",MagicMenu)
+            local MagicTankerMenu       = missionCommands.addSubMenuForGroup(groupId,"Spawn Magic Tanker",nil)
+                local MTankerCircle     = missionCommands.addSubMenuForGroup(groupId,"Circle",MagicTankerMenu)
+                local MTankerRacetrack  = missionCommands.addSubMenuForGroup(groupId,"Racetrack",MagicTankerMenu)
 
             for key in pairs(spawnable.ftankers)    do 
                 missionCommands.addCommandForGroup(groupId, key, MTankerCircle,
                 function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true, magic=true, circle=true}) end) 
                 missionCommands.addCommandForGroup(groupId, key, MTankerRacetrack,
                 function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true, magic=true, racetrack=true}) end) 
+            end
+
+            -- Magic Fighter Menu
+            local MagicFighterMenu      = missionCommands.addSubMenuForGroup(groupId, "Spawn Magic Fighter",nil)
+            
+            for key in pairs(spawnable.bfm) do
+                missionCommands.addCommandForGroup(groupId, key, MagicFighterMenu,
+                function() spawnGroup({clientGroup=groupName, group=spawnable.bfm[key], category='air', sound=true, magic=true, bfm=true}) end)
             end
  
 
