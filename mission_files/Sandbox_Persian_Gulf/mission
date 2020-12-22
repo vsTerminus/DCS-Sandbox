@@ -25572,7 +25572,7 @@ mission = {
                                         ["AddPropAircraft"] = {
                                             ["ALE39Loadout"] = 0,
                                             ["IlsChannel"] = 1,
-                                            ["INSAlignmentStored"] = false,
+                                            ["INSAlignmentStored"] = true,
                                             ["KY28Key"] = 1,
                                             ["LGB1"] = 8,
                                             ["LGB10"] = 8,
@@ -25762,7 +25762,7 @@ mission = {
                                         ["AddPropAircraft"] = {
                                             ["ALE39Loadout"] = 0,
                                             ["IlsChannel"] = 1,
-                                            ["INSAlignmentStored"] = false,
+                                            ["INSAlignmentStored"] = true,
                                             ["KY28Key"] = 1,
                                             ["LGB1"] = 8,
                                             ["LGB10"] = 8,
@@ -25952,7 +25952,7 @@ mission = {
                                         ["AddPropAircraft"] = {
                                             ["ALE39Loadout"] = 0,
                                             ["IlsChannel"] = 1,
-                                            ["INSAlignmentStored"] = false,
+                                            ["INSAlignmentStored"] = true,
                                             ["KY28Key"] = 1,
                                             ["LGB1"] = 8,
                                             ["LGB10"] = 8,
@@ -48377,7 +48377,7 @@ mission = {
             [5] = 68,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 687016,
+    ["currentKey"] = 689691,
     ["date"] = {
         ["Day"] = 25,
         ["Month"] = 3,
@@ -49396,9 +49396,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -92868.264053482,
-        ["centerY"] = -73273.787992627,
-        ["zoom"] = 12236.286544675,
+        ["centerX"] = -93198.684299662,
+        ["centerY"] = -73324.83545541,
+        ["zoom"] = 2382.9472283903,
     }, -- end of ["map"]
     ["maxDictId"] = 3683,
     ["pictureFileNameB"] = {

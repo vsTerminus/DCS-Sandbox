@@ -29153,6 +29153,13 @@ mission = {
             [73] = 67,
         }, -- end of ["blue"]
         ["neutrals"] = {
+            [1] = 77,
+            [2] = 78,
+            [3] = 79,
+            [4] = 80,
+            [5] = 81,
+            [6] = 82,
+            [7] = 83,
         }, -- end of ["neutrals"]
         ["red"] = {
             [1] = 0,
@@ -29160,7 +29167,7 @@ mission = {
             [3] = 68,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 129689,
+    ["currentKey"] = 131405,
     ["date"] = {
         ["Day"] = 14,
         ["Month"] = 2,
@@ -30147,11 +30154,11 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -338095.12927706,
-        ["centerY"] = 582246.50641951,
-        ["zoom"] = 11033.672816781,
+        ["centerX"] = -292790.41241999,
+        ["centerY"] = 664551.07940287,
+        ["zoom"] = 187226.03580011,
     }, -- end of ["map"]
-    ["maxDictId"] = 1631,
+    ["maxDictId"] = 1659,
     ["pictureFileNameB"] = {
     }, -- end of ["pictureFileNameB"]
     ["pictureFileNameN"] = {
@@ -30192,10 +30199,12 @@ mission = {
     ["theatre"] = "Caucasus",
     ["trig"] = {
         ["actions"] = {
-            [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1619\")); mission.trig.func[1]=nil;",
+            [1] = "a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1632\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1633\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1634\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1635\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1636\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1637\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1638\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1639\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1640\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1641\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1642\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1643\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1644\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1645\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1646\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1647\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1648\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1649\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1650\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1651\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1652\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1653\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1654\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1655\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1656\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1657\"), 0);a_out_sound_c(3, getValueResourceByKey(\"ResKey_Action_1658\"), 0);",
+            [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1619\")); mission.trig.func[2]=nil;",
         }, -- end of ["actions"]
         ["conditions"] = {
-            [1] = "return(c_time_after(1) )",
+            [1] = "return(true)",
+            [2] = "return(c_time_after(1) )",
         }, -- end of ["conditions"]
         ["custom"] = {
         }, -- end of ["custom"]
@@ -30205,11 +30214,13 @@ mission = {
         }, -- end of ["events"]
         ["flag"] = {
             [1] = true,
+            [2] = true,
         }, -- end of ["flag"]
         ["func"] = {
-            [1] = "if mission.trig.conditions[1]() then mission.trig.actions[1]() end",
+            [2] = "if mission.trig.conditions[2]() then mission.trig.actions[2]() end",
         }, -- end of ["func"]
         ["funcStartup"] = {
+            [1] = "if mission.trig.conditions[1]() then mission.trig.actions[1]() end",
         }, -- end of ["funcStartup"]
     }, -- end of ["trig"]
     ["triggers"] = {
@@ -30316,6 +30327,231 @@ mission = {
         [1] = {
             ["actions"] = {
                 [1] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1632",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [1]
+                [2] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1633",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [2]
+                [3] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1634",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [3]
+                [4] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1635",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [4]
+                [5] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1636",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [5]
+                [6] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1637",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [6]
+                [7] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1638",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [7]
+                [8] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1639",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [8]
+                [9] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1640",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [9]
+                [10] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1641",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [10]
+                [11] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1642",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [11]
+                [12] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1643",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [12]
+                [13] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1644",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [13]
+                [14] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1645",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [14]
+                [15] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1646",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [15]
+                [16] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1647",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [16]
+                [17] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1648",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [17]
+                [18] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1649",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [18]
+                [19] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1650",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [19]
+                [20] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1651",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [20]
+                [21] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1652",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [21]
+                [22] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1653",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [22]
+                [23] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1654",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [23]
+                [24] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1655",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [24]
+                [25] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1656",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [25]
+                [26] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1657",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [26]
+                [27] = {
+                    ["countrylist"] = 3,
+                    ["file"] = "ResKey_Action_1658",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_sound_c",
+                    ["start_delay"] = 0,
+                    ["zone"] = 169,
+                }, -- end of [27]
+            }, -- end of ["actions"]
+            ["comment"] = "Load Sounds",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerStart",
+            ["rules"] = {
+            }, -- end of ["rules"]
+        }, -- end of [1]
+        [2] = {
+            ["actions"] = {
+                [1] = {
                     ["file"] = "ResKey_Action_1619",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
@@ -30332,7 +30568,7 @@ mission = {
                     ["zone"] = 168,
                 }, -- end of [1]
             }, -- end of ["rules"]
-        }, -- end of [1]
+        }, -- end of [2]
     }, -- end of ["trigrules"]
     ["version"] = 18,
     ["weather"] = {
