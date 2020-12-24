@@ -1766,6 +1766,9 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NS430allow"] = true,
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 500,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -1910,6 +1913,9 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NS430allow"] = true,
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 500,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -2054,6 +2060,9 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NS430allow"] = true,
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 500,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -2198,6 +2207,9 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NS430allow"] = true,
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 500,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -2436,6 +2448,9 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NS430allow"] = true,
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 3,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -2558,6 +2573,9 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NS430allow"] = true,
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 3,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -2817,6 +2835,9 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NS430allow"] = true,
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 3,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -2939,6 +2960,9 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NS430allow"] = true,
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 3,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -5914,6 +5938,9 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NS430allow"] = true,
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 500,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -6047,6 +6074,9 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NS430allow"] = true,
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 500,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -6180,6 +6210,9 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NS430allow"] = true,
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 500,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -6298,6 +6331,9 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["NS430allow"] = true,
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 500,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -28417,6 +28453,551 @@ mission = {
                                 ["x"] = -93167.578125,
                                 ["y"] = -74350.6953125,
                             }, -- end of [129]
+                            [130] = {
+                                ["communication"] = true,
+                                ["frequency"] = 124,
+                                ["groupId"] = 876,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_3684",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 14,
+                                            ["alt"] = 30,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3686",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAP",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] = {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -91775.453125,
+                                            ["y"] = -75618.5,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAP",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["WaterTankContents"] = 1,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 30,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 3,
+                                            [2] = 7,
+                                            [3] = 1,
+                                            ["name"] = "Uzi71",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "usaf standard",
+                                        ["name"] = "DictKey_UnitName_3685",
+                                        ["onboard_num"] = "166",
+                                        ["parking"] = "48",
+                                        ["parking_id"] = "02",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 557.76,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 124,
+                                                    [2] = 40,
+                                                    [3] = 41,
+                                                    [4] = 42,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "P-47D-40",
+                                        ["unitId"] = 1346,
+                                        ["x"] = -91775.453125,
+                                        ["y"] = -75618.5,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -91775.453125,
+                                ["y"] = -75618.5,
+                            }, -- end of [130]
+                            [131] = {
+                                ["communication"] = true,
+                                ["frequency"] = 124,
+                                ["groupId"] = 877,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_3688",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 14,
+                                            ["alt"] = 30,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3690",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAP",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] = {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -91805.5078125,
+                                            ["y"] = -75572.7109375,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAP",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["WaterTankContents"] = 1,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 30,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 3,
+                                            [2] = 7,
+                                            [3] = 1,
+                                            ["name"] = "Uzi71",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "usaf standard",
+                                        ["name"] = "DictKey_UnitName_3689",
+                                        ["onboard_num"] = "166",
+                                        ["parking"] = "47",
+                                        ["parking_id"] = "03",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 557.76,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 124,
+                                                    [2] = 40,
+                                                    [3] = 41,
+                                                    [4] = 42,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "P-47D-40",
+                                        ["unitId"] = 1347,
+                                        ["x"] = -91805.5078125,
+                                        ["y"] = -75572.7109375,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -91805.5078125,
+                                ["y"] = -75572.7109375,
+                            }, -- end of [131]
+                            [132] = {
+                                ["communication"] = true,
+                                ["frequency"] = 124,
+                                ["groupId"] = 878,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_3691",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 14,
+                                            ["alt"] = 30,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3693",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAP",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] = {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -91838.046875,
+                                            ["y"] = -75521.953125,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAP",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["WaterTankContents"] = 1,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 30,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 3,
+                                            [2] = 7,
+                                            [3] = 1,
+                                            ["name"] = "Uzi71",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "usaf standard",
+                                        ["name"] = "DictKey_UnitName_3692",
+                                        ["onboard_num"] = "166",
+                                        ["parking"] = "46",
+                                        ["parking_id"] = "04",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 557.76,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 124,
+                                                    [2] = 40,
+                                                    [3] = 41,
+                                                    [4] = 42,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "P-47D-40",
+                                        ["unitId"] = 1348,
+                                        ["x"] = -91838.046875,
+                                        ["y"] = -75521.953125,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -91838.046875,
+                                ["y"] = -75521.953125,
+                            }, -- end of [132]
+                            [133] = {
+                                ["communication"] = true,
+                                ["frequency"] = 124,
+                                ["groupId"] = 879,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_3694",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 24,
+                                            ["alt"] = 35,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3696",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAP",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] = {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = 43020.77734375,
+                                            ["y"] = -225779.890625,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAP",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["WaterTankContents"] = 1,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 35,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 3,
+                                            [2] = 7,
+                                            [3] = 1,
+                                            ["name"] = "Uzi71",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "usaf standard",
+                                        ["name"] = "DictKey_UnitName_3695",
+                                        ["onboard_num"] = "166",
+                                        ["parking"] = "13",
+                                        ["parking_id"] = "16",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 557.76,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 124,
+                                                    [2] = 40,
+                                                    [3] = 41,
+                                                    [4] = 42,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "P-47D-40",
+                                        ["unitId"] = 1349,
+                                        ["x"] = 43020.77734375,
+                                        ["y"] = -225779.890625,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 43020.77734375,
+                                ["y"] = -225779.890625,
+                            }, -- end of [133]
+                            [134] = {
+                                ["communication"] = true,
+                                ["frequency"] = 124,
+                                ["groupId"] = 880,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_3697",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 24,
+                                            ["alt"] = 35,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_3699",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAP",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] = {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = 43013.1953125,
+                                            ["y"] = -225705.1875,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAP",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["WaterTankContents"] = 1,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 35,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 3,
+                                            [2] = 7,
+                                            [3] = 1,
+                                            ["name"] = "Uzi71",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "usaf standard",
+                                        ["name"] = "DictKey_UnitName_3698",
+                                        ["onboard_num"] = "166",
+                                        ["parking"] = "15",
+                                        ["parking_id"] = "18",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 557.76,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 124,
+                                                    [2] = 40,
+                                                    [3] = 41,
+                                                    [4] = 42,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "P-47D-40",
+                                        ["unitId"] = 1350,
+                                        ["x"] = 43013.1953125,
+                                        ["y"] = -225705.1875,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 43013.1953125,
+                                ["y"] = -225705.1875,
+                            }, -- end of [134]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] = {
@@ -48377,7 +48958,7 @@ mission = {
             [5] = 68,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 689691,
+    ["currentKey"] = 695108,
     ["date"] = {
         ["Day"] = 25,
         ["Month"] = 3,
@@ -49396,11 +49977,11 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -93198.684299662,
-        ["centerY"] = -73324.83545541,
-        ["zoom"] = 2382.9472283903,
+        ["centerX"] = 43084.410004301,
+        ["centerY"] = -225677.71079688,
+        ["zoom"] = 861.16145476516,
     }, -- end of ["map"]
-    ["maxDictId"] = 3683,
+    ["maxDictId"] = 3699,
     ["pictureFileNameB"] = {
     }, -- end of ["pictureFileNameB"]
     ["pictureFileNameN"] = {

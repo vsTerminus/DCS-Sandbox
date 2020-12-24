@@ -179,7 +179,7 @@ options =
         }, -- end of ["JF-17"]
         ["P47D30"] = 
         {
-            ["assistance"] = 100,
+            ["assistance"] = 0,
             ["CPLocalList"] = "default",
             ["autoRudder"] = false,
         }, -- end of ["P47D30"]
@@ -223,7 +223,7 @@ options =
             ["GYROERR_Disable"] = false,
             ["ARK5_Frequency"] = false,
             ["CPT_Camera_OFF"] = false,
-            ["CPLocalList"] = "default",
+            ["CPLocalList"] = "english",
             ["ACHS1_System_Time"] = false,
             ["RP5_Ground_Return"] = 0,
         }, -- end of ["MiG-19P"]
@@ -299,7 +299,7 @@ options =
         }, -- end of ["DCS-SRS"]
         ["SpitfireLFMkIX"] = 
         {
-            ["assistance"] = 100,
+            ["assistance"] = 0,
             ["aileronTrim"] = 0,
             ["CPLocalList"] = "default",
             ["autoRudder"] = false,
