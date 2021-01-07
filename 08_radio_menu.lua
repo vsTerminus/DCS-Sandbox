@@ -31,11 +31,18 @@ local function addRadioMenus()
             end
 
             -- Magic Fighter Menu
-            local MagicFighterMenu      = missionCommands.addSubMenuForGroup(groupId, "Spawn Magic Fighter",nil)
+            local MagicFighterMenu              = missionCommands.addSubMenuForGroup(groupId, "Spawn Magic Fighter",nil)
+                local MagicModernFighterMenu    = missionCommands.addSubMenuForGroup(groupId, "Modern Fighter",MagicFighterMenu)
+                local MagicWarbirdFighterMenu   = missionCommands.addSubMenuForGroup(groupId, "WWII Fighter",MagicFighterMenu)
             
             for key in pairs(spawnable.bfm) do
-                missionCommands.addCommandForGroup(groupId, key, MagicFighterMenu,
+                missionCommands.addCommandForGroup(groupId, key, MagicModernFighterMenu,
                 function() spawnGroup({clientGroup=groupName, group=spawnable.bfm[key], category='air', sound=true, magic=true, bfm=true}) end)
+            end
+ 
+            for key in pairs(spawnable.warbirdbfm) do
+                missionCommands.addCommandForGroup(groupId, key, MagicWarbirdFighterMenu,
+                function() spawnGroup({clientGroup=groupName, group=spawnable.warbirdbfm[key], category='air', sound=true, magic=true, bfm=true}) end)
             end
  
 

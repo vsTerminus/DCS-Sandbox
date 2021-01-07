@@ -198,6 +198,63 @@ spawnable.bfm = {
     },
 }
 
+spawnable.warbirdbfm = {
+    ['Fw 190 A-8'] = {
+        name = 'Fw 190 A-8 BFM 1',
+        description = 'One Fw 190 A-8 "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['Fw 190 D-9'] = {
+        name = 'Fw 190 D-9 BFM 1',
+        description = 'One Fw 190 A-8 "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['Bf 109 K-4'] = {
+        name = 'Bf 109 K-4 BFM 1',
+        description = 'One Bf 109 K-4 "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['P-47D-30'] = {
+        name = 'P-47D-30 BFM 1',
+        description = 'One P-47D-30 "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['P-47D-40'] = {
+        name = 'P-47D-40 BFM 1',
+        description = 'One P-47D-40 "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['P-51D-25-NA'] = {
+        name = 'P-51D-25-NA BFM 1',
+        description = 'One P-51D-25-NA "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['P-51D-30-NA'] = {
+        name = 'P-51D-30-NA BFM 1',
+        description = 'One P-51D-30-NA "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['Spitfire LF Mk. IX'] = {
+        name = 'Spitfire LF Mk. IX BFM 1',
+        description = 'One Spitfire LF Mk. IX "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['Spitfire LF Mk. IX CW'] = {
+        name = 'Spitfire LF Mk. IX CW BFM 1',
+        description = 'One Spitfire LF Mk. IX CW "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+}
+
 -- "Warbird" category
 spawnable.warbirds = {
 	['2x Fw 190-D9'] = {

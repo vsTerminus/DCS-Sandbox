@@ -7715,6 +7715,202 @@ exported.groupData =
 		["task"] = "Ground Nothing",
 		["hidden"] = false,
 	}, -- end of ["BTR-1"]
+	["Bf 109 K-4 BFM 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -42808.235898196,
+				["x"] = 14543.18548461,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "EngageGroup",
+								["number"] = 2,
+								["params"] = 
+								{
+									["visible"] = false,
+									["priority"] = 1,
+									["weaponType"] = 805306368,
+									["groupId"] = 29,
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 3,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["number"] = 1,
+								["key"] = "CAP",
+								["id"] = "EngageTargets",
+								["enabled"] = true,
+								["auto"] = true,
+								["params"] = 
+								{
+									["targetTypes"] = 
+									{
+										[1] = "Air",
+									}, -- end of ["targetTypes"]
+									["priority"] = 0,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 2,
+											["name"] = 3,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = false,
+											["name"] = 6,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -40836.136374377,
+				["x"] = 14532.460820702,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 58,
+		["groupName"] = "Bf 109 K-4 BFM 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["point"] = 
+				{
+					["y"] = -42808.235898196,
+					["x"] = 14543.18548461,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "bf-109 k4 jagdgeschwader 53",
+				["onboard_num"] = "053",
+				["category"] = "plane",
+				["speed"] = 125,
+				["AddPropAircraft"] = 
+				{
+					["MW50TankContents"] = 1,
+				}, -- end of ["AddPropAircraft"]
+				["type"] = "Bf-109K-4",
+				["unitId"] = 176,
+				["country"] = "russia",
+				["psi"] = -1.5762344692703,
+				["unitName"] = "Bf 109 K-4 BFM 1",
+				["groupName"] = "Bf 109 K-4 BFM 1",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 14543.18548461,
+				["y"] = -42808.235898196,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 296,
+					["flare"] = 0,
+					["ammo_type"] = 1,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5762344692703,
+				["callsign"] = 118,
+				["skill"] = "Excellent",
+				["groupId"] = 58,
+			}, -- end of [1]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "CAP",
+		["frequency"] = 40,
+	}, -- end of ["Bf 109 K-4 BFM 1"]
 	["Buk 1"] = 
 	{
 		["route"] = 
@@ -7988,11 +8184,11 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["number"] = 1,
-								["key"] = "CAP",
-								["id"] = "EngageTargets",
 								["enabled"] = true,
 								["auto"] = true,
+								["id"] = "EngageTargets",
+								["key"] = "CAP",
+								["number"] = 1,
 								["params"] = 
 								{
 									["targetTypes"] = 
@@ -10218,11 +10414,11 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["number"] = 1,
-								["key"] = "CAP",
-								["id"] = "EngageTargets",
 								["enabled"] = true,
 								["auto"] = true,
+								["id"] = "EngageTargets",
+								["key"] = "CAP",
+								["number"] = 1,
 								["params"] = 
 								{
 									["targetTypes"] = 
@@ -10420,11 +10616,11 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["number"] = 1,
-								["key"] = "CAP",
-								["id"] = "EngageTargets",
 								["enabled"] = true,
 								["auto"] = true,
+								["id"] = "EngageTargets",
+								["key"] = "CAP",
+								["number"] = 1,
 								["params"] = 
 								{
 									["targetTypes"] = 
@@ -10608,10 +10804,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["number"] = 2,
+								["enabled"] = true,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["enabled"] = true,
+								["number"] = 2,
 								["params"] = 
 								{
 									["action"] = 
@@ -10641,11 +10837,11 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["number"] = 1,
-								["key"] = "CAP",
-								["id"] = "EngageTargets",
 								["enabled"] = true,
 								["auto"] = true,
+								["id"] = "EngageTargets",
+								["key"] = "CAP",
+								["number"] = 1,
 								["params"] = 
 								{
 									["targetTypes"] = 
@@ -10964,6 +11160,396 @@ exported.groupData =
 		["task"] = "Ground Nothing",
 		["hidden"] = false,
 	}, -- end of ["FUEL-1"]
+	["Fw 190 A-8 BFM 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -42752.167300265,
+				["x"] = 15038.458099673,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "EngageGroup",
+								["number"] = 2,
+								["params"] = 
+								{
+									["visible"] = false,
+									["priority"] = 1,
+									["weaponType"] = 805306368,
+									["groupId"] = 29,
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 3,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["number"] = 1,
+								["key"] = "CAP",
+								["id"] = "EngageTargets",
+								["enabled"] = true,
+								["auto"] = true,
+								["params"] = 
+								{
+									["targetTypes"] = 
+									{
+										[1] = "Air",
+									}, -- end of ["targetTypes"]
+									["priority"] = 0,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 2,
+											["name"] = 3,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = false,
+											["name"] = 6,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -40780.067776446,
+				["x"] = 15027.733435765,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 57,
+		["groupName"] = "Fw 190 A-8 BFM 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["point"] = 
+				{
+					["y"] = -42752.167300265,
+					["x"] = 15038.458099673,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "Fictional IJN OTU Tsukuba Tsu-102",
+				["onboard_num"] = "053",
+				["category"] = "plane",
+				["speed"] = 125,
+				["AddPropAircraft"] = 
+				{
+				}, -- end of ["AddPropAircraft"]
+				["type"] = "FW-190A8",
+				["unitId"] = 175,
+				["country"] = "russia",
+				["psi"] = -1.5762344692703,
+				["unitName"] = "Fw 190 A-8 BFM 1",
+				["groupName"] = "Fw 190 A-8 BFM 1",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 15038.458099673,
+				["y"] = -42752.167300265,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 205,
+					["flare"] = 0,
+					["ammo_type"] = 1,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5762344692703,
+				["callsign"] = 119,
+				["skill"] = "Excellent",
+				["groupId"] = 57,
+			}, -- end of [1]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "CAP",
+		["frequency"] = 38.4,
+	}, -- end of ["Fw 190 A-8 BFM 1"]
+	["Fw 190 D-9 BFM 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -42786.690161088,
+				["x"] = 12983.847157734,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "EngageGroup",
+								["number"] = 2,
+								["params"] = 
+								{
+									["visible"] = false,
+									["priority"] = 1,
+									["weaponType"] = 805306368,
+									["groupId"] = 29,
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 3,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["number"] = 1,
+								["key"] = "CAP",
+								["id"] = "EngageTargets",
+								["enabled"] = true,
+								["auto"] = true,
+								["params"] = 
+								{
+									["targetTypes"] = 
+									{
+										[1] = "Air",
+									}, -- end of ["targetTypes"]
+									["priority"] = 0,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 2,
+											["name"] = 3,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = false,
+											["name"] = 6,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -40857.72525822,
+				["x"] = 12984.105905728,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 61,
+		["groupName"] = "Fw 190 D-9 BFM 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["point"] = 
+				{
+					["y"] = -42786.690161088,
+					["x"] = 12983.847157734,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "FW-190D9_USA",
+				["onboard_num"] = "053",
+				["category"] = "plane",
+				["speed"] = 125,
+				["AddPropAircraft"] = 
+				{
+				}, -- end of ["AddPropAircraft"]
+				["type"] = "FW-190D9",
+				["unitId"] = 179,
+				["country"] = "russia",
+				["psi"] = -1.5706621885366,
+				["unitName"] = "Fw 190 D-9 BFM 1",
+				["groupName"] = "Fw 190 D-9 BFM 1",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 12983.847157734,
+				["y"] = -42786.690161088,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 194,
+					["flare"] = 0,
+					["ammo_type"] = 1,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5706621885366,
+				["callsign"] = 122,
+				["skill"] = "Excellent",
+				["groupId"] = 61,
+			}, -- end of [1]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "CAP",
+		["frequency"] = 38.4,
+	}, -- end of ["Fw 190 D-9 BFM 1"]
 	["Grumble-1"] = 
 	{
 		["route"] = 
@@ -12981,11 +13567,11 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["number"] = 1,
-								["key"] = "CAP",
-								["id"] = "EngageTargets",
 								["enabled"] = true,
 								["auto"] = true,
+								["id"] = "EngageTargets",
+								["key"] = "CAP",
+								["number"] = 1,
 								["params"] = 
 								{
 									["targetTypes"] = 
@@ -13173,11 +13759,11 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["number"] = 1,
-								["key"] = "CAP",
-								["id"] = "EngageTargets",
 								["enabled"] = true,
 								["auto"] = true,
+								["id"] = "EngageTargets",
+								["key"] = "CAP",
+								["number"] = 1,
 								["params"] = 
 								{
 									["targetTypes"] = 
@@ -13369,11 +13955,11 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["number"] = 1,
-								["key"] = "CAP",
-								["id"] = "EngageTargets",
 								["enabled"] = true,
 								["auto"] = true,
+								["id"] = "EngageTargets",
+								["key"] = "CAP",
+								["number"] = 1,
 								["params"] = 
 								{
 									["targetTypes"] = 
@@ -13728,6 +14314,786 @@ exported.groupData =
 		["task"] = "Ground Nothing",
 		["hidden"] = false,
 	}, -- end of ["OSA-1"]
+	["P-47D-30 BFM 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -42680.512697477,
+				["x"] = 16659.278691483,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "EngageGroup",
+								["number"] = 2,
+								["params"] = 
+								{
+									["visible"] = false,
+									["priority"] = 1,
+									["weaponType"] = 805306368,
+									["groupId"] = 29,
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 3,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["number"] = 1,
+								["key"] = "CAP",
+								["id"] = "EngageTargets",
+								["enabled"] = true,
+								["auto"] = true,
+								["params"] = 
+								{
+									["targetTypes"] = 
+									{
+										[1] = "Air",
+									}, -- end of ["targetTypes"]
+									["priority"] = 0,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 2,
+											["name"] = 3,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = false,
+											["name"] = 6,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -40751.547794609,
+				["x"] = 16659.537439477,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 54,
+		["groupName"] = "P-47D-30 BFM 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["point"] = 
+				{
+					["y"] = -42680.512697477,
+					["x"] = 16659.278691483,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "lt_col_benjamin_mayo",
+				["onboard_num"] = "053",
+				["category"] = "plane",
+				["speed"] = 125,
+				["AddPropAircraft"] = 
+				{
+					["WaterTankContents"] = 1,
+				}, -- end of ["AddPropAircraft"]
+				["type"] = "P-47D-30bl1",
+				["unitId"] = 172,
+				["country"] = "russia",
+				["psi"] = -1.5706621885366,
+				["unitName"] = "P-47D-30 BFM 1",
+				["groupName"] = "P-47D-30 BFM 1",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 16659.278691483,
+				["y"] = -42680.512697477,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 390,
+					["flare"] = 0,
+					["ammo_type"] = 1,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5706621885366,
+				["callsign"] = 116,
+				["skill"] = "Excellent",
+				["groupId"] = 54,
+			}, -- end of [1]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "CAP",
+		["frequency"] = 124,
+	}, -- end of ["P-47D-30 BFM 1"]
+	["P-47D-40 BFM 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -42845.614963484,
+				["x"] = 13948.017317566,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "EngageGroup",
+								["number"] = 2,
+								["params"] = 
+								{
+									["visible"] = false,
+									["priority"] = 1,
+									["weaponType"] = 805306368,
+									["groupId"] = 29,
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 3,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["number"] = 1,
+								["key"] = "CAP",
+								["id"] = "EngageTargets",
+								["enabled"] = true,
+								["auto"] = true,
+								["params"] = 
+								{
+									["targetTypes"] = 
+									{
+										[1] = "Air",
+									}, -- end of ["targetTypes"]
+									["priority"] = 0,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 2,
+											["name"] = 3,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = false,
+											["name"] = 6,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -40916.650060616,
+				["x"] = 13948.27606556,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 59,
+		["groupName"] = "P-47D-40 BFM 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["point"] = 
+				{
+					["y"] = -42845.614963484,
+					["x"] = 13948.017317566,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "lt_col_benjamin_mayo",
+				["onboard_num"] = "053",
+				["category"] = "plane",
+				["speed"] = 125,
+				["AddPropAircraft"] = 
+				{
+					["WaterTankContents"] = 1,
+				}, -- end of ["AddPropAircraft"]
+				["type"] = "P-47D-40",
+				["unitId"] = 177,
+				["country"] = "russia",
+				["psi"] = -1.5706621885366,
+				["unitName"] = "P-47D-40 BFM 1",
+				["groupName"] = "P-47D-40 BFM 1",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 13948.017317566,
+				["y"] = -42845.614963484,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 390,
+					["flare"] = 0,
+					["ammo_type"] = 1,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5706621885366,
+				["callsign"] = 120,
+				["skill"] = "Excellent",
+				["groupId"] = 59,
+			}, -- end of [1]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "CAP",
+		["frequency"] = 124,
+	}, -- end of ["P-47D-40 BFM 1"]
+	["P-51D-25-NA BFM 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -42730.362845514,
+				["x"] = 16139.412861959,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "EngageGroup",
+								["number"] = 2,
+								["params"] = 
+								{
+									["visible"] = false,
+									["priority"] = 1,
+									["weaponType"] = 805306368,
+									["groupId"] = 29,
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 3,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["number"] = 1,
+								["key"] = "CAS",
+								["id"] = "EngageTargets",
+								["enabled"] = true,
+								["auto"] = true,
+								["params"] = 
+								{
+									["targetTypes"] = 
+									{
+										[1] = "Helicopters",
+										[2] = "Ground Units",
+										[3] = "Light armed ships",
+									}, -- end of ["targetTypes"]
+									["priority"] = 0,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 2,
+											["name"] = 3,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = false,
+											["name"] = 6,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -40801.397942646,
+				["x"] = 16139.671609953,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 55,
+		["groupName"] = "P-51D-25-NA BFM 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["point"] = 
+				{
+					["y"] = -42730.362845514,
+					["x"] = 16139.412861959,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "USAF 302nd FS, RED TAILS",
+				["onboard_num"] = "053",
+				["category"] = "plane",
+				["speed"] = 125,
+				["type"] = "P-51D",
+				["unitId"] = 173,
+				["country"] = "russia",
+				["psi"] = -1.5706621885366,
+				["unitName"] = "P-51D-25-NA BFM 1",
+				["groupName"] = "P-51D-25-NA BFM 1",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 16139.412861959,
+				["y"] = -42730.362845514,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 351,
+					["flare"] = 0,
+					["ammo_type"] = 1,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5706621885366,
+				["skill"] = "Excellent",
+				["callsign"] = 115,
+				["groupId"] = 55,
+			}, -- end of [1]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "CAS",
+		["frequency"] = 124,
+	}, -- end of ["P-51D-25-NA BFM 1"]
+	["P-51D-30-NA BFM 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -42827.675815576,
+				["x"] = 13511.119588764,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "EngageGroup",
+								["number"] = 2,
+								["params"] = 
+								{
+									["visible"] = false,
+									["priority"] = 1,
+									["weaponType"] = 805306368,
+									["groupId"] = 29,
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 3,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["number"] = 1,
+								["key"] = "CAS",
+								["id"] = "EngageTargets",
+								["enabled"] = true,
+								["auto"] = true,
+								["params"] = 
+								{
+									["targetTypes"] = 
+									{
+										[1] = "Helicopters",
+										[2] = "Ground Units",
+										[3] = "Light armed ships",
+									}, -- end of ["targetTypes"]
+									["priority"] = 0,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 2,
+											["name"] = 3,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = false,
+											["name"] = 6,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -40898.710912708,
+				["x"] = 13511.378336758,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 60,
+		["groupName"] = "P-51D-30-NA BFM 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["point"] = 
+				{
+					["y"] = -42827.675815576,
+					["x"] = 13511.119588764,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "Dogfight Red",
+				["onboard_num"] = "053",
+				["category"] = "plane",
+				["speed"] = 125,
+				["type"] = "P-51D-30-NA",
+				["unitId"] = 178,
+				["country"] = "russia",
+				["psi"] = -1.5706621885366,
+				["unitName"] = "P-51D-30-NA BFM 1",
+				["groupName"] = "P-51D-30-NA BFM 1",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 13511.119588764,
+				["y"] = -42827.675815576,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 351,
+					["flare"] = 0,
+					["ammo_type"] = 1,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5706621885366,
+				["skill"] = "Excellent",
+				["callsign"] = 121,
+				["groupId"] = 60,
+			}, -- end of [1]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "CAS",
+		["frequency"] = 124,
+	}, -- end of ["P-51D-30-NA BFM 1"]
 	["SA-2 1"] = 
 	{
 		["route"] = 
@@ -14927,6 +16293,390 @@ exported.groupData =
 		["coalition"] = "red",
 		["country"] = "russia",
 	}, -- end of ["Shilka 1"]
+	["Spitfire LF Mk. IX BFM 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -42901.683561416,
+				["x"] = 15566.437396862,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "EngageGroup",
+								["number"] = 2,
+								["params"] = 
+								{
+									["visible"] = false,
+									["priority"] = 1,
+									["weaponType"] = 805306368,
+									["groupId"] = 29,
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 3,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["number"] = 1,
+								["key"] = "CAP",
+								["id"] = "EngageTargets",
+								["enabled"] = true,
+								["auto"] = true,
+								["params"] = 
+								{
+									["targetTypes"] = 
+									{
+										[1] = "Air",
+									}, -- end of ["targetTypes"]
+									["priority"] = 0,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 2,
+											["name"] = 3,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = false,
+											["name"] = 6,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -40929.584037597,
+				["x"] = 15555.712732954,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 56,
+		["groupName"] = "Spitfire LF Mk. IX BFM 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["point"] = 
+				{
+					["y"] = -42901.683561416,
+					["x"] = 15566.437396862,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "raf 2 taf, june 1944",
+				["onboard_num"] = "053",
+				["category"] = "plane",
+				["speed"] = 125,
+				["type"] = "SpitfireLFMkIX",
+				["unitId"] = 174,
+				["country"] = "russia",
+				["psi"] = -1.5762344692703,
+				["unitName"] = "Spitfire LF Mk. IX BFM 1",
+				["groupName"] = "Spitfire LF Mk. IX BFM 1",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 15566.437396862,
+				["y"] = -42901.683561416,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 124,
+					["flare"] = 0,
+					["ammo_type"] = 1,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5762344692703,
+				["skill"] = "Excellent",
+				["callsign"] = 117,
+				["groupId"] = 56,
+			}, -- end of [1]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "CAP",
+		["frequency"] = 124,
+	}, -- end of ["Spitfire LF Mk. IX BFM 1"]
+	["Spitfire LF Mk. IX CW BFM 1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -42768.143580007,
+				["x"] = 12590.659638815,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "EngageGroup",
+								["number"] = 2,
+								["params"] = 
+								{
+									["visible"] = false,
+									["priority"] = 1,
+									["weaponType"] = 805306368,
+									["groupId"] = 29,
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 3,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["number"] = 1,
+								["key"] = "CAP",
+								["id"] = "EngageTargets",
+								["enabled"] = true,
+								["auto"] = true,
+								["params"] = 
+								{
+									["targetTypes"] = 
+									{
+										[1] = "Air",
+									}, -- end of ["targetTypes"]
+									["priority"] = 0,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 2,
+											["name"] = 3,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = false,
+											["name"] = 6,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 2000,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -40839.178677139,
+				["x"] = 12590.918386809,
+				["name"] = "",
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 62,
+		["groupName"] = "Spitfire LF Mk. IX CW BFM 1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 2000,
+				["point"] = 
+				{
+					["y"] = -42768.143580007,
+					["x"] = 12590.659638815,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "raf 2 taf, june 1944",
+				["onboard_num"] = "053",
+				["category"] = "plane",
+				["speed"] = 125,
+				["type"] = "SpitfireLFMkIXCW",
+				["unitId"] = 180,
+				["country"] = "russia",
+				["psi"] = -1.5706621885366,
+				["unitName"] = "Spitfire LF Mk. IX CW BFM 1",
+				["groupName"] = "Spitfire LF Mk. IX CW BFM 1",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 12590.659638815,
+				["y"] = -42768.143580007,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 124,
+					["flare"] = 0,
+					["ammo_type"] = 1,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5706621885366,
+				["skill"] = "Excellent",
+				["callsign"] = 123,
+				["groupId"] = 62,
+			}, -- end of [1]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "CAP",
+		["frequency"] = 124,
+	}, -- end of ["Spitfire LF Mk. IX CW BFM 1"]
 	["Strela 1"] = 
 	{
 		["route"] = 
@@ -15134,11 +16884,11 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["number"] = 1,
-								["key"] = "CAP",
-								["id"] = "EngageTargets",
 								["enabled"] = true,
 								["auto"] = true,
+								["id"] = "EngageTargets",
+								["key"] = "CAP",
+								["number"] = 1,
 								["params"] = 
 								{
 									["targetTypes"] = 
@@ -17367,6 +19117,63 @@ spawnable.bfm = {
     },
 }
 
+spawnable.warbirdbfm = {
+    ['Fw 190 A-8'] = {
+        name = 'Fw 190 A-8 BFM 1',
+        description = 'One Fw 190 A-8 "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['Fw 190 D-9'] = {
+        name = 'Fw 190 D-9 BFM 1',
+        description = 'One Fw 190 A-8 "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['Bf 109 K-4'] = {
+        name = 'Bf 109 K-4 BFM 1',
+        description = 'One Bf 109 K-4 "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['P-47D-30'] = {
+        name = 'P-47D-30 BFM 1',
+        description = 'One P-47D-30 "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['P-47D-40'] = {
+        name = 'P-47D-40 BFM 1',
+        description = 'One P-47D-40 "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['P-51D-25-NA'] = {
+        name = 'P-51D-25-NA BFM 1',
+        description = 'One P-51D-25-NA "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['P-51D-30-NA'] = {
+        name = 'P-51D-30-NA BFM 1',
+        description = 'One P-51D-30-NA "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['Spitfire LF Mk. IX'] = {
+        name = 'Spitfire LF Mk. IX BFM 1',
+        description = 'One Spitfire LF Mk. IX "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+    ['Spitfire LF Mk. IX CW'] = {
+        name = 'Spitfire LF Mk. IX CW BFM 1',
+        description = 'One Spitfire LF Mk. IX CW "Ace" pilot armed with guns',
+        relative = false,
+        action = 'clone',
+    },
+}
+
 -- "Warbird" category
 spawnable.warbirds = {
 	['2x Fw 190-D9'] = {
@@ -17971,11 +19778,18 @@ local function addRadioMenus()
             end
 
             -- Magic Fighter Menu
-            local MagicFighterMenu      = missionCommands.addSubMenuForGroup(groupId, "Spawn Magic Fighter",nil)
+            local MagicFighterMenu              = missionCommands.addSubMenuForGroup(groupId, "Spawn Magic Fighter",nil)
+                local MagicModernFighterMenu    = missionCommands.addSubMenuForGroup(groupId, "Modern Fighter",MagicFighterMenu)
+                local MagicWarbirdFighterMenu   = missionCommands.addSubMenuForGroup(groupId, "WWII Fighter",MagicFighterMenu)
             
             for key in pairs(spawnable.bfm) do
-                missionCommands.addCommandForGroup(groupId, key, MagicFighterMenu,
+                missionCommands.addCommandForGroup(groupId, key, MagicModernFighterMenu,
                 function() spawnGroup({clientGroup=groupName, group=spawnable.bfm[key], category='air', sound=true, magic=true, bfm=true}) end)
+            end
+ 
+            for key in pairs(spawnable.warbirdbfm) do
+                missionCommands.addCommandForGroup(groupId, key, MagicWarbirdFighterMenu,
+                function() spawnGroup({clientGroup=groupName, group=spawnable.warbirdbfm[key], category='air', sound=true, magic=true, bfm=true}) end)
             end
  
 
@@ -18068,7 +19882,7 @@ timer.scheduleFunction(respawnBoats, nil, timer.getTime() + 1)
 ---------- END 09_respawn_listener.lua ----------
 
 local loadedMsg = {}
-loadedMsg.text = 'Loaded Sandbox Version 159 (2020-11-21)'
+loadedMsg.text = 'Loaded Sandbox Version 163 (2021-01-07)'
 loadedMsg.displayTime = 5
 loadedMsg.msgFor = {coa = {'all'}}
 mist.message.add(loadedMsg)
