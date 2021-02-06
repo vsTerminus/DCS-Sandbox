@@ -19,6 +19,17 @@
 
 spawnable = {}
 
+-- "Unarmed" category
+spawnable.unarmed = {
+	['12x Unarmed Fuel Trucks'] = {
+		name = 'FUEL-1',
+		description = '12x ATZ-10 Fuel Trucks',
+		smoke = 'red',
+		relative = 'false',
+		action = 'clone',
+	},
+}
+
 -- "Armor" category
 spawnable.armor = {
 	['4x BTR-80s'] = {
@@ -35,13 +46,6 @@ spawnable.armor = {
 		sound = 'ttardy00.wav', -- Ready to roll out!
 		smoke = 'red',
 		relative = false,
-		action = 'clone',
-	},
-	['4x Unarmed Fuel Trucks'] = {
-		name = 'FUEL-1',
-		description = '4x ATZ-10 Fuel Trucks',
-		smoke = 'red',
-		relative = 'false',
 		action = 'clone',
 	},
 }
@@ -268,9 +272,17 @@ spawnable.warbirds = {
 
 -- "Infantry" category
 spawnable.infantry = {
-	['10x Assorted Infantry'] = {
+	['10x Russian Infantry'] = {
 		name = 'Infantry-1',
-		description = 'Ten Assorted Russian Infantry',
+		description = 'Ten Russian Infantry',
+		sound = 'tmawht03.wav', -- Gimme somethin to shoot
+		smoke = 'red',
+		relative = false,
+		action = 'clone',
+	},
+	['20x Russian Infantry'] = {
+		name = 'Infantry-2',
+		description = 'Twenty Russian Infantry',
 		sound = 'tmawht03.wav', -- Gimme somethin to shoot
 		smoke = 'red',
 		relative = false,
@@ -468,6 +480,18 @@ spawnable.ftankers = {
 		smoke = false,
 		relative = true,
 		action = 'respawn',
+	},
+}
+
+-- "Armor" Friendly Category
+spawnable.farmor = {
+	['4x M1A1 Abrams'] = {
+		name = 'Abrams-1',
+		descriptions = 'Four M1A1 Abrams MBTs',
+		-- sound = '',
+		smoke = false,
+		relative = true,
+		action = 'clone',
 	},
 }
 

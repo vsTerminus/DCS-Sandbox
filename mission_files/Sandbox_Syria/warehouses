@@ -93,7 +93,7 @@ warehouses = {
         [4] = {
             ["aircrafts"] = {
             }, -- end of ["aircrafts"]
-            ["coalition"] = "RED",
+            ["coalition"] = "BLUE",
             ["diesel"] = {
                 ["InitFuel"] = 100,
             }, -- end of ["diesel"]
@@ -213,7 +213,7 @@ warehouses = {
         [9] = {
             ["aircrafts"] = {
             }, -- end of ["aircrafts"]
-            ["coalition"] = "RED",
+            ["coalition"] = "BLUE",
             ["diesel"] = {
                 ["InitFuel"] = 100,
             }, -- end of ["diesel"]
@@ -423,7 +423,7 @@ warehouses = {
         [18] = {
             ["aircrafts"] = {
             }, -- end of ["aircrafts"]
-            ["coalition"] = "RED",
+            ["coalition"] = "BLUE",
             ["diesel"] = {
                 ["InitFuel"] = 100,
             }, -- end of ["diesel"]
@@ -483,7 +483,7 @@ warehouses = {
         [20] = {
             ["aircrafts"] = {
             }, -- end of ["aircrafts"]
-            ["coalition"] = "RED",
+            ["coalition"] = "BLUE",
             ["diesel"] = {
                 ["InitFuel"] = 100,
             }, -- end of ["diesel"]
@@ -573,7 +573,7 @@ warehouses = {
         [23] = {
             ["aircrafts"] = {
             }, -- end of ["aircrafts"]
-            ["coalition"] = "RED",
+            ["coalition"] = "BLUE",
             ["diesel"] = {
                 ["InitFuel"] = 100,
             }, -- end of ["diesel"]
@@ -633,7 +633,7 @@ warehouses = {
         [25] = {
             ["aircrafts"] = {
             }, -- end of ["aircrafts"]
-            ["coalition"] = "RED",
+            ["coalition"] = "BLUE",
             ["diesel"] = {
                 ["InitFuel"] = 100,
             }, -- end of ["diesel"]
@@ -753,7 +753,7 @@ warehouses = {
         [29] = {
             ["aircrafts"] = {
             }, -- end of ["aircrafts"]
-            ["coalition"] = "RED",
+            ["coalition"] = "BLUE",
             ["diesel"] = {
                 ["InitFuel"] = 100,
             }, -- end of ["diesel"]

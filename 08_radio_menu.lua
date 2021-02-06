@@ -16,7 +16,8 @@ local function addRadioMenus()
 
             -- Top Level: Spawn Friendly, Spawn Hostile, Spawn Magic Tanker"
             local FriendlyMenu		    = missionCommands.addSubMenuForGroup(groupId,"Spawn Friendly",nil)
-            local HostileMenu		    = missionCommands.addSubMenuForGroup(groupId,"Spawn Hostile",nil)           
+            local HostileMenu		    = missionCommands.addSubMenuForGroup(groupId,"Spawn Hostile",nil) 
+			local SmokeMenu				= missionCommands.addSubMenuForGroup(groupId,"Spawn Smoke", nil)
 
             -- Magic Tanker Menu
             local MagicTankerMenu       = missionCommands.addSubMenuForGroup(groupId,"Spawn Magic Tanker",nil)
@@ -45,6 +46,8 @@ local function addRadioMenus()
                 function() spawnGroup({clientGroup=groupName, group=spawnable.warbirdbfm[key], category='air', sound=true, magic=true, bfm=true}) end)
             end
  
+			-- Smoke Menu
+			missionCommands.addCommandForGroup(groupId, "Spawn Red Smoke", SmokeMenu, function() spawnSmoke({color = 'red', minutes=20}) end)
 
             -- Second Level: Categories
 
@@ -54,8 +57,10 @@ local function addRadioMenus()
                 local FTankerRacetrack  = missionCommands.addSubMenuForGroup(groupId,"Racetrack",FTankerMenu)
             local FAWACSMenu 		= missionCommands.addSubMenuForGroup(groupId,"AWACS",FriendlyMenu)
             local FBoatMenu			= missionCommands.addSubMenuForGroup(groupId,"Boats",FriendlyMenu)
+			local FArmorMenu		= missionCommands.addSubMenuForGroup(groupId,"Armor",FriendlyMenu)
 
             -- Hostile
+			local UnarmedMenu		= missionCommands.addSubMenuForGroup(groupId,"Unarmed",HostileMenu)
             local ArmorMenu 		= missionCommands.addSubMenuForGroup(groupId,"Armor",HostileMenu)
             local InfantryMenu		= missionCommands.addSubMenuForGroup(groupId,"Infantry",HostileMenu)
             local AirDefenceMenu	= missionCommands.addSubMenuForGroup(groupId,"Air Defenses",HostileMenu)
@@ -77,7 +82,14 @@ local function addRadioMenus()
             end	
             for key in pairs(spawnable.fboats) 		do missionCommands.addCommandForGroup(groupId, key, FBoatMenu,  			
                 function() spawnGroup({clientGroup=groupName, group=spawnable.fboats[key], category='air', sound=true}) end) 
-            end		
+            end
+			for key in pairs(spawnable.farmor) 		do missionCommands.addCommandForGroup(groupId, key, FArmorMenu,
+                function() spawnGroup({clientGroup=groupName, group=spawnable.farmor[key], category='land', sound=true}) end) 
+            end
+
+			for key in pairs(spawnable.unarmed) 	do missionCommands.addCommandForGroup(groupId, key, UnarmedMenu,
+                function() spawnGroup({clientGroup=groupName, group=spawnable.unarmed[key], category='land', sound=true}) end) 
+            end
             for key in pairs(spawnable.armor) 		do missionCommands.addCommandForGroup(groupId, key, ArmorMenu,  			
                 function() spawnGroup({clientGroup=groupName, group=spawnable.armor[key], category='land', sound=true}) end) 
             end

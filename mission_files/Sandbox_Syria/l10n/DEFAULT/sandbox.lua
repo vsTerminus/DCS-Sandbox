@@ -7531,6 +7531,153 @@ exported.groupData =
 		["task"] = "AWACS",
 		["frequency"] = 275,
 	}, -- end of ["A-50 1"]
+	["Abrams-1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 50,
+				["type"] = "Turning Point",
+				["action"] = "Off Road",
+				["alt_type"] = "BARO",
+				["form"] = "Off Road",
+				["y"] = 40674.12078838,
+				["x"] = 15328.594960027,
+				["name"] = "",
+				["speed"] = 4,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[1] = 
+							{
+								["number"] = 1,
+								["auto"] = true,
+								["id"] = "WrappedAction",
+								["enabled"] = true,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "EPLRS",
+										["params"] = 
+										{
+											["value"] = true,
+											["groupId"] = 1,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [1]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+		}, -- end of ["route"]
+		["country"] = "usa",
+		["groupName"] = "Abrams-1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["heading"] = 3.1368728444059,
+				["point"] = 
+				{
+					["y"] = 40674.12078838,
+					["x"] = 15328.594960027,
+				}, -- end of ["point"]
+				["groupId"] = 64,
+				["y"] = 40674.12078838,
+				["coalition"] = "blue",
+				["groupName"] = "Abrams-1",
+				["type"] = "M-1 Abrams",
+				["countryId"] = 2,
+				["x"] = 15328.594960027,
+				["unitId"] = 215,
+				["category"] = "vehicle",
+				["unitName"] = "Abrams-1-4",
+				["playerCanDrive"] = true,
+				["country"] = "usa",
+				["skill"] = "Excellent",
+			}, -- end of [1]
+			[2] = 
+			{
+				["heading"] = 3.1368728444059,
+				["point"] = 
+				{
+					["y"] = 40661.128590262,
+					["x"] = 15309.384527354,
+				}, -- end of ["point"]
+				["groupId"] = 64,
+				["y"] = 40661.128590262,
+				["coalition"] = "blue",
+				["groupName"] = "Abrams-1",
+				["type"] = "M-1 Abrams",
+				["countryId"] = 2,
+				["x"] = 15309.384527354,
+				["unitId"] = 214,
+				["category"] = "vehicle",
+				["unitName"] = "Abrams-1-3",
+				["playerCanDrive"] = true,
+				["country"] = "usa",
+				["skill"] = "Excellent",
+			}, -- end of [2]
+			[3] = 
+			{
+				["heading"] = 3.1368728444059,
+				["point"] = 
+				{
+					["y"] = 40686.838996687,
+					["x"] = 15309.542259909,
+				}, -- end of ["point"]
+				["groupId"] = 64,
+				["y"] = 40686.838996687,
+				["coalition"] = "blue",
+				["groupName"] = "Abrams-1",
+				["type"] = "M-1 Abrams",
+				["countryId"] = 2,
+				["x"] = 15309.542259909,
+				["unitId"] = 213,
+				["category"] = "vehicle",
+				["unitName"] = "Abrams-1-2",
+				["playerCanDrive"] = true,
+				["country"] = "usa",
+				["skill"] = "Excellent",
+			}, -- end of [3]
+			[4] = 
+			{
+				["heading"] = 3.1368728444059,
+				["point"] = 
+				{
+					["y"] = 40674.851322525,
+					["x"] = 15288.406097572,
+				}, -- end of ["point"]
+				["groupId"] = 64,
+				["y"] = 40674.851322525,
+				["coalition"] = "blue",
+				["groupName"] = "Abrams-1",
+				["type"] = "M-1 Abrams",
+				["countryId"] = 2,
+				["x"] = 15288.406097572,
+				["unitId"] = 209,
+				["category"] = "vehicle",
+				["unitName"] = "Abrams-1-1",
+				["playerCanDrive"] = false,
+				["country"] = "usa",
+				["skill"] = "Excellent",
+			}, -- end of [4]
+		}, -- end of ["units"]
+		["coalition"] = "blue",
+		["groupId"] = 64,
+		["category"] = "vehicle",
+		["countryId"] = 2,
+		["startTime"] = 0,
+		["task"] = "Ground Nothing",
+		["hidden"] = false,
+	}, -- end of ["Abrams-1"]
 	["BTR-1"] = 
 	{
 		["route"] = 
@@ -7772,11 +7919,11 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["number"] = 1,
-								["key"] = "CAP",
-								["id"] = "EngageTargets",
 								["enabled"] = true,
 								["auto"] = true,
+								["id"] = "EngageTargets",
+								["key"] = "CAP",
+								["number"] = 1,
 								["params"] = 
 								{
 									["targetTypes"] = 
@@ -10987,8 +11134,8 @@ exported.groupData =
 				["action"] = "Off Road",
 				["alt_type"] = "BARO",
 				["form"] = "Off Road",
-				["y"] = -40559.316396896,
-				["x"] = 53413.382381111,
+				["y"] = -40559.54026716,
+				["x"] = 53313.382631701,
 				["name"] = "",
 				["speed"] = 5.5555555555556,
 				["task"] = 
@@ -11068,6 +11215,116 @@ exported.groupData =
 				["heading"] = 3.1438313580979,
 				["point"] = 
 				{
+					["y"] = -40559.54026716,
+					["x"] = 53313.382631701,
+				}, -- end of ["point"]
+				["groupId"] = 4,
+				["y"] = -40559.54026716,
+				["coalition"] = "red",
+				["groupName"] = "FUEL-1",
+				["type"] = "ATZ-10",
+				["countryId"] = 0,
+				["x"] = 53313.382631701,
+				["unitId"] = 205,
+				["category"] = "vehicle",
+				["unitName"] = "FUEL-1-5",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [1]
+			[2] = 
+			{
+				["heading"] = 3.1438313580979,
+				["point"] = 
+				{
+					["y"] = -40498.929085053,
+					["x"] = 53313.624541523,
+				}, -- end of ["point"]
+				["groupId"] = 4,
+				["y"] = -40498.929085053,
+				["coalition"] = "red",
+				["groupName"] = "FUEL-1",
+				["type"] = "ATZ-10",
+				["countryId"] = 0,
+				["x"] = 53313.624541523,
+				["unitId"] = 204,
+				["category"] = "vehicle",
+				["unitName"] = "FUEL-1-4",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [2]
+			[3] = 
+			{
+				["heading"] = 3.1438313580979,
+				["point"] = 
+				{
+					["y"] = -40435.006285576,
+					["x"] = 53313.239464417,
+				}, -- end of ["point"]
+				["groupId"] = 4,
+				["y"] = -40435.006285576,
+				["coalition"] = "red",
+				["groupName"] = "FUEL-1",
+				["type"] = "ATZ-10",
+				["countryId"] = 0,
+				["x"] = 53313.239464417,
+				["unitId"] = 203,
+				["category"] = "vehicle",
+				["unitName"] = "FUEL-1-3",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [3]
+			[4] = 
+			{
+				["heading"] = 3.1438313580979,
+				["point"] = 
+				{
+					["y"] = -40560.271065801,
+					["x"] = 53361.728941349,
+				}, -- end of ["point"]
+				["groupId"] = 4,
+				["y"] = -40560.271065801,
+				["coalition"] = "red",
+				["groupName"] = "FUEL-1",
+				["type"] = "ATZ-10",
+				["countryId"] = 0,
+				["x"] = 53361.728941349,
+				["unitId"] = 202,
+				["category"] = "vehicle",
+				["unitName"] = "FUEL-1-2",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [4]
+			[5] = 
+			{
+				["heading"] = 3.1438313580979,
+				["point"] = 
+				{
+					["y"] = -40435.776439786,
+					["x"] = 53411.81920337,
+				}, -- end of ["point"]
+				["groupId"] = 4,
+				["y"] = -40435.776439786,
+				["coalition"] = "red",
+				["groupName"] = "FUEL-1",
+				["type"] = "ATZ-10",
+				["countryId"] = 0,
+				["x"] = 53411.81920337,
+				["unitId"] = 201,
+				["category"] = "vehicle",
+				["unitName"] = "FUEL-1-1",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [5]
+			[6] = 
+			{
+				["heading"] = 3.1438313580979,
+				["point"] = 
+				{
 					["y"] = -40559.316396896,
 					["x"] = 53413.382381111,
 				}, -- end of ["point"]
@@ -11084,8 +11341,8 @@ exported.groupData =
 				["playerCanDrive"] = false,
 				["country"] = "russia",
 				["skill"] = "Average",
-			}, -- end of [1]
-			[2] = 
+			}, -- end of [6]
+			[7] = 
 			{
 				["heading"] = 3.1438313580979,
 				["point"] = 
@@ -11106,51 +11363,117 @@ exported.groupData =
 				["playerCanDrive"] = false,
 				["country"] = "russia",
 				["skill"] = "Average",
-			}, -- end of [2]
-			[3] = 
+			}, -- end of [7]
+			[8] = 
 			{
 				["heading"] = 3.1438313580979,
 				["point"] = 
 				{
-					["y"] = -40559.592726757,
-					["x"] = 53361.521080645,
+					["y"] = -40435.45147624,
+					["x"] = 53359.739784544,
 				}, -- end of ["point"]
 				["groupId"] = 4,
-				["y"] = -40559.592726757,
+				["y"] = -40435.45147624,
 				["coalition"] = "red",
 				["groupName"] = "FUEL-1",
 				["type"] = "ATZ-10",
 				["countryId"] = 0,
-				["x"] = 53361.521080645,
+				["x"] = 53359.739784544,
 				["unitId"] = 15,
 				["category"] = "vehicle",
 				["unitName"] = "BTR-2-7",
 				["playerCanDrive"] = false,
 				["country"] = "russia",
 				["skill"] = "Average",
-			}, -- end of [3]
-			[4] = 
+			}, -- end of [8]
+			[9] = 
 			{
 				["heading"] = 3.1438313580979,
 				["point"] = 
 				{
-					["y"] = -40501.795309985,
-					["x"] = 53360.573582009,
+					["y"] = -40619.337277344,
+					["x"] = 53363.30988109,
 				}, -- end of ["point"]
 				["groupId"] = 4,
-				["y"] = -40501.795309985,
+				["y"] = -40619.337277344,
 				["coalition"] = "red",
 				["groupName"] = "FUEL-1",
 				["type"] = "ATZ-10",
 				["countryId"] = 0,
-				["x"] = 53360.573582009,
+				["x"] = 53363.30988109,
+				["unitId"] = 208,
+				["category"] = "vehicle",
+				["unitName"] = "FUEL-1-8",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [9]
+			[10] = 
+			{
+				["heading"] = 3.1438313580979,
+				["point"] = 
+				{
+					["y"] = -40384.360264709,
+					["x"] = 53362.800169566,
+				}, -- end of ["point"]
+				["groupId"] = 4,
+				["y"] = -40384.360264709,
+				["coalition"] = "red",
+				["groupName"] = "FUEL-1",
+				["type"] = "ATZ-10",
+				["countryId"] = 0,
+				["x"] = 53362.800169566,
+				["unitId"] = 207,
+				["category"] = "vehicle",
+				["unitName"] = "FUEL-1-7",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [10]
+			[11] = 
+			{
+				["heading"] = 3.1438313580979,
+				["point"] = 
+				{
+					["y"] = -40496.9273619,
+					["x"] = 53255.271573212,
+				}, -- end of ["point"]
+				["groupId"] = 4,
+				["y"] = -40496.9273619,
+				["coalition"] = "red",
+				["groupName"] = "FUEL-1",
+				["type"] = "ATZ-10",
+				["countryId"] = 0,
+				["x"] = 53255.271573212,
+				["unitId"] = 206,
+				["category"] = "vehicle",
+				["unitName"] = "FUEL-1-6",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [11]
+			[12] = 
+			{
+				["heading"] = 3.1438313580979,
+				["point"] = 
+				{
+					["y"] = -40501.295848619,
+					["x"] = 53459.862367883,
+				}, -- end of ["point"]
+				["groupId"] = 4,
+				["y"] = -40501.295848619,
+				["coalition"] = "red",
+				["groupName"] = "FUEL-1",
+				["type"] = "ATZ-10",
+				["countryId"] = 0,
+				["x"] = 53459.862367883,
 				["unitId"] = 16,
 				["category"] = "vehicle",
 				["unitName"] = "BTR-2-8",
 				["playerCanDrive"] = false,
 				["country"] = "russia",
 				["skill"] = "Average",
-			}, -- end of [4]
+			}, -- end of [12]
 		}, -- end of ["units"]
 		["coalition"] = "red",
 		["groupId"] = 4,
@@ -11217,11 +11540,11 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["number"] = 1,
-								["key"] = "CAP",
-								["id"] = "EngageTargets",
 								["enabled"] = true,
 								["auto"] = true,
+								["id"] = "EngageTargets",
+								["key"] = "CAP",
+								["number"] = 1,
 								["params"] = 
 								{
 									["targetTypes"] = 
@@ -11412,11 +11735,11 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["number"] = 1,
-								["key"] = "CAP",
-								["id"] = "EngageTargets",
 								["enabled"] = true,
 								["auto"] = true,
+								["id"] = "EngageTargets",
+								["key"] = "CAP",
+								["number"] = 1,
 								["params"] = 
 								{
 									["targetTypes"] = 
@@ -12143,16 +12466,16 @@ exported.groupData =
 				["heading"] = 0,
 				["point"] = 
 				{
-					["y"] = -40674.713667123,
-					["x"] = 59561.822013807,
+					["y"] = -40674.989075266,
+					["x"] = 59571.656975918,
 				}, -- end of ["point"]
 				["groupId"] = 14,
-				["y"] = -40674.713667123,
+				["y"] = -40674.989075266,
 				["coalition"] = "red",
 				["groupName"] = "Infantry-1",
 				["type"] = "Paratrooper AKS-74",
 				["countryId"] = 0,
-				["x"] = 59561.822013807,
+				["x"] = 59571.656975918,
 				["unitId"] = 74,
 				["category"] = "vehicle",
 				["unitName"] = "Infantry 1-2",
@@ -12165,16 +12488,16 @@ exported.groupData =
 				["heading"] = 0,
 				["point"] = 
 				{
-					["y"] = -40674.597183756,
-					["x"] = 59543.184675087,
+					["y"] = -40674.851134768,
+					["x"] = 59566.484207245,
 				}, -- end of ["point"]
 				["groupId"] = 14,
-				["y"] = -40674.597183756,
+				["y"] = -40674.851134768,
 				["coalition"] = "red",
 				["groupName"] = "Infantry-1",
 				["type"] = "Infantry AK",
 				["countryId"] = 0,
-				["x"] = 59543.184675087,
+				["x"] = 59566.484207245,
 				["unitId"] = 75,
 				["category"] = "vehicle",
 				["unitName"] = "Infantry 1-3",
@@ -12187,16 +12510,16 @@ exported.groupData =
 				["heading"] = 0,
 				["point"] = 
 				{
-					["y"] = -40673.781800187,
-					["x"] = 59520.470418517,
+					["y"] = -40674.851134768,
+					["x"] = 59561.035557577,
 				}, -- end of ["point"]
 				["groupId"] = 14,
-				["y"] = -40673.781800187,
+				["y"] = -40674.851134768,
 				["coalition"] = "red",
 				["groupName"] = "Infantry-1",
 				["type"] = "Infantry AK",
 				["countryId"] = 0,
-				["x"] = 59520.470418517,
+				["x"] = 59561.035557577,
 				["unitId"] = 76,
 				["category"] = "vehicle",
 				["unitName"] = "Infantry 1-4",
@@ -12209,16 +12532,16 @@ exported.groupData =
 				["heading"] = 0,
 				["point"] = 
 				{
-					["y"] = -40682.751019449,
-					["x"] = 59531.885788487,
+					["y"] = -40677.885825722,
+					["x"] = 59563.035694797,
 				}, -- end of ["point"]
 				["groupId"] = 14,
-				["y"] = -40682.751019449,
+				["y"] = -40677.885825722,
 				["coalition"] = "red",
 				["groupName"] = "Infantry-1",
 				["type"] = "Paratrooper AKS-74",
 				["countryId"] = 0,
-				["x"] = 59531.885788487,
+				["x"] = 59563.035694797,
 				["unitId"] = 77,
 				["category"] = "vehicle",
 				["unitName"] = "Infantry 1-5",
@@ -12231,16 +12554,16 @@ exported.groupData =
 				["heading"] = 0,
 				["point"] = 
 				{
-					["y"] = -40682.168602614,
-					["x"] = 59551.687960877,
+					["y"] = -40678.299647216,
+					["x"] = 59568.829195711,
 				}, -- end of ["point"]
 				["groupId"] = 14,
-				["y"] = -40682.168602614,
+				["y"] = -40678.299647216,
 				["coalition"] = "red",
 				["groupName"] = "Infantry-1",
 				["type"] = "Paratrooper RPG-16",
 				["countryId"] = 0,
-				["x"] = 59551.687960877,
+				["x"] = 59568.829195711,
 				["unitId"] = 78,
 				["category"] = "vehicle",
 				["unitName"] = "Infantry 1-6",
@@ -12253,16 +12576,16 @@ exported.groupData =
 				["heading"] = 0,
 				["point"] = 
 				{
-					["y"] = -40681.702669146,
-					["x"] = 59569.626399407,
+					["y"] = -40678.299647216,
+					["x"] = 59573.519172641,
 				}, -- end of ["point"]
 				["groupId"] = 14,
-				["y"] = -40681.702669146,
+				["y"] = -40678.299647216,
 				["coalition"] = "red",
 				["groupName"] = "Infantry-1",
 				["type"] = "Paratrooper RPG-16",
 				["countryId"] = 0,
-				["x"] = 59569.626399407,
+				["x"] = 59573.519172641,
 				["unitId"] = 79,
 				["category"] = "vehicle",
 				["unitName"] = "Infantry 1-7",
@@ -12275,16 +12598,16 @@ exported.groupData =
 				["heading"] = 0,
 				["point"] = 
 				{
-					["y"] = -40664.812580925,
-					["x"] = 59531.536338377,
+					["y"] = -40671.471592568,
+					["x"] = 59563.51848654,
 				}, -- end of ["point"]
 				["groupId"] = 14,
-				["y"] = -40664.812580925,
+				["y"] = -40671.471592568,
 				["coalition"] = "red",
 				["groupName"] = "Infantry-1",
 				["type"] = "Paratrooper AKS-74",
 				["countryId"] = 0,
-				["x"] = 59531.536338377,
+				["x"] = 59563.51848654,
 				["unitId"] = 80,
 				["category"] = "vehicle",
 				["unitName"] = "Infantry 1-8",
@@ -12297,16 +12620,16 @@ exported.groupData =
 				["heading"] = 0,
 				["point"] = 
 				{
-					["y"] = -40665.627964494,
-					["x"] = 59552.736311187,
+					["y"] = -40671.402622319,
+					["x"] = 59568.622284964,
 				}, -- end of ["point"]
 				["groupId"] = 14,
-				["y"] = -40665.627964494,
+				["y"] = -40671.402622319,
 				["coalition"] = "red",
 				["groupName"] = "Infantry-1",
 				["type"] = "Infantry AK",
 				["countryId"] = 0,
-				["x"] = 59552.736311187,
+				["x"] = 59568.622284964,
 				["unitId"] = 81,
 				["category"] = "vehicle",
 				["unitName"] = "Infantry 1-9",
@@ -12319,16 +12642,16 @@ exported.groupData =
 				["heading"] = 0,
 				["point"] = 
 				{
-					["y"] = -40667.025764899,
-					["x"] = 59569.859366137,
+					["y"] = -40671.747473564,
+					["x"] = 59573.657113139,
 				}, -- end of ["point"]
 				["groupId"] = 14,
-				["y"] = -40667.025764899,
+				["y"] = -40671.747473564,
 				["coalition"] = "red",
 				["groupName"] = "Infantry-1",
 				["type"] = "Infantry AK",
 				["countryId"] = 0,
-				["x"] = 59569.859366137,
+				["x"] = 59573.657113139,
 				["unitId"] = 82,
 				["category"] = "vehicle",
 				["unitName"] = "Infantry 1-A",
@@ -12344,6 +12667,485 @@ exported.groupData =
 		["coalition"] = "red",
 		["country"] = "russia",
 	}, -- end of ["Infantry-1"]
+	["Infantry-2"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 50,
+				["type"] = "Turning Point",
+				["action"] = "Off Road",
+				["alt_type"] = "BARO",
+				["form"] = "Off Road",
+				["y"] = -40677.02040216,
+				["x"] = 59475.742661808,
+				["name"] = "",
+				["speed"] = 4,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+		}, -- end of ["route"]
+		["groupId"] = 63,
+		["groupName"] = "Infantry-2",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40677.02040216,
+					["x"] = 59475.742661808,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40677.02040216,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Infantry AK",
+				["countryId"] = 0,
+				["x"] = 59475.742661808,
+				["unitId"] = 200,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-20",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [1]
+			[2] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40678.766343704,
+					["x"] = 59474.322120063,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40678.766343704,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Infantry AK",
+				["countryId"] = 0,
+				["x"] = 59474.322120063,
+				["unitId"] = 199,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-19",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [2]
+			[3] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40684.716423996,
+					["x"] = 59465.712439357,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40684.716423996,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Infantry AK",
+				["countryId"] = 0,
+				["x"] = 59465.712439357,
+				["unitId"] = 198,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-18",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [3]
+			[4] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40670.221455805,
+					["x"] = 59474.248365069,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40670.221455805,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Infantry AK",
+				["countryId"] = 0,
+				["x"] = 59474.248365069,
+				["unitId"] = 197,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-17",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [4]
+			[5] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40670.261719605,
+					["x"] = 59465.792966958,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40670.261719605,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Infantry AK",
+				["countryId"] = 0,
+				["x"] = 59465.792966958,
+				["unitId"] = 196,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-16",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [5]
+			[6] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40672.999658041,
+					["x"] = 59462.330280112,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40672.999658041,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Infantry AK",
+				["countryId"] = 0,
+				["x"] = 59462.330280112,
+				["unitId"] = 195,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-15",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [6]
+			[7] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40679.965295533,
+					["x"] = 59468.571169194,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40679.965295533,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Infantry AK",
+				["countryId"] = 0,
+				["x"] = 59468.571169194,
+				["unitId"] = 194,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-14",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [7]
+			[8] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40669.375915994,
+					["x"] = 59462.249752511,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40669.375915994,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Infantry AK",
+				["countryId"] = 0,
+				["x"] = 59462.249752511,
+				["unitId"] = 193,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-13",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [8]
+			[9] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40681.21347335,
+					["x"] = 59462.008169708,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40681.21347335,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Infantry AK",
+				["countryId"] = 0,
+				["x"] = 59462.008169708,
+				["unitId"] = 192,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-12",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [9]
+			[10] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40673.64387885,
+					["x"] = 59468.691960596,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40673.64387885,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Infantry AK",
+				["countryId"] = 0,
+				["x"] = 59468.691960596,
+				["unitId"] = 191,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-11",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [10]
+			[11] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40673.321768446,
+					["x"] = 59472.355966444,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40673.321768446,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Infantry AK",
+				["countryId"] = 0,
+				["x"] = 59472.355966444,
+				["unitId"] = 181,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-1",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [11]
+			[12] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40671.104860568,
+					["x"] = 59456.801582209,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40671.104860568,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Paratrooper AKS-74",
+				["countryId"] = 0,
+				["x"] = 59456.801582209,
+				["unitId"] = 182,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-2",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [12]
+			[13] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40682.697370782,
+					["x"] = 59471.154200003,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40682.697370782,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Infantry AK",
+				["countryId"] = 0,
+				["x"] = 59471.154200003,
+				["unitId"] = 183,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-3",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [13]
+			[14] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40683.629301381,
+					["x"] = 59475.738125689,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40683.629301381,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Infantry AK",
+				["countryId"] = 0,
+				["x"] = 59475.738125689,
+				["unitId"] = 184,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-4",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [14]
+			[15] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40665.752173946,
+					["x"] = 59466.517715367,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40665.752173946,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Infantry AK",
+				["countryId"] = 0,
+				["x"] = 59466.517715367,
+				["unitId"] = 185,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-5",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [15]
+			[16] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40676.864982892,
+					["x"] = 59459.431286474,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40676.864982892,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Infantry AK",
+				["countryId"] = 0,
+				["x"] = 59459.431286474,
+				["unitId"] = 186,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-6",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [16]
+			[17] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40677.026038094,
+					["x"] = 59470.584359221,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40677.026038094,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Infantry AK",
+				["countryId"] = 0,
+				["x"] = 59470.584359221,
+				["unitId"] = 187,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-7",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [17]
+			[18] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40673.362032246,
+					["x"] = 59476.140763694,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40673.362032246,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Infantry AK",
+				["countryId"] = 0,
+				["x"] = 59476.140763694,
+				["unitId"] = 188,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-8",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [18]
+			[19] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40669.335652193,
+					["x"] = 59470.181721215,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40669.335652193,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Infantry AK",
+				["countryId"] = 0,
+				["x"] = 59470.181721215,
+				["unitId"] = 189,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-9",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [19]
+			[20] = 
+			{
+				["heading"] = 0,
+				["point"] = 
+				{
+					["y"] = -40676.864982892,
+					["x"] = 59464.866899546,
+				}, -- end of ["point"]
+				["groupId"] = 63,
+				["y"] = -40676.864982892,
+				["coalition"] = "red",
+				["groupName"] = "Infantry-2",
+				["type"] = "Infantry AK",
+				["countryId"] = 0,
+				["x"] = 59464.866899546,
+				["unitId"] = 190,
+				["category"] = "vehicle",
+				["unitName"] = "Infantry-2-10",
+				["playerCanDrive"] = false,
+				["country"] = "russia",
+				["skill"] = "Average",
+			}, -- end of [20]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["category"] = "vehicle",
+		["hidden"] = false,
+		["startTime"] = 0,
+		["coalition"] = "red",
+		["country"] = "russia",
+	}, -- end of ["Infantry-2"]
 	["KUB-1"] = 
 	{
 		["route"] = 
@@ -14371,11 +15173,11 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["number"] = 1,
-								["key"] = "CAP",
-								["id"] = "EngageTargets",
 								["enabled"] = true,
 								["auto"] = true,
+								["id"] = "EngageTargets",
+								["key"] = "CAP",
+								["number"] = 1,
 								["params"] = 
 								{
 									["targetTypes"] = 
@@ -14567,11 +15369,11 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["number"] = 1,
-								["key"] = "CAP",
-								["id"] = "EngageTargets",
 								["enabled"] = true,
 								["auto"] = true,
+								["id"] = "EngageTargets",
+								["key"] = "CAP",
+								["number"] = 1,
 								["params"] = 
 								{
 									["targetTypes"] = 
@@ -14763,11 +15565,11 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["number"] = 1,
-								["key"] = "CAS",
-								["id"] = "EngageTargets",
 								["enabled"] = true,
 								["auto"] = true,
+								["id"] = "EngageTargets",
+								["key"] = "CAS",
+								["number"] = 1,
 								["params"] = 
 								{
 									["targetTypes"] = 
@@ -14957,11 +15759,11 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["number"] = 1,
-								["key"] = "CAS",
-								["id"] = "EngageTargets",
 								["enabled"] = true,
 								["auto"] = true,
+								["id"] = "EngageTargets",
+								["key"] = "CAS",
+								["number"] = 1,
 								["params"] = 
 								{
 									["targetTypes"] = 
@@ -16350,11 +17152,11 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["number"] = 1,
-								["key"] = "CAP",
-								["id"] = "EngageTargets",
 								["enabled"] = true,
 								["auto"] = true,
+								["id"] = "EngageTargets",
+								["key"] = "CAP",
+								["number"] = 1,
 								["params"] = 
 								{
 									["targetTypes"] = 
@@ -16542,11 +17344,11 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["number"] = 1,
-								["key"] = "CAP",
-								["id"] = "EngageTargets",
 								["enabled"] = true,
 								["auto"] = true,
+								["id"] = "EngageTargets",
+								["key"] = "CAP",
+								["number"] = 1,
 								["params"] = 
 								{
 									["targetTypes"] = 
@@ -18938,6 +19740,17 @@ end
 
 spawnable = {}
 
+-- "Unarmed" category
+spawnable.unarmed = {
+	['12x Unarmed Fuel Trucks'] = {
+		name = 'FUEL-1',
+		description = '12x ATZ-10 Fuel Trucks',
+		smoke = 'red',
+		relative = 'false',
+		action = 'clone',
+	},
+}
+
 -- "Armor" category
 spawnable.armor = {
 	['4x BTR-80s'] = {
@@ -18954,13 +19767,6 @@ spawnable.armor = {
 		sound = 'ttardy00.wav', -- Ready to roll out!
 		smoke = 'red',
 		relative = false,
-		action = 'clone',
-	},
-	['4x Unarmed Fuel Trucks'] = {
-		name = 'FUEL-1',
-		description = '4x ATZ-10 Fuel Trucks',
-		smoke = 'red',
-		relative = 'false',
 		action = 'clone',
 	},
 }
@@ -19187,9 +19993,17 @@ spawnable.warbirds = {
 
 -- "Infantry" category
 spawnable.infantry = {
-	['10x Assorted Infantry'] = {
+	['10x Russian Infantry'] = {
 		name = 'Infantry-1',
-		description = 'Ten Assorted Russian Infantry',
+		description = 'Ten Russian Infantry',
+		sound = 'tmawht03.wav', -- Gimme somethin to shoot
+		smoke = 'red',
+		relative = false,
+		action = 'clone',
+	},
+	['20x Russian Infantry'] = {
+		name = 'Infantry-2',
+		description = 'Twenty Russian Infantry',
 		sound = 'tmawht03.wav', -- Gimme somethin to shoot
 		smoke = 'red',
 		relative = false,
@@ -19390,12 +20204,27 @@ spawnable.ftankers = {
 	},
 }
 
+-- "Armor" Friendly Category
+spawnable.farmor = {
+	['4x M1A1 Abrams'] = {
+		name = 'Abrams-1',
+		descriptions = 'Four M1A1 Abrams MBTs',
+		-- sound = '',
+		smoke = false,
+		relative = true,
+		action = 'clone',
+	},
+}
+
 
 ---------- END 06_spawnable_units.lua ----------
 
 ---------- BEGIN 07_spawn_engine.lua ----------
 
 local defaultSound = "tsctra00.wav"
+local radioOptions = {
+	dropSmoke = false,
+}
 
 local function setGroupAltitude(groupData, newAlt)
     if ( groupData.route and groupData.units and newAlt ) then
@@ -19645,6 +20474,15 @@ function smokeIfAlive(group)
     end
 end
 
+function smokeForMinutes(mins)
+	-- Unfinished. For now smoke is permanent.
+	smokeAtCoords(markPoint)
+	return timer.getTime() + 300
+end
+
+function spawnSmoke(args)
+	timer.scheduleFunction(smokeForMinutes, 20, timer.getTime() + 1)
+end
 
 function spawnGroup(args)
     env.info("Adding Dynamic Group")
@@ -19734,7 +20572,7 @@ function spawnGroup(args)
     spawnedData = mist.dynAdd(groupData)
     printSpawned(args)
 
-    if ( args.category ~= 'air' and args.group.smoke ) then
+    if ( args.category ~= 'air' and args.group.smoke and radioOptions.dropSmoke ) then
         env.info("Dropping Smoke")
         timer.scheduleFunction(smokeIfAlive, spawnedData, timer.getTime() + 1)
     end
@@ -19763,7 +20601,8 @@ local function addRadioMenus()
 
             -- Top Level: Spawn Friendly, Spawn Hostile, Spawn Magic Tanker"
             local FriendlyMenu		    = missionCommands.addSubMenuForGroup(groupId,"Spawn Friendly",nil)
-            local HostileMenu		    = missionCommands.addSubMenuForGroup(groupId,"Spawn Hostile",nil)           
+            local HostileMenu		    = missionCommands.addSubMenuForGroup(groupId,"Spawn Hostile",nil) 
+			local SmokeMenu				= missionCommands.addSubMenuForGroup(groupId,"Spawn Smoke", nil)
 
             -- Magic Tanker Menu
             local MagicTankerMenu       = missionCommands.addSubMenuForGroup(groupId,"Spawn Magic Tanker",nil)
@@ -19792,6 +20631,8 @@ local function addRadioMenus()
                 function() spawnGroup({clientGroup=groupName, group=spawnable.warbirdbfm[key], category='air', sound=true, magic=true, bfm=true}) end)
             end
  
+			-- Smoke Menu
+			missionCommands.addCommandForGroup(groupId, "Spawn Red Smoke", SmokeMenu, function() spawnSmoke({color = 'red', minutes=20}) end)
 
             -- Second Level: Categories
 
@@ -19801,8 +20642,10 @@ local function addRadioMenus()
                 local FTankerRacetrack  = missionCommands.addSubMenuForGroup(groupId,"Racetrack",FTankerMenu)
             local FAWACSMenu 		= missionCommands.addSubMenuForGroup(groupId,"AWACS",FriendlyMenu)
             local FBoatMenu			= missionCommands.addSubMenuForGroup(groupId,"Boats",FriendlyMenu)
+			local FArmorMenu		= missionCommands.addSubMenuForGroup(groupId,"Armor",FriendlyMenu)
 
             -- Hostile
+			local UnarmedMenu		= missionCommands.addSubMenuForGroup(groupId,"Unarmed",HostileMenu)
             local ArmorMenu 		= missionCommands.addSubMenuForGroup(groupId,"Armor",HostileMenu)
             local InfantryMenu		= missionCommands.addSubMenuForGroup(groupId,"Infantry",HostileMenu)
             local AirDefenceMenu	= missionCommands.addSubMenuForGroup(groupId,"Air Defenses",HostileMenu)
@@ -19824,7 +20667,14 @@ local function addRadioMenus()
             end	
             for key in pairs(spawnable.fboats) 		do missionCommands.addCommandForGroup(groupId, key, FBoatMenu,  			
                 function() spawnGroup({clientGroup=groupName, group=spawnable.fboats[key], category='air', sound=true}) end) 
-            end		
+            end
+			for key in pairs(spawnable.farmor) 		do missionCommands.addCommandForGroup(groupId, key, FArmorMenu,
+                function() spawnGroup({clientGroup=groupName, group=spawnable.farmor[key], category='land', sound=true}) end) 
+            end
+
+			for key in pairs(spawnable.unarmed) 	do missionCommands.addCommandForGroup(groupId, key, UnarmedMenu,
+                function() spawnGroup({clientGroup=groupName, group=spawnable.unarmed[key], category='land', sound=true}) end) 
+            end
             for key in pairs(spawnable.armor) 		do missionCommands.addCommandForGroup(groupId, key, ArmorMenu,  			
                 function() spawnGroup({clientGroup=groupName, group=spawnable.armor[key], category='land', sound=true}) end) 
             end
@@ -19882,7 +20732,7 @@ timer.scheduleFunction(respawnBoats, nil, timer.getTime() + 1)
 ---------- END 09_respawn_listener.lua ----------
 
 local loadedMsg = {}
-loadedMsg.text = 'Loaded Sandbox Version 163 (2021-01-07)'
+loadedMsg.text = 'Loaded Sandbox Version 167 (2021-02-06)'
 loadedMsg.displayTime = 5
 loadedMsg.msgFor = {coa = {'all'}}
 mist.message.add(loadedMsg)

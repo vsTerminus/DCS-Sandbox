@@ -1,4 +1,7 @@
 local defaultSound = "tsctra00.wav"
+local radioOptions = {
+	dropSmoke = false,
+}
 
 local function setGroupAltitude(groupData, newAlt)
     if ( groupData.route and groupData.units and newAlt ) then
@@ -248,6 +251,15 @@ function smokeIfAlive(group)
     end
 end
 
+function smokeForMinutes(mins)
+	-- Unfinished. For now smoke is permanent.
+	smokeAtCoords(markPoint)
+	return timer.getTime() + 300
+end
+
+function spawnSmoke(args)
+	timer.scheduleFunction(smokeForMinutes, 20, timer.getTime() + 1)
+end
 
 function spawnGroup(args)
     env.info("Adding Dynamic Group")
@@ -337,7 +349,7 @@ function spawnGroup(args)
     spawnedData = mist.dynAdd(groupData)
     printSpawned(args)
 
-    if ( args.category ~= 'air' and args.group.smoke ) then
+    if ( args.category ~= 'air' and args.group.smoke and radioOptions.dropSmoke ) then
         env.info("Dropping Smoke")
         timer.scheduleFunction(smokeIfAlive, spawnedData, timer.getTime() + 1)
     end
