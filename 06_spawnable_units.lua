@@ -367,7 +367,7 @@ spawnable.fawacs = {
 spawnable.fboats = {
 	['CVN-71 Theodore Roosevelt'] = {
 		name = 'CVN-71 Theodore Roosevelt',
-		description = 'CVN-71 Theodore Roosevelt -- ATC 171, TCN 71, ICLS 1',
+		description = 'CVN-71 Theodore Roosevelt -- ATC 251, TCN 71, ICLS 1',
 		sound = 'pcaRdy00.wav',
 		smoke = false,
 		relative = true,
@@ -375,7 +375,7 @@ spawnable.fboats = {
 	},
 	['CVN-72 Abraham Lincoln'] = {
 		name = 'CVN-72 Abraham Lincoln',
-		description = 'CVN-72 Abraham Lincoln -- ATC 172, TCN 72, ICLS 2',
+		description = 'CVN-72 Abraham Lincoln -- ATC 252, TCN 72, ICLS 2',
 		sound = 'pcaRdy00.wav',
 		smoke = false,
 		relative = true,
@@ -383,7 +383,7 @@ spawnable.fboats = {
 	},
 	['CVN-73 George Washington'] = {
 		name = 'CVN-73 George Washington',
-		description = 'CVN-73 George Washington -- ATC 173, TCN 73, ICLS 3',
+		description = 'CVN-73 George Washington -- ATC 253, TCN 73, ICLS 3',
 		sound = 'pcaRdy00.wav',
 		smoke = false,
 		relative = true,
@@ -391,7 +391,7 @@ spawnable.fboats = {
 	},
 	['CVN-74 John C. Stennis'] = {
 		name = 'CVN-74 John C. Stennis',
-		description = 'CVN-74 John C. Stennis -- ATC 174, TCN 74, ICLS 4',
+		description = 'CVN-74 John C. Stennis -- ATC 254, TCN 74, ICLS 4',
 		sound = 'pcaRdy00.wav',
 		smoke = false,
 		relative = true,
@@ -399,7 +399,7 @@ spawnable.fboats = {
 	},
 	['CVN-75 Harry S. Truman'] = {
 		name = 'CVN-75 Harry S. Truman',
-		description = 'CVN-75 Harry S. Truman -- ATC 175, TCN 75, ICLS 5',
+		description = 'CVN-75 Harry S. Truman -- ATC 255, TCN 75, ICLS 5',
 		sound = 'pcaRdy00.wav',
 		smoke = false,
 		relative = true,
@@ -407,7 +407,7 @@ spawnable.fboats = {
 	},
 	['LHA-1 Tarawa'] = {
 		name = 'LHA-1 Tarawa',
-		description = 'LHA-1 Tarawa -- ATC 176, TCN 76, ICLS 6',
+		description = 'LHA-1 Tarawa -- ATC 256, TCN 76, ICLS 6',
 		sound = 'pcaRdy00.wav',
 		smoke = false,
 		relative = true,
@@ -415,7 +415,7 @@ spawnable.fboats = {
 	},
 	['CV 1143.5 Admiral Kuznetsov(2017)'] = {
 		name = 'CV 1143.5 Admiral Kuznetsov(2017)',
-		description = 'CV 1143.5 Admiral Kuznetsov(2017) -- ATC 177',
+		description = 'CV 1143.5 Admiral Kuznetsov(2017) -- ATC 257',
 		sound = 'pcaRdy00.wav',
 		smoke = false,
 		relative = true,
@@ -423,7 +423,7 @@ spawnable.fboats = {
 	},
 	['CV 1143.5 Admiral Kuznetsov'] = {
 		name = 'CV 1143.5 Admiral Kuznetsov',
-		description = 'CV 1143.5 Admiral Kuznetsov -- ATC 178',
+		description = 'CV 1143.5 Admiral Kuznetsov -- ATC 258',
 		sound = 'pcaRdy00.wav',
 		smoke = false,
 		relative = true,

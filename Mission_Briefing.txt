@@ -9,7 +9,7 @@ Tankers (Boom)
 - Shell 1-2 > KC-135 (Slow) > 142 AM > 42X
 
 AWACS
-- Overlord > E-3C > 151 AM
+- Overlord > E-3A > 151 AM
 - Magic > E-2D > 152 AM
 
 Boats
