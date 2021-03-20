@@ -105,3 +105,9 @@ This is free software, licensed under
 
 	Apache License 2.0
 
+
+`SplashDamage.lua` is from [DCS-Scripts](https://github.com/wheelyjoe/DCS-Scripts) and is Copyright (c) 2021 wheelyjoe
+
+This is free software, licensed under
+
+    MIT License

@@ -804,8 +804,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = -137293.76547165,
-                                            ["y"] = -103367.2472269,
+                                            ["x"] = -137316.87212916,
+                                            ["y"] = -103309.06402576,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -882,12 +882,12 @@ mission = {
                                         ["speed"] = 41.666666666667,
                                         ["type"] = "UH-1H",
                                         ["unitId"] = 114,
-                                        ["x"] = -137293.76547165,
-                                        ["y"] = -103367.2472269,
+                                        ["x"] = -137316.87212916,
+                                        ["y"] = -103309.06402576,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -137293.76547165,
-                                ["y"] = -103367.2472269,
+                                ["x"] = -137316.87212916,
+                                ["y"] = -103309.06402576,
                             }, -- end of [7]
                             [8] = {
                                 ["communication"] = true,
@@ -10513,7 +10513,7 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = -137316.87212915,
+                                            ["x"] = -137316.87212916,
                                             ["y"] = -103309.06402576,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
@@ -10756,11 +10756,11 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "AV8BNA",
                                         ["unitId"] = 101,
-                                        ["x"] = -137316.87212915,
+                                        ["x"] = -137316.87212916,
                                         ["y"] = -103309.06402576,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -137316.87212915,
+                                ["x"] = -137316.87212916,
                                 ["y"] = -103309.06402576,
                             }, -- end of [26]
                             [27] = {
@@ -37427,8 +37427,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "TakeOffParking",
-                                            ["x"] = -120197.87359325,
-                                            ["y"] = -103023.91804187,
+                                            ["x"] = -120197.87359326,
+                                            ["y"] = -103023.91804188,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
@@ -37670,12 +37670,12 @@ mission = {
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "AV8BNA",
                                         ["unitId"] = 502,
-                                        ["x"] = -120197.87359325,
-                                        ["y"] = -103023.91804187,
+                                        ["x"] = -120197.87359326,
+                                        ["y"] = -103023.91804188,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -120197.87359325,
-                                ["y"] = -103023.91804187,
+                                ["x"] = -120197.87359326,
+                                ["y"] = -103023.91804188,
                             }, -- end of [194]
                             [195] = {
                                 ["communication"] = true,
@@ -47054,7 +47054,7 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_193",
-                                            ["speed"] = 10.277777777778,
+                                            ["speed"] = 9.7222222222222,
                                             ["speed_locked"] = true,
                                             ["task"] = {
                                                 ["id"] = "ComboTask",
@@ -47155,11 +47155,11 @@ mission = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 5421.8472847987,
+                                            ["ETA"] = 5731.6671296448,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1119",
-                                            ["speed"] = 10.277777777778,
+                                            ["speed"] = 9.7222222222222,
                                             ["speed_locked"] = true,
                                             ["task"] = {
                                                 ["id"] = "ComboTask",
@@ -47212,7 +47212,7 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1469",
-                                            ["speed"] = 0,
+                                            ["speed"] = 9.7222222222222,
                                             ["speed_locked"] = true,
                                             ["task"] = {
                                                 ["id"] = "ComboTask",
@@ -47312,11 +47312,11 @@ mission = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 4226.5678574357,
+                                            ["ETA"] = 6037.9502177607,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1470",
-                                            ["speed"] = 13.88888,
+                                            ["speed"] = 9.7222222222222,
                                             ["speed_locked"] = true,
                                             ["task"] = {
                                                 ["id"] = "ComboTask",
@@ -53697,7 +53697,7 @@ mission = {
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_220",
-                                            ["speed"] = 10.277777777778,
+                                            ["speed"] = 9.7222222222222,
                                             ["speed_locked"] = true,
                                             ["task"] = {
                                                 ["id"] = "ComboTask",
@@ -53759,11 +53759,11 @@ mission = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 5690.0207690975,
+                                            ["ETA"] = 6015.164813046,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_1145",
-                                            ["speed"] = 10.277777777778,
+                                            ["speed"] = 9.7222222222222,
                                             ["speed_locked"] = true,
                                             ["task"] = {
                                                 ["id"] = "ComboTask",
@@ -56043,7 +56043,7 @@ mission = {
             [13] = 68,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 327506,
+    ["currentKey"] = 333916,
     ["date"] = {
         ["Day"] = 21,
         ["Month"] = 6,
@@ -56497,11 +56497,11 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -159747.54531824,
-        ["centerY"] = 83707.627865174,
-        ["zoom"] = 797275.89393912,
+        ["centerX"] = -124830.70787803,
+        ["centerY"] = -91014.1428729,
+        ["zoom"] = 278183.32678189,
     }, -- end of ["map"]
-    ["maxDictId"] = 1849,
+    ["maxDictId"] = 1851,
     ["pictureFileNameB"] = {
     }, -- end of ["pictureFileNameB"]
     ["pictureFileNameN"] = {
@@ -56544,10 +56544,12 @@ mission = {
         ["actions"] = {
             [1] = "a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_10\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_11\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_12\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_13\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_359\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_360\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_363\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_364\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_365\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_366\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_432\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_433\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_444\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_445\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_446\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_454\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_461\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_495\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_1173\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_1229\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_1230\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_1231\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_1235\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_1236\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_1237\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_1238\"), 0);a_out_sound_c(18, getValueResourceByKey(\"ResKey_Action_1239\"), 0); mission.trig.func[1]=nil;",
             [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1273\")); mission.trig.func[2]=nil;",
+            [3] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_1850\"));a_out_text_delay(getValueDictByKey(\"DictKey_ActionText_1851\"), 5, false, 0); mission.trig.func[3]=nil;",
         }, -- end of ["actions"]
         ["conditions"] = {
             [1] = "return(c_time_after(1) )",
             [2] = "return(c_time_after(1) )",
+            [3] = "return(c_time_after(2) )",
         }, -- end of ["conditions"]
         ["custom"] = {
         }, -- end of ["custom"]
@@ -56558,10 +56560,12 @@ mission = {
         ["flag"] = {
             [1] = true,
             [2] = true,
+            [3] = true,
         }, -- end of ["flag"]
         ["func"] = {
             [1] = "if mission.trig.conditions[1]() then mission.trig.actions[1]() end",
             [2] = "if mission.trig.conditions[2]() then mission.trig.actions[2]() end",
+            [3] = "if mission.trig.conditions[3]() then mission.trig.actions[3]() end",
         }, -- end of ["func"]
         ["funcStartup"] = {
         }, -- end of ["funcStartup"]
@@ -57479,6 +57483,36 @@ mission = {
                 }, -- end of [1]
             }, -- end of ["rules"]
         }, -- end of [2]
+        [3] = {
+            ["actions"] = {
+                [1] = {
+                    ["file"] = "ResKey_Action_1850",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_do_script_file",
+                    ["zone"] = 440,
+                }, -- end of [1]
+                [2] = {
+                    ["clearview"] = false,
+                    ["KeyDict_text"] = "DictKey_ActionText_1851",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_text_delay",
+                    ["seconds"] = 5,
+                    ["start_delay"] = 0,
+                    ["text"] = "DictKey_ActionText_1851",
+                    ["zone"] = 440,
+                }, -- end of [2]
+            }, -- end of ["actions"]
+            ["comment"] = "Load Splash Damage",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] = {
+                [1] = {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 2,
+                    ["zone"] = 440,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [3]
     }, -- end of ["trigrules"]
     ["version"] = 18,
     ["weather"] = {

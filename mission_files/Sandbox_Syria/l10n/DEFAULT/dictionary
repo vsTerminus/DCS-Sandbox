@@ -17,6 +17,7 @@ end\
 timer.scheduleFunction(respawnBoats, nil, timer.getTime() + 1)\
 \
 ",
+    ["DictKey_ActionText_1851"] = "Wheelyjoe's Splash Damage Script Loaded (20201110)",
     ["DictKey_descriptionBlueTask_3"] = "",
     ["DictKey_descriptionNeutralsTask_4"] = "",
     ["DictKey_descriptionRedTask_2"] = "",

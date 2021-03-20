@@ -13,6 +13,7 @@ mapResource = {
     ["ResKey_Action_1239"] = "TDrYes04.wav",
     ["ResKey_Action_1273"] = "sandbox.lua",
     ["ResKey_Action_13"] = "Grunt Birthday Party.ogg",
+    ["ResKey_Action_1850"] = "SplashDamage.lua",
     ["ResKey_Action_359"] = "TGoYes01.wav",
     ["ResKey_Action_360"] = "TGoYes03.wav",
     ["ResKey_Action_363"] = "tsctra00.wav",

@@ -110,10 +110,14 @@ options =
     }, -- end of ["graphics"]
     ["plugins"] = 
     {
-        ["Su-25T"] = 
+        ["CA"] = 
         {
-            ["CPLocalList"] = "Blue English - HUD Clear Glass",
-        }, -- end of ["Su-25T"]
+            ["kompass_options"] = 1,
+            ["ground_target_info"] = true,
+            ["ground_aim_helper"] = true,
+            ["ground_platform_shake"] = true,
+            ["ground_automatic"] = true,
+        }, -- end of ["CA"]
         ["MiG-15bis"] = 
         {
             ["autoLeanToAimMiG15"] = true,
@@ -129,19 +133,24 @@ options =
         }, -- end of ["P47D30"]
         ["DCS-SRS"] = 
         {
+            ["srsOverlayHelpTextEnabled"] = true,
             ["srsOverlayEnabled"] = false,
             ["srsAutoLaunchEnabled"] = true,
             ["srsOverlayCompactModeEnabled"] = false,
         }, -- end of ["DCS-SRS"]
-        ["F/A-18C"] = 
+        ["Yak52"] = 
         {
-            ["abDetent"] = 0,
-            ["canopyReflections"] = 1,
-            ["hmdEye"] = 1,
-            ["CPLocalList"] = "01_BLACK_UFC_pit",
-            ["F18RealisticTDC"] = true,
-            ["mfdReflections"] = 1,
-        }, -- end of ["F/A-18C"]
+            ["aileronTrim"] = 0,
+            ["rudderTrim"] = 0,
+            ["CPLocalList"] = "Black English",
+            ["assistance"] = 0,
+            ["autoRudder"] = false,
+        }, -- end of ["Yak52"]
+        ["Hercules"] = 
+        {
+            ["NWS_Coupled_Separate_Input_Device"] = false,
+            ["Steam_Version"] = false,
+        }, -- end of ["Hercules"]
         ["L-39C"] = 
         {
             ["sarpp"] = 1,
@@ -193,10 +202,10 @@ options =
             ["gunCamera"] = 2,
             ["controlHelperMi8"] = false,
             ["Mi8RudderTrimmer"] = false,
-            ["collectiveDisengage"] = 1,
+            ["collectiveDisengage"] = 5,
             ["Mi8FOV"] = 120,
             ["Mi8AutopilotAdjustment"] = false,
-            ["CPLocalList"] = "English Black Cockpit by Devrim",
+            ["CPLocalList"] = "Black EN Cockpit",
             ["collectiveBrake"] = 0,
         }, -- end of ["Mi-8MTV2"]
         ["FW-190D9"] = 
@@ -205,20 +214,10 @@ options =
             ["CPLocalList"] = "default",
             ["autoRudder"] = false,
         }, -- end of ["FW-190D9"]
-        ["A-10C_2"] = 
+        ["Su-25T"] = 
         {
-            ["hmdEye"] = 1,
-            ["CPLocalList"] = "aged",
-            ["defaultGunMode"] = 0,
-        }, -- end of ["A-10C_2"]
-        ["CA"] = 
-        {
-            ["kompass_options"] = 1,
-            ["ground_target_info"] = true,
-            ["ground_aim_helper"] = true,
-            ["ground_platform_shake"] = true,
-            ["ground_automatic"] = true,
-        }, -- end of ["CA"]
+            ["CPLocalList"] = "Blue English - HUD Clear Glass",
+        }, -- end of ["Su-25T"]
         ["F-16C"] = 
         {
             ["abDetent"] = 0,
@@ -228,6 +227,15 @@ options =
             ["canopyTint"] = 1,
             ["mfdReflections"] = 0,
         }, -- end of ["F-16C"]
+        ["F/A-18C"] = 
+        {
+            ["abDetent"] = 0,
+            ["canopyReflections"] = 1,
+            ["hmdEye"] = 1,
+            ["CPLocalList"] = "01_BLACK_UFC_pit",
+            ["F18RealisticTDC"] = true,
+            ["mfdReflections"] = 1,
+        }, -- end of ["F/A-18C"]
         ["MB-339PAN"] = 
         {
             ["reset"] = false,
@@ -327,9 +335,11 @@ options =
         }, -- end of ["P-51D"]
         ["A-4E-C"] = 
         {
-            ["catapultLaunchMode"] = 0,
             ["trimSpeed"] = 0,
+            ["cockpitShake"] = 100,
+            ["catapultLaunchMode"] = 0,
             ["catapultAlignmentCheck"] = true,
+            ["efmEnabled"] = true,
         }, -- end of ["A-4E-C"]
         ["MiG-21Bis"] = 
         {
@@ -356,14 +366,12 @@ options =
             ["Ka50RudderTrimmer"] = false,
             ["helmetCircleDisplacement"] = 11,
         }, -- end of ["Ka-50"]
-        ["Yak52"] = 
+        ["A-10C_2"] = 
         {
-            ["aileronTrim"] = 0,
-            ["rudderTrim"] = 0,
-            ["CPLocalList"] = "Black English",
-            ["assistance"] = 0,
-            ["autoRudder"] = false,
-        }, -- end of ["Yak52"]
+            ["hmdEye"] = 1,
+            ["CPLocalList"] = "aged",
+            ["defaultGunMode"] = 0,
+        }, -- end of ["A-10C_2"]
         ["AJS37"] = 
         {
             ["CPLocalList"] = "default",
@@ -405,7 +413,7 @@ options =
     ["format"] = 1,
     ["sound"] = 
     {
-        ["main_output"] = "{0.0.0.00000000}.{3ec54f09-5f5b-4bd4-8d12-342f78ffe06a}",
+        ["main_output"] = "{0.0.0.00000000}.{0896e2a2-a9ab-4133-8422-c5086f6785b9}",
         ["FakeAfterburner"] = false,
         ["volume"] = 45,
         ["headphones_on_external_views"] = true,
@@ -413,7 +421,7 @@ options =
         ["world"] = 65,
         ["hear_in_helmet"] = false,
         ["radioSpeech"] = true,
-        ["hp_output"] = "{0.0.0.00000000}.{3ec54f09-5f5b-4bd4-8d12-342f78ffe06a}",
+        ["hp_output"] = "{0.0.0.00000000}.{0896e2a2-a9ab-4133-8422-c5086f6785b9}",
         ["cockpit"] = 100,
         ["voice_chat_output"] = "0:{0.0.0.00000000}.{3ec54f09-5f5b-4bd4-8d12-342f78ffe06a}",
         ["voice_chat"] = false,

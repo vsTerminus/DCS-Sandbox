@@ -1,3 +1,4 @@
 mapResource = {
+    ["ResKey_Action_161"] = "SplashDamage.lua",
     ["ResKey_Action_75"] = "sandbox.lua",
 } -- end of mapResource

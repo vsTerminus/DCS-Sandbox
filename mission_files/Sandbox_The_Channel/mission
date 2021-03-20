@@ -6061,7 +6061,7 @@ mission = {
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 4474,
+    ["currentKey"] = 4725,
     ["date"] = {
         ["Day"] = 1,
         ["Month"] = 12,
@@ -8104,7 +8104,7 @@ mission = {
         ["centerY"] = -29125.31472027,
         ["zoom"] = 5050.5471299344,
     }, -- end of ["map"]
-    ["maxDictId"] = 160,
+    ["maxDictId"] = 162,
     ["pictureFileNameB"] = {
     }, -- end of ["pictureFileNameB"]
     ["pictureFileNameN"] = {
@@ -8146,9 +8146,11 @@ mission = {
     ["trig"] = {
         ["actions"] = {
             [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_75\")); mission.trig.func[1]=nil;",
+            [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_161\"));a_out_text_delay(getValueDictByKey(\"DictKey_ActionText_162\"), 5, false, 0); mission.trig.func[2]=nil;",
         }, -- end of ["actions"]
         ["conditions"] = {
             [1] = "return(c_time_after(1) )",
+            [2] = "return(c_time_after(2) )",
         }, -- end of ["conditions"]
         ["custom"] = {
         }, -- end of ["custom"]
@@ -8158,9 +8160,11 @@ mission = {
         }, -- end of ["events"]
         ["flag"] = {
             [1] = true,
+            [2] = true,
         }, -- end of ["flag"]
         ["func"] = {
             [1] = "if mission.trig.conditions[1]() then mission.trig.actions[1]() end",
+            [2] = "if mission.trig.conditions[2]() then mission.trig.actions[2]() end",
         }, -- end of ["func"]
         ["funcStartup"] = {
         }, -- end of ["funcStartup"]
@@ -8462,6 +8466,36 @@ mission = {
                 }, -- end of [1]
             }, -- end of ["rules"]
         }, -- end of [1]
+        [2] = {
+            ["actions"] = {
+                [1] = {
+                    ["file"] = "ResKey_Action_161",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_do_script_file",
+                    ["zone"] = 14,
+                }, -- end of [1]
+                [2] = {
+                    ["clearview"] = false,
+                    ["KeyDict_text"] = "DictKey_ActionText_162",
+                    ["meters"] = 1000,
+                    ["predicate"] = "a_out_text_delay",
+                    ["seconds"] = 5,
+                    ["start_delay"] = 0,
+                    ["text"] = "DictKey_ActionText_162",
+                    ["zone"] = 14,
+                }, -- end of [2]
+            }, -- end of ["actions"]
+            ["comment"] = "Load SplashDamage",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerOnce",
+            ["rules"] = {
+                [1] = {
+                    ["predicate"] = "c_time_after",
+                    ["seconds"] = 2,
+                    ["zone"] = 14,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [2]
     }, -- end of ["trigrules"]
     ["version"] = 18,
     ["weather"] = {
