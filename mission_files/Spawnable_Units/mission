@@ -183,7 +183,7 @@ mission = {
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = 134,
                                         ["heading"] = 1.5793734170509,
-                                        ["livery_id"] = "Algerian AF IL-78M",
+                                        ["livery_id"] = "RF Air Force new",
                                         ["name"] = "DictKey_UnitName_178",
                                         ["onboard_num"] = "010",
                                         ["payload"] = {
@@ -989,7 +989,7 @@ mission = {
                                             ["name"] = "Texaco21",
                                         }, -- end of ["callsign"]
                                         ["heading"] = 1.5571334176583,
-                                        ["livery_id"] = "100th arw",
+                                        ["livery_id"] = "127th ARW USAF",
                                         ["name"] = "DictKey_UnitName_170",
                                         ["onboard_num"] = "010",
                                         ["payload"] = {
@@ -1211,7 +1211,7 @@ mission = {
                                             ["name"] = "Texaco31",
                                         }, -- end of ["callsign"]
                                         ["heading"] = 1.5805680027354,
-                                        ["livery_id"] = "usaf standard",
+                                        ["livery_id"] = "USAF - VS-21 - CAG",
                                         ["name"] = "DictKey_UnitName_174",
                                         ["onboard_num"] = "010",
                                         ["payload"] = {
@@ -1433,7 +1433,7 @@ mission = {
                                             ["name"] = "Shell11",
                                         }, -- end of ["callsign"]
                                         ["heading"] = 1.5805680027354,
-                                        ["livery_id"] = "TurAF Standard",
+                                        ["livery_id"] = "Armee de l'air_740",
                                         ["name"] = "DictKey_UnitName_182",
                                         ["onboard_num"] = "010",
                                         ["payload"] = {
@@ -1655,7 +1655,7 @@ mission = {
                                             ["name"] = "Shell21",
                                         }, -- end of ["callsign"]
                                         ["heading"] = 1.5805680027355,
-                                        ["livery_id"] = "TurAF Standard",
+                                        ["livery_id"] = "Standard USAF",
                                         ["name"] = "DictKey_UnitName_186",
                                         ["onboard_num"] = "010",
                                         ["payload"] = {
@@ -2702,6 +2702,7 @@ mission = {
                                 ["task"] = "Ground Nothing",
                                 ["tasks"] = {
                                 }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
@@ -10160,7 +10161,7 @@ mission = {
             [10] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 24118,
+    ["currentKey"] = 25264,
     ["date"] = {
         ["Day"] = 21,
         ["Month"] = 6,
@@ -12199,9 +12200,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = 14692.633924924,
-        ["centerY"] = 41128.767221518,
-        ["zoom"] = 15514.342056261,
+        ["centerX"] = 17274.142634343,
+        ["centerY"] = 20614.826594354,
+        ["zoom"] = 349153.35283393,
     }, -- end of ["map"]
     ["maxDictId"] = 423,
     ["pictureFileNameB"] = {
