@@ -8,3 +8,4 @@
 07_spawn_engine.lua
 08_radio_menu.lua
 09_respawn_listener.lua
+10_splash_damage.lua
