@@ -1,6 +1,6 @@
 # DCS Sandbox
 
-![My License](https://img.shields.io/github/license/vsTerminus/DCS-Sandbox?label=Repo%20License) ![MIST License](https://img.shields.io/github/license/mrSkortch/MissionScriptingTools?label=MIST%20License) ![VEAF License](https://img.shields.io/github/license/VEAF/VEAF-Mission-Creation-Tools?label=VEAF%20License)
+![My License](https://img.shields.io/github/license/vsTerminus/DCS-Sandbox?label=Repo%20License) ![MIST License](https://img.shields.io/github/license/mrSkortch/MissionScriptingTools?label=MIST%20License) ![VEAF License](https://img.shields.io/github/license/VEAF/VEAF-Mission-Creation-Tools?label=VEAF%20License) ![DCS-Scripts License](https://img.shields.io/github/license/wheelyjoe/DCS-Scripts?label=DCS-Scripts%20License)
 
 
 ![Build Version](https://img.shields.io/github/v/tag/vsTerminus/DCS-Sandbox?label=Latest%20Build)
