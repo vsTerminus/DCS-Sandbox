@@ -28,5 +28,4 @@ mapResource = {
     ["ResKey_Action_3427"] = "tvkpss01.wav",
     ["ResKey_Action_3428"] = "tvurdy00.wav",
     ["ResKey_Action_3467"] = "sandbox.lua",
-    ["ResKey_Action_3801"] = "SplashDamage.lua",
 } -- end of mapResource
