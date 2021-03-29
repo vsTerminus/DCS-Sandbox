@@ -17,10 +17,10 @@ MIZ_DIR=mission_files
 ZIP_DIR=l10n/DEFAULT
 
 # Where do we write the file?
-OUT_DIR=build
-#OUT_FILE:=sandbox_$(BUILD_DATE)_r$(BUILD_NUMBER).lua
+BUILD_DIR=build
+#BUILD_FILE:=sandbox_$(BUILD_DATE)_r$(BUILD_NUMBER).lua
 # A simple name like this allows us to update and replace the old file in the .miz without needing to change the trigger.
-OUT_FILE=sandbox.lua
+BUILD_FILE=sandbox.lua
 
 # Support file for changing time of day and naming the resulting .miz files appropriately
 TOD_FILE=time_of_day
@@ -71,7 +71,9 @@ help:
 
 clean: clean_build
 
-pack: zip_all
+pack: zip
+
+pack_all: zip_all
 
 unpack: unzip normalize
 
@@ -79,7 +81,7 @@ repack: unpack pack
 
 build: clean_build merge_luas append_version
 
-install: build update_sandboxes pack
+install: build update_sandboxes pack_all
 
 full: unpack install
 
@@ -87,14 +89,17 @@ tag: tag_commit
 
 commit: new_commit tag_commit
 
-release: commit zip_release
+release: pack_all zip_release
 
 
 #### Don't call anything below this line directly unless you know what you're doing.
 
 zip_release:
 	@echo "Zipping built sandbox.lua file"
-	### Do that...
+	@cd build ; \
+	for miz in $(MIZ) ; do \
+		zip $$miz-$$(cat ../$(BUILD_NUMBER_FILE)).zip $$miz*.miz ; \
+	done
 
 new_commit:
 	@echo "Comitting all current changes"
@@ -112,7 +117,7 @@ append_version: version_bump
 		"loadedMsg.displayTime = 5" \
 		"loadedMsg.msgFor = {coa = {'all'}}" \
 		"mist.message.add(loadedMsg)" \
-		>> $(OUT_DIR)/$(OUT_FILE)
+		>> $(BUILD_DIR)/$(BUILD_FILE)
 
 version_bump:
 	@echo Incrementing Version
@@ -121,22 +126,23 @@ version_bump:
 
 merge_luas:
 	@echo Merging Lua Files
-	@mkdir -p $(OUT_DIR)
+	@mkdir -p $(BUILD_DIR)
 	@ls -1 $(LUAS) | xargs -n1 awk \
 	'FNR==1{print "---------- BEGIN",FILENAME,"----------\n"} \
 	END{print "\n---------- END",FILENAME,"----------\n"} \
-	{print}' >> $(OUT_DIR)/$(OUT_FILE)
+	{print}' >> $(BUILD_DIR)/$(BUILD_FILE)
 
 clean_build:
 	@echo Cleaning build directory
-	@rm -f $(OUT_DIR)/*.lua
+	@rm -f $(BUILD_DIR)/*.lua
+	@rm -f $(BUILD_DIR)/*.miz
 
 
 update_sandboxes:
 	@echo "Installing 'sandbox.lua' Version $$(cat $(BUILD_NUMBER_FILE)) to Sandbox Missions"
 	@for miz in $(MIZ) ; do \
 		echo "	$$miz" ; \
-		cp "$(OUT_DIR)/$(OUT_FILE)" "$(MIZ_DIR)/$$miz/$(ZIP_DIR)/$(OUT_FILE)" ; \
+		cp "$(BUILD_DIR)/$(BUILD_FILE)" "$(MIZ_DIR)/$$miz/$(ZIP_DIR)/$(BUILD_FILE)" ; \
 	done
 
 unzip:
@@ -150,45 +156,59 @@ normalize:
 night:
 	@echo "Updating mission times to 3 AM"
 	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 sed -i 's/32400\|61200\|43200/10800/'
-	@echo "night" > $(MIZ_DIR)/$(TOD_FILE)
+	@echo "night" > $(TOD_FILE)
 
 morning:
 	@echo "Updating mission times to 9 AM"
 	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 sed -i 's/10800\|43200\|61200/32400/'
-	@echo "morning" > $(MIZ_DIR)/$(TOD_FILE)
+	@echo "morning" > $(TOD_FILE)
 
 evening:
 	@echo "Updating mission times to 5 PM"
 	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 sed -i 's/10800\|32400\|43200/61200/'
-	@echo "evening" > $(MIZ_DIR)/$(TOD_FILE)
+	@echo "evening" > $(TOD_FILE)
 
 noon:
 	@echo "Updating mission times to Noon"
 	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 sed -i 's/10800\|32400\|61200/43200/'
-	@echo "noon" > $(MIZ_DIR)/$(TOD_FILE)
+	@echo "noon" > $(TOD_FILE)
 
 zip_night: night
-	$(MAKE) zip
+	@$(MAKE) zip_tod
+	@mv *_night.miz $(BUILD_DIR)
 
 zip_morning: morning
-	$(MAKE) zip
+	@$(MAKE) zip_tod
+	@mv *_morning.miz $(BUILD_DIR)
 
 zip_evening: evening
-	$(MAKE) zip
+	@$(MAKE) zip_tod
+	@mv *_evening.miz $(BUILD_DIR)
 
 zip_noon: noon
-	$(MAKE) zip
+	@$(MAKE) zip_tod
+	@mv *_noon.miz $(BUILD_DIR)
 
-zip_all: zip_night zip_morning zip_evening zip_noon
+zip_all: zip zip_night zip_morning zip_evening zip_noon
 
-zip:
-	@echo "Packing all .miz files"
+zip_tod:
+	@echo "Packing .miz files for different times of day"
 	@cd $(MIZ_DIR) ; \
-	for mission in */ ; do \
-		echo "	$${mission%/}_$$(cat $(TOD_FILE))" ; \
+	for mission in Sandbox_*/ ; do \
+		echo "	$${mission%/}_$$(cat ../$(TOD_FILE))" ; \
 		cd $$mission ; \
-		zip -Xqr $${mission%/}_$$(cat ../$(TOD_FILE)).miz * ; \
+		zip -Xqr $${mission%/}_$$(cat ../../$(TOD_FILE)).miz * ; \
 		mv *.miz ../../ ; \
 		cd .. ; \
 	done
 
+zip:
+	@echo "Packing main .miz files"
+	@cd $(MIZ_DIR) ; \
+	for mission in */ ; do \
+		echo "	$${mission%/}" ; \
+		cd $$mission ; \
+		zip -Xqr $${mission%/}.miz * ; \
+		mv *.miz ../../ ; \
+		cd .. ; \
+	done
