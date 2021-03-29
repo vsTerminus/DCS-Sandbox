@@ -48533,9 +48533,27 @@ mission = {
                                             ["ammo_type"] = 1,
                                             ["chaff"] = 140,
                                             ["flare"] = 60,
-                                            ["fuel"] = 7348,
+                                            ["fuel"] = 3674,
                                             ["gun"] = 100,
                                             ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{LAU-138 wtip - AIM-9M}",
+                                                }, -- end of [1]
+                                                [2] = {
+                                                    ["CLSID"] = "{LAU-7 - AIM-9M}",
+                                                }, -- end of [2]
+                                                [3] = {
+                                                    ["CLSID"] = "{F14-300gal-empty}",
+                                                }, -- end of [3]
+                                                [8] = {
+                                                    ["CLSID"] = "{F14-300gal-empty}",
+                                                }, -- end of [8]
+                                                [9] = {
+                                                    ["CLSID"] = "{LAU-7 - AIM-9M}",
+                                                }, -- end of [9]
+                                                [10] = {
+                                                    ["CLSID"] = "{LAU-138 wtip - AIM-9M}",
+                                                }, -- end of [10]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = 0,
@@ -57651,7 +57669,7 @@ mission = {
             [13] = 68,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 353563,
+    ["currentKey"] = 355751,
     ["date"] = {
         ["Day"] = 5,
         ["Month"] = 6,
@@ -58105,9 +58123,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -121608.5885975,
-        ["centerY"] = 49689.404225766,
-        ["zoom"] = 907813.93097986,
+        ["centerX"] = -220568.03482246,
+        ["centerY"] = -34067.466699558,
+        ["zoom"] = 22503.106952407,
     }, -- end of ["map"]
     ["maxDictId"] = 1886,
     ["pictureFileNameB"] = {
@@ -58667,7 +58685,7 @@ mission = {
                 ["name"] = "AAR Starts",
                 ["properties"] = {
                 }, -- end of ["properties"]
-                ["radius"] = 3000,
+                ["radius"] = 6000,
                 ["x"] = -220758.52001969,
                 ["y"] = -35267.650459117,
                 ["zoneId"] = 440,
