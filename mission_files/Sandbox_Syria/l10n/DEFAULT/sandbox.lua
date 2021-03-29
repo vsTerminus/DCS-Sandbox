@@ -20505,13 +20505,13 @@ function spawnGroup(args)
         -- Magic Tanker spawns in front of the client matching their heading
         if ( args.magic and args.racetrack ) then
             env.info("This is a magic racetrack tanker")
-            local A = getEndPoint(clientPos, clientHeading, 1850)
+            local A = getEndPoint(clientPos, clientHeading, 925) -- 1/2 nm
             local B = getEndPoint(A, clientHeading, 203720) -- 110nm
             setRaceTrack(groupData, A, B)
         
         elseif ( args.magic and args.circle ) then
             env.info("This is a magic circle tanker")
-            local A = getEndPoint(clientPos, clientHeading, 1850)
+            local A = getEndPoint(clientPos, clientHeading, 925)
             local B = getEndPoint(clientPos, clientHeading, 10000)
             setRaceTrack(groupData, A, B)
             setCircle(groupData)
@@ -20945,7 +20945,7 @@ end
 ---------- END 10_splash_damage.lua ----------
 
 local loadedMsg = {}
-loadedMsg.text = 'Loaded Sandbox Version 168 (2021-03-28)'
+loadedMsg.text = 'Loaded Sandbox Version 169 (2021-03-28)'
 loadedMsg.displayTime = 5
 loadedMsg.msgFor = {coa = {'all'}}
 mist.message.add(loadedMsg)
