@@ -22,6 +22,9 @@ OUT_DIR=build
 # A simple name like this allows us to update and replace the old file in the .miz without needing to change the trigger.
 OUT_FILE=sandbox.lua
 
+# Support file for changing time of day and naming the resulting .miz files appropriately
+TOD_FILE=time_of_day
+
 # This is the default command when you run "make"
 # Since this is all a little unorthodox I figured this might help
 help:
@@ -68,7 +71,7 @@ help:
 
 clean: clean_build
 
-pack: zip
+pack: zip_all
 
 unpack: unzip normalize
 
@@ -147,36 +150,44 @@ normalize:
 night:
 	@echo "Updating mission times to 3 AM"
 	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 sed -i 's/32400\|61200\|43200/10800/'
+	@echo "night" > $(MIZ_DIR)/$(TOD_FILE)
 
 morning:
 	@echo "Updating mission times to 9 AM"
 	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 sed -i 's/10800\|43200\|61200/32400/'
+	@echo "morning" > $(MIZ_DIR)/$(TOD_FILE)
 
 evening:
 	@echo "Updating mission times to 5 PM"
 	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 sed -i 's/10800\|32400\|43200/61200/'
+	@echo "evening" > $(MIZ_DIR)/$(TOD_FILE)
 
 noon:
 	@echo "Updating mission times to Noon"
 	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 sed -i 's/10800\|32400\|61200/43200/'
+	@echo "noon" > $(MIZ_DIR)/$(TOD_FILE)
 
-zip_morning: morning zip
+zip_night: night
+	$(MAKE) zip
 
-zip_evening: evening zip
+zip_morning: morning
+	$(MAKE) zip
 
-zip_night: night zip
+zip_evening: evening
+	$(MAKE) zip
 
-zip_noon: noon zip
+zip_noon: noon
+	$(MAKE) zip
 
-zip_all: zip_morning zip_evening zip_night zip_noon
+zip_all: zip_night zip_morning zip_evening zip_noon
 
 zip:
 	@echo "Packing all .miz files"
 	@cd $(MIZ_DIR) ; \
 	for mission in */ ; do \
-		echo "	$${mission%/}" ; \
+		echo "	$${mission%/}_$$(cat $(TOD_FILE))" ; \
 		cd $$mission ; \
-		zip -Xqr $${mission%/}.miz * ; \
+		zip -Xqr $${mission%/}_$$(cat ../$(TOD_FILE)).miz * ; \
 		mv *.miz ../../ ; \
 		cd .. ; \
 	done
