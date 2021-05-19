@@ -83,7 +83,7 @@ repack_all: unpack pack_all
 
 build: clean_build merge_luas append_version
 
-install: build update_sandboxes pack_all
+install: build update_sandboxes pack
 
 full: unpack install
 

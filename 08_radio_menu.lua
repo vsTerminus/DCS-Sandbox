@@ -8,9 +8,12 @@ local function addRadioMenus()
     for unitId,unit in pairs(mist.DBs.unitsById) do
 
         --local unit = mist.DBs.unitsById[i]
+       -- env.info(dumper(unit))
+        --env.info((string.format("Looking at Group: %d %s", unit.groupId, unit.groupName)))
 
-        if unit and unit.coalition == 'blue' then
-            --env.info((string.format("Unit %d %s -- Group %d %s", unit.unitId, unit.unitName, unit.groupId, unit.groupName)))			
+        if unit and unit.skill == 'Client' then
+            --env.info("   Adding F10 Radio Menu to Group")
+            env.info((string.format("Adding radio menu to Group: %d %s (%s)", unit.groupId, unit.groupName, unit.skill)))
             local groupId = unit.groupId
             local groupName = unit.groupName
 
@@ -114,8 +117,12 @@ local function addRadioMenus()
             for key in pairs(spawnable.boats)		do missionCommands.addCommandForGroup(groupId, key, BoatMenu,  			
                 function() spawnGroup({clientGroup=groupName, group=spawnable.boats[key], category='water', sound=true}) end) 
             end
-
-
+        else
+            if unit and unit.skill then
+                env.info((string.format("Skipping Group: %d %s (%s)", unit.groupId, unit.groupName, unit.skill)))
+            else
+                env.info("Skipping Group with undefined skill")
+            end
         end
     end
 end
