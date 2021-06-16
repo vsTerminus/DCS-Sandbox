@@ -294,8 +294,40 @@ spawnable.infantry = {
 spawnable.helicopters = {
 	['Mi-24V'] = {
 		name = 'Hind-1',
-		description = 'An Mi-24V Hind Attack Helicopter',
+		description = 'A Mi-24V Hind Attack Helicopter',
 		sound = 'pcowht03.wav',	-- Let us attack
+		smoke = false,
+		relative = false,
+		action = 'clone',
+	},
+	['Mi-26'] = {
+		name = 'Halo-1',
+		description = 'A Mi-26 Halo Transport Helicopter',
+		--sound = 'pcowht03.wav',	-- Let us attack
+		smoke = false,
+		relative = false,
+		action = 'clone',
+	},
+	['Ka-50'] = {
+		name = 'Hokum-1',
+		description = 'A Ka-50 Hokum Attack Helicopter',
+		sound = 'pcowht03.wav',	-- Let us attack
+		smoke = false,
+		relative = false,
+		action = 'clone',
+	},
+	['Mi-28N'] = {
+		name = 'Havoc-1',
+		description = 'A Mi-28N Havoc Attack Helicopter',
+		sound = 'pcowht03.wav',	-- Let us attack
+		smoke = false,
+		relative = false,
+		action = 'clone',
+	},
+	['Mi-8MTV2'] = {
+		name = 'Hip-1',
+		description = 'A Mi-8MTV2 Transport Helicopter',
+		--sound = 'pcowht03.wav',	-- Let us attack
 		smoke = false,
 		relative = false,
 		action = 'clone',
@@ -347,7 +379,7 @@ spawnable.awacs = {
 spawnable.fawacs = {
 	['E-3A Sentry'] = {
 		name = 'E-3A 1',
-		description = 'E-3A Sentry at 35,000ft. Contact "Overlord" on 151.0',
+		description = 'E-3A Sentry at 35,000ft. Contact "Overlord" on 241.000',
 		sound = 'pabRdy00.wav', -- Warp Field Stabilized
 		smoke = false,
 		relative = true,
@@ -355,7 +387,7 @@ spawnable.fawacs = {
 	},
 	['E-2D Hawkeye'] = {
 		name = 'E-2D 1',
-		description = 'E-2D Hawkeye at 30,000ft. Contact "Magic" on 152.0',
+		description = 'E-2D Hawkeye at 30,000ft. Contact "Magic" on 242.000',
 		sound = 'pabPss00.wav', -- We sense a soul in search of answers
 		smoke = false,
 		relative = true,
@@ -488,6 +520,18 @@ spawnable.farmor = {
 	['4x M1A1 Abrams'] = {
 		name = 'Abrams-1',
 		descriptions = 'Four M1A1 Abrams MBTs',
+		-- sound = '',
+		smoke = false,
+		relative = true,
+		action = 'clone',
+	},
+}
+
+-- "Infantry" Friendly Category
+spawnable.finfantry = {
+	['20x Infantry M4'] = {
+		name = 'Infantry-M4-1',
+		description = 'Twenty Infantry M4 Units',
 		-- sound = '',
 		smoke = false,
 		relative = true,
