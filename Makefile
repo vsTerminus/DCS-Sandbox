@@ -161,21 +161,25 @@ normalize:
 night:
 	@echo "Updating mission times to 3 AM"
 	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 sed -i 's/25200\|61200\|43200/10800/'
+	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 unix2dos
 	@echo "night" > $(TOD_FILE)
 
 morning:
 	@echo "Updating mission times to 7 AM"
 	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 sed -i 's/10800\|43200\|61200/25200/'
+	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 unix2dos
 	@echo "morning" > $(TOD_FILE)
 
 evening:
 	@echo "Updating mission times to 5 PM"
 	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 sed -i 's/10800\|25200\|43200/61200/'
+	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 unix2dos
 	@echo "evening" > $(TOD_FILE)
 
 noon:
 	@echo "Updating mission times to Noon"
 	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 sed -i 's/10800\|25200\|61200/43200/'
+	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 unix2dos
 	@echo "noon" > $(TOD_FILE)
 
 zip_night: night
