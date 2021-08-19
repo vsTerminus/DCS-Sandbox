@@ -7679,6 +7679,756 @@ mission = {
                                 ["x"] = 12590.659638815,
                                 ["y"] = -42768.143580007,
                             }, -- end of [19]
+                            [20] = {
+                                ["communication"] = true,
+                                ["frequency"] = 225,
+                                ["groupId"] = 71,
+                                ["hidden"] = false,
+                                ["lateActivation"] = true,
+                                ["modulation"] = 0,
+                                ["name"] = "C-101 Low",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Fly Over Point",
+                                            ["alt"] = 1981,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 125,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Orbit",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["altitude"] = 1981,
+                                                                ["pattern"] = "Race-Track",
+                                                                ["speed"] = 125,
+                                                                ["speedEdited"] = true,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 0,
+                                                                        ["value"] = 4,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                        [3] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 3,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 1,
+                                                                        ["value"] = 0,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [3]
+                                                        [4] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 4,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 4,
+                                                                        ["value"] = 0,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [4]
+                                                        [5] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 5,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["formationIndex"] = 4,
+                                                                        ["name"] = 5,
+                                                                        ["value"] = 262145,
+                                                                        ["variantIndex"] = 1,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 10455.833772081,
+                                            ["y"] = -41759.123454216,
+                                        }, -- end of [1]
+                                        [2] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 1981,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 18.942065921942,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 125,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 10437.042631816,
+                                            ["y"] = -39391.439780816,
+                                        }, -- end of [2]
+                                    }, -- end of ["points"]
+                                    ["routeRelativeTOT"] = true,
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Reconnaissance",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 1981,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 127,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "C-101 Low-1",
+                                        ["onboard_num"] = "011",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1508.64,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 125,
+                                        ["type"] = "C-101EB",
+                                        ["unitId"] = 263,
+                                        ["x"] = 10455.833772081,
+                                        ["y"] = -41759.123454216,
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 1981,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 129,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "C-101 Low-2",
+                                        ["onboard_num"] = "012",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1508.64,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 125,
+                                        ["type"] = "C-101EB",
+                                        ["unitId"] = 269,
+                                        ["x"] = 10415.833772081,
+                                        ["y"] = -41719.123454216,
+                                    }, -- end of [2]
+                                    [3] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 1981,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 130,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "C-101 Low-3",
+                                        ["onboard_num"] = "013",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1508.64,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 125,
+                                        ["type"] = "C-101EB",
+                                        ["unitId"] = 270,
+                                        ["x"] = 10375.833772081,
+                                        ["y"] = -41679.123454216,
+                                    }, -- end of [3]
+                                    [4] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 1981,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 131,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "C-101 Low-4",
+                                        ["onboard_num"] = "014",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1508.64,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 125,
+                                        ["type"] = "C-101EB",
+                                        ["unitId"] = 271,
+                                        ["x"] = 10335.833772081,
+                                        ["y"] = -41639.123454216,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = 10455.833772081,
+                                ["y"] = -41759.123454216,
+                            }, -- end of [20]
+                            [21] = {
+                                ["communication"] = true,
+                                ["frequency"] = 225,
+                                ["groupId"] = 72,
+                                ["hidden"] = false,
+                                ["lateActivation"] = true,
+                                ["modulation"] = 0,
+                                ["name"] = "C-101 Medium",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Fly Over Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 125,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Orbit",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["altitude"] = 3048,
+                                                                ["pattern"] = "Race-Track",
+                                                                ["speed"] = 125,
+                                                                ["speedEdited"] = true,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 0,
+                                                                        ["value"] = 4,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                        [3] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 3,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 1,
+                                                                        ["value"] = 0,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [3]
+                                                        [4] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 4,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 4,
+                                                                        ["value"] = 0,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [4]
+                                                        [5] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 5,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["formationIndex"] = 4,
+                                                                        ["name"] = 5,
+                                                                        ["value"] = 262145,
+                                                                        ["variantIndex"] = 1,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 9431.1242204684,
+                                            ["y"] = -41793.977764595,
+                                        }, -- end of [1]
+                                        [2] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 18.942065921942,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 125,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 9412.3330802034,
+                                            ["y"] = -39426.294091195,
+                                        }, -- end of [2]
+                                    }, -- end of ["points"]
+                                    ["routeRelativeTOT"] = true,
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Reconnaissance",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 3048,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 132,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "C-101 Medium-1",
+                                        ["onboard_num"] = "015",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1508.64,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 125,
+                                        ["type"] = "C-101EB",
+                                        ["unitId"] = 272,
+                                        ["x"] = 9431.1242204684,
+                                        ["y"] = -41793.977764595,
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 3048,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 133,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "C-101 Medium-2",
+                                        ["onboard_num"] = "016",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1508.64,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 125,
+                                        ["type"] = "C-101EB",
+                                        ["unitId"] = 276,
+                                        ["x"] = 9391.1242204684,
+                                        ["y"] = -41753.977764595,
+                                    }, -- end of [2]
+                                    [3] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 3048,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 134,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "C-101 Medium-3",
+                                        ["onboard_num"] = "017",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1508.64,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 125,
+                                        ["type"] = "C-101EB",
+                                        ["unitId"] = 277,
+                                        ["x"] = 9351.1242204684,
+                                        ["y"] = -41713.977764595,
+                                    }, -- end of [3]
+                                    [4] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 3048,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 135,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "C-101 Medium-4",
+                                        ["onboard_num"] = "018",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1508.64,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 125,
+                                        ["type"] = "C-101EB",
+                                        ["unitId"] = 278,
+                                        ["x"] = 9311.1242204684,
+                                        ["y"] = -41673.977764595,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = 9431.1242204684,
+                                ["y"] = -41793.977764595,
+                            }, -- end of [21]
+                            [22] = {
+                                ["communication"] = true,
+                                ["frequency"] = 225,
+                                ["groupId"] = 73,
+                                ["hidden"] = false,
+                                ["lateActivation"] = true,
+                                ["modulation"] = 0,
+                                ["name"] = "C-101 High",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Fly Over Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 125,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Orbit",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["altitude"] = 6096,
+                                                                ["pattern"] = "Race-Track",
+                                                                ["speed"] = 125,
+                                                                ["speedEdited"] = true,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 0,
+                                                                        ["value"] = 4,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                        [3] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 3,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 1,
+                                                                        ["value"] = 0,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [3]
+                                                        [4] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 4,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 4,
+                                                                        ["value"] = 0,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [4]
+                                                        [5] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 5,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["formationIndex"] = 4,
+                                                                        ["name"] = 5,
+                                                                        ["value"] = 262145,
+                                                                        ["variantIndex"] = 1,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 8422.7613438154,
+                                            ["y"] = -41804.592110665,
+                                        }, -- end of [1]
+                                        [2] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 18.942065921942,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 125,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 8403.9702035504,
+                                            ["y"] = -39436.908437265,
+                                        }, -- end of [2]
+                                    }, -- end of ["points"]
+                                    ["routeRelativeTOT"] = true,
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Reconnaissance",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 6096,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 136,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "C-101 High-1",
+                                        ["onboard_num"] = "019",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1508.64,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 125,
+                                        ["type"] = "C-101EB",
+                                        ["unitId"] = 279,
+                                        ["x"] = 8422.7613438154,
+                                        ["y"] = -41804.592110665,
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 6096,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 137,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "C-101 High-2",
+                                        ["onboard_num"] = "020",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1508.64,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 125,
+                                        ["type"] = "C-101EB",
+                                        ["unitId"] = 283,
+                                        ["x"] = 8382.7613438154,
+                                        ["y"] = -41764.592110665,
+                                    }, -- end of [2]
+                                    [3] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 6096,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 138,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "C-101 High-3",
+                                        ["onboard_num"] = "021",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1508.64,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 125,
+                                        ["type"] = "C-101EB",
+                                        ["unitId"] = 284,
+                                        ["x"] = 8342.7613438154,
+                                        ["y"] = -41724.592110665,
+                                    }, -- end of [3]
+                                    [4] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 6096,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 139,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "default",
+                                        ["name"] = "C-101 High-4",
+                                        ["onboard_num"] = "022",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 1508.64,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 125,
+                                        ["type"] = "C-101EB",
+                                        ["unitId"] = 285,
+                                        ["x"] = 8302.7613438154,
+                                        ["y"] = -41684.592110665,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = 8422.7613438154,
+                                ["y"] = -41804.592110665,
+                            }, -- end of [22]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] = {
@@ -11551,7 +12301,7 @@ mission = {
             [10] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 29370,
+    ["currentKey"] = 32227,
     ["date"] = {
         ["Day"] = 21,
         ["Month"] = 6,
@@ -13590,9 +14340,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = 7077.6668383643,
-        ["centerY"] = -5824.4705535068,
-        ["zoom"] = 290144.68455763,
+        ["centerX"] = 9216.1837125503,
+        ["centerY"] = -40254.897584441,
+        ["zoom"] = 18575.105622555,
     }, -- end of ["map"]
     ["maxDictId"] = 423,
     ["pictureFileNameB"] = {
@@ -13899,6 +14649,23 @@ mission = {
                 ["y"] = 40867.633402317,
                 ["zoneId"] = 1992,
             }, -- end of [14]
+            [15] = {
+                ["color"] = {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "Unarmed Air",
+                ["properties"] = {
+                }, -- end of ["properties"]
+                ["radius"] = 3000,
+                ["type"] = 0,
+                ["x"] = 8351.2260623923,
+                ["y"] = -41026.268983877,
+                ["zoneId"] = 2158,
+            }, -- end of [15]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] = {
