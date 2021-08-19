@@ -36,6 +36,9 @@ help:
 	@echo "		- Package the loose folders back into .miz files"
 	@echo "		- Do this when you haven't made any changes and just want to (re-)generate the .miz files"
 	@echo " "
+	@echo " 'pack_all'"
+	@echo "     - Also creates .miz files for different times of day; Morning, Noon, Evening, and Night"
+	@echo " "
 	@echo "	'unpack'"
 	@echo "		- Unpack and normalize all .miz files into the mission files folder"
 	@echo " "
@@ -199,7 +202,7 @@ zip_tod:
 	for mission in Sandbox_*/ ; do \
 		echo "	$${mission%/}_$$(cat ../$(TOD_FILE))" ; \
 		cd $$mission ; \
-		zip -Xqr $${mission%/}_$$(cat ../../$(TOD_FILE)).miz * ; \
+		7z a -tzip $${mission%/}_$$(cat ../../$(TOD_FILE)).miz *; \
 		mv *.miz ../../ ; \
 		cd .. ; \
 	done
@@ -210,7 +213,7 @@ zip:
 	for mission in */ ; do \
 		echo "	$${mission%/}" ; \
 		cd $$mission ; \
-		zip -Xqr $${mission%/}.miz * ; \
+		7z a -tzip $${mission%/}.miz *; \
 		mv *.miz ../../ ; \
 		cd .. ; \
 	done
