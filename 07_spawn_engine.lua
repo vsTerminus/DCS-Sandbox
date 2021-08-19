@@ -268,9 +268,12 @@ function spawnGroup(args)
     local groupName = args.group.name
     env.info("Group Name")
     env.info((groupName))
+	env.info("Copying group data")
     local groupData = mist.utils.deepCopy(exported.groupData[groupName])
+	env.info("Group data copied")
     groupData.clone = false
     groupData.action = args.group.action
+	env.info("Group Action Set")
 
     -- Limitation right now requires the groupData to have a racetrack orbit set
     if ( hasRaceTrack(groupData) ) then
@@ -293,9 +296,9 @@ function spawnGroup(args)
             setRaceTrack(groupData, A, B)
             setCircle(groupData)
 
-        -- Normal tanker requires A and B markpoints
+        -- Normal racetrack tanker. Requires A and B markpoints
         elseif ( args.racetrack and aPoint.x and bPoint.x ) then
-            env.info("This is a normal racetrack tanker")
+            env.info("This is a non-magic tanker spawn with a Racetrack Orbit")
             setRaceTrack(groupData, aPoint, bPoint)
 
         -- Circle tanker only requires an unnamed markpoint
@@ -304,9 +307,14 @@ function spawnGroup(args)
             local B = getEndPoint(markPoint, clientHeading, 100)
             setRaceTrack(groupData, markPoint, B)
             setCircle(groupData)
+			
+		-- Not a tanker, but has a racetrack. Requires A and B markpoints
+		elseif ( aPoint.x and bPoint.x ) then
+            env.info("This is a non-magic non-tanker spawn with a Racetrack Orbit")
+            setRaceTrack(groupData, aPoint, bPoint)
 
         else
-            sendError("You must create and delete a markpoint for a circle tanker, or two markpoints named 'A' and 'B' for a racetrack tanker first")
+            sendError("This group has a Racetrack Orbit; Please create then delete two waypoints named A and B, then try again")
             return nil
 
         end
@@ -337,19 +345,21 @@ function spawnGroup(args)
         sendError("You must create and delete a markpoint before you can spawn anything.")
         return nil
     end
-
-    --dumper(groupData)
     
     -- Strip ID and Group Name if cloning
     if ( args.group.action == 'clone' ) then
+		env.info("Group will be cloned")
         stripIdentifiers(groupData) 
         groupData.clone = true
     end
 
+	env.info("Attempting to spawn group")
+	dumper(groupData)
+	
     spawnedData = mist.dynAdd(groupData)
     printSpawned(args)
 
-    if ( args.category ~= 'air' and args.group.smoke and radioOptions.dropSmoke ) then
+    if ( args.group.smoke and radioOptions.dropSmoke ) then
         env.info("Dropping Smoke")
         timer.scheduleFunction(smokeIfAlive, spawnedData, timer.getTime() + 1)
     end

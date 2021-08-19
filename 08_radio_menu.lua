@@ -29,9 +29,9 @@ local function addRadioMenus()
 
             for key in pairs(spawnable.ftankers)    do 
                 missionCommands.addCommandForGroup(groupId, key, MTankerCircle,
-                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true, magic=true, circle=true}) end) 
+                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], sound=true, magic=true, circle=true}) end) 
                 missionCommands.addCommandForGroup(groupId, key, MTankerRacetrack,
-                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true, magic=true, racetrack=true}) end) 
+                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], sound=true, magic=true, racetrack=true}) end) 
             end
 
             -- Magic Fighter Menu
@@ -41,12 +41,12 @@ local function addRadioMenus()
             
             for key in pairs(spawnable.bfm) do
                 missionCommands.addCommandForGroup(groupId, key, MagicModernFighterMenu,
-                function() spawnGroup({clientGroup=groupName, group=spawnable.bfm[key], category='air', sound=true, magic=true, bfm=true}) end)
+                function() spawnGroup({clientGroup=groupName, group=spawnable.bfm[key], sound=true, magic=true, bfm=true}) end)
             end
  
             for key in pairs(spawnable.warbirdbfm) do
                 missionCommands.addCommandForGroup(groupId, key, MagicWarbirdFighterMenu,
-                function() spawnGroup({clientGroup=groupName, group=spawnable.warbirdbfm[key], category='air', sound=true, magic=true, bfm=true}) end)
+                function() spawnGroup({clientGroup=groupName, group=spawnable.warbirdbfm[key], sound=true, magic=true, bfm=true}) end)
             end
  
 			-- Smoke Menu
@@ -76,46 +76,46 @@ local function addRadioMenus()
             -- Third Level: Groups
             for key in pairs(spawnable.ftankers) 	do 
                 missionCommands.addCommandForGroup(groupId, key, FTankerCircle,  			
-                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true, circle=true}) end) 
+                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], sound=true, circle=true}) end) 
                 missionCommands.addCommandForGroup(groupId, key, FTankerRacetrack,
-                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], category='air', sound=true, racetrack=true}) end) 
+                function() spawnGroup({clientGroup=groupName, group=spawnable.ftankers[key], sound=true, racetrack=true}) end) 
             end	
             for key in pairs(spawnable.fawacs) 		do missionCommands.addCommandForGroup(groupId, key, FAWACSMenu,  			
-                function() spawnGroup({clientGroup=groupName, group=spawnable.fawacs[key], category='air', sound=true}) end) 
+                function() spawnGroup({clientGroup=groupName, group=spawnable.fawacs[key], sound=true}) end) 
             end	
             for key in pairs(spawnable.fboats) 		do missionCommands.addCommandForGroup(groupId, key, FBoatMenu,  			
-                function() spawnGroup({clientGroup=groupName, group=spawnable.fboats[key], category='air', sound=true}) end) 
+                function() spawnGroup({clientGroup=groupName, group=spawnable.fboats[key], sound=true}) end) 
             end
 			for key in pairs(spawnable.farmor) 		do missionCommands.addCommandForGroup(groupId, key, FArmorMenu,
-                function() spawnGroup({clientGroup=groupName, group=spawnable.farmor[key], category='land', sound=true}) end) 
+                function() spawnGroup({clientGroup=groupName, group=spawnable.farmor[key], sound=true}) end) 
             end
 
 			for key in pairs(spawnable.unarmed) 	do missionCommands.addCommandForGroup(groupId, key, UnarmedMenu,
-                function() spawnGroup({clientGroup=groupName, group=spawnable.unarmed[key], category='land', sound=true}) end) 
+                function() spawnGroup({clientGroup=groupName, group=spawnable.unarmed[key], sound=true}) end) 
             end
             for key in pairs(spawnable.armor) 		do missionCommands.addCommandForGroup(groupId, key, ArmorMenu,  			
-                function() spawnGroup({clientGroup=groupName, group=spawnable.armor[key], category='land', sound=true}) end) 
+                function() spawnGroup({clientGroup=groupName, group=spawnable.armor[key], sound=true}) end) 
             end
             for key in pairs(spawnable.infantry)	do missionCommands.addCommandForGroup(groupId, key, InfantryMenu,  		
-                function() spawnGroup({clientGroup=groupName, group=spawnable.infantry[key], category='land', sound=true}) end) 
+                function() spawnGroup({clientGroup=groupName, group=spawnable.infantry[key], sound=true}) end) 
             end
             for key in pairs(spawnable.airdefences) do missionCommands.addCommandForGroup(groupId, key, AirDefenceMenu,  	
-                function() spawnGroup({clientGroup=groupName, group=spawnable.airdefences[key], category='land', sound=true}) end) 
+                function() spawnGroup({clientGroup=groupName, group=spawnable.airdefences[key], sound=true}) end) 
             end
             for key in pairs(spawnable.fighters) 	do missionCommands.addCommandForGroup(groupId, key, ModernFighterMenu,  	
-                function() spawnGroup({clientGroup=groupName, group=spawnable.fighters[key], category='air', sound=true}) end) 
+                function() spawnGroup({clientGroup=groupName, group=spawnable.fighters[key], sound=true}) end) 
             end
             for key in pairs(spawnable.warbirds) 	do missionCommands.addCommandForGroup(groupId, key, WarBirdMenu,  		
-                function() spawnGroup({clientGroup=groupName, group=spawnable.warbirds[key], category='air', sound=true}) end) 
+                function() spawnGroup({clientGroup=groupName, group=spawnable.warbirds[key], sound=true}) end) 
             end
             for key in pairs(spawnable.helicopters)	do missionCommands.addCommandForGroup(groupId, key, HelicopterMenu,  	
-                function() spawnGroup({clientGroup=groupName, group=spawnable.helicopters[key], category='air', sound=true}) end) 
+                function() spawnGroup({clientGroup=groupName, group=spawnable.helicopters[key], sound=true}) end) 
             end
             for key in pairs(spawnable.awacs)	do missionCommands.addCommandForGroup(groupId, key, AWACSMenu,  	
-                function() spawnGroup({clientGroup=groupName, group=spawnable.awacs[key], category='air', sound=true}) end) 
+                function() spawnGroup({clientGroup=groupName, group=spawnable.awacs[key], sound=true}) end) 
             end
             for key in pairs(spawnable.boats)		do missionCommands.addCommandForGroup(groupId, key, BoatMenu,  			
-                function() spawnGroup({clientGroup=groupName, group=spawnable.boats[key], category='water', sound=true}) end) 
+                function() spawnGroup({clientGroup=groupName, group=spawnable.boats[key], sound=true}) end) 
             end
         else
             if unit and unit.skill then

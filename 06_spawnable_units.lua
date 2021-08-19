@@ -28,6 +28,27 @@ spawnable.unarmed = {
 		relative = 'false',
 		action = 'clone',
 	},
+    ['4x C-101EB at 6,000ft'] = {
+        name = 'C-101 Low',
+        description = '4x C-101EB Aviojets at 6,000ft',
+        smoke = false,
+        relative = true,
+        action = 'clone',
+    },
+    ['4x C-101EB at 10,000ft'] = {
+        name = 'C-101 Medium',
+        description = '4x C-101EB Aviojets at 10,000ft',
+        smoke = false,
+        relative = true,
+        action = 'clone',
+    },
+    ['4x C-101EB at 20,000ft'] = {
+        name = 'C-101 High',
+        description = '4x C-101EB Aviojets at 20,000ft',
+        smoke = false,
+        relative = true,
+        action = 'clone',
+    },
 }
 
 -- "Armor" category

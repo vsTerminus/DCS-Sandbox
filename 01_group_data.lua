@@ -982,6 +982,966 @@ exported.groupData =
 		["task"] = "Ground Nothing",
 		["hidden"] = false,
 	}, -- end of ["Buk 1"]
+	["C-101 High"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 6096,
+				["type"] = "Turning Point",
+				["action"] = "Fly Over Point",
+				["alt_type"] = "BARO",
+				["form"] = "Fly Over Point",
+				["y"] = -41804.592110665,
+				["x"] = 8422.7613438154,
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 2,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 4,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 3,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 1,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "Orbit",
+								["number"] = 1,
+								["params"] = 
+								{
+									["altitude"] = 6096,
+									["speedEdited"] = true,
+									["pattern"] = "Race-Track",
+									["speed"] = 125,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 4,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["variantIndex"] = 1,
+											["value"] = 262145,
+											["name"] = 5,
+											["formationIndex"] = 4,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 6096,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -39436.908437265,
+				["x"] = 8403.9702035504,
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 73,
+		["groupName"] = "C-101 High",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 6096,
+				["point"] = 
+				{
+					["y"] = -41804.592110665,
+					["x"] = 8422.7613438154,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "default",
+				["onboard_num"] = "019",
+				["category"] = "plane",
+				["speed"] = 125,
+				["AddPropAircraft"] = 
+				{
+				}, -- end of ["AddPropAircraft"]
+				["type"] = "C-101EB",
+				["unitId"] = 279,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "C-101 High-1",
+				["groupName"] = "C-101 High",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 8422.7613438154,
+				["y"] = -41804.592110665,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 1508.64,
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["callsign"] = 136,
+				["skill"] = "High",
+				["groupId"] = 73,
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 6096,
+				["point"] = 
+				{
+					["y"] = -41764.592110665,
+					["x"] = 8382.7613438154,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "default",
+				["onboard_num"] = "020",
+				["category"] = "plane",
+				["speed"] = 125,
+				["AddPropAircraft"] = 
+				{
+				}, -- end of ["AddPropAircraft"]
+				["type"] = "C-101EB",
+				["unitId"] = 283,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "C-101 High-2",
+				["groupName"] = "C-101 High",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 8382.7613438154,
+				["y"] = -41764.592110665,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 1508.64,
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["callsign"] = 137,
+				["skill"] = "High",
+				["groupId"] = 73,
+			}, -- end of [2]
+			[3] = 
+			{
+				["alt"] = 6096,
+				["point"] = 
+				{
+					["y"] = -41724.592110665,
+					["x"] = 8342.7613438154,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "default",
+				["onboard_num"] = "021",
+				["category"] = "plane",
+				["speed"] = 125,
+				["AddPropAircraft"] = 
+				{
+				}, -- end of ["AddPropAircraft"]
+				["type"] = "C-101EB",
+				["unitId"] = 284,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "C-101 High-3",
+				["groupName"] = "C-101 High",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 8342.7613438154,
+				["y"] = -41724.592110665,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 1508.64,
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["callsign"] = 138,
+				["skill"] = "High",
+				["groupId"] = 73,
+			}, -- end of [3]
+			[4] = 
+			{
+				["alt"] = 6096,
+				["point"] = 
+				{
+					["y"] = -41684.592110665,
+					["x"] = 8302.7613438154,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "default",
+				["onboard_num"] = "022",
+				["category"] = "plane",
+				["speed"] = 125,
+				["AddPropAircraft"] = 
+				{
+				}, -- end of ["AddPropAircraft"]
+				["type"] = "C-101EB",
+				["unitId"] = 285,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "C-101 High-4",
+				["groupName"] = "C-101 High",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 8302.7613438154,
+				["y"] = -41684.592110665,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 1508.64,
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["callsign"] = 139,
+				["skill"] = "High",
+				["groupId"] = 73,
+			}, -- end of [4]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "Reconnaissance",
+		["frequency"] = 225,
+	}, -- end of ["C-101 High"]
+	["C-101 Low"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 1981,
+				["type"] = "Turning Point",
+				["action"] = "Fly Over Point",
+				["alt_type"] = "BARO",
+				["form"] = "Fly Over Point",
+				["y"] = -41759.123454216,
+				["x"] = 10455.833772081,
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 2,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 4,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 3,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 1,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "Orbit",
+								["number"] = 1,
+								["params"] = 
+								{
+									["altitude"] = 1981,
+									["speedEdited"] = true,
+									["pattern"] = "Race-Track",
+									["speed"] = 125,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 4,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["variantIndex"] = 1,
+											["value"] = 262145,
+											["name"] = 5,
+											["formationIndex"] = 4,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 1981,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -39391.439780816,
+				["x"] = 10437.042631816,
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 71,
+		["groupName"] = "C-101 Low",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 1981,
+				["point"] = 
+				{
+					["y"] = -41759.123454216,
+					["x"] = 10455.833772081,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "default",
+				["onboard_num"] = "011",
+				["category"] = "plane",
+				["speed"] = 125,
+				["AddPropAircraft"] = 
+				{
+				}, -- end of ["AddPropAircraft"]
+				["type"] = "C-101EB",
+				["unitId"] = 263,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "C-101 Low-1",
+				["groupName"] = "C-101 Low",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 10455.833772081,
+				["y"] = -41759.123454216,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 1508.64,
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["callsign"] = 127,
+				["skill"] = "High",
+				["groupId"] = 71,
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 1981,
+				["point"] = 
+				{
+					["y"] = -41719.123454216,
+					["x"] = 10415.833772081,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "default",
+				["onboard_num"] = "012",
+				["category"] = "plane",
+				["speed"] = 125,
+				["AddPropAircraft"] = 
+				{
+				}, -- end of ["AddPropAircraft"]
+				["type"] = "C-101EB",
+				["unitId"] = 269,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "C-101 Low-2",
+				["groupName"] = "C-101 Low",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 10415.833772081,
+				["y"] = -41719.123454216,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 1508.64,
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["callsign"] = 129,
+				["skill"] = "High",
+				["groupId"] = 71,
+			}, -- end of [2]
+			[3] = 
+			{
+				["alt"] = 1981,
+				["point"] = 
+				{
+					["y"] = -41679.123454216,
+					["x"] = 10375.833772081,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "default",
+				["onboard_num"] = "013",
+				["category"] = "plane",
+				["speed"] = 125,
+				["AddPropAircraft"] = 
+				{
+				}, -- end of ["AddPropAircraft"]
+				["type"] = "C-101EB",
+				["unitId"] = 270,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "C-101 Low-3",
+				["groupName"] = "C-101 Low",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 10375.833772081,
+				["y"] = -41679.123454216,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 1508.64,
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["callsign"] = 130,
+				["skill"] = "High",
+				["groupId"] = 71,
+			}, -- end of [3]
+			[4] = 
+			{
+				["alt"] = 1981,
+				["point"] = 
+				{
+					["y"] = -41639.123454216,
+					["x"] = 10335.833772081,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "default",
+				["onboard_num"] = "014",
+				["category"] = "plane",
+				["speed"] = 125,
+				["AddPropAircraft"] = 
+				{
+				}, -- end of ["AddPropAircraft"]
+				["type"] = "C-101EB",
+				["unitId"] = 271,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "C-101 Low-4",
+				["groupName"] = "C-101 Low",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 10335.833772081,
+				["y"] = -41639.123454216,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 1508.64,
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["callsign"] = 131,
+				["skill"] = "High",
+				["groupId"] = 71,
+			}, -- end of [4]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "Reconnaissance",
+		["frequency"] = 225,
+	}, -- end of ["C-101 Low"]
+	["C-101 Medium"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 3048,
+				["type"] = "Turning Point",
+				["action"] = "Fly Over Point",
+				["alt_type"] = "BARO",
+				["form"] = "Fly Over Point",
+				["y"] = -41793.977764595,
+				["x"] = 9431.1242204684,
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 2,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 4,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 3,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 1,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "Orbit",
+								["number"] = 1,
+								["params"] = 
+								{
+									["altitude"] = 3048,
+									["speedEdited"] = true,
+									["pattern"] = "Race-Track",
+									["speed"] = 125,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 4,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 4,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["enabled"] = true,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["number"] = 5,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["variantIndex"] = 1,
+											["value"] = 262145,
+											["name"] = 5,
+											["formationIndex"] = 4,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 3048,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -39426.294091195,
+				["x"] = 9412.3330802034,
+				["speed"] = 125,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 72,
+		["groupName"] = "C-101 Medium",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 3048,
+				["point"] = 
+				{
+					["y"] = -41793.977764595,
+					["x"] = 9431.1242204684,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "default",
+				["onboard_num"] = "015",
+				["category"] = "plane",
+				["speed"] = 125,
+				["AddPropAircraft"] = 
+				{
+				}, -- end of ["AddPropAircraft"]
+				["type"] = "C-101EB",
+				["unitId"] = 272,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "C-101 Medium-1",
+				["groupName"] = "C-101 Medium",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 9431.1242204684,
+				["y"] = -41793.977764595,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 1508.64,
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["callsign"] = 132,
+				["skill"] = "High",
+				["groupId"] = 72,
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 3048,
+				["point"] = 
+				{
+					["y"] = -41753.977764595,
+					["x"] = 9391.1242204684,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "default",
+				["onboard_num"] = "016",
+				["category"] = "plane",
+				["speed"] = 125,
+				["AddPropAircraft"] = 
+				{
+				}, -- end of ["AddPropAircraft"]
+				["type"] = "C-101EB",
+				["unitId"] = 276,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "C-101 Medium-2",
+				["groupName"] = "C-101 Medium",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 9391.1242204684,
+				["y"] = -41753.977764595,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 1508.64,
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["callsign"] = 133,
+				["skill"] = "High",
+				["groupId"] = 72,
+			}, -- end of [2]
+			[3] = 
+			{
+				["alt"] = 3048,
+				["point"] = 
+				{
+					["y"] = -41713.977764595,
+					["x"] = 9351.1242204684,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "default",
+				["onboard_num"] = "017",
+				["category"] = "plane",
+				["speed"] = 125,
+				["AddPropAircraft"] = 
+				{
+				}, -- end of ["AddPropAircraft"]
+				["type"] = "C-101EB",
+				["unitId"] = 277,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "C-101 Medium-3",
+				["groupName"] = "C-101 Medium",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 9351.1242204684,
+				["y"] = -41713.977764595,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 1508.64,
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["callsign"] = 134,
+				["skill"] = "High",
+				["groupId"] = 72,
+			}, -- end of [3]
+			[4] = 
+			{
+				["alt"] = 3048,
+				["point"] = 
+				{
+					["y"] = -41673.977764595,
+					["x"] = 9311.1242204684,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "default",
+				["onboard_num"] = "018",
+				["category"] = "plane",
+				["speed"] = 125,
+				["AddPropAircraft"] = 
+				{
+				}, -- end of ["AddPropAircraft"]
+				["type"] = "C-101EB",
+				["unitId"] = 278,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "C-101 Medium-4",
+				["groupName"] = "C-101 Medium",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 9311.1242204684,
+				["y"] = -41673.977764595,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = 1508.64,
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 100,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["callsign"] = 135,
+				["skill"] = "High",
+				["groupId"] = 72,
+			}, -- end of [4]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "Reconnaissance",
+		["frequency"] = 225,
+	}, -- end of ["C-101 Medium"]
 	["C-101CC BFM 1"] = 
 	{
 		["route"] = 
@@ -5249,11 +6209,11 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["number"] = 1,
-								["key"] = "CAS",
-								["id"] = "EngageTargets",
 								["enabled"] = true,
 								["auto"] = true,
+								["id"] = "EngageTargets",
+								["key"] = "CAS",
+								["number"] = 1,
 								["params"] = 
 								{
 									["targetTypes"] = 
@@ -5606,11 +6566,11 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["number"] = 1,
-								["key"] = "CAS",
-								["id"] = "EngageTargets",
 								["enabled"] = true,
 								["auto"] = true,
+								["id"] = "EngageTargets",
+								["key"] = "CAS",
+								["number"] = 1,
 								["params"] = 
 								{
 									["targetTypes"] = 
