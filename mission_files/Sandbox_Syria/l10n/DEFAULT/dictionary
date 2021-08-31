@@ -30,9 +30,14 @@ Tankers (Boom)\
 - Shell 1-1 > KC-135 (Fast) > 141 AM > 41X\
 - Shell 1-2 > KC-135 (Slow) > 142 AM > 42X\
 \
-AWACS\
-- Overlord > E-3A > 151 AM\
-- Magic > E-2D > 152 AM\
+AWACS (Spawnable)\
+- Overlord > E-3A > 241  AM\
+- Magic > E-2D > 242 AM\
+\
+AWACS (Spawned with the map)\
+- Wizard > E3A > 243 AM\
+- Focus > E-2D > 244 AM\
+\
 \
 Boats\
 - CVN-71 > ATC 251 > TCN 71X > ICLS Ch. 1\
