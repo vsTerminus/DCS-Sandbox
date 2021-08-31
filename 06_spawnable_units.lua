@@ -28,13 +28,6 @@ spawnable.unarmed = {
 		relative = 'false',
 		action = 'clone',
 	},
-    ['4x C-101EB at 6,000ft'] = {
-        name = 'C-101 Low',
-        description = '4x C-101EB Aviojets at 6,000ft',
-        smoke = false,
-        relative = true,
-        action = 'clone',
-    },
     ['4x C-101EB at 10,000ft'] = {
         name = 'C-101 Medium',
         description = '4x C-101EB Aviojets at 10,000ft',
@@ -45,6 +38,20 @@ spawnable.unarmed = {
     ['4x C-101EB at 20,000ft'] = {
         name = 'C-101 High',
         description = '4x C-101EB Aviojets at 20,000ft',
+        smoke = false,
+        relative = true,
+        action = 'clone',
+    },
+    ['4x Tu-95MS at 10,000ft'] = {
+        name = 'Tu-95 Medium-1',
+        description = '4x Tu-95MS Bombers at 10,000ft',
+        smoke = false,
+        relative = true,
+        action = 'clone',
+    },
+    ['4x Tu-95MS at 20,000ft'] = {
+        name = 'Tu-95 High-1',
+        description = '4x Tu-95MS Bombers at 20,000ft',
         smoke = false,
         relative = true,
         action = 'clone',

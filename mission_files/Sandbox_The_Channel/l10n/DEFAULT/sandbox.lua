@@ -7391,10 +7391,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "Orbit",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["altitude"] = 10668,
@@ -7405,10 +7405,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -7424,20 +7424,20 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "AWACS",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 								}, -- end of ["params"]
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -7453,10 +7453,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -7576,10 +7576,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -7744,10 +7744,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -7763,10 +7763,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -7781,10 +7781,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -7949,10 +7949,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "EngageGroup",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["visible"] = false,
@@ -7963,10 +7963,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -7998,10 +7998,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -8017,10 +8017,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -8360,10 +8360,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -8379,10 +8379,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -8398,10 +8398,10 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "Orbit",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["altitude"] = 6096,
@@ -8412,10 +8412,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -8431,10 +8431,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -8680,10 +8680,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -8699,10 +8699,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -8718,10 +8718,10 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "Orbit",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["altitude"] = 1981,
@@ -8732,10 +8732,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -8751,10 +8751,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -9000,10 +9000,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -9019,10 +9019,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -9038,10 +9038,10 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "Orbit",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["altitude"] = 3048,
@@ -9052,10 +9052,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -9071,10 +9071,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -9321,10 +9321,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "EngageGroup",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["visible"] = false,
@@ -9335,10 +9335,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -9370,10 +9370,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -9389,10 +9389,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -9520,10 +9520,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -9539,10 +9539,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -9558,10 +9558,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -9659,10 +9659,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -9678,10 +9678,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -9697,10 +9697,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -9798,10 +9798,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -9817,10 +9817,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -9836,10 +9836,10 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -9849,11 +9849,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = false,
-											["callsign"] = "C71",
+											["unitId"] = 109,
 											["modeChannel"] = "X",
 											["channel"] = 71,
 											["system"] = 3,
-											["unitId"] = 109,
+											["callsign"] = "C71",
 											["bearing"] = true,
 											["frequency"] = 1158000000,
 										}, -- end of ["params"]
@@ -9862,10 +9862,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -9881,10 +9881,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -9983,10 +9983,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10002,10 +10002,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10021,10 +10021,10 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10034,11 +10034,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = false,
-											["callsign"] = "C72",
+											["unitId"] = 110,
 											["modeChannel"] = "X",
 											["channel"] = 72,
 											["system"] = 3,
-											["unitId"] = 110,
+											["callsign"] = "C72",
 											["bearing"] = true,
 											["frequency"] = 1159000000,
 										}, -- end of ["params"]
@@ -10047,10 +10047,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10066,10 +10066,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10168,10 +10168,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10187,10 +10187,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10206,10 +10206,10 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10219,11 +10219,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = false,
-											["callsign"] = "C73",
+											["unitId"] = 111,
 											["modeChannel"] = "X",
 											["channel"] = 73,
 											["system"] = 3,
-											["unitId"] = 111,
+											["callsign"] = "C73",
 											["bearing"] = true,
 											["frequency"] = 1160000000,
 										}, -- end of ["params"]
@@ -10232,10 +10232,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10251,10 +10251,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10353,10 +10353,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10372,10 +10372,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10391,10 +10391,10 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10404,11 +10404,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = false,
-											["callsign"] = "C74",
+											["unitId"] = 108,
 											["modeChannel"] = "X",
 											["channel"] = 74,
 											["system"] = 3,
-											["unitId"] = 108,
+											["callsign"] = "C74",
 											["bearing"] = true,
 											["frequency"] = 1161000000,
 										}, -- end of ["params"]
@@ -10417,10 +10417,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10436,10 +10436,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10538,10 +10538,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10557,10 +10557,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10576,10 +10576,10 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10589,11 +10589,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = false,
-											["callsign"] = "C75",
+											["unitId"] = 112,
 											["modeChannel"] = "X",
 											["channel"] = 75,
 											["system"] = 3,
-											["unitId"] = 112,
+											["callsign"] = "C75",
 											["bearing"] = true,
 											["frequency"] = 1162000000,
 										}, -- end of ["params"]
@@ -10602,10 +10602,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10621,10 +10621,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10723,10 +10723,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10742,10 +10742,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10761,10 +10761,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10924,10 +10924,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10943,10 +10943,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10978,10 +10978,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -10997,10 +10997,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -11167,10 +11167,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -11186,10 +11186,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -11205,10 +11205,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -11224,20 +11224,20 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "AWACS",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 								}, -- end of ["params"]
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -11253,10 +11253,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -11274,20 +11274,14 @@ exported.groupData =
 							{
 								["enabled"] = true,
 								["auto"] = false,
-								["id"] = "WrappedAction",
+								["id"] = "Orbit",
 								["number"] = 7,
 								["params"] = 
 								{
-									["action"] = 
-									{
-										["id"] = "SetFrequency",
-										["params"] = 
-										{
-											["power"] = 10,
-											["modulation"] = 0,
-											["frequency"] = 242000000,
-										}, -- end of ["params"]
-									}, -- end of ["action"]
+									["altitude"] = 9144,
+									["speedEdited"] = true,
+									["pattern"] = "Race-Track",
+									["speed"] = 118.05555555556,
 								}, -- end of ["params"]
 							}, -- end of [7]
 						}, -- end of ["tasks"]
@@ -11357,7 +11351,7 @@ exported.groupData =
 					["gun"] = 100,
 				}, -- end of ["payload"]
 				["heading"] = 1.5707963267949,
-				["skill"] = "High",
+				["skill"] = "Excellent",
 				["callsign"] = 
 				{
 					[1] = 2,
@@ -11391,7 +11385,7 @@ exported.groupData =
 				["y"] = 40605.339925694,
 				["x"] = 7011.5222139956,
 				["name"] = "",
-				["speed"] = 220.97222222222,
+				["speed"] = 166.66666666667,
 				["task"] = 
 				{
 					["id"] = "ComboTask",
@@ -11401,10 +11395,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -11420,10 +11414,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -11439,10 +11433,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -11458,20 +11452,20 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "AWACS",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 								}, -- end of ["params"]
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -11487,10 +11481,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -11508,20 +11502,14 @@ exported.groupData =
 							{
 								["enabled"] = true,
 								["auto"] = false,
-								["id"] = "WrappedAction",
+								["id"] = "Orbit",
 								["number"] = 7,
 								["params"] = 
 								{
-									["action"] = 
-									{
-										["id"] = "SetFrequency",
-										["params"] = 
-										{
-											["power"] = 10,
-											["modulation"] = 0,
-											["frequency"] = 241000000,
-										}, -- end of ["params"]
-									}, -- end of ["action"]
+									["altitude"] = 9400.032,
+									["speedEdited"] = true,
+									["pattern"] = "Race-Track",
+									["speed"] = 166.66666666667,
 								}, -- end of ["params"]
 							}, -- end of [7]
 						}, -- end of ["tasks"]
@@ -11537,7 +11525,7 @@ exported.groupData =
 				["form"] = "Turning Point",
 				["y"] = 41625.055446149,
 				["x"] = 7016.8891377875,
-				["speed"] = 220.97222222222,
+				["speed"] = 166.66666666667,
 				["task"] = 
 				{
 					["id"] = "ComboTask",
@@ -11569,7 +11557,7 @@ exported.groupData =
 				["livery_id"] = "usaf standard",
 				["onboard_num"] = "052",
 				["category"] = "plane",
-				["speed"] = 220.97222222222,
+				["speed"] = 166.66666666667,
 				["type"] = "E-3A",
 				["unitId"] = 100,
 				["country"] = "usa",
@@ -11635,10 +11623,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "EngageGroup",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["visible"] = false,
@@ -11649,10 +11637,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -11684,10 +11672,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -11703,10 +11691,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -11837,10 +11825,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "EngageGroup",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["visible"] = false,
@@ -11851,10 +11839,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -11886,10 +11874,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -11905,10 +11893,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -12039,10 +12027,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -12058,10 +12046,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -12077,10 +12065,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "EngageGroup",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["visible"] = false,
@@ -12107,10 +12095,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -12126,10 +12114,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -12254,10 +12242,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -12273,10 +12261,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -12291,10 +12279,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -12635,10 +12623,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "EngageGroup",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["visible"] = false,
@@ -12649,10 +12637,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -12684,10 +12672,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -12703,10 +12691,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -12830,10 +12818,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "EngageGroup",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["visible"] = false,
@@ -12844,10 +12832,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -12879,10 +12867,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -12898,10 +12886,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -13025,10 +13013,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -13044,10 +13032,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -13062,10 +13050,10 @@ exported.groupData =
 							}, -- end of [2]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -13081,10 +13069,10 @@ exported.groupData =
 							}, -- end of [4]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -13403,10 +13391,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -13422,10 +13410,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -13441,10 +13429,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -13582,10 +13570,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -13601,10 +13589,10 @@ exported.groupData =
 							}, -- end of [2]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -13620,10 +13608,10 @@ exported.groupData =
 							}, -- end of [4]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -13761,10 +13749,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -13780,10 +13768,10 @@ exported.groupData =
 							}, -- end of [2]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -13799,10 +13787,10 @@ exported.groupData =
 							}, -- end of [4]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -13939,10 +13927,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -13958,10 +13946,10 @@ exported.groupData =
 							}, -- end of [2]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -13977,10 +13965,10 @@ exported.groupData =
 							}, -- end of [4]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -14108,10 +14096,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -14127,10 +14115,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -14146,10 +14134,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -15549,10 +15537,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -15568,10 +15556,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -15586,10 +15574,10 @@ exported.groupData =
 							}, -- end of [2]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -15605,10 +15593,10 @@ exported.groupData =
 							}, -- end of [4]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -15795,10 +15783,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -15814,10 +15802,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -15833,10 +15821,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -15933,10 +15921,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -15952,10 +15940,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16052,10 +16040,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16071,10 +16059,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16090,10 +16078,10 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16103,11 +16091,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = false,
-											["callsign"] = "LHA",
+											["unitId"] = 115,
 											["modeChannel"] = "X",
 											["channel"] = 76,
 											["system"] = 3,
-											["unitId"] = 115,
+											["callsign"] = "LHA",
 											["bearing"] = true,
 											["frequency"] = 1163000000,
 										}, -- end of ["params"]
@@ -16116,10 +16104,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16135,10 +16123,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16237,10 +16225,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16258,10 +16246,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16276,10 +16264,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16311,10 +16299,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16330,10 +16318,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16349,10 +16337,10 @@ exported.groupData =
 							}, -- end of [5]
 							[7] = 
 							{
-								["enabled"] = true,
+								["number"] = 7,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 7,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16526,10 +16514,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16547,10 +16535,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16565,10 +16553,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16600,10 +16588,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16619,10 +16607,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16638,10 +16626,10 @@ exported.groupData =
 							}, -- end of [5]
 							[7] = 
 							{
-								["enabled"] = true,
+								["number"] = 7,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 7,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16799,10 +16787,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "EngageGroup",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["visible"] = false,
@@ -16813,10 +16801,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16848,10 +16836,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16867,10 +16855,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -16991,10 +16979,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "EngageGroup",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["visible"] = false,
@@ -17005,10 +16993,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -17040,10 +17028,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -17059,10 +17047,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -17187,10 +17175,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "EngageGroup",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["visible"] = false,
@@ -17201,10 +17189,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -17236,10 +17224,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -17255,10 +17243,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -17378,10 +17366,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -17397,10 +17385,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -17415,10 +17403,10 @@ exported.groupData =
 							}, -- end of [2]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -17434,10 +17422,10 @@ exported.groupData =
 							}, -- end of [4]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -17603,10 +17591,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "EngageGroup",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["visible"] = false,
@@ -17617,10 +17605,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -17652,10 +17640,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -17671,10 +17659,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -17799,10 +17787,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "EngageGroup",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["visible"] = false,
@@ -17813,10 +17801,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -17848,10 +17836,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -17867,10 +17855,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -17995,10 +17983,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "EngageGroup",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["visible"] = false,
@@ -18009,10 +17997,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -18046,10 +18034,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -18065,10 +18053,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -18189,10 +18177,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "EngageGroup",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["visible"] = false,
@@ -18203,10 +18191,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -18240,10 +18228,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -18259,10 +18247,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -18383,10 +18371,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -18402,10 +18390,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -18420,10 +18408,10 @@ exported.groupData =
 							}, -- end of [2]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -18439,10 +18427,10 @@ exported.groupData =
 							}, -- end of [4]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -18846,10 +18834,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -18865,10 +18853,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -18878,11 +18866,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = true,
-											["callsign"] = "SH1",
+											["unitId"] = 106,
 											["modeChannel"] = "X",
 											["channel"] = 41,
 											["system"] = 4,
-											["unitId"] = 106,
+											["callsign"] = "SH1",
 											["bearing"] = true,
 											["frequency"] = 1128000000,
 										}, -- end of ["params"]
@@ -18891,10 +18879,10 @@ exported.groupData =
 							}, -- end of [2]
 							[8] = 
 							{
-								["enabled"] = true,
+								["number"] = 8,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 8,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -18910,10 +18898,10 @@ exported.groupData =
 							}, -- end of [8]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -18930,20 +18918,20 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "Tanker",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 								}, -- end of ["params"]
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "Orbit",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["altitude"] = 7620,
@@ -18954,10 +18942,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -18973,10 +18961,10 @@ exported.groupData =
 							}, -- end of [5]
 							[7] = 
 							{
-								["enabled"] = true,
+								["number"] = 7,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 7,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -19102,10 +19090,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -19121,10 +19109,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -19134,11 +19122,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = true,
-											["callsign"] = "SH2",
+											["unitId"] = 107,
 											["modeChannel"] = "X",
 											["channel"] = 42,
 											["system"] = 4,
-											["unitId"] = 107,
+											["callsign"] = "SH2",
 											["bearing"] = true,
 											["frequency"] = 1129000000,
 										}, -- end of ["params"]
@@ -19147,10 +19135,10 @@ exported.groupData =
 							}, -- end of [2]
 							[8] = 
 							{
-								["enabled"] = true,
+								["number"] = 8,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 8,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -19166,10 +19154,10 @@ exported.groupData =
 							}, -- end of [8]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -19186,20 +19174,20 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "Tanker",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 								}, -- end of ["params"]
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "Orbit",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["altitude"] = 3048,
@@ -19210,10 +19198,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -19229,10 +19217,10 @@ exported.groupData =
 							}, -- end of [5]
 							[7] = 
 							{
-								["enabled"] = true,
+								["number"] = 7,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 7,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -19358,10 +19346,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -19377,10 +19365,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -19395,10 +19383,10 @@ exported.groupData =
 							}, -- end of [2]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -19414,10 +19402,10 @@ exported.groupData =
 							}, -- end of [4]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -19582,10 +19570,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "EngageGroup",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["visible"] = false,
@@ -19596,10 +19584,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -19631,10 +19619,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -19650,10 +19638,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -19774,10 +19762,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "EngageGroup",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["visible"] = false,
@@ -19788,10 +19776,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -19823,10 +19811,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -19842,10 +19830,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -20116,10 +20104,10 @@ exported.groupData =
 						{
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "EngageGroup",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["visible"] = false,
@@ -20130,10 +20118,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -20165,10 +20153,10 @@ exported.groupData =
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -20184,10 +20172,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -20308,10 +20296,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -20327,10 +20315,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -20345,10 +20333,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -20513,10 +20501,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -20532,10 +20520,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -20545,11 +20533,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = true,
-											["callsign"] = "TX1",
+											["unitId"] = 101,
 											["modeChannel"] = "X",
 											["channel"] = 31,
 											["system"] = 4,
-											["unitId"] = 101,
+											["callsign"] = "TX1",
 											["bearing"] = true,
 											["frequency"] = 1118000000,
 										}, -- end of ["params"]
@@ -20558,10 +20546,10 @@ exported.groupData =
 							}, -- end of [2]
 							[8] = 
 							{
-								["enabled"] = true,
+								["number"] = 8,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 8,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -20577,10 +20565,10 @@ exported.groupData =
 							}, -- end of [8]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -20597,20 +20585,20 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "Tanker",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 								}, -- end of ["params"]
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "Orbit",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["altitude"] = 4572,
@@ -20621,10 +20609,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -20640,10 +20628,10 @@ exported.groupData =
 							}, -- end of [5]
 							[7] = 
 							{
-								["enabled"] = true,
+								["number"] = 7,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 7,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -20769,10 +20757,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -20788,10 +20776,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -20801,11 +20789,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = true,
-											["callsign"] = "TX2",
+											["unitId"] = 103,
 											["modeChannel"] = "X",
 											["channel"] = 32,
 											["system"] = 4,
-											["unitId"] = 103,
+											["callsign"] = "TX2",
 											["bearing"] = true,
 											["frequency"] = 1119000000,
 										}, -- end of ["params"]
@@ -20814,10 +20802,10 @@ exported.groupData =
 							}, -- end of [2]
 							[8] = 
 							{
-								["enabled"] = true,
+								["number"] = 8,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 8,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -20833,10 +20821,10 @@ exported.groupData =
 							}, -- end of [8]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -20853,20 +20841,20 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "Tanker",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 								}, -- end of ["params"]
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "Orbit",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["altitude"] = 7620,
@@ -20877,10 +20865,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -20896,10 +20884,10 @@ exported.groupData =
 							}, -- end of [5]
 							[7] = 
 							{
-								["enabled"] = true,
+								["number"] = 7,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 7,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -21025,10 +21013,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -21044,10 +21032,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = true,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -21057,11 +21045,11 @@ exported.groupData =
 										{
 											["type"] = 4,
 											["AA"] = true,
-											["callsign"] = "TX3",
+											["unitId"] = 104,
 											["modeChannel"] = "X",
 											["channel"] = 33,
 											["system"] = 4,
-											["unitId"] = 104,
+											["callsign"] = "TX3",
 											["bearing"] = true,
 											["frequency"] = 1120000000,
 										}, -- end of ["params"]
@@ -21070,10 +21058,10 @@ exported.groupData =
 							}, -- end of [2]
 							[8] = 
 							{
-								["enabled"] = true,
+								["number"] = 8,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 8,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -21089,10 +21077,10 @@ exported.groupData =
 							}, -- end of [8]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -21109,20 +21097,20 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "Tanker",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 								}, -- end of ["params"]
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "Orbit",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["altitude"] = 7620,
@@ -21133,10 +21121,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -21152,10 +21140,10 @@ exported.groupData =
 							}, -- end of [5]
 							[7] = 
 							{
-								["enabled"] = true,
+								["number"] = 7,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 7,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -21281,10 +21269,10 @@ exported.groupData =
 						{
 							[6] = 
 							{
-								["enabled"] = true,
+								["number"] = 6,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 6,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -21300,10 +21288,10 @@ exported.groupData =
 							}, -- end of [6]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -21320,10 +21308,10 @@ exported.groupData =
 							}, -- end of [2]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "Orbit",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["altitude"] = 7620,
@@ -21334,20 +21322,20 @@ exported.groupData =
 							}, -- end of [3]
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = true,
 								["id"] = "Tanker",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 								}, -- end of ["params"]
 							}, -- end of [1]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -21363,10 +21351,10 @@ exported.groupData =
 							}, -- end of [4]
 							[5] = 
 							{
-								["enabled"] = true,
+								["number"] = 5,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 5,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -21382,10 +21370,10 @@ exported.groupData =
 							}, -- end of [5]
 							[7] = 
 							{
-								["enabled"] = true,
+								["number"] = 7,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 7,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -21630,6 +21618,622 @@ exported.groupData =
 		["task"] = "Ground Nothing",
 		["hidden"] = false,
 	}, -- end of ["Tor 1"]
+	["Tu-95 High-1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 6096,
+				["type"] = "Turning Point",
+				["action"] = "Fly Over Point",
+				["alt_type"] = "BARO",
+				["form"] = "Fly Over Point",
+				["y"] = -41879.139192585,
+				["x"] = 7611.9850026669,
+				["speed"] = 230.55555555556,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["number"] = 2,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["enabled"] = true,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 4,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["number"] = 3,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["enabled"] = true,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 1,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["number"] = 1,
+								["auto"] = false,
+								["id"] = "Orbit",
+								["enabled"] = true,
+								["params"] = 
+								{
+									["altitude"] = 6096,
+									["speedEdited"] = true,
+									["pattern"] = "Race-Track",
+									["speed"] = 125,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["number"] = 4,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["enabled"] = true,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 4,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["number"] = 5,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["enabled"] = true,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["variantIndex"] = 2,
+											["value"] = 131074,
+											["name"] = 5,
+											["formationIndex"] = 2,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 6096,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -39511.455519185,
+				["x"] = 7593.1938624019,
+				["speed"] = 208.33333333333,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 74,
+		["groupName"] = "Tu-95 High-1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 6096,
+				["point"] = 
+				{
+					["y"] = -41879.139192585,
+					["x"] = 7611.9850026669,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "af standard",
+				["onboard_num"] = "023",
+				["category"] = "plane",
+				["speed"] = 230.55555555556,
+				["type"] = "Tu-95MS",
+				["unitId"] = 286,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "Tu-95 High-1-1",
+				["groupName"] = "Tu-95 High-1",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 7611.9850026669,
+				["y"] = -41879.139192585,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = "87000",
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 0,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["skill"] = "High",
+				["callsign"] = 142,
+				["groupId"] = 74,
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 6096,
+				["point"] = 
+				{
+					["y"] = -41839.139192585,
+					["x"] = 7571.9850026669,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "af standard",
+				["onboard_num"] = "024",
+				["category"] = "plane",
+				["speed"] = 230.55555555556,
+				["type"] = "Tu-95MS",
+				["unitId"] = 296,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "Tu-95 High-1-2",
+				["groupName"] = "Tu-95 High-1",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 7571.9850026669,
+				["y"] = -41839.139192585,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = "87000",
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 0,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["skill"] = "High",
+				["callsign"] = 140,
+				["groupId"] = 74,
+			}, -- end of [2]
+			[3] = 
+			{
+				["alt"] = 6096,
+				["point"] = 
+				{
+					["y"] = -41799.139192585,
+					["x"] = 7531.9850026669,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "af standard",
+				["onboard_num"] = "025",
+				["category"] = "plane",
+				["speed"] = 230.55555555556,
+				["type"] = "Tu-95MS",
+				["unitId"] = 297,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "Tu-95 High-1-3",
+				["groupName"] = "Tu-95 High-1",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 7531.9850026669,
+				["y"] = -41799.139192585,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = "87000",
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 0,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["skill"] = "High",
+				["callsign"] = 141,
+				["groupId"] = 74,
+			}, -- end of [3]
+			[4] = 
+			{
+				["alt"] = 6096,
+				["point"] = 
+				{
+					["y"] = -41759.139192585,
+					["x"] = 7491.9850026669,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "af standard",
+				["onboard_num"] = "026",
+				["category"] = "plane",
+				["speed"] = 230.55555555556,
+				["type"] = "Tu-95MS",
+				["unitId"] = 298,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "Tu-95 High-1-4",
+				["groupName"] = "Tu-95 High-1",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 7491.9850026669,
+				["y"] = -41759.139192585,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = "87000",
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 0,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["skill"] = "High",
+				["callsign"] = 143,
+				["groupId"] = 74,
+			}, -- end of [4]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "Pinpoint Strike",
+		["frequency"] = 251,
+	}, -- end of ["Tu-95 High-1"]
+	["Tu-95 Medium-1"] = 
+	{
+		["route"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 3048,
+				["type"] = "Turning Point",
+				["action"] = "Fly Over Point",
+				["alt_type"] = "BARO",
+				["form"] = "Fly Over Point",
+				["y"] = -41909.748463497,
+				["x"] = 6976.2914360126,
+				["speed"] = 230.55555555556,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+							[2] = 
+							{
+								["number"] = 2,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["enabled"] = true,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 4,
+											["name"] = 0,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [2]
+							[3] = 
+							{
+								["number"] = 3,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["enabled"] = true,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 1,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [3]
+							[1] = 
+							{
+								["number"] = 1,
+								["auto"] = false,
+								["id"] = "Orbit",
+								["enabled"] = true,
+								["params"] = 
+								{
+									["speedEdited"] = true,
+									["altitude"] = 3048,
+									["pattern"] = "Race-Track",
+									["speed"] = 125,
+								}, -- end of ["params"]
+							}, -- end of [1]
+							[4] = 
+							{
+								["number"] = 4,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["enabled"] = true,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["value"] = 0,
+											["name"] = 4,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [4]
+							[5] = 
+							{
+								["number"] = 5,
+								["auto"] = false,
+								["id"] = "WrappedAction",
+								["enabled"] = true,
+								["params"] = 
+								{
+									["action"] = 
+									{
+										["id"] = "Option",
+										["params"] = 
+										{
+											["variantIndex"] = 2,
+											["value"] = 131074,
+											["name"] = 5,
+											["formationIndex"] = 2,
+										}, -- end of ["params"]
+									}, -- end of ["action"]
+								}, -- end of ["params"]
+							}, -- end of [5]
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 6096,
+				["type"] = "Turning Point",
+				["action"] = "Turning Point",
+				["alt_type"] = "BARO",
+				["form"] = "Turning Point",
+				["y"] = -39542.064790097,
+				["x"] = 6957.5002957476,
+				["speed"] = 208.33333333333,
+				["task"] = 
+				{
+					["id"] = "ComboTask",
+					["params"] = 
+					{
+						["tasks"] = 
+						{
+						}, -- end of ["tasks"]
+					}, -- end of ["params"]
+				}, -- end of ["task"]
+			}, -- end of [2]
+		}, -- end of ["route"]
+		["modulation"] = 0,
+		["country"] = "russia",
+		["uncontrolled"] = false,
+		["groupId"] = 75,
+		["groupName"] = "Tu-95 Medium-1",
+		["units"] = 
+		{
+			[1] = 
+			{
+				["alt"] = 3048,
+				["point"] = 
+				{
+					["y"] = -41909.748463497,
+					["x"] = 6976.2914360126,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "af standard",
+				["onboard_num"] = "027",
+				["category"] = "plane",
+				["speed"] = 230.55555555556,
+				["type"] = "Tu-95MS",
+				["unitId"] = 299,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "Tu-95 Medium-1-1",
+				["groupName"] = "Tu-95 Medium-1",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 6976.2914360126,
+				["y"] = -41909.748463497,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = "87000",
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 0,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["skill"] = "High",
+				["callsign"] = 144,
+				["groupId"] = 75,
+			}, -- end of [1]
+			[2] = 
+			{
+				["alt"] = 3048,
+				["point"] = 
+				{
+					["y"] = -41869.748463497,
+					["x"] = 6936.2914360126,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "af standard",
+				["onboard_num"] = "028",
+				["category"] = "plane",
+				["speed"] = 230.55555555556,
+				["type"] = "Tu-95MS",
+				["unitId"] = 303,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "Tu-95 Medium-1-2",
+				["groupName"] = "Tu-95 Medium-1",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 6936.2914360126,
+				["y"] = -41869.748463497,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = "87000",
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 0,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["skill"] = "High",
+				["callsign"] = 145,
+				["groupId"] = 75,
+			}, -- end of [2]
+			[3] = 
+			{
+				["alt"] = 3048,
+				["point"] = 
+				{
+					["y"] = -41829.748463497,
+					["x"] = 6896.2914360126,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "af standard",
+				["onboard_num"] = "029",
+				["category"] = "plane",
+				["speed"] = 230.55555555556,
+				["type"] = "Tu-95MS",
+				["unitId"] = 304,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "Tu-95 Medium-1-3",
+				["groupName"] = "Tu-95 Medium-1",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 6896.2914360126,
+				["y"] = -41829.748463497,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = "87000",
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 0,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["skill"] = "High",
+				["callsign"] = 146,
+				["groupId"] = 75,
+			}, -- end of [3]
+			[4] = 
+			{
+				["alt"] = 3048,
+				["point"] = 
+				{
+					["y"] = -41789.748463497,
+					["x"] = 6856.2914360126,
+				}, -- end of ["point"]
+				["alt_type"] = "BARO",
+				["livery_id"] = "af standard",
+				["onboard_num"] = "030",
+				["category"] = "plane",
+				["speed"] = 230.55555555556,
+				["type"] = "Tu-95MS",
+				["unitId"] = 305,
+				["country"] = "russia",
+				["psi"] = -1.5787326681023,
+				["unitName"] = "Tu-95 Medium-1-4",
+				["groupName"] = "Tu-95 Medium-1",
+				["coalition"] = "red",
+				["countryId"] = 0,
+				["x"] = 6856.2914360126,
+				["y"] = -41789.748463497,
+				["payload"] = 
+				{
+					["pylons"] = 
+					{
+					}, -- end of ["pylons"]
+					["fuel"] = "87000",
+					["flare"] = 0,
+					["chaff"] = 0,
+					["gun"] = 0,
+				}, -- end of ["payload"]
+				["heading"] = 1.5787326681023,
+				["skill"] = "High",
+				["callsign"] = 147,
+				["groupId"] = 75,
+			}, -- end of [4]
+		}, -- end of ["units"]
+		["countryId"] = 0,
+		["radioSet"] = false,
+		["hidden"] = false,
+		["category"] = "plane",
+		["coalition"] = "red",
+		["startTime"] = 0,
+		["task"] = "Pinpoint Strike",
+		["frequency"] = 251,
+	}, -- end of ["Tu-95 Medium-1"]
 	["Tunguska 1"] = 
 	{
 		["route"] = 
@@ -21804,10 +22408,10 @@ exported.groupData =
 						{
 							[1] = 
 							{
-								["enabled"] = true,
+								["number"] = 1,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 1,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -21823,10 +22427,10 @@ exported.groupData =
 							}, -- end of [1]
 							[2] = 
 							{
-								["enabled"] = true,
+								["number"] = 2,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 2,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -21841,10 +22445,10 @@ exported.groupData =
 							}, -- end of [2]
 							[4] = 
 							{
-								["enabled"] = true,
+								["number"] = 4,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 4,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -21860,10 +22464,10 @@ exported.groupData =
 							}, -- end of [4]
 							[3] = 
 							{
-								["enabled"] = true,
+								["number"] = 3,
 								["auto"] = false,
 								["id"] = "WrappedAction",
-								["number"] = 3,
+								["enabled"] = true,
 								["params"] = 
 								{
 									["action"] = 
@@ -22232,13 +22836,6 @@ spawnable.unarmed = {
 		relative = 'false',
 		action = 'clone',
 	},
-    ['4x C-101EB at 6,000ft'] = {
-        name = 'C-101 Low',
-        description = '4x C-101EB Aviojets at 6,000ft',
-        smoke = false,
-        relative = true,
-        action = 'clone',
-    },
     ['4x C-101EB at 10,000ft'] = {
         name = 'C-101 Medium',
         description = '4x C-101EB Aviojets at 10,000ft',
@@ -22249,6 +22846,20 @@ spawnable.unarmed = {
     ['4x C-101EB at 20,000ft'] = {
         name = 'C-101 High',
         description = '4x C-101EB Aviojets at 20,000ft',
+        smoke = false,
+        relative = true,
+        action = 'clone',
+    },
+    ['4x Tu-95MS at 10,000ft'] = {
+        name = 'Tu-95 Medium-1',
+        description = '4x Tu-95MS Bombers at 10,000ft',
+        smoke = false,
+        relative = true,
+        action = 'clone',
+    },
+    ['4x Tu-95MS at 20,000ft'] = {
+        name = 'Tu-95 High-1',
+        description = '4x Tu-95MS Bombers at 20,000ft',
         smoke = false,
         relative = true,
         action = 'clone',
@@ -23510,7 +24121,7 @@ end
 ---------- END 10_splash_damage.lua ----------
 
 local loadedMsg = {}
-loadedMsg.text = 'Loaded Sandbox Version 191 (2021-08-18)'
+loadedMsg.text = 'Loaded Sandbox Version 192 (2021-08-30)'
 loadedMsg.displayTime = 5
 loadedMsg.msgFor = {coa = {'all'}}
 mist.message.add(loadedMsg)

@@ -457,7 +457,7 @@ options =
         ["main_layout"] = "",
         ["hp_output"] = "{0.0.0.00000000}.{786fcfe8-8ad4-474b-979c-02369c5355e6}",
         ["radioSpeech"] = true,
-        ["voice_chat_output"] = "0:{0.0.0.00000000}.{3df37108-760d-4389-a131-f44dcb3b613e}",
+        ["voice_chat_output"] = "0:{0.0.0.00000000}.{786fcfe8-8ad4-474b-979c-02369c5355e6}",
         ["voice_chat"] = false,
         ["microphone_use"] = 2,
         ["GBreathEffect"] = true,
@@ -465,7 +465,7 @@ options =
         ["play_audio_while_minimized"] = false,
         ["headphones"] = 100,
         ["music"] = 0,
-        ["voice_chat_input"] = "0:{0.0.1.00000000}.{2dedb376-ecb8-4b28-b424-71d9ce49dff6}",
+        ["voice_chat_input"] = "0:{0.0.1.00000000}.{83932115-c19a-4d6b-ad9f-1e75cd496796}",
         ["gui"] = 100,
     }, -- end of ["sound"]
     ["views"] = 

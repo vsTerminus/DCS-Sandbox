@@ -328,17 +328,13 @@ mission = {
                                                         [7] = {
                                                             ["auto"] = false,
                                                             ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
+                                                            ["id"] = "Orbit",
                                                             ["number"] = 7,
                                                             ["params"] = {
-                                                                ["action"] = {
-                                                                    ["id"] = "SetFrequency",
-                                                                    ["params"] = {
-                                                                        ["frequency"] = 242000000,
-                                                                        ["modulation"] = 0,
-                                                                        ["power"] = 10,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
+                                                                ["altitude"] = 9144,
+                                                                ["pattern"] = "Race-Track",
+                                                                ["speed"] = 118.05555555556,
+                                                                ["speedEdited"] = true,
                                                             }, -- end of ["params"]
                                                         }, -- end of [7]
                                                     }, -- end of ["tasks"]
@@ -352,7 +348,7 @@ mission = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 9144,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 8.4912176185357,
+                                            ["ETA"] = 8.4912176185385,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["properties"] = {
@@ -403,7 +399,7 @@ mission = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
                                         ["psi"] = -1.5707963267949,
-                                        ["skill"] = "High",
+                                        ["skill"] = "Excellent",
                                         ["speed"] = 118.19444444444,
                                         ["type"] = "E-2C",
                                         ["unitId"] = 99,
@@ -437,7 +433,7 @@ mission = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
                                             }, -- end of ["properties"]
-                                            ["speed"] = 220.97222222222,
+                                            ["speed"] = 166.66666666667,
                                             ["speed_locked"] = true,
                                             ["task"] = {
                                                 ["id"] = "ComboTask",
@@ -529,17 +525,13 @@ mission = {
                                                         [7] = {
                                                             ["auto"] = false,
                                                             ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
+                                                            ["id"] = "Orbit",
                                                             ["number"] = 7,
                                                             ["params"] = {
-                                                                ["action"] = {
-                                                                    ["id"] = "SetFrequency",
-                                                                    ["params"] = {
-                                                                        ["frequency"] = 241000000,
-                                                                        ["modulation"] = 0,
-                                                                        ["power"] = 10,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
+                                                                ["altitude"] = 9400.032,
+                                                                ["pattern"] = "Race-Track",
+                                                                ["speed"] = 166.66666666667,
+                                                                ["speedEdited"] = true,
                                                             }, -- end of ["params"]
                                                         }, -- end of [7]
                                                     }, -- end of ["tasks"]
@@ -553,14 +545,14 @@ mission = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 9400.032,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 4.6147413171944,
+                                            ["ETA"] = 6.1183778630451,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
                                             }, -- end of ["properties"]
-                                            ["speed"] = 220.97222222222,
+                                            ["speed"] = 166.66666666667,
                                             ["speed_locked"] = true,
                                             ["task"] = {
                                                 ["id"] = "ComboTask",
@@ -605,7 +597,7 @@ mission = {
                                         }, -- end of ["payload"]
                                         ["psi"] = -1.5655332174973,
                                         ["skill"] = "High",
-                                        ["speed"] = 220.97222222222,
+                                        ["speed"] = 166.66666666667,
                                         ["type"] = "E-3A",
                                         ["unitId"] = 100,
                                         ["x"] = 7011.5222139956,
@@ -8429,6 +8421,490 @@ mission = {
                                 ["x"] = 8422.7613438154,
                                 ["y"] = -41804.592110665,
                             }, -- end of [22]
+                            [23] = {
+                                ["communication"] = true,
+                                ["frequency"] = 251,
+                                ["groupId"] = 74,
+                                ["hidden"] = false,
+                                ["lateActivation"] = true,
+                                ["modulation"] = 0,
+                                ["name"] = "Tu-95 High-1",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Fly Over Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 230.55555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Orbit",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["altitude"] = 6096,
+                                                                ["pattern"] = "Race-Track",
+                                                                ["speed"] = 125,
+                                                                ["speedEdited"] = true,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 0,
+                                                                        ["value"] = 4,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                        [3] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 3,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 1,
+                                                                        ["value"] = 0,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [3]
+                                                        [4] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 4,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 4,
+                                                                        ["value"] = 0,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [4]
+                                                        [5] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 5,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["formationIndex"] = 2,
+                                                                        ["name"] = 5,
+                                                                        ["value"] = 131074,
+                                                                        ["variantIndex"] = 2,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 7611.9850026669,
+                                            ["y"] = -41879.139192585,
+                                        }, -- end of [1]
+                                        [2] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 18.942065921942,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 208.33333333333,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 7593.1938624019,
+                                            ["y"] = -39511.455519185,
+                                        }, -- end of [2]
+                                    }, -- end of ["points"]
+                                    ["routeRelativeTOT"] = true,
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Pinpoint Strike",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["alt"] = 6096,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 142,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "af standard",
+                                        ["name"] = "Tu-95 High-1-1",
+                                        ["onboard_num"] = "023",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = "87000",
+                                            ["gun"] = 0,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 230.55555555556,
+                                        ["type"] = "Tu-95MS",
+                                        ["unitId"] = 286,
+                                        ["x"] = 7611.9850026669,
+                                        ["y"] = -41879.139192585,
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["alt"] = 6096,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 140,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "af standard",
+                                        ["name"] = "Tu-95 High-1-2",
+                                        ["onboard_num"] = "024",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = "87000",
+                                            ["gun"] = 0,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 230.55555555556,
+                                        ["type"] = "Tu-95MS",
+                                        ["unitId"] = 296,
+                                        ["x"] = 7571.9850026669,
+                                        ["y"] = -41839.139192585,
+                                    }, -- end of [2]
+                                    [3] = {
+                                        ["alt"] = 6096,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 141,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "af standard",
+                                        ["name"] = "Tu-95 High-1-3",
+                                        ["onboard_num"] = "025",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = "87000",
+                                            ["gun"] = 0,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 230.55555555556,
+                                        ["type"] = "Tu-95MS",
+                                        ["unitId"] = 297,
+                                        ["x"] = 7531.9850026669,
+                                        ["y"] = -41799.139192585,
+                                    }, -- end of [3]
+                                    [4] = {
+                                        ["alt"] = 6096,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 143,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "af standard",
+                                        ["name"] = "Tu-95 High-1-4",
+                                        ["onboard_num"] = "026",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = "87000",
+                                            ["gun"] = 0,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 230.55555555556,
+                                        ["type"] = "Tu-95MS",
+                                        ["unitId"] = 298,
+                                        ["x"] = 7491.9850026669,
+                                        ["y"] = -41759.139192585,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = 7611.9850026669,
+                                ["y"] = -41879.139192585,
+                            }, -- end of [23]
+                            [24] = {
+                                ["communication"] = true,
+                                ["frequency"] = 251,
+                                ["groupId"] = 75,
+                                ["hidden"] = false,
+                                ["lateActivation"] = true,
+                                ["modulation"] = 0,
+                                ["name"] = "Tu-95 Medium-1",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Fly Over Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 230.55555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "Orbit",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["altitude"] = 3048,
+                                                                ["pattern"] = "Race-Track",
+                                                                ["speed"] = 125,
+                                                                ["speedEdited"] = true,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 0,
+                                                                        ["value"] = 4,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                        [3] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 3,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 1,
+                                                                        ["value"] = 0,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [3]
+                                                        [4] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 4,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["name"] = 4,
+                                                                        ["value"] = 0,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [4]
+                                                        [5] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 5,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "Option",
+                                                                    ["params"] = {
+                                                                        ["formationIndex"] = 2,
+                                                                        ["name"] = 5,
+                                                                        ["value"] = 131074,
+                                                                        ["variantIndex"] = 2,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 6976.2914360126,
+                                            ["y"] = -41909.748463497,
+                                        }, -- end of [1]
+                                        [2] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 6096,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 18.942065921942,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 208.33333333333,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = 6957.5002957476,
+                                            ["y"] = -39542.064790097,
+                                        }, -- end of [2]
+                                    }, -- end of ["points"]
+                                    ["routeRelativeTOT"] = true,
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Pinpoint Strike",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["alt"] = 3048,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 144,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "af standard",
+                                        ["name"] = "Tu-95 Medium-1-1",
+                                        ["onboard_num"] = "027",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = "87000",
+                                            ["gun"] = 0,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 230.55555555556,
+                                        ["type"] = "Tu-95MS",
+                                        ["unitId"] = 299,
+                                        ["x"] = 6976.2914360126,
+                                        ["y"] = -41909.748463497,
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["alt"] = 3048,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 145,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "af standard",
+                                        ["name"] = "Tu-95 Medium-1-2",
+                                        ["onboard_num"] = "028",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = "87000",
+                                            ["gun"] = 0,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 230.55555555556,
+                                        ["type"] = "Tu-95MS",
+                                        ["unitId"] = 303,
+                                        ["x"] = 6936.2914360126,
+                                        ["y"] = -41869.748463497,
+                                    }, -- end of [2]
+                                    [3] = {
+                                        ["alt"] = 3048,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 146,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "af standard",
+                                        ["name"] = "Tu-95 Medium-1-3",
+                                        ["onboard_num"] = "029",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = "87000",
+                                            ["gun"] = 0,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 230.55555555556,
+                                        ["type"] = "Tu-95MS",
+                                        ["unitId"] = 304,
+                                        ["x"] = 6896.2914360126,
+                                        ["y"] = -41829.748463497,
+                                    }, -- end of [3]
+                                    [4] = {
+                                        ["alt"] = 3048,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 147,
+                                        ["heading"] = 1.5787326681023,
+                                        ["livery_id"] = "af standard",
+                                        ["name"] = "Tu-95 Medium-1-4",
+                                        ["onboard_num"] = "030",
+                                        ["payload"] = {
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = "87000",
+                                            ["gun"] = 0,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.5787326681023,
+                                        ["skill"] = "High",
+                                        ["speed"] = 230.55555555556,
+                                        ["type"] = "Tu-95MS",
+                                        ["unitId"] = 305,
+                                        ["x"] = 6856.2914360126,
+                                        ["y"] = -41789.748463497,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["x"] = 6976.2914360126,
+                                ["y"] = -41909.748463497,
+                            }, -- end of [24]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] = {
@@ -12301,7 +12777,7 @@ mission = {
             [10] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 32227,
+    ["currentKey"] = 33738,
     ["date"] = {
         ["Day"] = 21,
         ["Month"] = 6,
@@ -14340,9 +14816,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = 9216.1837125503,
-        ["centerY"] = -40254.897584441,
-        ["zoom"] = 18575.105622555,
+        ["centerX"] = 8249.3559357585,
+        ["centerY"] = -40218.230829173,
+        ["zoom"] = 16964.045612775,
     }, -- end of ["map"]
     ["maxDictId"] = 423,
     ["pictureFileNameB"] = {
