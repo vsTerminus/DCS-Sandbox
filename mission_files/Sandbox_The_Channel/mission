@@ -15,7 +15,7 @@ mission = {
                                 ["groupId"] = 24,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_76",
+                                ["name"] = "Mi-8 Balogne 1",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
@@ -26,7 +26,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_78",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -75,7 +75,7 @@ mission = {
                                         ["hardpoint_racks"] = false,
                                         ["heading"] = 0,
                                         ["livery_id"] = "3rd RGR",
-                                        ["name"] = "DictKey_UnitName_77",
+                                        ["name"] = "Mi-8 Balogne 1-1",
                                         ["onboard_num"] = "050",
                                         ["payload"] = {
                                             ["chaff"] = 0,
@@ -148,7 +148,7 @@ mission = {
                                 ["groupId"] = 37,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_120",
+                                ["name"] = "Rotary-1",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
@@ -159,7 +159,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_122",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -184,7 +184,7 @@ mission = {
                                             ["ETA"] = 0.93978943059588,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_123",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -234,7 +234,7 @@ mission = {
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 2.1613164544882,
                                         ["livery_id"] = "3rd RGR",
-                                        ["name"] = "DictKey_UnitName_121",
+                                        ["name"] = "Rotary-1-1",
                                         ["onboard_num"] = "053",
                                         ["payload"] = {
                                             ["chaff"] = 0,
@@ -319,7 +319,7 @@ mission = {
                                 ["groupId"] = 1,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_6",
+                                ["name"] = "F-14A Merville 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -331,7 +331,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_8",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -383,7 +383,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "VF-41 1990 by Reflected",
-                                        ["name"] = "DictKey_UnitName_7",
+                                        ["name"] = "F-14A Merville 1-1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "2",
                                         ["parking_id"] = "01",
@@ -508,7 +508,7 @@ mission = {
                                 ["groupId"] = 2,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_9",
+                                ["name"] = "f-14A Merville 2",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -520,7 +520,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_11",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -572,7 +572,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "VF-41 1990 by Reflected",
-                                        ["name"] = "DictKey_UnitName_10",
+                                        ["name"] = "f-14A Merville 2-1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "3",
                                         ["parking_id"] = "02",
@@ -697,7 +697,7 @@ mission = {
                                 ["groupId"] = 3,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_12",
+                                ["name"] = "F-14B Merville 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -709,7 +709,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_14",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -761,7 +761,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "F-14A VF-41 Black Aces(1970s)",
-                                        ["name"] = "DictKey_UnitName_13",
+                                        ["name"] = "F-14B Merville 1-1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "11",
                                         ["parking_id"] = "10",
@@ -886,7 +886,7 @@ mission = {
                                 ["groupId"] = 4,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_15",
+                                ["name"] = "F-14B Merville 2",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -898,7 +898,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_17",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -950,7 +950,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "F-14A VF-41 Black Aces(1970s)",
-                                        ["name"] = "DictKey_UnitName_16",
+                                        ["name"] = "F-14B Merville 2-1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "12",
                                         ["parking_id"] = "11",
@@ -1075,7 +1075,7 @@ mission = {
                                 ["groupId"] = 5,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_18",
+                                ["name"] = "A-10C II Merville 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -1087,7 +1087,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_20",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -1162,7 +1162,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "74th fs moody afb, georgia (ft)",
-                                        ["name"] = "DictKey_UnitName_19",
+                                        ["name"] = "A-10C II Merville 1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "4",
                                         ["parking_id"] = "03",
@@ -1193,7 +1193,7 @@ mission = {
                                 ["groupId"] = 6,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_21",
+                                ["name"] = "A-10C II Merville 2",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -1205,7 +1205,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_23",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -1280,7 +1280,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "74th fs moody afb, georgia (ft)",
-                                        ["name"] = "DictKey_UnitName_22",
+                                        ["name"] = "A-10C II Merville 2-1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "5",
                                         ["parking_id"] = "04",
@@ -1311,7 +1311,7 @@ mission = {
                                 ["groupId"] = 7,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_24",
+                                ["name"] = "F-16C Merville 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -1323,7 +1323,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_26",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -1396,7 +1396,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "default",
-                                        ["name"] = "DictKey_UnitName_25",
+                                        ["name"] = "F-16C Merville 1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "13",
                                         ["parking_id"] = "12",
@@ -1521,7 +1521,7 @@ mission = {
                                 ["groupId"] = 8,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_27",
+                                ["name"] = "M-2000C Merville 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -1533,7 +1533,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_29",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -1577,6 +1577,7 @@ mission = {
                                         ["AddPropAircraft"] = {
                                             ["ForceINSRules"] = false,
                                             ["GunBurst"] = 1,
+                                            ["InitHotDrift"] = 0,
                                             ["LaserCode1"] = 8,
                                             ["LaserCode10"] = 8,
                                             ["LaserCode100"] = 6,
@@ -1595,7 +1596,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "2003 tigermeet",
-                                        ["name"] = "DictKey_UnitName_28",
+                                        ["name"] = "M-2000C Merville 1-1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "14",
                                         ["parking_id"] = "13",
@@ -1719,7 +1720,7 @@ mission = {
                                 ["groupId"] = 9,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_30",
+                                ["name"] = "MiG-21bis Merville 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -1731,7 +1732,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_32",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -1782,7 +1783,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "Slovakia - 1998 art X66",
-                                        ["name"] = "DictKey_UnitName_31",
+                                        ["name"] = "MiG-21bis Merville 1-1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "6",
                                         ["parking_id"] = "05",
@@ -1861,7 +1862,7 @@ mission = {
                                 ["groupId"] = 10,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_33",
+                                ["name"] = "MiG-15bis Merville 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -1873,7 +1874,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_35",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -1924,7 +1925,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "ussr_air forces",
-                                        ["name"] = "DictKey_UnitName_34",
+                                        ["name"] = "MiG-15bis Merville 1-1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "7",
                                         ["parking_id"] = "06",
@@ -1954,7 +1955,7 @@ mission = {
                                 ["groupId"] = 11,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_36",
+                                ["name"] = "F-86F Merville 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -1966,7 +1967,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_38",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -2017,7 +2018,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "canada air force",
-                                        ["name"] = "DictKey_UnitName_37",
+                                        ["name"] = "F-86F Merville 1-1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "8",
                                         ["parking_id"] = "07",
@@ -2073,7 +2074,7 @@ mission = {
                                 ["groupId"] = 13,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_42",
+                                ["name"] = "C-101CC Merville 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -2085,7 +2086,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_44",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -2146,7 +2147,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "NFTC C-101CC v2",
-                                        ["name"] = "DictKey_UnitName_43",
+                                        ["name"] = "C-101CC Merville 1-1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "15",
                                         ["parking_id"] = "14",
@@ -2205,7 +2206,7 @@ mission = {
                                 ["groupId"] = 14,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_45",
+                                ["name"] = "C-101EB Merville 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -2217,7 +2218,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_47",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -2262,7 +2263,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "The Big 2 EB v2",
-                                        ["name"] = "DictKey_UnitName_46",
+                                        ["name"] = "C-101EB Merville 1-1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "16",
                                         ["parking_id"] = "15",
@@ -2320,7 +2321,7 @@ mission = {
                                 ["groupId"] = 21,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_66",
+                                ["name"] = "F/A-18C Merville 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -2332,7 +2333,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_68",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -2425,7 +2426,7 @@ mission = {
                                         }, -- end of ["dataCartridge"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "Hoggit Air Force - Stingers 01",
-                                        ["name"] = "DictKey_UnitName_67",
+                                        ["name"] = "F/A-18C Merville 1-1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "9",
                                         ["parking_id"] = "08",
@@ -2550,7 +2551,7 @@ mission = {
                                 ["groupId"] = 22,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_69",
+                                ["name"] = "JF-17 Merville 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -2562,7 +2563,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_71",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -2634,7 +2635,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "'splinter' camo for blue side (fictional)",
-                                        ["name"] = "DictKey_UnitName_70",
+                                        ["name"] = "JF-17 Merville 1-1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "17",
                                         ["parking_id"] = "16",
@@ -2712,7 +2713,7 @@ mission = {
                                 ["groupId"] = 23,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_72",
+                                ["name"] = "AGS37 Merville 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -2724,7 +2725,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_74",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -2768,7 +2769,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "37",
-                                        ["name"] = "DictKey_UnitName_73",
+                                        ["name"] = "AGS37 Merville 1-1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "10",
                                         ["parking_id"] = "09",
@@ -2820,7 +2821,7 @@ mission = {
                                 ["groupId"] = 25,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_79",
+                                ["name"] = "AAAAAAAAAAAAAAAAAAA",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
@@ -2831,7 +2832,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_81",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -2856,7 +2857,7 @@ mission = {
                                             ["ETA"] = 145.14712582756,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_82",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -2909,7 +2910,7 @@ mission = {
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 0.029963781379358,
                                         ["livery_id"] = "VF-84 1989 by Reflected",
-                                        ["name"] = "DictKey_UnitName_80",
+                                        ["name"] = "Aerial-1-1",
                                         ["onboard_num"] = "051",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
@@ -3058,11 +3059,11 @@ mission = {
                             }, -- end of [17]
                             [18] = {
                                 ["communication"] = true,
-                                ["frequency"] = 124,
+                                ["frequency"] = 105,
                                 ["groupId"] = 26,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_83",
+                                ["name"] = "P-47D-40 Merville 1",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
@@ -3074,7 +3075,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_85",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -3128,7 +3129,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "53rd_fs_9th_air_force",
-                                        ["name"] = "DictKey_UnitName_84",
+                                        ["name"] = "P-47D-40 Merville 1",
                                         ["onboard_num"] = "052",
                                         ["parking"] = "33",
                                         ["parking_id"] = "17",
@@ -3145,7 +3146,7 @@ mission = {
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
-                                                    [1] = 124,
+                                                    [1] = 105,
                                                     [2] = 40,
                                                     [3] = 41,
                                                     [4] = 42,
@@ -3153,6 +3154,11 @@ mission = {
                                                 ["modulations"] = {
                                                 }, -- end of ["modulations"]
                                             }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 108.9,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
                                         }, -- end of ["Radio"]
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
@@ -3167,11 +3173,11 @@ mission = {
                             }, -- end of [18]
                             [19] = {
                                 ["communication"] = true,
-                                ["frequency"] = 124,
+                                ["frequency"] = 105,
                                 ["groupId"] = 27,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_86",
+                                ["name"] = "P-47D-40 Merville 2",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
@@ -3183,7 +3189,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_88",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -3237,7 +3243,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "53rd_fs_9th_air_force",
-                                        ["name"] = "DictKey_UnitName_87",
+                                        ["name"] = "P-47D-40 Merville 2",
                                         ["onboard_num"] = "052",
                                         ["parking"] = "32",
                                         ["parking_id"] = "18",
@@ -3254,7 +3260,7 @@ mission = {
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
-                                                    [1] = 124,
+                                                    [1] = 105,
                                                     [2] = 40,
                                                     [3] = 41,
                                                     [4] = 42,
@@ -3262,6 +3268,11 @@ mission = {
                                                 ["modulations"] = {
                                                 }, -- end of ["modulations"]
                                             }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 108.9,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
                                         }, -- end of ["Radio"]
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
@@ -3280,7 +3291,7 @@ mission = {
                                 ["groupId"] = 28,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_89",
+                                ["name"] = "P-51D-30-NA Merville 1",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
@@ -3292,7 +3303,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_91",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -3345,7 +3356,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "usaf 363rd fs, 357th fg desert rat",
-                                        ["name"] = "DictKey_UnitName_90",
+                                        ["name"] = "P-51D-30-NA Merville 1",
                                         ["onboard_num"] = "052",
                                         ["parking"] = "27",
                                         ["parking_id"] = "19",
@@ -3370,6 +3381,11 @@ mission = {
                                                 ["modulations"] = {
                                                 }, -- end of ["modulations"]
                                             }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 108.9,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
                                         }, -- end of ["Radio"]
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
@@ -3388,7 +3404,7 @@ mission = {
                                 ["groupId"] = 29,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_92",
+                                ["name"] = "P-51D-30-NA Merville 2",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
@@ -3400,7 +3416,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_94",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -3453,7 +3469,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "usaf 363rd fs, 357th fg desert rat",
-                                        ["name"] = "DictKey_UnitName_93",
+                                        ["name"] = "P-51D-30-NA Merville 2",
                                         ["onboard_num"] = "052",
                                         ["parking"] = "26",
                                         ["parking_id"] = "20",
@@ -3478,6 +3494,11 @@ mission = {
                                                 ["modulations"] = {
                                                 }, -- end of ["modulations"]
                                             }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 108.9,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
                                         }, -- end of ["Radio"]
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
@@ -3496,7 +3517,7 @@ mission = {
                                 ["groupId"] = 30,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_95",
+                                ["name"] = "Fw 190 D-9 Merville 1",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
@@ -3508,7 +3529,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_97",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -3562,7 +3583,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "FW-190D9_13.JG 51_Heinz Marquardt",
-                                        ["name"] = "DictKey_UnitName_96",
+                                        ["name"] = "Fw 190 D-9 Merville 1",
                                         ["onboard_num"] = "052",
                                         ["parking"] = "31",
                                         ["parking_id"] = "32",
@@ -3602,11 +3623,11 @@ mission = {
                             }, -- end of [22]
                             [23] = {
                                 ["communication"] = true,
-                                ["frequency"] = 124,
+                                ["frequency"] = 105,
                                 ["groupId"] = 31,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_98",
+                                ["name"] = "Fw 190 D-9 Merville 2",
                                 ["radioSet"] = false,
                                 ["route"] = {
                                     ["points"] = {
@@ -3618,7 +3639,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_100",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -3672,7 +3693,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "53rd_fs_9th_air_force",
-                                        ["name"] = "DictKey_UnitName_99",
+                                        ["name"] = "Fw 190 D-9 Merville 2",
                                         ["onboard_num"] = "052",
                                         ["parking"] = "30",
                                         ["parking_id"] = "31",
@@ -3697,6 +3718,11 @@ mission = {
                                                 ["modulations"] = {
                                                 }, -- end of ["modulations"]
                                             }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 108.9,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
                                         }, -- end of ["Radio"]
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
@@ -3711,11 +3737,11 @@ mission = {
                             }, -- end of [23]
                             [24] = {
                                 ["communication"] = true,
-                                ["frequency"] = 38.45,
+                                ["frequency"] = 122,
                                 ["groupId"] = 32,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_101",
+                                ["name"] = "P-47D-40 Abbeville BFM 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -3726,7 +3752,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_103",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -3764,7 +3790,7 @@ mission = {
                                             ["ETA"] = 44.782657111709,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_104",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -3805,7 +3831,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0.99076406192431,
                                         ["livery_id"] = "53rd_fs_9th_air_force",
-                                        ["name"] = "DictKey_UnitName_102",
+                                        ["name"] = "P-47D-40 Abbeville BFM 1",
                                         ["onboard_num"] = "052",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
@@ -3820,7 +3846,7 @@ mission = {
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
-                                                    [1] = 38.45,
+                                                    [1] = 122,
                                                     [2] = 40,
                                                     [3] = 41,
                                                     [4] = 42,
@@ -3828,6 +3854,11 @@ mission = {
                                                 ["modulations"] = {
                                                 }, -- end of ["modulations"]
                                             }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 108.9,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
                                         }, -- end of ["Radio"]
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
@@ -3842,11 +3873,11 @@ mission = {
                             }, -- end of [24]
                             [25] = {
                                 ["communication"] = true,
-                                ["frequency"] = 38.7,
+                                ["frequency"] = 122,
                                 ["groupId"] = 33,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_105",
+                                ["name"] = "P-47D-40 Hawkinge 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -3858,7 +3889,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_107",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -3912,7 +3943,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "53rd_fs_9th_air_force",
-                                        ["name"] = "DictKey_UnitName_106",
+                                        ["name"] = "P-47D-40 Hawkinge 1",
                                         ["onboard_num"] = "052",
                                         ["parking"] = "27",
                                         ["parking_id"] = "01",
@@ -3929,7 +3960,7 @@ mission = {
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
-                                                    [1] = 38.7,
+                                                    [1] = 122,
                                                     [2] = 38.65,
                                                     [3] = 38.75,
                                                     [4] = 38.4,
@@ -3937,6 +3968,11 @@ mission = {
                                                 ["modulations"] = {
                                                 }, -- end of ["modulations"]
                                             }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 108.9,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
                                         }, -- end of ["Radio"]
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
@@ -3951,11 +3987,11 @@ mission = {
                             }, -- end of [25]
                             [26] = {
                                 ["communication"] = true,
-                                ["frequency"] = 38.45,
+                                ["frequency"] = 122,
                                 ["groupId"] = 34,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_108",
+                                ["name"] = "P-47D-40 Saint Omer BFM 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -3966,7 +4002,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_110",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -4004,7 +4040,7 @@ mission = {
                                             ["ETA"] = 17.179307647018,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_111",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -4045,7 +4081,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 1.3401105725207,
                                         ["livery_id"] = "53rd_fs_9th_air_force",
-                                        ["name"] = "DictKey_UnitName_109",
+                                        ["name"] = "P-47D-40 Saint Omer BFM 1",
                                         ["onboard_num"] = "052",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
@@ -4060,7 +4096,7 @@ mission = {
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
-                                                    [1] = 38.45,
+                                                    [1] = 122,
                                                     [2] = 40,
                                                     [3] = 41,
                                                     [4] = 42,
@@ -4068,6 +4104,11 @@ mission = {
                                                 ["modulations"] = {
                                                 }, -- end of ["modulations"]
                                             }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 108.9,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
                                         }, -- end of ["Radio"]
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
@@ -4082,11 +4123,11 @@ mission = {
                             }, -- end of [26]
                             [27] = {
                                 ["communication"] = true,
-                                ["frequency"] = 38.45,
+                                ["frequency"] = 125,
                                 ["groupId"] = 35,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_112",
+                                ["name"] = "P-47D-40 Merville BFM 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -4097,7 +4138,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_114",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -4135,7 +4176,7 @@ mission = {
                                             ["ETA"] = 17.464196606916,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_115",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -4176,7 +4217,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0.67639816403464,
                                         ["livery_id"] = "53rd_fs_9th_air_force",
-                                        ["name"] = "DictKey_UnitName_113",
+                                        ["name"] = "P-47D-40 Merville BFM 1",
                                         ["onboard_num"] = "052",
                                         ["payload"] = {
                                             ["ammo_type"] = 1,
@@ -4191,7 +4232,7 @@ mission = {
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
-                                                    [1] = 38.45,
+                                                    [1] = 125,
                                                     [2] = 40,
                                                     [3] = 41,
                                                     [4] = 42,
@@ -4199,6 +4240,11 @@ mission = {
                                                 ["modulations"] = {
                                                 }, -- end of ["modulations"]
                                             }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 108.9,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
                                         }, -- end of ["Radio"]
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
@@ -4217,7 +4263,7 @@ mission = {
                                 ["groupId"] = 38,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_125",
+                                ["name"] = "I-16 Hawkinge 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -4229,7 +4275,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_127",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -4271,7 +4317,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "Red Army Red",
-                                        ["name"] = "DictKey_UnitName_126",
+                                        ["name"] = "I-16 Hawkinge 1",
                                         ["onboard_num"] = "052",
                                         ["parking"] = "14",
                                         ["parking_id"] = "02",
@@ -4313,7 +4359,7 @@ mission = {
                                 ["groupId"] = 39,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_128",
+                                ["name"] = "Bf 109 K-4 Hawkinge 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -4325,7 +4371,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_130",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -4368,7 +4414,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "Bf-109 K4 Irmgard",
-                                        ["name"] = "DictKey_UnitName_129",
+                                        ["name"] = "Bf 109 K-4 Hawkinge 1",
                                         ["onboard_num"] = "052",
                                         ["parking"] = "13",
                                         ["parking_id"] = "03",
@@ -4412,7 +4458,7 @@ mission = {
                                 ["groupId"] = 40,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_131",
+                                ["name"] = "Fw 190 A-8 Hawkinge 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -4424,7 +4470,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_133",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -4466,7 +4512,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "FW-190A8_2.JG 54",
-                                        ["name"] = "DictKey_UnitName_132",
+                                        ["name"] = "Fw 190 A-8 Hawkinge 1",
                                         ["onboard_num"] = "052",
                                         ["parking"] = "16",
                                         ["parking_id"] = "04",
@@ -4510,7 +4556,7 @@ mission = {
                                 ["groupId"] = 41,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_134",
+                                ["name"] = "Fw 190 D-9 Hawkinge 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -4522,7 +4568,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_136",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -4564,7 +4610,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "FW-190D9_GB",
-                                        ["name"] = "DictKey_UnitName_135",
+                                        ["name"] = "Fw 190 D-9 Hawkinge 1",
                                         ["onboard_num"] = "052",
                                         ["parking"] = "15",
                                         ["parking_id"] = "05",
@@ -4608,7 +4654,7 @@ mission = {
                                 ["groupId"] = 42,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_137",
+                                ["name"] = "P-51D-30-NA Hawkinge 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -4620,7 +4666,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_139",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -4659,7 +4705,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "Russia Green Black",
-                                        ["name"] = "DictKey_UnitName_138",
+                                        ["name"] = "P-51D-30-NA Hawkinge 1",
                                         ["onboard_num"] = "052",
                                         ["parking"] = "18",
                                         ["parking_id"] = "06",
@@ -4684,6 +4730,11 @@ mission = {
                                                 ["modulations"] = {
                                                 }, -- end of ["modulations"]
                                             }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 108.9,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
                                         }, -- end of ["Radio"]
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
@@ -4702,7 +4753,7 @@ mission = {
                                 ["groupId"] = 43,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_140",
+                                ["name"] = "Yak-52 Hawkinge 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -4714,7 +4765,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_142",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -4758,7 +4809,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "Arctic Camo Splinter",
-                                        ["name"] = "DictKey_UnitName_141",
+                                        ["name"] = "Yak-52 Hawkinge 1",
                                         ["onboard_num"] = "052",
                                         ["parking"] = "17",
                                         ["parking_id"] = "07",
@@ -4804,7 +4855,7 @@ mission = {
                                 ["groupId"] = 44,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_143",
+                                ["name"] = "Spitfire LF Mk. IX CW Hawkinge 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -4816,7 +4867,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_145",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -4855,7 +4906,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "raf standard",
-                                        ["name"] = "DictKey_UnitName_144",
+                                        ["name"] = "Spitfire LF Mk. IX CW Hawkinge 1",
                                         ["onboard_num"] = "052",
                                         ["parking"] = "26",
                                         ["parking_id"] = "09",
@@ -4876,6 +4927,7 @@ mission = {
                                                     [2] = 40,
                                                     [3] = 41,
                                                     [4] = 42,
+                                                    [5] = 108.9,
                                                 }, -- end of ["channels"]
                                                 ["modulations"] = {
                                                 }, -- end of ["modulations"]
@@ -4898,7 +4950,7 @@ mission = {
                                 ["groupId"] = 45,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_146",
+                                ["name"] = "P-47D-30 (Early) Hawkinge 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -4910,7 +4962,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_148",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -4952,7 +5004,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "P-47D-26 Whoo by Shane Thompson",
-                                        ["name"] = "DictKey_UnitName_147",
+                                        ["name"] = "P-47D-30 (Early) Hawkinge 1",
                                         ["onboard_num"] = "052",
                                         ["parking"] = "28",
                                         ["parking_id"] = "12",
@@ -4977,6 +5029,11 @@ mission = {
                                                 ["modulations"] = {
                                                 }, -- end of ["modulations"]
                                             }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 108.9,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
                                         }, -- end of ["Radio"]
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
@@ -4995,7 +5052,7 @@ mission = {
                                 ["groupId"] = 46,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_149",
+                                ["name"] = "I-16 Hawkinge 2",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -5007,7 +5064,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_151",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -5049,7 +5106,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "Dogfight Blue",
-                                        ["name"] = "DictKey_UnitName_150",
+                                        ["name"] = "I-16 Hawkinge 2",
                                         ["onboard_num"] = "052",
                                         ["parking"] = "3",
                                         ["parking_id"] = "15",
@@ -5091,7 +5148,7 @@ mission = {
                                 ["groupId"] = 47,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_152",
+                                ["name"] = "Christen Eagle II Hawkinge 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -5103,7 +5160,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_154",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -5134,6 +5191,7 @@ mission = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
                                             ["NetCrewControlPriority"] = 1,
+                                            ["NS430allow"] = true,
                                             ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 160,
@@ -5146,7 +5204,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "mag3",
-                                        ["name"] = "DictKey_UnitName_153",
+                                        ["name"] = "Christen Eagle II Hawkinge 1",
                                         ["onboard_num"] = "052",
                                         ["parking"] = "4",
                                         ["parking_id"] = "16",
@@ -5224,7 +5282,7 @@ mission = {
                                 ["groupId"] = 48,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_155",
+                                ["name"] = "P-47D-30 Hawkinge 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -5236,7 +5294,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_157",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -5278,7 +5336,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "56thFG 62ndFS Rozzie Geth II",
-                                        ["name"] = "DictKey_UnitName_156",
+                                        ["name"] = "P-47D-30 Hawkinge 1",
                                         ["onboard_num"] = "052",
                                         ["parking"] = "5",
                                         ["parking_id"] = "17",
@@ -5303,6 +5361,11 @@ mission = {
                                                 ["modulations"] = {
                                                 }, -- end of ["modulations"]
                                             }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 108.9,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
                                         }, -- end of ["Radio"]
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
@@ -5321,7 +5384,7 @@ mission = {
                                 ["groupId"] = 49,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_158",
+                                ["name"] = "P-51D-25-NA Hawkinge 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -5333,7 +5396,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_160",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -5372,7 +5435,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "Ukraine Old",
-                                        ["name"] = "DictKey_UnitName_159",
+                                        ["name"] = "P-51D-25-NA Hawkinge 1",
                                         ["onboard_num"] = "052",
                                         ["parking"] = "6",
                                         ["parking_id"] = "18",
@@ -5397,6 +5460,11 @@ mission = {
                                                 ["modulations"] = {
                                                 }, -- end of ["modulations"]
                                             }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 108.9,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
                                         }, -- end of ["Radio"]
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
@@ -5409,6 +5477,184 @@ mission = {
                                 ["x"] = 27211.73046875,
                                 ["y"] = -29041.603515625,
                             }, -- end of [39]
+                            [40] = {
+                                ["communication"] = true,
+                                ["frequency"] = 124,
+                                ["groupId"] = 50,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "Mosquito Lympne 1",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 7,
+                                            ["alt"] = 107,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAP",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] = {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = 23471.8828125,
+                                            ["y"] = -39712.62890625,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAP",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["Flare_Gun"] = 1,
+                                            ["ResinLights"] = 0.15,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 107,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 6,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Ford11",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "L-3 PZ474 1945",
+                                        ["name"] = "Aerial-1-2",
+                                        ["onboard_num"] = "011",
+                                        ["parking"] = 10,
+                                        ["parking_id"] = "10",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 996.6432,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 124,
+                                                    [2] = 124,
+                                                    [3] = 131,
+                                                    [4] = 139,
+                                                    [5] = 108.9,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 9.255,
+                                                    [2] = 8,
+                                                    [3] = 7.71,
+                                                    [4] = 6.872,
+                                                    [5] = 5.955,
+                                                    [6] = 5.85,
+                                                    [7] = 5.75,
+                                                    [8] = 5.65,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                            [3] = {
+                                                ["channels"] = {
+                                                    [1] = 5.25,
+                                                    [2] = 5,
+                                                    [3] = 4.75,
+                                                    [4] = 4.5,
+                                                    [5] = 4.25,
+                                                    [6] = 3.25,
+                                                    [7] = 3.012,
+                                                    [8] = 3.011,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [3]
+                                            [4] = {
+                                                ["channels"] = {
+                                                    [1] = 0.444,
+                                                    [2] = 0.421,
+                                                    [3] = 0.303,
+                                                    [4] = 0.3,
+                                                    [5] = 0.27,
+                                                    [6] = 0.26,
+                                                    [7] = 0.25,
+                                                    [8] = 0.24,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [4]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "MosquitoFBMkVI",
+                                        ["unitId"] = 50,
+                                        ["x"] = 23471.8828125,
+                                        ["y"] = -39712.62890625,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = 23471.8828125,
+                                ["y"] = -39712.62890625,
+                            }, -- end of [40]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] = {
@@ -5416,7 +5662,7 @@ mission = {
                             [1] = {
                                 ["groupId"] = 36,
                                 ["hidden"] = false,
-                                ["name"] = "DictKey_GroupName_116",
+                                ["name"] = "Naval-1",
                                 ["route"] = {
                                     ["points"] = {
                                         [1] = {
@@ -5426,7 +5672,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_118",
+                                            ["name"] = "",
                                             ["speed"] = 0,
                                             ["speed_locked"] = true,
                                             ["task"] = {
@@ -5451,7 +5697,7 @@ mission = {
                                         ["frequency"] = 127500000,
                                         ["heading"] = 5.3930673886625,
                                         ["modulation"] = 0,
-                                        ["name"] = "DictKey_UnitName_117",
+                                        ["name"] = "Naval-1-1",
                                         ["skill"] = "Average",
                                         ["transportable"] = {
                                             ["randomTransportable"] = false,
@@ -5480,7 +5726,7 @@ mission = {
                                 ["groupId"] = 15,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_48",
+                                ["name"] = "J-11A Manston 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -5492,7 +5738,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_50",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -5543,7 +5789,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "usn aggressor vfc-13 'ferris' (fictional)",
-                                        ["name"] = "DictKey_UnitName_49",
+                                        ["name"] = "J-11A Manston 1-1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "21",
                                         ["parking_id"] = "01",
@@ -5573,7 +5819,7 @@ mission = {
                                 ["groupId"] = 16,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_51",
+                                ["name"] = "Su-27 Manston 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -5585,7 +5831,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_53",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -5636,7 +5882,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "Fictional Splinter",
-                                        ["name"] = "DictKey_UnitName_52",
+                                        ["name"] = "Su-27 Manston 1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "20",
                                         ["parking_id"] = "02",
@@ -5666,7 +5912,7 @@ mission = {
                                 ["groupId"] = 17,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_54",
+                                ["name"] = "Su-33 Manston 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -5678,7 +5924,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_56",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -5729,7 +5975,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "Su33 Grey Sharks 2020",
-                                        ["name"] = "DictKey_UnitName_55",
+                                        ["name"] = "Su-33 Manston 1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "19",
                                         ["parking_id"] = "03",
@@ -5759,7 +6005,7 @@ mission = {
                                 ["groupId"] = 18,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_57",
+                                ["name"] = "MiG-29A Manston 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -5771,7 +6017,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_59",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -5822,7 +6068,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "MIG-29A AC7 03 Erusean Special Yellow Skin",
-                                        ["name"] = "DictKey_UnitName_58",
+                                        ["name"] = "MiG-29A Manston 1-1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "18",
                                         ["parking_id"] = "04",
@@ -5852,7 +6098,7 @@ mission = {
                                 ["groupId"] = 19,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_60",
+                                ["name"] = "MiG-29S Manston 1",
                                 ["radioSet"] = true,
                                 ["route"] = {
                                     ["points"] = {
@@ -5864,7 +6110,7 @@ mission = {
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
                                             ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_62",
+                                            ["name"] = "",
                                             ["properties"] = {
                                                 ["addopt"] = {
                                                 }, -- end of ["addopt"]
@@ -5915,7 +6161,7 @@ mission = {
                                         }, -- end of ["callsign"]
                                         ["heading"] = 0,
                                         ["livery_id"] = "Russian Navy",
-                                        ["name"] = "DictKey_UnitName_61",
+                                        ["name"] = "MiG-29S Manston 1-1",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "17",
                                         ["parking_id"] = "05",
@@ -6046,6 +6292,8 @@ mission = {
             [47] = 48,
             [48] = 67,
             [49] = 83,
+            [50] = 84,
+            [51] = 85,
         }, -- end of ["neutrals"]
         ["red"] = {
             [1] = 18,
@@ -6061,7 +6309,7 @@ mission = {
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 4976,
+    ["currentKey"] = 6350,
     ["date"] = {
         ["Day"] = 1,
         ["Month"] = 12,
@@ -8100,9 +8348,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = 27026.557340426,
-        ["centerY"] = -29125.31472027,
-        ["zoom"] = 5050.5471299344,
+        ["centerX"] = 23693.660730776,
+        ["centerY"] = -39029.923148254,
+        ["zoom"] = 8237.8385047449,
     }, -- end of ["map"]
     ["maxDictId"] = 162,
     ["pictureFileNameB"] = {
@@ -8179,6 +8427,7 @@ mission = {
                 ["properties"] = {
                 }, -- end of ["properties"]
                 ["radius"] = 50,
+                ["type"] = 0,
                 ["x"] = -29366.526325641,
                 ["y"] = 73736.66374493,
                 ["zoneId"] = 1,
@@ -8195,6 +8444,7 @@ mission = {
                 ["properties"] = {
                 }, -- end of ["properties"]
                 ["radius"] = 50,
+                ["type"] = 0,
                 ["x"] = -30113.165119959,
                 ["y"] = 73717.646678607,
                 ["zoneId"] = 3,
@@ -8211,6 +8461,7 @@ mission = {
                 ["properties"] = {
                 }, -- end of ["properties"]
                 ["radius"] = 50,
+                ["type"] = 0,
                 ["x"] = -28368.723844726,
                 ["y"] = 75096.455495138,
                 ["zoneId"] = 4,
@@ -8227,6 +8478,7 @@ mission = {
                 ["properties"] = {
                 }, -- end of ["properties"]
                 ["radius"] = 50,
+                ["type"] = 0,
                 ["x"] = 27404.07154075,
                 ["y"] = -29333.32277287,
                 ["zoneId"] = 5,
@@ -8243,6 +8495,7 @@ mission = {
                 ["properties"] = {
                 }, -- end of ["properties"]
                 ["radius"] = 50,
+                ["type"] = 0,
                 ["x"] = 26589.162987973,
                 ["y"] = -29318.089712819,
                 ["zoneId"] = 6,
@@ -8259,6 +8512,7 @@ mission = {
                 ["properties"] = {
                 }, -- end of ["properties"]
                 ["radius"] = 50,
+                ["type"] = 0,
                 ["x"] = 23266.03046462,
                 ["y"] = -39129.50278154,
                 ["zoneId"] = 7,
@@ -8275,6 +8529,7 @@ mission = {
                 ["properties"] = {
                 }, -- end of ["properties"]
                 ["radius"] = 50,
+                ["type"] = 0,
                 ["x"] = 23570.696259166,
                 ["y"] = -39882.038079818,
                 ["zoneId"] = 8,
@@ -8291,6 +8546,7 @@ mission = {
                 ["properties"] = {
                 }, -- end of ["properties"]
                 ["radius"] = 50,
+                ["type"] = 0,
                 ["x"] = 28988.041462704,
                 ["y"] = -62220.753924168,
                 ["zoneId"] = 9,
@@ -8307,6 +8563,7 @@ mission = {
                 ["properties"] = {
                 }, -- end of ["properties"]
                 ["radius"] = 50,
+                ["type"] = 0,
                 ["x"] = 29538.6400485,
                 ["y"] = -60994.89292183,
                 ["zoneId"] = 10,
@@ -8323,6 +8580,7 @@ mission = {
                 ["properties"] = {
                 }, -- end of ["properties"]
                 ["radius"] = 50,
+                ["type"] = 0,
                 ["x"] = -16870.161732556,
                 ["y"] = 44979.064794568,
                 ["zoneId"] = 11,
@@ -8339,6 +8597,7 @@ mission = {
                 ["properties"] = {
                 }, -- end of ["properties"]
                 ["radius"] = 50,
+                ["type"] = 0,
                 ["x"] = -16832.262404886,
                 ["y"] = 45569.419706351,
                 ["zoneId"] = 12,
@@ -8355,6 +8614,7 @@ mission = {
                 ["properties"] = {
                 }, -- end of ["properties"]
                 ["radius"] = 50,
+                ["type"] = 0,
                 ["x"] = 16401.199082989,
                 ["y"] = 47010.845305446,
                 ["zoneId"] = 13,
@@ -8371,6 +8631,7 @@ mission = {
                 ["properties"] = {
                 }, -- end of ["properties"]
                 ["radius"] = 50,
+                ["type"] = 0,
                 ["x"] = -81114.203443602,
                 ["y"] = 16614.555595761,
                 ["zoneId"] = 14,
@@ -8387,6 +8648,7 @@ mission = {
                 ["properties"] = {
                 }, -- end of ["properties"]
                 ["radius"] = 50,
+                ["type"] = 0,
                 ["x"] = -82480.133045014,
                 ["y"] = 16930.140741766,
                 ["zoneId"] = 15,
@@ -8403,6 +8665,7 @@ mission = {
                 ["properties"] = {
                 }, -- end of ["properties"]
                 ["radius"] = 50,
+                ["type"] = 0,
                 ["x"] = 50152.207622543,
                 ["y"] = -68159.933841639,
                 ["zoneId"] = 16,
@@ -8419,6 +8682,7 @@ mission = {
                 ["properties"] = {
                 }, -- end of ["properties"]
                 ["radius"] = 50,
+                ["type"] = 0,
                 ["x"] = 49769.144816819,
                 ["y"] = -67546.673669094,
                 ["zoneId"] = 17,
@@ -8435,6 +8699,7 @@ mission = {
                 ["properties"] = {
                 }, -- end of ["properties"]
                 ["radius"] = 50,
+                ["type"] = 0,
                 ["x"] = 26704.135473137,
                 ["y"] = -29921.071381325,
                 ["zoneId"] = 18,
@@ -8463,13 +8728,14 @@ mission = {
             }, -- end of ["rules"]
         }, -- end of [1]
     }, -- end of ["trigrules"]
-    ["version"] = 18,
+    ["version"] = 19,
     ["weather"] = {
         ["atmosphere_type"] = 0,
         ["clouds"] = {
-            ["base"] = 300,
+            ["base"] = 2500,
             ["density"] = 8,
             ["iprecptns"] = 0,
+            ["preset"] = "Preset14",
             ["thickness"] = 2000,
         }, -- end of ["clouds"]
         ["cyclones"] = {
@@ -8482,10 +8748,11 @@ mission = {
             ["visibility"] = 0,
         }, -- end of ["fog"]
         ["groundTurbulence"] = 0,
+        ["modifiedTime"] = true,
         ["name"] = "Winter, clean sky",
         ["qnh"] = 760,
         ["season"] = {
-            ["temperature"] = 9,
+            ["temperature"] = -5,
         }, -- end of ["season"]
         ["type_weather"] = 0,
         ["visibility"] = {
@@ -8502,7 +8769,7 @@ mission = {
             }, -- end of ["at8000"]
             ["atGround"] = {
                 ["dir"] = 206,
-                ["speed"] = 1,
+                ["speed"] = 2,
             }, -- end of ["atGround"]
         }, -- end of ["wind"]
     }, -- end of ["weather"]
