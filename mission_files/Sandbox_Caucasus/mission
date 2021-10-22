@@ -6690,6 +6690,11 @@ mission = {
                                                 ["modulations"] = {
                                                 }, -- end of ["modulations"]
                                             }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 108.9,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
                                         }, -- end of ["Radio"]
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
@@ -14206,6 +14211,11 @@ mission = {
                                                 ["modulations"] = {
                                                 }, -- end of ["modulations"]
                                             }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 108.9,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
                                         }, -- end of ["Radio"]
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
@@ -14314,6 +14324,11 @@ mission = {
                                                 ["modulations"] = {
                                                 }, -- end of ["modulations"]
                                             }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 108.9,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
                                         }, -- end of ["Radio"]
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
@@ -14422,6 +14437,11 @@ mission = {
                                                 ["modulations"] = {
                                                 }, -- end of ["modulations"]
                                             }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 108.9,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
                                         }, -- end of ["Radio"]
                                         ["skill"] = "Client",
                                         ["speed"] = 138.88888888889,
@@ -15377,6 +15397,7 @@ mission = {
                                         ["AddPropAircraft"] = {
                                             ["ForceINSRules"] = false,
                                             ["GunBurst"] = 1,
+                                            ["InitHotDrift"] = 0,
                                             ["LaserCode1"] = 8,
                                             ["LaserCode10"] = 8,
                                             ["LaserCode100"] = 6,
@@ -15575,6 +15596,7 @@ mission = {
                                         ["AddPropAircraft"] = {
                                             ["ForceINSRules"] = false,
                                             ["GunBurst"] = 1,
+                                            ["InitHotDrift"] = 0,
                                             ["LaserCode1"] = 8,
                                             ["LaserCode10"] = 8,
                                             ["LaserCode100"] = 6,
@@ -15946,6 +15968,662 @@ mission = {
                                 ["x"] = -281393.65625,
                                 ["y"] = 647266.5,
                             }, -- end of [80]
+                            [81] = {
+                                ["communication"] = true,
+                                ["frequency"] = 124,
+                                ["groupId"] = 447,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "Mosquito Senaki 1-1",
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 23,
+                                            ["alt"] = 13,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -281724.8125,
+                                            ["y"] = 648062.625,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["Flare_Gun"] = 1,
+                                            ["ResinLights"] = 0.15,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 13,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 2,
+                                            [2] = 4,
+                                            [3] = 1,
+                                            ["name"] = "Springfield41",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "USAAF, 492nd Bombardment Group",
+                                        ["name"] = "Mosquito Senaki 1-1",
+                                        ["onboard_num"] = "013",
+                                        ["parking"] = "63",
+                                        ["parking_id"] = "67",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 996.6432,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 124,
+                                                    [2] = 124,
+                                                    [3] = 131,
+                                                    [4] = 139,
+                                                    [5] = 108.9,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 9.255,
+                                                    [2] = 8,
+                                                    [3] = 7.71,
+                                                    [4] = 6.872,
+                                                    [5] = 5.955,
+                                                    [6] = 5.85,
+                                                    [7] = 5.75,
+                                                    [8] = 5.65,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                            [3] = {
+                                                ["channels"] = {
+                                                    [1] = 5.25,
+                                                    [2] = 5,
+                                                    [3] = 4.75,
+                                                    [4] = 4.5,
+                                                    [5] = 4.25,
+                                                    [6] = 3.25,
+                                                    [7] = 3.012,
+                                                    [8] = 3.011,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [3]
+                                            [4] = {
+                                                ["channels"] = {
+                                                    [1] = 0.444,
+                                                    [2] = 0.421,
+                                                    [3] = 0.303,
+                                                    [4] = 0.3,
+                                                    [5] = 0.27,
+                                                    [6] = 0.26,
+                                                    [7] = 0.25,
+                                                    [8] = 0.24,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [4]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "MosquitoFBMkVI",
+                                        ["unitId"] = 670,
+                                        ["x"] = -281724.8125,
+                                        ["y"] = 648062.625,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -281724.8125,
+                                ["y"] = 648062.625,
+                            }, -- end of [81]
+                            [82] = {
+                                ["communication"] = true,
+                                ["frequency"] = 124,
+                                ["groupId"] = 448,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "Mosquito Senaki 2-1",
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area",
+                                            ["airdromeId"] = 23,
+                                            ["alt"] = 13,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["x"] = -281693.125,
+                                            ["y"] = 648065.125,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["Flare_Gun"] = 1,
+                                            ["ResinLights"] = 0.15,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 13,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 4,
+                                            [2] = 4,
+                                            [3] = 1,
+                                            ["name"] = "Colt41",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "USAAF, 492nd Bombardment Group",
+                                        ["name"] = "Mosquito Senaki 2-1",
+                                        ["onboard_num"] = "018",
+                                        ["parking"] = "64",
+                                        ["parking_id"] = "66",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 996.6432,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 124,
+                                                    [2] = 124,
+                                                    [3] = 131,
+                                                    [4] = 139,
+                                                    [5] = 108.9,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 9.255,
+                                                    [2] = 8,
+                                                    [3] = 7.71,
+                                                    [4] = 6.872,
+                                                    [5] = 5.955,
+                                                    [6] = 5.85,
+                                                    [7] = 5.75,
+                                                    [8] = 5.65,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                            [3] = {
+                                                ["channels"] = {
+                                                    [1] = 5.25,
+                                                    [2] = 5,
+                                                    [3] = 4.75,
+                                                    [4] = 4.5,
+                                                    [5] = 4.25,
+                                                    [6] = 3.25,
+                                                    [7] = 3.012,
+                                                    [8] = 3.011,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [3]
+                                            [4] = {
+                                                ["channels"] = {
+                                                    [1] = 0.444,
+                                                    [2] = 0.421,
+                                                    [3] = 0.303,
+                                                    [4] = 0.3,
+                                                    [5] = 0.27,
+                                                    [6] = 0.26,
+                                                    [7] = 0.25,
+                                                    [8] = 0.24,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [4]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "MosquitoFBMkVI",
+                                        ["unitId"] = 671,
+                                        ["x"] = -281693.125,
+                                        ["y"] = 648065.125,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -281693.125,
+                                ["y"] = 648065.125,
+                            }, -- end of [82]
+                            [83] = {
+                                ["communication"] = true,
+                                ["frequency"] = 124,
+                                ["groupId"] = 449,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "Mosquito Senaki Hot 1-1",
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area Hot",
+                                            ["airdromeId"] = 23,
+                                            ["alt"] = 13,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParkingHot",
+                                            ["x"] = -281665.125,
+                                            ["y"] = 648068.125,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["Flare_Gun"] = 1,
+                                            ["ResinLights"] = 0.15,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 13,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 8,
+                                            [2] = 4,
+                                            [3] = 1,
+                                            ["name"] = "Pontiac41",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "USAAF, 492nd Bombardment Group",
+                                        ["name"] = "Mosquito Senaki Hot 1-1",
+                                        ["onboard_num"] = "019",
+                                        ["parking"] = "65",
+                                        ["parking_id"] = "65",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 996.6432,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 124,
+                                                    [2] = 124,
+                                                    [3] = 131,
+                                                    [4] = 139,
+                                                    [5] = 108.9,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 9.255,
+                                                    [2] = 8,
+                                                    [3] = 7.71,
+                                                    [4] = 6.872,
+                                                    [5] = 5.955,
+                                                    [6] = 5.85,
+                                                    [7] = 5.75,
+                                                    [8] = 5.65,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                            [3] = {
+                                                ["channels"] = {
+                                                    [1] = 5.25,
+                                                    [2] = 5,
+                                                    [3] = 4.75,
+                                                    [4] = 4.5,
+                                                    [5] = 4.25,
+                                                    [6] = 3.25,
+                                                    [7] = 3.012,
+                                                    [8] = 3.011,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [3]
+                                            [4] = {
+                                                ["channels"] = {
+                                                    [1] = 0.444,
+                                                    [2] = 0.421,
+                                                    [3] = 0.303,
+                                                    [4] = 0.3,
+                                                    [5] = 0.27,
+                                                    [6] = 0.26,
+                                                    [7] = 0.25,
+                                                    [8] = 0.24,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [4]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "MosquitoFBMkVI",
+                                        ["unitId"] = 672,
+                                        ["x"] = -281665.125,
+                                        ["y"] = 648068.125,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -281665.125,
+                                ["y"] = 648068.125,
+                            }, -- end of [83]
+                            [84] = {
+                                ["communication"] = true,
+                                ["frequency"] = 124,
+                                ["groupId"] = 450,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "Mosquito Senaki Hot 2-1",
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "From Parking Area Hot",
+                                            ["airdromeId"] = 23,
+                                            ["alt"] = 13,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParkingHot",
+                                            ["x"] = -281636.34375,
+                                            ["y"] = 648071.5,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Nothing",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["taskSelected"] = true,
+                                ["uncontrollable"] = false,
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["Flare_Gun"] = 1,
+                                            ["ResinLights"] = 0.15,
+                                            ["SoloFlight"] = false,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 13,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 1,
+                                            [2] = 5,
+                                            [3] = 1,
+                                            ["name"] = "Enfield51",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 0,
+                                        ["livery_id"] = "USAAF, 492nd Bombardment Group",
+                                        ["name"] = "Mosquito Senaki Hot 2-1",
+                                        ["onboard_num"] = "020",
+                                        ["parking"] = "66",
+                                        ["parking_id"] = "64",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 0,
+                                            ["flare"] = 0,
+                                            ["fuel"] = 996.6432,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 0,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 124,
+                                                    [2] = 124,
+                                                    [3] = 131,
+                                                    [4] = 139,
+                                                    [5] = 108.9,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 9.255,
+                                                    [2] = 8,
+                                                    [3] = 7.71,
+                                                    [4] = 6.872,
+                                                    [5] = 5.955,
+                                                    [6] = 5.85,
+                                                    [7] = 5.75,
+                                                    [8] = 5.65,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [2]
+                                            [3] = {
+                                                ["channels"] = {
+                                                    [1] = 5.25,
+                                                    [2] = 5,
+                                                    [3] = 4.75,
+                                                    [4] = 4.5,
+                                                    [5] = 4.25,
+                                                    [6] = 3.25,
+                                                    [7] = 3.012,
+                                                    [8] = 3.011,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [3]
+                                            [4] = {
+                                                ["channels"] = {
+                                                    [1] = 0.444,
+                                                    [2] = 0.421,
+                                                    [3] = 0.303,
+                                                    [4] = 0.3,
+                                                    [5] = 0.27,
+                                                    [6] = 0.26,
+                                                    [7] = 0.25,
+                                                    [8] = 0.24,
+                                                }, -- end of ["channels"]
+                                                ["modulations"] = {
+                                                    [1] = 0,
+                                                    [2] = 0,
+                                                    [3] = 0,
+                                                    [4] = 0,
+                                                    [5] = 0,
+                                                    [6] = 0,
+                                                    [7] = 0,
+                                                    [8] = 0,
+                                                }, -- end of ["modulations"]
+                                            }, -- end of [4]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "MosquitoFBMkVI",
+                                        ["unitId"] = 673,
+                                        ["x"] = -281636.34375,
+                                        ["y"] = 648071.5,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -281636.34375,
+                                ["y"] = 648071.5,
+                            }, -- end of [84]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] = {
@@ -31628,7 +32306,7 @@ mission = {
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
                                             ["x"] = -284869.72694082,
-                                            ["y"] = 683842.21600466,
+                                            ["y"] = 683842.43200466,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                     ["spans"] = {
@@ -31662,7 +32340,7 @@ mission = {
                                         ["type"] = "Ural ATsP-6",
                                         ["unitId"] = 137,
                                         ["x"] = -284869.72694082,
-                                        ["y"] = 683842.21600466,
+                                        ["y"] = 683842.43200466,
                                     }, -- end of [1]
                                     [2] = {
                                         ["heading"] = 6.0213859193804,
@@ -31680,7 +32358,7 @@ mission = {
                                 }, -- end of ["units"]
                                 ["visible"] = false,
                                 ["x"] = -284869.72694082,
-                                ["y"] = 683842.21600466,
+                                ["y"] = 683842.43200466,
                             }, -- end of [25]
                             [26] = {
                                 ["groupId"] = 114,
@@ -36453,6 +37131,10 @@ mission = {
             [7] = 83,
             [8] = 84,
             [9] = 85,
+            [10] = 86,
+            [11] = 87,
+            [12] = 88,
+            [13] = 89,
         }, -- end of ["neutrals"]
         ["red"] = {
             [1] = 0,
@@ -36460,7 +37142,7 @@ mission = {
             [3] = 68,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 180946,
+    ["currentKey"] = 183061,
     ["date"] = {
         ["Day"] = 14,
         ["Month"] = 1,
@@ -36470,6 +37152,74 @@ mission = {
     ["descriptionNeutralsTask"] = "DictKey_descriptionNeutralsTask_4",
     ["descriptionRedTask"] = "DictKey_descriptionRedTask_2",
     ["descriptionText"] = "DictKey_descriptionText_1",
+    ["drawings"] = {
+        ["layers"] = {
+            [1] = {
+                ["name"] = "Red",
+                ["objects"] = {
+                }, -- end of ["objects"]
+                ["visible"] = true,
+            }, -- end of [1]
+            [2] = {
+                ["name"] = "Blue",
+                ["objects"] = {
+                }, -- end of ["objects"]
+                ["visible"] = true,
+            }, -- end of [2]
+            [3] = {
+                ["name"] = "Neutral",
+                ["objects"] = {
+                }, -- end of ["objects"]
+                ["visible"] = true,
+            }, -- end of [3]
+            [4] = {
+                ["name"] = "Common",
+                ["objects"] = {
+                }, -- end of ["objects"]
+                ["visible"] = true,
+            }, -- end of [4]
+            [5] = {
+                ["name"] = "Author",
+                ["objects"] = {
+                }, -- end of ["objects"]
+                ["visible"] = true,
+            }, -- end of [5]
+        }, -- end of ["layers"]
+        ["options"] = {
+            ["hiddenOnF10Map"] = {
+                ["ArtilleryCommander"] = {
+                    ["Blue"] = false,
+                    ["Neutral"] = false,
+                    ["Red"] = false,
+                }, -- end of ["ArtilleryCommander"]
+                ["ForwardObserver"] = {
+                    ["Blue"] = false,
+                    ["Neutral"] = false,
+                    ["Red"] = false,
+                }, -- end of ["ForwardObserver"]
+                ["Instructor"] = {
+                    ["Blue"] = false,
+                    ["Neutral"] = false,
+                    ["Red"] = false,
+                }, -- end of ["Instructor"]
+                ["Observer"] = {
+                    ["Blue"] = false,
+                    ["Neutral"] = false,
+                    ["Red"] = false,
+                }, -- end of ["Observer"]
+                ["Pilot"] = {
+                    ["Blue"] = false,
+                    ["Neutral"] = false,
+                    ["Red"] = false,
+                }, -- end of ["Pilot"]
+                ["Spectrator"] = {
+                    ["Blue"] = false,
+                    ["Neutral"] = false,
+                    ["Red"] = false,
+                }, -- end of ["Spectrator"]
+            }, -- end of ["hiddenOnF10Map"]
+        }, -- end of ["options"]
+    }, -- end of ["drawings"]
     ["failures"] = {
         ["AHRS_FAILURE_GYRO"] = {
             ["enable"] = false,
@@ -38504,9 +39254,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -318774.83624998,
-        ["centerY"] = 636169.28264117,
-        ["zoom"] = 20754.912790144,
+        ["centerX"] = -283390.67495861,
+        ["centerY"] = 689287.85539487,
+        ["zoom"] = 365379.74772259,
     }, -- end of ["map"]
     ["maxDictId"] = 1894,
     ["pictureFileNameB"] = {
@@ -38926,11 +39676,11 @@ mission = {
             }, -- end of ["rules"]
         }, -- end of [2]
     }, -- end of ["trigrules"]
-    ["version"] = 19,
+    ["version"] = 20,
     ["weather"] = {
         ["atmosphere_type"] = 0,
         ["clouds"] = {
-            ["base"] = 3400,
+            ["base"] = 3360,
             ["density"] = 10,
             ["iprecptns"] = 0,
             ["preset"] = "Preset12",

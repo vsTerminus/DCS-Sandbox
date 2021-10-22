@@ -59,15 +59,18 @@ options =
     }, -- end of ["difficulty"]
     ["VR"] = 
     {
-        ["mirror_crop"] = false,
-        ["enable"] = false,
         ["custom_IPD_enable"] = false,
         ["box_mouse_cursor"] = true,
-        ["msaaMaskSize"] = 0.42,
-        ["pixel_density"] = 1,
         ["use_mouse"] = true,
         ["mirror_use_DCS_resolution"] = false,
+        ["hand_controllers_use_throttle"] = true,
+        ["hand_controllers_debug_draw"] = false,
+        ["mirror_crop"] = false,
         ["prefer_built_in_audio"] = true,
+        ["pixel_density"] = 1,
+        ["hand_controllers_use_stick"] = true,
+        ["msaaMaskSize"] = 0.42,
+        ["enable"] = false,
         ["interaction_with_grip_only"] = false,
         ["bloom"] = false,
         ["mirror_source"] = 0,
@@ -159,12 +162,14 @@ options =
             ["tacviewMultiplayerFlightsAsHost"] = 2,
             ["tacviewRealTimeTelemetryEnabled"] = true,
             ["tacviewMultiplayerFlightsAsClient"] = 2,
-            ["tacviewModuleEnabled"] = true,
+            ["tacviewModuleEnabled"] = false,
         }, -- end of ["Tacview"]
         ["VRFree"] = 
         {
-            ["enable"] = false,
+            ["handUseThrottle"] = false,
+            ["handUseStick"] = false,
             ["set_debug"] = false,
+            ["enable"] = false,
             ["mouseClickSrc"] = 0,
         }, -- end of ["VRFree"]
         ["Supercarrier"] = 
@@ -174,8 +179,7 @@ options =
         }, -- end of ["Supercarrier"]
         ["MosquitoFBMkVI"] = 
         {
-            ["cameraOrigin"] = 0,
-            ["assistance"] = 100,
+            ["cameraOrigin"] = 1,
             ["CPLocalList"] = "default",
             ["autoRudder"] = false,
             ["thtldetent"] = 0,
@@ -279,14 +283,15 @@ options =
         }, -- end of ["AV8BNA"]
         ["Mi-24P"] = 
         {
-            ["weapTooltipsMi24"] = false,
-            ["Mi24RudderTrimmer"] = false,
-            ["Mi24TrimmingMethod"] = 1,
-            ["collectiveDisengage"] = 1,
-            ["controlHelperMi24"] = false,
+            ["Mi24CockpitShake"] = 50,
             ["CPLocalList"] = "english",
-            ["Mi24AutoHandover"] = false,
             ["collectiveBrake"] = 0,
+            ["collectiveDisengage"] = 1,
+            ["Mi24TrimmingMethod"] = 1,
+            ["Mi24RudderTrimmer"] = false,
+            ["controlHelperMi24"] = false,
+            ["Mi24AutoHandover"] = false,
+            ["weapTooltipsMi24"] = false,
         }, -- end of ["Mi-24P"]
         ["FW-190D9"] = 
         {
@@ -396,8 +401,12 @@ options =
         }, -- end of ["NS430"]
         ["LeapMotion"] = 
         {
+            ["handUseThrottle"] = false,
+            ["mouseClickSrc"] = 0,
             ["enable"] = false,
             ["set_debug"] = false,
+            ["pointerUseType"] = 0,
+            ["handUseStick"] = false,
         }, -- end of ["LeapMotion"]
         ["F-86F"] = 
         {

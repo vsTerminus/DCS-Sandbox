@@ -158,27 +158,43 @@ normalize:
 	@echo "Normalizing mission tables"
 	@ls -1 $(MIZ_DIR) | xargs -I {} -n1 lua veafMissionNormalizer.lua "$(MIZ_DIR)/{}"
 
+# 0300 => 10800
 night:
 	@echo "Updating mission times to 3 AM"
-	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 sed -i 's/25200\|61200\|43200/10800/'
+	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 sed -i 's/18600\|33300\|32400\|21600\|69000\|61800\|63000\|65400\|43200/10800/'
 	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 unix2dos
 	@echo "night" > $(TOD_FILE)
 
+# Syria: 0510 => 18600
+# Channel: 0915 => 33300
+# Caucasus: 0900 => 32400
+# Persian Gulf: 0600 => 21600
 morning:
-	@echo "Updating mission times to 7 AM"
-	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 sed -i 's/10800\|43200\|61200/25200/'
+	@echo "Updating mission times to just-before-sunrise"
+	@ls -1 $(MIZ_DIR)/Sandbox_Syria/mission | xargs -n1 sed -i 's/10800\|43200\|69000/18600/'
+	@ls -1 $(MIZ_DIR)/Sandbox_The_Channel/mission | xargs -n1 sed -i 's/10800\|43200\|61800/33300/'
+	@ls -1 $(MIZ_DIR)/Sandbox_Caucasus/mission | xargs -n1 sed -i 's/10800\|43200\|63000/32400/'
+	@ls -1 $(MIZ_DIR)/Sandbox_Persian_Gulf/mission | xargs -n1 sed -i 's/10800\|43200\|65400/21600/'
 	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 unix2dos
 	@echo "morning" > $(TOD_FILE)
 
+# Syria: 1910 => 69000
+# Channel: 1710 => 61800
+# Caucasus: 1730 => 63000
+# Persian Gulf: 1810 => 65400
 evening:
-	@echo "Updating mission times to 5 PM"
-	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 sed -i 's/10800\|25200\|43200/61200/'
+	@echo "Updating mission times to just-before-sunset"
+	@ls -1 $(MIZ_DIR)/Sandbox_Syria/mission | xargs -n1 sed -i 's/10800\|43200\|18600/69000/'
+	@ls -1 $(MIZ_DIR)/Sandbox_The_Channel/mission | xargs -n1 sed -i 's/10800\|43200\|33300/61800/'
+	@ls -1 $(MIZ_DIR)/Sandbox_Caucasus/mission | xargs -n1 sed -i 's/10800\|43200\|32400/63000/'
+	@ls -1 $(MIZ_DIR)/Sandbox_Persian_Gulf/mission | xargs -n1 sed -i 's/10800\|43200\|21600/65400/'
 	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 unix2dos
 	@echo "evening" > $(TOD_FILE)
 
+# 1200 => 43200
 noon:
 	@echo "Updating mission times to Noon"
-	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 sed -i 's/10800\|25200\|61200/43200/'
+	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 sed -i 's/18600\|33300\|32400\|21600\|69000\|61800\|63000\|65400\|10800/43200/'
 	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 unix2dos
 	@echo "noon" > $(TOD_FILE)
 
