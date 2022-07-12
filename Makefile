@@ -167,20 +167,20 @@ night:
 
 # Syria: 0510 => 18600
 # Channel: 0915 => 33300
-# Caucasus: 0900 => 32400
+# Caucasus: 0630 => 23400
 # Persian Gulf: 0600 => 21600
 morning:
 	@echo "Updating mission times to just-before-sunrise"
 	@ls -1 $(MIZ_DIR)/Sandbox_Syria/mission | xargs -n1 sed -i 's/10800\|43200\|69000/18600/'
 	@ls -1 $(MIZ_DIR)/Sandbox_The_Channel/mission | xargs -n1 sed -i 's/10800\|43200\|61800/33300/'
-	@ls -1 $(MIZ_DIR)/Sandbox_Caucasus/mission | xargs -n1 sed -i 's/10800\|43200\|63000/32400/'
+	@ls -1 $(MIZ_DIR)/Sandbox_Caucasus/mission | xargs -n1 sed -i 's/10800\|43200\|63000/23400/'
 	@ls -1 $(MIZ_DIR)/Sandbox_Persian_Gulf/mission | xargs -n1 sed -i 's/10800\|43200\|65400/21600/'
 	@ls -1 $(MIZ_DIR)/Sandbox_*/mission | xargs -n1 unix2dos
 	@echo "morning" > $(TOD_FILE)
 
 # Syria: 1910 => 69000
 # Channel: 1710 => 61800
-# Caucasus: 1730 => 63000
+# Caucasus: 1910 => 69000
 # Persian Gulf: 1810 => 65400
 evening:
 	@echo "Updating mission times to just-before-sunset"
