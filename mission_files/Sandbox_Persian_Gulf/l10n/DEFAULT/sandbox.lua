@@ -24363,7 +24363,7 @@ end
 ---------- END 10_splash_damage.lua ----------
 
 local loadedMsg = {}
-loadedMsg.text = 'Loaded Sandbox Version 198 (2023-09-05)'
+loadedMsg.text = 'Loaded Sandbox Version 199 (2023-09-10)'
 loadedMsg.displayTime = 5
 loadedMsg.msgFor = {coa = {'all'}}
 mist.message.add(loadedMsg)
