@@ -11709,7 +11709,7 @@ exported.groupData =
 		["coalition"] = "blue",
 		["startTime"] = 0,
 		["task"] = "Refueling",
-		["frequency"] = 141,
+		["frequency"] = 259,
 	}, -- end of ["Shell 1"]
 	["Shell 2"] = 
 	{
