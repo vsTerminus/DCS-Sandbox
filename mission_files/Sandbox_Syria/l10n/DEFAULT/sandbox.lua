@@ -24875,8 +24875,8 @@ end
 
 ---------- BEGIN 03_landing_listener.lua ----------
 
-local function onLanding(event)            
-	if event.id == world.event.S_EVENT_LAND then                    
+local function onLanding(event)
+	if event.id == world.event.S_EVENT_LAND or event.id == world.event.S_EVENT_RUNWAY_TOUCH then                    
 		local unit = event.initiator               
 		local coalition = unit:getCoalition() -- 2 == blue
 		local place = nil
@@ -26563,7 +26563,7 @@ end
 ---------- END 10_splash_damage.lua ----------
 
 local loadedMsg = {}
-loadedMsg.text = 'Loaded Sandbox Version 201 (2024-07-15)'
+loadedMsg.text = 'Loaded Sandbox Version 205 (2024-07-15)'
 loadedMsg.displayTime = 5
 loadedMsg.msgFor = {coa = {'all'}}
 mist.message.add(loadedMsg)

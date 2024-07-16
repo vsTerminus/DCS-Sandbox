@@ -1,5 +1,5 @@
-local function onLanding(event)            
-	if event.id == world.event.S_EVENT_LAND then                    
+local function onLanding(event)
+	if event.id == world.event.S_EVENT_LAND or event.id == world.event.S_EVENT_RUNWAY_TOUCH then
 		local unit = event.initiator               
 		local coalition = unit:getCoalition() -- 2 == blue
 		local place = nil
