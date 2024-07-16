@@ -5857,10 +5857,11 @@ do -- mist.debug scope
 	-- @param fcn
 	-- @param fcnVars
 	-- @param fname
-	function mist.debug.writeData(fcn, fcnVars, fname)
+	function mist.debug.writeData(fcn, fcnVars, fname, append)
 		if lfs and io then
 			local fdir = lfs.writedir() .. [[Logs\]] .. fname
-			local f = io.open(fdir, 'w')
+		  local fmode = 'a' and append or 'w'
+			local f = io.open(fdir, fmode)
 			f:write(fcn(unpack(fcnVars, 1, table.maxn(fcnVars))))
 			f:close()
 			log:info('Wrote debug data to $1', fdir)
