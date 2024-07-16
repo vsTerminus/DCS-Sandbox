@@ -4362,9 +4362,9 @@ do -- group functions scope
             validTerrain = vars.validTerrain
         else
             if string.lower(newGroupData.category) == 'ship' then
-                validTerrain = {'SHALLOW_WATER' , 'WATER'}
+                validTerrain = {'LAND', 'ROAD', 'SHALLOW_WATER', 'WATER', 'RUNWAY'}
             elseif string.lower(newGroupData.category) == 'vehicle' then
-                validTerrain = {'LAND', 'ROAD'}
+                validTerrain = {'LAND', 'ROAD', 'SHALLOW_WATER', 'WATER', 'RUNWAY'}
             end
         end
 
