@@ -29,9 +29,13 @@ local function onMark(event)
         -- Confirm coordinates received, if we captured any
         if ( markMsg.text ) then
             markMsg.displayTime = 10
-            markMsg.msgFor = {coa = {'all'}} 
+            markMsg.msgFor = {coa = {'all'}}
+            markMsg.sound = 'TGoYes03.wav'
             mist.message.add(markMsg)
-            trigger.action.outSound("l10n/DEFAULT/TGoYes03.wav")
+
+            -- Temporary Fallback Method
+            trigger.action.outText(string.format("%s", markMsg.text), markMsg.displayTime)
+            --trigger.action.outSound("l10n/DEFAULT/TGoYes03.wav")
         end
     end		
 end

@@ -55,6 +55,9 @@ function sendError(errorText)
     errorMsg.displayTime = 10
 	errorMsg.msgFor = {coa = {'all'}} 
 	mist.message.add(errorMsg)
+
+	-- Temporary Fallback Method
+    trigger.action.outText(string.format("%s", errorMsg.text), errorMsg.displayTime)
 end
 
 function getHeading(A, B)
