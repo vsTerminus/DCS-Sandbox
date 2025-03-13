@@ -81,6 +81,9 @@ local function printSpawned(args)
         if ( group.sound ) then msg.sound = group.sound else msg.sound = defaultSound end
     end
     mist.message.add(msg)
+
+    -- Temporary Fallback Method for Dynamic Spawns
+    trigger.action.outText(string.format("%s", msg.text), msg.displayTime)
 end
 
 local function stripIdentifiers(groupData)
