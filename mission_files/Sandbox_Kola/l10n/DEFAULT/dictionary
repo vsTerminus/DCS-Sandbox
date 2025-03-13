@@ -1,0 +1,7 @@
+dictionary = {
+    ["DictKey_descriptionBlueTask_3"] = "",
+    ["DictKey_descriptionNeutralsTask_4"] = "",
+    ["DictKey_descriptionRedTask_2"] = "",
+    ["DictKey_descriptionText_1"] = "",
+    ["DictKey_sortie_5"] = "",
+} -- end of dictionary
