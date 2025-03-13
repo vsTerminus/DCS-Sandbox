@@ -122,6 +122,8 @@ append_version: version_bump
 		"loadedMsg.displayTime = 5" \
 		"loadedMsg.msgFor = {coa = {'all'}}" \
 		"mist.message.add(loadedMsg)" \
+		"-- Temporary Fallback Method" \
+		"trigger.action.outText(loadedMsg.text, loadedMsg.displayTime)" \
 		>> $(BUILD_DIR)/$(BUILD_FILE)
 
 version_bump:
