@@ -289,13 +289,13 @@ function spawnGroup(args)
         -- Magic Tanker spawns in front of the client matching their heading
         if ( args.magic and args.racetrack ) then
             env.info("This is a magic racetrack tanker")
-            local A = getEndPoint(clientPos, clientHeading, 925) -- 1/2 nm
+            local A = getEndPoint(clientPos, clientHeading, 1389) -- 3/4 nm
             local B = getEndPoint(A, clientHeading, 203720) -- 110nm
             setRaceTrack(groupData, A, B)
-        
+
         elseif ( args.magic and args.circle ) then
             env.info("This is a magic circle tanker")
-            local A = getEndPoint(clientPos, clientHeading, 925)
+            local A = getEndPoint(clientPos, clientHeading, 1389)
             local B = getEndPoint(clientPos, clientHeading, 10000)
             setRaceTrack(groupData, A, B)
             setCircle(groupData)
