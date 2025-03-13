@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 
 # DCS Mission Editor and LUA Tables being what they are, even if you extract a .miz file and try to add it to git, each time you modify the mission in the DCS Mission Editor you will find the tables get more or less "Scrambled". This is because they aren't sorted, so every time you save they get shuffled around.

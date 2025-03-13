@@ -174,25 +174,24 @@ function veafMissionNormalizer.normalizeMission(filePath)
     return result
   end
 
-
   -- normalize "mission" file
-  local _filePath = filePath .. "\\mission"
+  local _filePath = filePath .. "/mission"
   veafMissionEditor.editMission(_filePath, _filePath, "mission", _processFunctionForMission)
 
   -- normalize "dictionary" file
-  _filePath = filePath .. "\\l10n\\DEFAULT\\dictionary"
+  _filePath = filePath .. "/l10n/DEFAULT/dictionary"
   veafMissionEditor.editMission(_filePath, _filePath, "dictionary", _processFunctionForDictionary)
 
   -- normalize "warehouses" file
-  _filePath = filePath .. "\\warehouses"
+  _filePath = filePath .. "/warehouses"
   veafMissionEditor.editMission(_filePath, _filePath, "warehouses")
 
   -- normalize "options" file
-  -- _filePath = filePath .. "\\options"
+  -- _filePath = filePath .. "/options"
   -- veafMissionEditor.editMission(_filePath, _filePath, "options")
 
   -- normalize "mapResource" file
-  _filePath = filePath .. "\\l10n\\DEFAULT\\mapResource"
+  _filePath = filePath .. "/l10n/DEFAULT/mapResource"
   veafMissionEditor.editMission(_filePath, _filePath, "mapResource")
 end
 
