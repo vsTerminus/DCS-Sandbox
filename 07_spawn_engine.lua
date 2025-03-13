@@ -74,7 +74,11 @@ local function printSpawned(args)
     local group = args.group
     local msg = {}
     msg.text = string.format('Respawned: %s', group.description)
-    msg.displayTime = 20
+    if string.match(group.description, "Tanker") then
+        msg.displayTime = 90
+    else
+        msg.displayTime = 30
+    end
     msg.msgFor = {coa = {'all'}}
     if ( args.sound ) then
         if ( group.sound ) then msg.sound = group.sound else msg.sound = defaultSound end
