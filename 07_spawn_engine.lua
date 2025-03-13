@@ -5,7 +5,6 @@ local radioOptions = {
 
 local function setGroupAltitude(groupData, newAlt)
     if ( groupData.route and groupData.units and newAlt ) then
-        
         for i,u in pairs(groupData.units) do
             groupData.units[i].alt = newAlt
         end
@@ -123,7 +122,6 @@ local function hasRaceTrack(groupData)
 end
 
 function setRaceTrack(groupData, A, B)
-
     env.info(string.format("Updating unit start points for group %s", groupData.groupName))
 
     offsetUnits(groupData, A, B)
@@ -136,7 +134,6 @@ function setRaceTrack(groupData, A, B)
 end
 
 function setCircle(groupData)
-    
     env.info(string.format("Setting 'Circle' Orbit Pattern for group %s", groupData.groupName))
 
     -- Get tasks for this group
@@ -234,7 +231,7 @@ end
 function smokeIfAlive(group)
     -- Check inputs
     if group and group.units then
-        
+
 		if (Group.getByName(group.name) and Group.getByName(group.name):isExist() == false) or (Group.getByName(group.name) and #Group.getByName(group.name):getUnits() < 1) or not Group.getByName(group.name) then
             env.info("Group is dead, stop spawning smoke")
         else -- Group is alive
@@ -310,7 +307,7 @@ function spawnGroup(args)
             local B = getEndPoint(markPoint, clientHeading, 100)
             setRaceTrack(groupData, markPoint, B)
             setCircle(groupData)
-			
+
 		-- Not a tanker, but has a racetrack. Requires A and B markpoints
 		elseif ( aPoint.x and bPoint.x ) then
             env.info("This is a non-magic non-tanker spawn with a Racetrack Orbit")
@@ -338,7 +335,7 @@ function spawnGroup(args)
 
         setBfm(groupData, clientData, spawnPoint, clientPos)
         env.info("Set BFM route")
-    
+
     elseif ( markPoint.x and markPoint.z ) then
         env.info("Spawning a non-race-track group")
         offsetRoute(groupData, markPoint)
@@ -348,7 +345,7 @@ function spawnGroup(args)
         sendError("You must create and delete a markpoint before you can spawn anything.")
         return nil
     end
-    
+
     -- Strip ID and Group Name if cloning
     if ( args.group.action == 'clone' ) then
 		env.info("Group will be cloned")
@@ -358,7 +355,7 @@ function spawnGroup(args)
 
 	env.info("Attempting to spawn group")
 	dumper(groupData)
-	
+
     spawnedData = mist.dynAdd(groupData)
     printSpawned(args)
 
