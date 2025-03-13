@@ -493,49 +493,49 @@ spawnable.fboats = {
 
 -- "Tankers" friendly category
 spawnable.ftankers = {
-	['Texaco 1 - KC-130'] = {
+	['Basket - KC-130 @ 15k, 243.0'] = {
 		name = 'Texaco 1',
-		description = 'KC-130 (Basket) Tanker, 255KIAS at 15,000ft. Contact on 131.0, TCN 31X',
+		description = 'Texaco 1-1 - KC-130 (Basket) Tanker, 255KIAS at 15,000ft. Contact on 243.0, TCN 43X',
 		sound = 'TDrPss01.wav', -- In case of a water landing, you may be used as a flotation device
 		smoke = false,
 		relative = true,
 		action = 'respawn',
 	},
-	['Texaco 2 - KC-135MPRS '] = {
+	['Basket - KC-135MPRS @ 25k, 244.0'] = {
 		name = 'Texaco 2',
-		description = 'KC-135MPRS (Basket) Tanker, 270KIAS at 25,000ft. Contact on 132.0, TCN 32X',
+		description = 'Texaco 2-1 - KC-135MPRS (Basket) Tanker, 270KIAS at 25,000ft. Contact on 244.0, TCN 44X',
 		sound = 'TDrPss02.wav', -- To hurl chunks, please use the vomit bag in front of you
 		smoke = false,
 		relative = true,
 		action = 'respawn',
 	},
-	['Texaco 3 - S-3B '] = {
+	['Basket - S-3B @ 25k, 245.0'] = {
 		name = 'Texaco 3',
-		description = 'S-3B (Basket) Tanker, 270KIAS at 25,000ft. Contact on 133.0, TCN 33X',
+		description = 'Texaco 3-1 - S-3B (Basket) Tanker, 270KIAS at 25,000ft. Contact on 245.0, TCN 45X',
 		sound = 'TDrPss03.wav', -- Keep your arms and legs inside
 		smoke = false,
 		relative = true,
 		action = 'respawn',
 	},
-	['Texaco 4 - Il-78M'] = {
+	['Basket - Il-78M @ 25k, 246.0'] = {
 		name = 'Texaco 4',
-		description = 'Il-78M (Basket) Tanker, 270KIAS at 25,000ft. Contact on 134.0, No TCN',
+		description = 'Callsign 246 - Il-78M (Basket) Tanker, 270KIAS at 25,000ft. Contact on 246.0, No TCN',
 		sound = 'tvkpss00.wav', -- This is very interesting, but stupid
 		smoke = false,
 		relative = true,
 		action = 'respawn',
 	},
-	['Shell 1 - KC-135 (Fast)'] = {
+	['Boom - KC-135 @ 25k, 247.0'] = {
 		name = 'Shell 1',
-		description = 'KC-135 (Boom) Tanker, 270KIAS at 25,000ft. Contact on 141.0, TCN 41X',
+		description = 'Shell 1-1 - KC-135 (Boom) Tanker, 270KIAS at 25,000ft. Contact on 247.0, TCN 47X',
 		sound = 'TDrYes00.wav', -- In the pipe, 5x5
 		smoke = false,
 		relative = true,
 		action = 'respawn',
 	},
-	['Shell 2 - KC-135 (Slow)'] = {
+	['Boom - KC-135 @ 10k, 248.0'] = {
 		name = 'Shell 2',
-		description = 'KC-135 (Boom) Tanker, 220KIAS at 10,000ft. Contact on 142.0, TCN 42X',
+		description = 'Shell 2-1 - KC-135 (Boom) Tanker, 220KIAS at 10,000ft. Contact on 248.0, TCN 48X',
 		sound = 'TDrYes04.wav', -- Strap yourselves in boys
 		smoke = false,
 		relative = true,
