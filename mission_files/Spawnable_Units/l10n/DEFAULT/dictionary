@@ -45,14 +45,14 @@ mist.debug.writeData(string.format, {\"}\"}, fname, 'a')\
     ["DictKey_descriptionNeutralsTask_4"] = "",
     ["DictKey_descriptionRedTask_2"] = "",
     ["DictKey_descriptionText_1"] = "Tankers (Basket)\
-- Texaco 1-1 > KC-130 > 131 AM > 31X\
-- Texaco 2-1 > KC-135MPRS > 132 AM > 32X\
-- Texaco 3-1 > S-3B > 133 AM > 33X\
-- Texaco 4-1 > Il-78M > 134 AM > No TCN\
+- Texaco 1-1 > KC-130 > 243 AM > 31X\
+- Texaco 2-1 > KC-135MPRS > 244 AM > 32X\
+- Texaco 3-1 > S-3B > 245 AM > 33X\
+- Texaco 4-1 > Il-78M > 246 AM > No TCN\
 \
 Tankers (Boom)\
-- Shell 1-1 > KC-135 (Fast) > 141 AM > 41X\
-- Shell 1-2 > KC-135 (Slow) > 142 AM > 42X\
+- Shell 1-1 > KC-135 (Fast) > 247 AM > 41X\
+- Shell 1-2 > KC-135 (Slow) > 248 AM > 42X\
 \
 AWACS\
 - Overlord > E-3A > 241 AM\

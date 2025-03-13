@@ -13,7 +13,8 @@ mission = {
                         ["group"] = {
                             [1] = {
                                 ["communication"] = true,
-                                ["frequency"] = 134,
+                                ["dynSpawnTemplate"] = false,
+                                ["frequency"] = 246,
                                 ["groupId"] = 28,
                                 ["hidden"] = false,
                                 ["lateActivation"] = true,
@@ -57,7 +58,7 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "SetFrequency",
                                                                     ["params"] = {
-                                                                        ["frequency"] = 134000000,
+                                                                        ["frequency"] = 246000000,
                                                                         ["modulation"] = 0,
                                                                         ["power"] = 10,
                                                                     }, -- end of ["params"]
@@ -140,14 +141,14 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 1141.0351018716,
-                                            ["y"] = 40650.686275006,
+                                            ["x"] = 1107.6542389325,
+                                            ["y"] = 40671.087824028,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 7620,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 5.608460140988,
+                                            ["ETA"] = 5.5071130888709,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["properties"] = {
@@ -180,8 +181,8 @@ mission = {
                                     [1] = {
                                         ["alt"] = 7620,
                                         ["alt_type"] = "BARO",
-                                        ["callsign"] = 134,
-                                        ["heading"] = 1.6027595494079,
+                                        ["callsign"] = 246,
+                                        ["heading"] = 1.5740738091901,
                                         ["livery_id"] = "RF Air Force new",
                                         ["name"] = "Texaco 4-1",
                                         ["onboard_num"] = "010",
@@ -193,17 +194,17 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.6027595494079,
+                                        ["psi"] = -1.5740738091901,
                                         ["skill"] = "Excellent",
                                         ["speed"] = 207.09722222222,
                                         ["type"] = "IL-78M",
                                         ["unitId"] = 105,
-                                        ["x"] = 1141.0351018716,
-                                        ["y"] = 40650.686275006,
+                                        ["x"] = 1107.6542389325,
+                                        ["y"] = 40671.087824028,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 1141.0351018716,
-                                ["y"] = 40650.686275006,
+                                ["x"] = 1107.6542389325,
+                                ["y"] = 40671.087824028,
                             }, -- end of [1]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
@@ -378,6 +379,8 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 9144,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -575,6 +578,8 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 9400.032,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -609,7 +614,8 @@ mission = {
                             }, -- end of [2]
                             [3] = {
                                 ["communication"] = true,
-                                ["frequency"] = 131,
+                                ["dynSpawnTemplate"] = false,
+                                ["frequency"] = 243,
                                 ["groupId"] = 24,
                                 ["hidden"] = false,
                                 ["lateActivation"] = true,
@@ -653,11 +659,11 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "ActivateBeacon",
                                                                     ["params"] = {
-                                                                        ["AA"] = true,
+                                                                        ["AA"] = false,
                                                                         ["bearing"] = true,
                                                                         ["callsign"] = "TX1",
-                                                                        ["channel"] = 31,
-                                                                        ["frequency"] = 1118000000,
+                                                                        ["channel"] = 43,
+                                                                        ["frequency"] = 1004000000,
                                                                         ["modeChannel"] = "X",
                                                                         ["system"] = 4,
                                                                         ["type"] = 4,
@@ -675,7 +681,7 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "SetFrequency",
                                                                     ["params"] = {
-                                                                        ["frequency"] = 131000000,
+                                                                        ["frequency"] = 243000000,
                                                                         ["modulation"] = 0,
                                                                         ["power"] = 10,
                                                                     }, -- end of ["params"]
@@ -831,7 +837,8 @@ mission = {
                             }, -- end of [3]
                             [4] = {
                                 ["communication"] = true,
-                                ["frequency"] = 132,
+                                ["dynSpawnTemplate"] = false,
+                                ["frequency"] = 244,
                                 ["groupId"] = 26,
                                 ["hidden"] = false,
                                 ["lateActivation"] = true,
@@ -875,11 +882,11 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "ActivateBeacon",
                                                                     ["params"] = {
-                                                                        ["AA"] = true,
+                                                                        ["AA"] = false,
                                                                         ["bearing"] = true,
                                                                         ["callsign"] = "TX2",
-                                                                        ["channel"] = 32,
-                                                                        ["frequency"] = 1119000000,
+                                                                        ["channel"] = 44,
+                                                                        ["frequency"] = 1005000000,
                                                                         ["modeChannel"] = "X",
                                                                         ["system"] = 4,
                                                                         ["type"] = 4,
@@ -897,7 +904,7 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "SetFrequency",
                                                                     ["params"] = {
-                                                                        ["frequency"] = 132000000,
+                                                                        ["frequency"] = 244000000,
                                                                         ["modulation"] = 0,
                                                                         ["power"] = 10,
                                                                     }, -- end of ["params"]
@@ -980,8 +987,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 1981.8195031476,
-                                            ["y"] = 40630.762474028,
+                                            ["x"] = 2004.9301726466,
+                                            ["y"] = 40615.306987401,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -1027,7 +1034,7 @@ mission = {
                                             [3] = 1,
                                             ["name"] = "Texaco21",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 1.5571334176583,
+                                        ["heading"] = 1.5771961301486,
                                         ["livery_id"] = "127th ARW USAF",
                                         ["name"] = "Texaco 2-1",
                                         ["onboard_num"] = "010",
@@ -1039,21 +1046,22 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.5571334176583,
+                                        ["psi"] = -1.5771961301486,
                                         ["skill"] = "Excellent",
                                         ["speed"] = 207.09722222222,
                                         ["type"] = "KC135MPRS",
                                         ["unitId"] = 103,
-                                        ["x"] = 1981.8195031476,
-                                        ["y"] = 40630.762474028,
+                                        ["x"] = 2004.9301726466,
+                                        ["y"] = 40615.306987401,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 1981.8195031476,
-                                ["y"] = 40630.762474028,
+                                ["x"] = 2004.9301726466,
+                                ["y"] = 40615.306987401,
                             }, -- end of [4]
                             [5] = {
                                 ["communication"] = true,
-                                ["frequency"] = 133,
+                                ["dynSpawnTemplate"] = false,
+                                ["frequency"] = 245,
                                 ["groupId"] = 27,
                                 ["hidden"] = false,
                                 ["lateActivation"] = true,
@@ -1097,11 +1105,11 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "ActivateBeacon",
                                                                     ["params"] = {
-                                                                        ["AA"] = true,
+                                                                        ["AA"] = false,
                                                                         ["bearing"] = true,
                                                                         ["callsign"] = "TX3",
-                                                                        ["channel"] = 33,
-                                                                        ["frequency"] = 1120000000,
+                                                                        ["channel"] = 45,
+                                                                        ["frequency"] = 1006000000,
                                                                         ["modeChannel"] = "X",
                                                                         ["system"] = 4,
                                                                         ["type"] = 4,
@@ -1119,7 +1127,7 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "SetFrequency",
                                                                     ["params"] = {
-                                                                        ["frequency"] = 133000000,
+                                                                        ["frequency"] = 245000000,
                                                                         ["modulation"] = 0,
                                                                         ["power"] = 10,
                                                                     }, -- end of ["params"]
@@ -1202,8 +1210,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = 1623.7767564774,
-                                            ["y"] = 40637.316380519,
+                                            ["x"] = 1609.2385080584,
+                                            ["y"] = 40636.093572694,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -1241,6 +1249,11 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["STN_L16"] = "00350",
+                                            ["VoiceCallsignLabel"] = "TO",
+                                            ["VoiceCallsignNumber"] = "31",
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 7620,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -1249,7 +1262,7 @@ mission = {
                                             [3] = 1,
                                             ["name"] = "Texaco31",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 1.5960733863974,
+                                        ["heading"] = 1.5836016982021,
                                         ["livery_id"] = "USAF - VS-21 - CAG",
                                         ["name"] = "Texaco 3-1",
                                         ["onboard_num"] = "010",
@@ -1261,21 +1274,22 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.5960733863974,
+                                        ["psi"] = -1.5836016982021,
                                         ["skill"] = "Excellent",
                                         ["speed"] = 207.09722222222,
                                         ["type"] = "S-3B Tanker",
                                         ["unitId"] = 104,
-                                        ["x"] = 1623.7767564774,
-                                        ["y"] = 40637.316380519,
+                                        ["x"] = 1609.2385080584,
+                                        ["y"] = 40636.093572694,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = 1623.7767564774,
-                                ["y"] = 40637.316380519,
+                                ["x"] = 1609.2385080584,
+                                ["y"] = 40636.093572694,
                             }, -- end of [5]
                             [6] = {
                                 ["communication"] = true,
-                                ["frequency"] = 141,
+                                ["dynSpawnTemplate"] = false,
+                                ["frequency"] = 247,
                                 ["groupId"] = 29,
                                 ["hidden"] = false,
                                 ["lateActivation"] = true,
@@ -1319,11 +1333,11 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "ActivateBeacon",
                                                                     ["params"] = {
-                                                                        ["AA"] = true,
+                                                                        ["AA"] = false,
                                                                         ["bearing"] = true,
                                                                         ["callsign"] = "SH1",
-                                                                        ["channel"] = 41,
-                                                                        ["frequency"] = 1128000000,
+                                                                        ["channel"] = 47,
+                                                                        ["frequency"] = 1008000000,
                                                                         ["modeChannel"] = "X",
                                                                         ["system"] = 4,
                                                                         ["type"] = 4,
@@ -1341,7 +1355,7 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "SetFrequency",
                                                                     ["params"] = {
-                                                                        ["frequency"] = 141000000,
+                                                                        ["frequency"] = 247000000,
                                                                         ["modulation"] = 0,
                                                                         ["power"] = 10,
                                                                     }, -- end of ["params"]
@@ -1463,6 +1477,11 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["STN_L16"] = "00352",
+                                            ["VoiceCallsignLabel"] = "SL",
+                                            ["VoiceCallsignNumber"] = "11",
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 7620,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -1497,7 +1516,8 @@ mission = {
                             }, -- end of [6]
                             [7] = {
                                 ["communication"] = true,
-                                ["frequency"] = 142,
+                                ["dynSpawnTemplate"] = false,
+                                ["frequency"] = 248,
                                 ["groupId"] = 30,
                                 ["hidden"] = false,
                                 ["lateActivation"] = true,
@@ -1541,11 +1561,11 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "ActivateBeacon",
                                                                     ["params"] = {
-                                                                        ["AA"] = true,
+                                                                        ["AA"] = false,
                                                                         ["bearing"] = true,
                                                                         ["callsign"] = "SH2",
-                                                                        ["channel"] = 42,
-                                                                        ["frequency"] = 1129000000,
+                                                                        ["channel"] = 48,
+                                                                        ["frequency"] = 1009000000,
                                                                         ["modeChannel"] = "X",
                                                                         ["system"] = 4,
                                                                         ["type"] = 4,
@@ -1563,7 +1583,7 @@ mission = {
                                                                 ["action"] = {
                                                                     ["id"] = "SetFrequency",
                                                                     ["params"] = {
-                                                                        ["frequency"] = 142000000,
+                                                                        ["frequency"] = 248000000,
                                                                         ["modulation"] = 0,
                                                                         ["power"] = 10,
                                                                     }, -- end of ["params"]
@@ -1646,8 +1666,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -1182.0800921755,
-                                            ["y"] = 40642.716754615,
+                                            ["x"] = -1141.4029648265,
+                                            ["y"] = 40645.069598161,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -1685,6 +1705,11 @@ mission = {
                                 ["uncontrolled"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["STN_L16"] = "00353",
+                                            ["VoiceCallsignLabel"] = "SL",
+                                            ["VoiceCallsignNumber"] = "21",
+                                        }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 3048,
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
@@ -1693,7 +1718,7 @@ mission = {
                                             [3] = 1,
                                             ["name"] = "Shell21",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 1.5805680027355,
+                                        ["heading"] = 1.6161205198581,
                                         ["livery_id"] = "Standard USAF",
                                         ["name"] = "Shell 2-1",
                                         ["onboard_num"] = "010",
@@ -1705,17 +1730,17 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.5805680027355,
+                                        ["psi"] = -1.6161205198581,
                                         ["skill"] = "Excellent",
                                         ["speed"] = 131.55555555556,
                                         ["type"] = "KC-135",
                                         ["unitId"] = 107,
-                                        ["x"] = -1182.0800921755,
-                                        ["y"] = 40642.716754615,
+                                        ["x"] = -1141.4029648265,
+                                        ["y"] = 40645.069598161,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -1182.0800921755,
-                                ["y"] = 40642.716754615,
+                                ["x"] = -1141.4029648265,
+                                ["y"] = 40645.069598161,
                             }, -- end of [7]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
@@ -1867,9 +1892,6 @@ mission = {
                                         ["modulation"] = 0,
                                         ["name"] = "CVN-74 John Cena",
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Stennis",
                                         ["unitId"] = 108,
                                         ["x"] = -43399.259108687,
@@ -2026,9 +2048,6 @@ mission = {
                                         ["modulation"] = 0,
                                         ["name"] = "CVN-71 Theodore Roosevelt",
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "CVN_71",
                                         ["unitId"] = 109,
                                         ["x"] = -42533.605825442,
@@ -2185,9 +2204,6 @@ mission = {
                                         ["modulation"] = 0,
                                         ["name"] = "CVN-72 Abraham Lincoln",
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "CVN_72",
                                         ["unitId"] = 110,
                                         ["x"] = -42823.462580918,
@@ -2344,9 +2360,6 @@ mission = {
                                         ["modulation"] = 0,
                                         ["name"] = "CVN-73 George Washington",
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "CVN_73",
                                         ["unitId"] = 111,
                                         ["x"] = -43136.821235486,
@@ -2503,9 +2516,6 @@ mission = {
                                         ["modulation"] = 0,
                                         ["name"] = "CVN-75 Harry S. Truman",
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "CVN_75",
                                         ["unitId"] = 112,
                                         ["x"] = -43704.783796892,
@@ -2662,9 +2672,6 @@ mission = {
                                         ["modulation"] = 0,
                                         ["name"] = "LHA-1 Tarawa",
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "LHA_Tarawa",
                                         ["unitId"] = 115,
                                         ["x"] = -44168.841892437,
@@ -2775,52 +2782,44 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6078092700076,
                                         ["name"] = "Abrams-1-4",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "M-1 Abrams",
                                         ["unitId"] = 215,
                                         ["x"] = 15328.594960027,
                                         ["y"] = 40674.12078838,
                                     }, -- end of [1]
                                     [2] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6078092700076,
                                         ["name"] = "Abrams-1-3",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "M-1 Abrams",
                                         ["unitId"] = 214,
                                         ["x"] = 15309.384527354,
                                         ["y"] = 40661.128590262,
                                     }, -- end of [2]
                                     [3] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6078092700076,
                                         ["name"] = "Abrams-1-2",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "M-1 Abrams",
                                         ["unitId"] = 213,
                                         ["x"] = 15309.542259909,
                                         ["y"] = 40686.838996687,
                                     }, -- end of [3]
                                     [4] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6078092700076,
                                         ["name"] = "Abrams-1-1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "M-1 Abrams",
                                         ["unitId"] = 209,
                                         ["x"] = 15288.406097572,
@@ -2911,260 +2910,220 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 240,
                                         ["x"] = 20908.967337683,
                                         ["y"] = 40793.837155555,
                                     }, -- end of [1]
                                     [2] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-2",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 241,
                                         ["x"] = 20868.967337683,
                                         ["y"] = 40793.837155555,
                                     }, -- end of [2]
                                     [3] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-3",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 242,
                                         ["x"] = 20908.967337683,
                                         ["y"] = 40974.690793142,
                                     }, -- end of [3]
                                     [4] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-4",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 243,
                                         ["x"] = 20913.488678622,
                                         ["y"] = 40648.02391025,
                                     }, -- end of [4]
                                     [5] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-5",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 244,
                                         ["x"] = 20870.535939695,
                                         ["y"] = 40700.019331057,
                                     }, -- end of [5]
                                     [6] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-6",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 245,
                                         ["x"] = 20911.228008153,
                                         ["y"] = 40697.758660587,
                                     }, -- end of [6]
                                     [7] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-7",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 246,
                                         ["x"] = 20957.571752784,
                                         ["y"] = 40701.149666292,
                                     }, -- end of [7]
                                     [8] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-8",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 247,
                                         ["x"] = 20872.796610165,
                                         ["y"] = 40741.841734749,
                                     }, -- end of [8]
                                     [9] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-9",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 248,
                                         ["x"] = 20908.967337683,
                                         ["y"] = 40744.102405218,
                                     }, -- end of [9]
                                     [10] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-10",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 249,
                                         ["x"] = 20955.311082314,
                                         ["y"] = 40745.232740453,
                                     }, -- end of [10]
                                     [11] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-11",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 250,
                                         ["x"] = 20869.405604461,
                                         ["y"] = 40933.998724685,
                                     }, -- end of [11]
                                     [12] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-12",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 251,
                                         ["x"] = 20910.097672918,
                                         ["y"] = 40932.86838945,
                                     }, -- end of [12]
                                     [13] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-13",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 252,
                                         ["x"] = 20955.311082314,
                                         ["y"] = 40933.998724685,
                                     }, -- end of [13]
                                     [14] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-14",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 253,
                                         ["x"] = 20956.441417549,
                                         ["y"] = 40882.003303878,
                                     }, -- end of [14]
                                     [15] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-15",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 254,
                                         ["x"] = 20956.441417549,
                                         ["y"] = 40837.920229717,
                                     }, -- end of [15]
                                     [16] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-16",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 255,
                                         ["x"] = 20956.441417549,
                                         ["y"] = 40793.837155555,
                                     }, -- end of [16]
                                     [17] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-17",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 256,
                                         ["x"] = 20870.535939695,
                                         ["y"] = 40886.524644818,
                                     }, -- end of [17]
                                     [18] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-18",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 260,
                                         ["x"] = 20911.228008153,
                                         ["y"] = 40884.263974348,
                                     }, -- end of [18]
                                     [19] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-20",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 262,
                                         ["x"] = 20869.405604461,
                                         ["y"] = 40836.789894482,
                                     }, -- end of [19]
                                     [20] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5674993020189,
                                         ["name"] = "Infantry-M4-1-19",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Soldier M4",
                                         ["unitId"] = 261,
                                         ["x"] = 20910.097672918,
@@ -3291,9 +3250,6 @@ mission = {
                                         ["modulation"] = 0,
                                         ["name"] = "CV 1143.5 Admiral Kuznetsov(2017)",
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "CV_1143_5",
                                         ["unitId"] = 113,
                                         ["x"] = -44637.917481628,
@@ -3412,9 +3368,6 @@ mission = {
                                         ["modulation"] = 0,
                                         ["name"] = "CV 1143.5 Admiral Kuznetsov",
                                         ["skill"] = "Excellent",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "KUZNECOW",
                                         ["unitId"] = 114,
                                         ["x"] = -44909.245518512,
@@ -5378,6 +5331,7 @@ mission = {
                                 ["units"] = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 2000,
                                         ["alt_type"] = "BARO",
@@ -5568,6 +5522,9 @@ mission = {
                                 ["units"] = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
+                                            ["STN_L16"] = "00446",
+                                            ["VoiceCallsignLabel"] = "FT",
+                                            ["VoiceCallsignNumber"] = "18",
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 2000,
                                         ["alt_type"] = "BARO",
@@ -5594,6 +5551,27 @@ mission = {
                                             ["Points"] = {
                                             }, -- end of ["Points"]
                                         }, -- end of ["dataCartridge"]
+                                        ["datalinks"] = {
+                                            ["Link16"] = {
+                                                ["network"] = {
+                                                    ["donors"] = {
+                                                    }, -- end of ["donors"]
+                                                    ["teamMembers"] = {
+                                                        [1] = {
+                                                            ["missionUnitId"] = 166,
+                                                        }, -- end of [1]
+                                                    }, -- end of ["teamMembers"]
+                                                }, -- end of ["network"]
+                                                ["settings"] = {
+                                                    ["AIC_Channel"] = 1,
+                                                    ["FF1_Channel"] = 2,
+                                                    ["FF2_Channel"] = 3,
+                                                    ["transmitPower"] = 0,
+                                                    ["VOCA_Channel"] = 4,
+                                                    ["VOCB_Channel"] = 5,
+                                                }, -- end of ["settings"]
+                                            }, -- end of ["Link16"]
+                                        }, -- end of ["datalinks"]
                                         ["hardpoint_racks"] = true,
                                         ["heading"] = 1.5897129890103,
                                         ["livery_id"] = "canada 150 demo jet",
@@ -7815,6 +7793,7 @@ mission = {
                                 ["units"] = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 1981,
                                         ["alt_type"] = "BARO",
@@ -7841,6 +7820,7 @@ mission = {
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 1981,
                                         ["alt_type"] = "BARO",
@@ -7867,6 +7847,7 @@ mission = {
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 1981,
                                         ["alt_type"] = "BARO",
@@ -7893,6 +7874,7 @@ mission = {
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 1981,
                                         ["alt_type"] = "BARO",
@@ -8065,6 +8047,7 @@ mission = {
                                 ["units"] = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 3048,
                                         ["alt_type"] = "BARO",
@@ -8091,6 +8074,7 @@ mission = {
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 3048,
                                         ["alt_type"] = "BARO",
@@ -8117,6 +8101,7 @@ mission = {
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 3048,
                                         ["alt_type"] = "BARO",
@@ -8143,6 +8128,7 @@ mission = {
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 3048,
                                         ["alt_type"] = "BARO",
@@ -8315,6 +8301,7 @@ mission = {
                                 ["units"] = {
                                     [1] = {
                                         ["AddPropAircraft"] = {
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 6096,
                                         ["alt_type"] = "BARO",
@@ -8341,6 +8328,7 @@ mission = {
                                     }, -- end of [1]
                                     [2] = {
                                         ["AddPropAircraft"] = {
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 6096,
                                         ["alt_type"] = "BARO",
@@ -8367,6 +8355,7 @@ mission = {
                                     }, -- end of [2]
                                     [3] = {
                                         ["AddPropAircraft"] = {
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 6096,
                                         ["alt_type"] = "BARO",
@@ -8393,6 +8382,7 @@ mission = {
                                     }, -- end of [3]
                                     [4] = {
                                         ["AddPropAircraft"] = {
+                                            ["SoloFlight"] = false,
                                         }, -- end of ["AddPropAircraft"]
                                         ["alt"] = 6096,
                                         ["alt_type"] = "BARO",
@@ -9016,9 +9006,6 @@ mission = {
                                         ["modulation"] = 0,
                                         ["name"] = "Naval-2-1",
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Dry-cargo ship-2",
                                         ["unitId"] = 89,
                                         ["x"] = -1209.5416884632,
@@ -9030,9 +9017,6 @@ mission = {
                                         ["modulation"] = 0,
                                         ["name"] = "Naval-2-2",
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Dry-cargo ship-2",
                                         ["unitId"] = 90,
                                         ["x"] = -1214.8959060232,
@@ -9044,9 +9028,6 @@ mission = {
                                         ["modulation"] = 0,
                                         ["name"] = "Naval-2-3",
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Dry-cargo ship-2",
                                         ["unitId"] = 91,
                                         ["x"] = -1715.4733299832,
@@ -9058,9 +9039,6 @@ mission = {
                                         ["modulation"] = 0,
                                         ["name"] = "Naval-2-4",
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Dry-cargo ship-2",
                                         ["unitId"] = 92,
                                         ["x"] = -1720.9741807932,
@@ -9163,9 +9141,6 @@ mission = {
                                         ["modulation"] = 0,
                                         ["name"] = "Kuznetsov 1",
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "CV_1143_5",
                                         ["unitId"] = 93,
                                         ["x"] = -1699.9706913379,
@@ -9283,9 +9258,6 @@ mission = {
                                         ["modulation"] = 0,
                                         ["name"] = "Kirov 1",
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "PIOTR",
                                         ["unitId"] = 94,
                                         ["x"] = -3239.163254206,
@@ -9425,52 +9397,44 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5959482542909,
                                         ["name"] = "Ground-1-1",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "BTR-80",
                                         ["unitId"] = 1,
                                         ["x"] = 52001.183182181,
                                         ["y"] = -42125.696250432,
                                     }, -- end of [1]
                                     [2] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5959482542909,
                                         ["name"] = "BTR-1-1",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "BTR-80",
                                         ["unitId"] = 2,
                                         ["x"] = 51999.728809128,
                                         ["y"] = -42066.848665431,
                                     }, -- end of [2]
                                     [3] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5959482542909,
                                         ["name"] = "BTR-1-2",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "BTR-80",
                                         ["unitId"] = 3,
                                         ["x"] = 51949.321881714,
                                         ["y"] = -42125.972580292,
                                     }, -- end of [3]
                                     [4] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5959482542909,
                                         ["name"] = "BTR-1-3",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "BTR-80",
                                         ["unitId"] = 4,
                                         ["x"] = 51948.374383078,
@@ -9606,52 +9570,44 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5987926189599,
                                         ["name"] = "BTR-2-1",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 5,
                                         ["x"] = 50480.128955695,
                                         ["y"] = -40799.747005537,
                                     }, -- end of [1]
                                     [2] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5987926189599,
                                         ["name"] = "BTR-2-2",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 6,
                                         ["x"] = 50478.674582642,
                                         ["y"] = -40740.899420536,
                                     }, -- end of [2]
                                     [3] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5987926189599,
                                         ["name"] = "BTR-2-3",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 7,
                                         ["x"] = 50428.267655228,
                                         ["y"] = -40800.023335397,
                                     }, -- end of [3]
                                     [4] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.5987926189599,
                                         ["name"] = "BTR-2-4",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "T-72B",
                                         ["unitId"] = 8,
                                         ["x"] = 50427.320156593,
@@ -9787,156 +9743,132 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.4001026905119,
                                         ["name"] = "FUEL-1-5",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "ATZ-10",
                                         ["unitId"] = 205,
                                         ["x"] = 53313.382631701,
                                         ["y"] = -40559.54026716,
                                     }, -- end of [1]
                                     [2] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.4001026905119,
                                         ["name"] = "FUEL-1-4",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "ATZ-10",
                                         ["unitId"] = 204,
                                         ["x"] = 53313.624541523,
                                         ["y"] = -40498.929085053,
                                     }, -- end of [2]
                                     [3] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.4001026905119,
                                         ["name"] = "FUEL-1-3",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "ATZ-10",
                                         ["unitId"] = 203,
                                         ["x"] = 53313.239464417,
                                         ["y"] = -40435.006285576,
                                     }, -- end of [3]
                                     [4] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.4001026905119,
                                         ["name"] = "FUEL-1-2",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "ATZ-10",
                                         ["unitId"] = 202,
                                         ["x"] = 53361.728941349,
                                         ["y"] = -40560.271065801,
                                     }, -- end of [4]
                                     [5] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.4001026905119,
                                         ["name"] = "FUEL-1-1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "ATZ-10",
                                         ["unitId"] = 201,
                                         ["x"] = 53411.81920337,
                                         ["y"] = -40435.776439786,
                                     }, -- end of [5]
                                     [6] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.4001026905119,
                                         ["name"] = "BTR-2-5",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "ATZ-10",
                                         ["unitId"] = 13,
                                         ["x"] = 53413.382381111,
                                         ["y"] = -40559.316396896,
                                     }, -- end of [6]
                                     [7] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.4001026905119,
                                         ["name"] = "BTR-2-6",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "ATZ-10",
                                         ["unitId"] = 14,
                                         ["x"] = 53411.928008059,
                                         ["y"] = -40500.468811895,
                                     }, -- end of [7]
                                     [8] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.4001026905119,
                                         ["name"] = "BTR-2-7",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "ATZ-10",
                                         ["unitId"] = 15,
                                         ["x"] = 53359.739784544,
                                         ["y"] = -40435.45147624,
                                     }, -- end of [8]
                                     [9] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.4001026905119,
                                         ["name"] = "FUEL-1-8",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "ATZ-10",
                                         ["unitId"] = 208,
                                         ["x"] = 53363.30988109,
                                         ["y"] = -40619.337277344,
                                     }, -- end of [9]
                                     [10] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.4001026905119,
                                         ["name"] = "FUEL-1-7",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "ATZ-10",
                                         ["unitId"] = 207,
                                         ["x"] = 53362.800169566,
                                         ["y"] = -40384.360264709,
                                     }, -- end of [10]
                                     [11] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.4001026905119,
                                         ["name"] = "FUEL-1-6",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "ATZ-10",
                                         ["unitId"] = 206,
                                         ["x"] = 53255.271573212,
                                         ["y"] = -40496.9273619,
                                     }, -- end of [11]
                                     [12] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.4001026905119,
                                         ["name"] = "BTR-2-8",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "ATZ-10",
                                         ["unitId"] = 16,
                                         ["x"] = 53459.862367883,
@@ -10045,156 +9977,132 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.0484053918209,
                                         ["name"] = "S-300 Command Post 1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "S-300PS 54K6 cp",
                                         ["unitId"] = 29,
                                         ["x"] = 47656.111384204,
                                         ["y"] = -42037.661321097,
                                     }, -- end of [1]
                                     [2] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.0484053918209,
                                         ["name"] = "S-300 Big Bird EWR 1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "S-300PS 64H6E sr",
                                         ["unitId"] = 30,
                                         ["x"] = 47738.411869444,
                                         ["y"] = -41790.97717158,
                                     }, -- end of [2]
                                     [3] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.0484053918209,
                                         ["name"] = "S-300 Clamshell TAR 1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "S-300PS 40B6MD sr",
                                         ["unitId"] = 31,
                                         ["x"] = 47118.370048548,
                                         ["y"] = -41675.908058928,
                                     }, -- end of [3]
                                     [4] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.0484053918209,
                                         ["name"] = "S-300 Flap Lid TER 1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "S-300PS 40B6M tr",
                                         ["unitId"] = 32,
                                         ["x"] = 47043.893502561,
                                         ["y"] = -41873.845840355,
                                     }, -- end of [4]
                                     [5] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.0484053918209,
                                         ["name"] = "S-300 Launcher 1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "S-300PS 5P85C ln",
                                         ["unitId"] = 33,
                                         ["x"] = 47495.766695027,
                                         ["y"] = -41982.909476012,
                                     }, -- end of [5]
                                     [6] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.0484053918209,
                                         ["name"] = "S-300 Launcher 2",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "S-300PS 5P85C ln",
                                         ["unitId"] = 34,
                                         ["x"] = 47384.307581818,
                                         ["y"] = -41982.909476012,
                                     }, -- end of [6]
                                     [7] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.0484053918209,
                                         ["name"] = "S-300 Launcher 3",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "S-300PS 5P85C ln",
                                         ["unitId"] = 35,
                                         ["x"] = 47294.358122036,
                                         ["y"] = -41965.310668663,
                                     }, -- end of [7]
                                     [8] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.0484053918209,
                                         ["name"] = "S-300 Launcher 4",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "S-300PS 5P85C ln",
                                         ["unitId"] = 36,
                                         ["x"] = 47223.962892641,
                                         ["y"] = -41898.826285346,
                                     }, -- end of [8]
                                     [9] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.0484053918209,
                                         ["name"] = "S-300 Launcher 5",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "S-300PS 5P85D ln",
                                         ["unitId"] = 37,
                                         ["x"] = 47495.766695027,
                                         ["y"] = -41752.16955744,
                                     }, -- end of [9]
                                     [10] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.0484053918209,
                                         ["name"] = "S-300 Launcher 6",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "S-300PS 5P85D ln",
                                         ["unitId"] = 38,
                                         ["x"] = 47411.683504361,
                                         ["y"] = -41724.793634897,
                                     }, -- end of [10]
                                     [11] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.0484053918209,
                                         ["name"] = "S-300 Launcher 7",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "S-300PS 5P85D ln",
                                         ["unitId"] = 39,
                                         ["x"] = 47325.644890656,
                                         ["y"] = -41716.971942742,
                                     }, -- end of [11]
                                     [12] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.0484053918209,
                                         ["name"] = "S-300 Launcher 8",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "S-300PS 5P85D ln",
                                         ["unitId"] = 40,
                                         ["x"] = 47247.427969106,
@@ -10303,78 +10211,66 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 4.1932428661415,
                                         ["name"] = "Straight Flush Radar 1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Kub 1S91 str",
                                         ["unitId"] = 41,
                                         ["x"] = 47516.604569005,
                                         ["y"] = -39422.359362187,
                                     }, -- end of [1]
                                     [2] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 4.1932428661415,
                                         ["name"] = "KUB Launcher 1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Kub 2P25 ln",
                                         ["unitId"] = 42,
                                         ["x"] = 47431.778731548,
                                         ["y"] = -39075.679852578,
                                     }, -- end of [2]
                                     [3] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 4.1932428661415,
                                         ["name"] = "KUB Launcher 2",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Kub 2P25 ln",
                                         ["unitId"] = 43,
                                         ["x"] = 47280.56745608,
                                         ["y"] = -39085.514732284,
                                     }, -- end of [3]
                                     [4] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 4.1932428661415,
                                         ["name"] = "KUB Launcher 3",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Kub 2P25 ln",
                                         ["unitId"] = 44,
                                         ["x"] = 47299.007855527,
                                         ["y"] = -39433.423601855,
                                     }, -- end of [4]
                                     [5] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 4.1932428661415,
                                         ["name"] = "KUB Launcher 4",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Kub 2P25 ln",
                                         ["unitId"] = 45,
                                         ["x"] = 47193.282898696,
                                         ["y"] = -39277.294886535,
                                     }, -- end of [5]
                                     [6] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 4.1932428661415,
                                         ["name"] = "P-19 EWR 1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "p-19 s-125 sr",
                                         ["unitId"] = 46,
                                         ["x"] = 47565.63015841,
@@ -10483,52 +10379,44 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 0,
                                         ["name"] = "ZU 1-1",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "ZU-23 Emplacement Closed",
                                         ["unitId"] = 53,
                                         ["x"] = 44510.914877979,
                                         ["y"] = -41941.251765432,
                                     }, -- end of [1]
                                     [2] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 0,
                                         ["name"] = "ZU 1-2",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "ZU-23 Emplacement",
                                         ["unitId"] = 54,
                                         ["x"] = 44470.914877979,
                                         ["y"] = -41941.251765432,
                                     }, -- end of [2]
                                     [3] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 0,
                                         ["name"] = "ZU 1-3",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Ural-375 ZU-23",
                                         ["unitId"] = 55,
                                         ["x"] = 44512.507304972,
                                         ["y"] = -41899.249844352,
                                     }, -- end of [3]
                                     [4] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 0,
                                         ["name"] = "ZU 1-4",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "ZSU-23-4 Shilka",
                                         ["unitId"] = 56,
                                         ["x"] = 44470.044633642,
@@ -10618,130 +10506,110 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6445920363696,
                                         ["name"] = "Infantry 1-1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Paratrooper RPG-16",
                                         ["unitId"] = 73,
                                         ["x"] = 59576.208755635,
                                         ["y"] = -40676.591079796,
                                     }, -- end of [1]
                                     [2] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6445920363696,
                                         ["name"] = "Infantry 1-2",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Paratrooper AKS-74",
                                         ["unitId"] = 74,
                                         ["x"] = 59571.706224316,
                                         ["y"] = -40676.581012508,
                                     }, -- end of [2]
                                     [3] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6445920363696,
                                         ["name"] = "Infantry 1-3",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 75,
                                         ["x"] = 59566.533455643,
                                         ["y"] = -40676.44307201,
                                     }, -- end of [3]
                                     [4] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6445920363696,
                                         ["name"] = "Infantry 1-4",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 76,
                                         ["x"] = 59561.084805975,
                                         ["y"] = -40676.44307201,
                                     }, -- end of [4]
                                     [5] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6445920363696,
                                         ["name"] = "Infantry 1-5",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Paratrooper AKS-74",
                                         ["unitId"] = 77,
                                         ["x"] = 59563.084943195,
                                         ["y"] = -40679.477762964,
                                     }, -- end of [5]
                                     [6] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6445920363696,
                                         ["name"] = "Infantry 1-6",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Paratrooper RPG-16",
                                         ["unitId"] = 78,
                                         ["x"] = 59568.878444109,
                                         ["y"] = -40679.891584458,
                                     }, -- end of [6]
                                     [7] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6445920363696,
                                         ["name"] = "Infantry 1-7",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Paratrooper RPG-16",
                                         ["unitId"] = 79,
                                         ["x"] = 59573.568421039,
                                         ["y"] = -40679.891584458,
                                     }, -- end of [7]
                                     [8] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6445920363696,
                                         ["name"] = "Infantry 1-8",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Paratrooper AKS-74",
                                         ["unitId"] = 80,
                                         ["x"] = 59563.567734938,
                                         ["y"] = -40673.06352981,
                                     }, -- end of [8]
                                     [9] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6445920363696,
                                         ["name"] = "Infantry 1-9",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 81,
                                         ["x"] = 59568.671533362,
                                         ["y"] = -40672.994559561,
                                     }, -- end of [9]
                                     [10] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6445920363696,
                                         ["name"] = "Infantry 1-A",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 82,
                                         ["x"] = 59573.706361537,
@@ -10844,12 +10712,12 @@ mission = {
                                     ["spans"] = {
                                         [1] = {
                                             [1] = {
-                                                ["x"] = 45571.492125731,
-                                                ["y"] = -39975.655128116,
+                                                ["x"] = 44510.914877979,
+                                                ["y"] = -39599.461721074,
                                             }, -- end of [1]
                                             [2] = {
-                                                ["x"] = 45494.769546997,
-                                                ["y"] = -39974.152527241,
+                                                ["x"] = 44510.914877979,
+                                                ["y"] = -39599.461721074,
                                             }, -- end of [2]
                                         }, -- end of [1]
                                     }, -- end of ["spans"]
@@ -10862,65 +10730,55 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.1220102982056,
                                         ["name"] = "T72-2-1",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Osa 9A33 ln",
                                         ["unitId"] = 95,
                                         ["x"] = 44510.914877979,
                                         ["y"] = -39599.461721074,
                                     }, -- end of [1]
                                     [2] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.1220102982056,
                                         ["name"] = "OSA-1-1",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Osa 9A33 ln",
                                         ["unitId"] = 96,
                                         ["x"] = 44363.680167321,
                                         ["y"] = -39364.328539152,
                                     }, -- end of [2]
                                     [3] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.1220102982056,
                                         ["name"] = "OSA-1-2",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Osa 9A33 ln",
                                         ["unitId"] = 97,
                                         ["x"] = 44213.944584158,
                                         ["y"] = -39209.369621692,
                                     }, -- end of [3]
                                     [4] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.1220102982056,
                                         ["name"] = "OSA-1-3",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Osa 9A33 ln",
                                         ["unitId"] = 98,
                                         ["x"] = 44067.691223859,
                                         ["y"] = -39043.96403564,
                                     }, -- end of [4]
                                     [5] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.1220102982056,
                                         ["name"] = "OSA-1-4",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "p-19 s-125 sr",
                                         ["unitId"] = 134,
                                         ["x"] = 44058.985666698,
@@ -11023,12 +10881,12 @@ mission = {
                                     ["spans"] = {
                                         [1] = {
                                             [1] = {
-                                                ["x"] = 45874.073659048,
-                                                ["y"] = -42509.956347674,
+                                                ["x"] = 45706.397282643,
+                                                ["y"] = -42403.064213843,
                                             }, -- end of [1]
                                             [2] = {
-                                                ["x"] = 45836.290236885,
-                                                ["y"] = -42509.760206358,
+                                                ["x"] = 45706.397282643,
+                                                ["y"] = -42403.064213843,
                                             }, -- end of [2]
                                         }, -- end of [1]
                                     }, -- end of ["spans"]
@@ -11041,104 +10899,88 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.1364014998397,
                                         ["name"] = "OSA-2-1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "SNR_75V",
                                         ["unitId"] = 116,
                                         ["x"] = 45706.397282643,
                                         ["y"] = -42403.064213843,
                                     }, -- end of [1]
                                     [2] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.1364014998397,
                                         ["name"] = "OSA-2-2",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "S_75M_Volhov",
                                         ["unitId"] = 117,
                                         ["x"] = 45555.065021996,
                                         ["y"] = -42333.699489069,
                                     }, -- end of [2]
                                     [3] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.1364014998397,
                                         ["name"] = "OSA-2-3",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "S_75M_Volhov",
                                         ["unitId"] = 118,
                                         ["x"] = 45557.294732082,
                                         ["y"] = -42515.420861075,
                                     }, -- end of [3]
                                     [4] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.1364014998397,
                                         ["name"] = "SA-2 1-1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "S_75M_Volhov",
                                         ["unitId"] = 123,
                                         ["x"] = 45701.111032627,
                                         ["y"] = -42600.149844341,
                                     }, -- end of [4]
                                     [5] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.1364014998397,
                                         ["name"] = "SA-2 1-2",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "S_75M_Volhov",
                                         ["unitId"] = 124,
                                         ["x"] = 45706.685307841,
                                         ["y"] = -42242.281375545,
                                     }, -- end of [5]
                                     [6] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.1364014998397,
                                         ["name"] = "SA-2 1-3",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "S_75M_Volhov",
                                         ["unitId"] = 125,
                                         ["x"] = 45876.143274374,
                                         ["y"] = -42485.319774915,
                                     }, -- end of [6]
                                     [7] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.1364014998397,
                                         ["name"] = "SA-2 1-4",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "S_75M_Volhov",
                                         ["unitId"] = 126,
                                         ["x"] = 45879.487839503,
                                         ["y"] = -42338.158909241,
                                     }, -- end of [7]
                                     [8] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.1364014998397,
                                         ["name"] = "SA-2 1-5",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "1L13 EWR",
                                         ["unitId"] = 127,
                                         ["x"] = 45710.062432384,
@@ -11182,12 +11024,12 @@ mission = {
                                     ["spans"] = {
                                         [1] = {
                                             [1] = {
-                                                ["x"] = 46096.17310633,
-                                                ["y"] = -39148.694485713,
+                                                ["x"] = 46092.117954536,
+                                                ["y"] = -39140.707380129,
                                             }, -- end of [1]
                                             [2] = {
-                                                ["x"] = 46056.406778329,
-                                                ["y"] = -39146.13378274,
+                                                ["x"] = 46092.117954536,
+                                                ["y"] = -39140.707380129,
                                             }, -- end of [2]
                                         }, -- end of [1]
                                     }, -- end of ["spans"]
@@ -11200,78 +11042,66 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.0772876871483,
                                         ["name"] = "Ground-1-2",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "snr s-125 tr",
                                         ["unitId"] = 128,
                                         ["x"] = 46092.117954536,
                                         ["y"] = -39140.707380129,
                                     }, -- end of [1]
                                     [2] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.0772876871483,
                                         ["name"] = "SA-3 1-1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "5p73 s-125 ln",
                                         ["unitId"] = 129,
                                         ["x"] = 46088.949163762,
                                         ["y"] = -39342.41200121,
                                     }, -- end of [2]
                                     [3] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.0772876871483,
                                         ["name"] = "SA-3 1-2",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "5p73 s-125 ln",
                                         ["unitId"] = 130,
                                         ["x"] = 45969.794391397,
                                         ["y"] = -39227.512756429,
                                     }, -- end of [3]
                                     [4] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.0772876871483,
                                         ["name"] = "SA-3 1-3",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "5p73 s-125 ln",
                                         ["unitId"] = 131,
                                         ["x"] = 45972.347707948,
                                         ["y"] = -39042.822859264,
                                     }, -- end of [4]
                                     [5] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.0772876871483,
                                         ["name"] = "SA-3 1-4",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "5p73 s-125 ln",
                                         ["unitId"] = 132,
                                         ["x"] = 46091.502480312,
                                         ["y"] = -38947.499041373,
                                     }, -- end of [5]
                                     [6] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.0772876871483,
                                         ["name"] = "SA-3 1-5",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "p-19 s-125 sr",
                                         ["unitId"] = 133,
                                         ["x"] = 46263.425794724,
@@ -11315,12 +11145,12 @@ mission = {
                                     ["spans"] = {
                                         [1] = {
                                             [1] = {
-                                                ["x"] = 48135.724548184,
-                                                ["y"] = -40794.629468186,
+                                                ["x"] = 47912.644450702,
+                                                ["y"] = -40680.366329081,
                                             }, -- end of [1]
                                             [2] = {
-                                                ["x"] = 48134.874347303,
-                                                ["y"] = -40797.863876414,
+                                                ["x"] = 47912.644450702,
+                                                ["y"] = -40680.366329081,
                                             }, -- end of [2]
                                         }, -- end of [1]
                                     }, -- end of ["spans"]
@@ -11333,104 +11163,88 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 4.4553426335681,
                                         ["name"] = "Buk 1-1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "SA-11 Buk SR 9S18M1",
                                         ["unitId"] = 135,
                                         ["x"] = 47912.644450702,
                                         ["y"] = -40680.366329081,
                                     }, -- end of [1]
                                     [2] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 4.4553426335681,
                                         ["name"] = "Buk 1-2",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "SA-11 Buk LN 9A310M1",
                                         ["unitId"] = 136,
                                         ["x"] = 48214.000962698,
                                         ["y"] = -41183.538778338,
                                     }, -- end of [2]
                                     [3] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 4.4553426335681,
                                         ["name"] = "Buk 1-3",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "SA-11 Buk LN 9A310M1",
                                         ["unitId"] = 137,
                                         ["x"] = 48315.530991136,
                                         ["y"] = -41134.224193097,
                                     }, -- end of [3]
                                     [4] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 4.4553426335681,
                                         ["name"] = "Buk 1-4",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "SA-11 Buk LN 9A310M1",
                                         ["unitId"] = 138,
                                         ["x"] = 48411.259303664,
                                         ["y"] = -41050.09931239,
                                     }, -- end of [4]
                                     [5] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 4.4553426335681,
                                         ["name"] = "Buk 1-5",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "SA-11 Buk LN 9A310M1",
                                         ["unitId"] = 139,
                                         ["x"] = 48396.755013887,
                                         ["y"] = -40857.192258357,
                                     }, -- end of [5]
                                     [6] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 4.4553426335681,
                                         ["name"] = "Buk 1-6",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "SA-11 Buk LN 9A310M1",
                                         ["unitId"] = 140,
                                         ["x"] = 48361.944718423,
                                         ["y"] = -40733.905795253,
                                     }, -- end of [6]
                                     [7] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 4.4553426335681,
                                         ["name"] = "Buk 1-7",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "SA-11 Buk LN 9A310M1",
                                         ["unitId"] = 141,
                                         ["x"] = 48321.332707047,
                                         ["y"] = -40612.069761126,
                                     }, -- end of [7]
                                     [8] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 4.4553426335681,
                                         ["name"] = "Buk 1-8",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "SA-11 Buk CC 9S470M1",
                                         ["unitId"] = 142,
                                         ["x"] = 48087.070865407,
@@ -11474,12 +11288,12 @@ mission = {
                                     ["spans"] = {
                                         [1] = {
                                             [1] = {
-                                                ["x"] = 46811.409011872,
-                                                ["y"] = -40827.701914755,
+                                                ["x"] = 46713.191553415,
+                                                ["y"] = -40919.361291614,
                                             }, -- end of [1]
                                             [2] = {
-                                                ["x"] = 46813.296898924,
-                                                ["y"] = -40826.719941165,
+                                                ["x"] = 46713.191553415,
+                                                ["y"] = -40919.361291614,
                                             }, -- end of [2]
                                         }, -- end of [1]
                                     }, -- end of ["spans"]
@@ -11492,65 +11306,55 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 0.47963283036327,
                                         ["name"] = "Strela 1-1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Dog Ear radar",
                                         ["unitId"] = 143,
                                         ["x"] = 46713.191553415,
                                         ["y"] = -40919.361291614,
                                     }, -- end of [1]
                                     [2] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 0.47963283036327,
                                         ["name"] = "Strela 1-2",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Strela-10M3",
                                         ["unitId"] = 144,
                                         ["x"] = 46825.590537846,
                                         ["y"] = -40952.729740116,
                                     }, -- end of [2]
                                     [3] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 0.47963283036327,
                                         ["name"] = "Strela 1-3",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Strela-10M3",
                                         ["unitId"] = 145,
                                         ["x"] = 46694.312036499,
                                         ["y"] = -40802.132663321,
                                     }, -- end of [3]
                                     [4] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 0.47963283036327,
                                         ["name"] = "Strela 1-4",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Strela-10M3",
                                         ["unitId"] = 146,
                                         ["x"] = 46729.875777667,
                                         ["y"] = -41035.71180284,
                                     }, -- end of [4]
                                     [5] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 0.47963283036327,
                                         ["name"] = "Strela 1-5",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Strela-10M3",
                                         ["unitId"] = 147,
                                         ["x"] = 46611.769032308,
@@ -11594,12 +11398,12 @@ mission = {
                                     ["spans"] = {
                                         [1] = {
                                             [1] = {
-                                                ["x"] = 45369.248189637,
-                                                ["y"] = -40750.203795315,
+                                                ["x"] = 45314.110996243,
+                                                ["y"] = -40768.732593969,
                                             }, -- end of [1]
                                             [2] = {
-                                                ["x"] = 46738.063928417,
-                                                ["y"] = -40926.144121637,
+                                                ["x"] = 45314.110996243,
+                                                ["y"] = -40768.732593969,
                                             }, -- end of [2]
                                         }, -- end of [1]
                                     }, -- end of ["spans"]
@@ -11612,65 +11416,55 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 6.1553515157872,
                                         ["name"] = "Tor 1-1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Dog Ear radar",
                                         ["unitId"] = 148,
                                         ["x"] = 45314.110996243,
                                         ["y"] = -40768.732593969,
                                     }, -- end of [1]
                                     [2] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 6.1553515157872,
                                         ["name"] = "Tor 1-2",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 149,
                                         ["x"] = 45300.275506652,
                                         ["y"] = -40962.42944824,
                                     }, -- end of [2]
                                     [3] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 6.1553515157872,
                                         ["name"] = "Tor 1-3",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 150,
                                         ["x"] = 45147.456235264,
                                         ["y"] = -40836.652270142,
                                     }, -- end of [3]
                                     [4] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 6.1553515157872,
                                         ["name"] = "Tor 1-4",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 151,
                                         ["x"] = 45307.193251448,
                                         ["y"] = -40556.798048874,
                                     }, -- end of [4]
                                     [5] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 6.1553515157872,
                                         ["name"] = "Tor 1-5",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Tor 9A331",
                                         ["unitId"] = 152,
                                         ["x"] = 45139.909604578,
@@ -11718,8 +11512,8 @@ mission = {
                                                 ["y"] = -40858.337029694,
                                             }, -- end of [1]
                                             [2] = {
-                                                ["x"] = 43842.480852045,
-                                                ["y"] = -40861.287068827,
+                                                ["x"] = 43885.130293613,
+                                                ["y"] = -40858.337029694,
                                             }, -- end of [2]
                                         }, -- end of [1]
                                     }, -- end of ["spans"]
@@ -11732,65 +11526,55 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.210652124164,
                                         ["name"] = "Tunguska 1-1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Dog Ear radar",
                                         ["unitId"] = 153,
                                         ["x"] = 43885.130293613,
                                         ["y"] = -40858.337029694,
                                     }, -- end of [1]
                                     [2] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.210652124164,
                                         ["name"] = "Tunguska 1-2",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "2S6 Tunguska",
                                         ["unitId"] = 155,
                                         ["x"] = 43871.208612076,
                                         ["y"] = -41094.488885552,
                                     }, -- end of [2]
                                     [3] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.210652124164,
                                         ["name"] = "Tunguska 1-3",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "2S6 Tunguska",
                                         ["unitId"] = 156,
                                         ["x"] = 44001.328466336,
                                         ["y"] = -40963.524097173,
                                     }, -- end of [3]
                                     [4] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.210652124164,
                                         ["name"] = "Tunguska 1-4",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "2S6 Tunguska",
                                         ["unitId"] = 157,
                                         ["x"] = 44000.483532217,
                                         ["y"] = -40704.129322773,
                                     }, -- end of [4]
                                     [5] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 3.210652124164,
                                         ["name"] = "Tunguska 1-5",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "2S6 Tunguska",
                                         ["unitId"] = 158,
                                         ["x"] = 43850.085259112,
@@ -11899,65 +11683,55 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 0,
                                         ["name"] = "Shilka 1-1",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "ZSU-23-4 Shilka",
                                         ["unitId"] = 159,
                                         ["x"] = 45013.573549471,
                                         ["y"] = -41807.801228137,
                                     }, -- end of [1]
                                     [2] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 0,
                                         ["name"] = "Shilka 1-2",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "ZSU-23-4 Shilka",
                                         ["unitId"] = 160,
                                         ["x"] = 44949.179842232,
                                         ["y"] = -41787.987779756,
                                     }, -- end of [2]
                                     [3] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 0,
                                         ["name"] = "Shilka 1-3",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "ZSU-23-4 Shilka",
                                         ["unitId"] = 161,
                                         ["x"] = 44893.702186765,
                                         ["y"] = -41647.312296249,
                                     }, -- end of [3]
                                     [4] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 0,
                                         ["name"] = "Shilka 1-4",
                                         ["playerCanDrive"] = true,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "ZSU-23-4 Shilka",
                                         ["unitId"] = 162,
                                         ["x"] = 44906.580928213,
                                         ["y"] = -41727.556762193,
                                     }, -- end of [4]
                                     [5] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 0,
                                         ["name"] = "Shilka 1-5",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Dog Ear radar",
                                         ["unitId"] = 163,
                                         ["x"] = 45014.247873201,
@@ -12035,8 +11809,8 @@ mission = {
                                                 ["y"] = -40579.10757406,
                                             }, -- end of [1]
                                             [2] = {
-                                                ["x"] = 2412.7415231393,
-                                                ["y"] = 40600.62034486,
+                                                ["x"] = 59469.372588832,
+                                                ["y"] = -40579.10757406,
                                             }, -- end of [2]
                                         }, -- end of [2]
                                     }, -- end of ["spans"]
@@ -12047,260 +11821,220 @@ mission = {
                                 ["uncontrollable"] = false,
                                 ["units"] = {
                                     [1] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-20",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 200,
                                         ["x"] = 59475.742661808,
                                         ["y"] = -40677.02040216,
                                     }, -- end of [1]
                                     [2] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-19",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 199,
                                         ["x"] = 59474.322120063,
                                         ["y"] = -40678.766343704,
                                     }, -- end of [2]
                                     [3] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-18",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 198,
                                         ["x"] = 59465.712439357,
                                         ["y"] = -40684.716423996,
                                     }, -- end of [3]
                                     [4] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-17",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 197,
                                         ["x"] = 59474.248365069,
                                         ["y"] = -40670.221455805,
                                     }, -- end of [4]
                                     [5] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-16",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 196,
                                         ["x"] = 59465.792966958,
                                         ["y"] = -40670.261719605,
                                     }, -- end of [5]
                                     [6] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-15",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 195,
                                         ["x"] = 59462.330280112,
                                         ["y"] = -40672.999658041,
                                     }, -- end of [6]
                                     [7] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-14",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 194,
                                         ["x"] = 59468.571169194,
                                         ["y"] = -40679.965295533,
                                     }, -- end of [7]
                                     [8] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-13",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 193,
                                         ["x"] = 59462.249752511,
                                         ["y"] = -40669.375915994,
                                     }, -- end of [8]
                                     [9] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-12",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 192,
                                         ["x"] = 59462.008169708,
                                         ["y"] = -40681.21347335,
                                     }, -- end of [9]
                                     [10] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-11",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 191,
                                         ["x"] = 59468.691960596,
                                         ["y"] = -40673.64387885,
                                     }, -- end of [10]
                                     [11] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-1",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 181,
                                         ["x"] = 59472.355966444,
                                         ["y"] = -40673.321768446,
                                     }, -- end of [11]
                                     [12] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-2",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Paratrooper AKS-74",
                                         ["unitId"] = 182,
                                         ["x"] = 59456.801582209,
                                         ["y"] = -40671.104860568,
                                     }, -- end of [12]
                                     [13] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-3",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 183,
                                         ["x"] = 59471.154200003,
                                         ["y"] = -40682.697370782,
                                     }, -- end of [13]
                                     [14] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-4",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 184,
                                         ["x"] = 59475.738125689,
                                         ["y"] = -40683.629301381,
                                     }, -- end of [14]
                                     [15] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-5",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 185,
                                         ["x"] = 59466.517715367,
                                         ["y"] = -40665.752173946,
                                     }, -- end of [15]
                                     [16] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-6",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 186,
                                         ["x"] = 59459.431286474,
                                         ["y"] = -40676.864982892,
                                     }, -- end of [16]
                                     [17] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-7",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 187,
                                         ["x"] = 59470.584359221,
                                         ["y"] = -40677.026038094,
                                     }, -- end of [17]
                                     [18] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-8",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 188,
                                         ["x"] = 59476.140763694,
                                         ["y"] = -40673.362032246,
                                     }, -- end of [18]
                                     [19] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-9",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 189,
                                         ["x"] = 59470.181721215,
                                         ["y"] = -40669.335652193,
                                     }, -- end of [19]
                                     [20] = {
+                                        ["coldAtStart"] = false,
                                         ["heading"] = 1.6357633845493,
                                         ["name"] = "Infantry-2-10",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
                                         ["type"] = "Infantry AK",
                                         ["unitId"] = 190,
                                         ["x"] = 59464.866899546,
@@ -12763,6 +12497,13 @@ mission = {
             [44] = 83,
             [45] = 84,
             [46] = 85,
+            [47] = 86,
+            [48] = 87,
+            [49] = 88,
+            [50] = 89,
+            [51] = 90,
+            [52] = 91,
+            [53] = 92,
         }, -- end of ["neutrals"]
         ["red"] = {
             [1] = 18,
@@ -12777,7 +12518,7 @@ mission = {
             [10] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 33738,
+    ["currentKey"] = 36614,
     ["date"] = {
         ["Day"] = 21,
         ["Month"] = 6,
@@ -14792,6 +14533,16 @@ mission = {
     }, -- end of ["goals"]
     ["groundControl"] = {
         ["isPilotControlVehicles"] = false,
+        ["passwords"] = {
+            ["artillery_commander"] = {
+            }, -- end of ["artillery_commander"]
+            ["forward_observer"] = {
+            }, -- end of ["forward_observer"]
+            ["instructor"] = {
+            }, -- end of ["instructor"]
+            ["observer"] = {
+            }, -- end of ["observer"]
+        }, -- end of ["passwords"]
         ["roles"] = {
             ["artillery_commander"] = {
                 ["blue"] = 0,
@@ -14816,9 +14567,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = 8249.3559357585,
-        ["centerY"] = -40218.230829173,
-        ["zoom"] = 16964.045612775,
+        ["centerX"] = 593.59429888651,
+        ["centerY"] = 41332.043690464,
+        ["zoom"] = 8105.675262089,
     }, -- end of ["map"]
     ["maxDictId"] = 423,
     ["pictureFileNameB"] = {
@@ -14827,6 +14578,8 @@ mission = {
     }, -- end of ["pictureFileNameN"]
     ["pictureFileNameR"] = {
     }, -- end of ["pictureFileNameR"]
+    ["pictureFileNameServer"] = {
+    }, -- end of ["pictureFileNameServer"]
     ["requiredModules"] = {
     }, -- end of ["requiredModules"]
     ["result"] = {
@@ -15208,7 +14961,7 @@ mission = {
             }, -- end of ["rules"]
         }, -- end of [2]
     }, -- end of ["trigrules"]
-    ["version"] = 19,
+    ["version"] = 23,
     ["weather"] = {
         ["atmosphere_type"] = 0,
         ["clouds"] = {
@@ -15227,6 +14980,9 @@ mission = {
             ["visibility"] = 0,
         }, -- end of ["fog"]
         ["groundTurbulence"] = 0,
+        ["halo"] = {
+            ["preset"] = "off",
+        }, -- end of ["halo"]
         ["modifiedTime"] = true,
         ["name"] = "Winter, clean sky",
         ["qnh"] = 760,
